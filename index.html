@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="创世发明终极版：基础、往日回声、文明巨擘与命运之城，可选扩展的离线电脑对战，附中文图文规则手册。">
+  <title>创世发明 · 终极版对局</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/mark.svg">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/rules.css">
+</head>
+<body>
+  <a class="skip-link" href="#your-board">跳到我的面板</a>
+  <header class="site-header">
+    <div class="brand"><img src="./assets/mark.svg" alt="" width="36" height="36"><div><h1>创世发明</h1><span>INNOVATION · ULTIMATE</span></div></div>
+    <div class="header-actions"><span class="edition-badge">纯基础</span><button class="quiet-button" id="new-game-button" disabled>新开一局</button><button class="quiet-button" id="about-button" disabled>说明</button><button class="quiet-button rules-button" id="rules-button" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v15M3 4c4-1 7 0 9 2 2-2 5-3 9-2v14c-4-1-7 0-9 2-2-2-5-3-9-2Z"/></svg>规则</button></div>
+  </header>
+
+  <main class="table-shell">
+    <div class="loading-panel" id="loading" role="status"><span class="loading-dot"></span>正在读取基础牌资料…</div>
+    <section class="error-panel" id="load-error" role="alert" hidden><h2>暂时无法打开棋盘</h2><p id="error-message"></p><p>在项目目录运行 <code>node tools/serve.mjs</code>，然后用浏览器打开终端显示的网址。</p><button class="quiet-button" id="retry-button">重新加载</button></section>
+
+    <div id="app" hidden>
+      <section class="supply-panel" aria-labelledby="supply-title">
+        <div class="section-heading"><div><span class="section-index">01 / SUPPLY</span><h2 id="supply-title">时代牌库</h2></div><div class="supply-summary"><strong id="supply-total"></strong><span>点击牌堆，查阅同代牌表</span></div></div>
+        <div id="supply-tabs" class="supply-tabs" role="tablist" aria-label="选择牌库"></div>
+        <p id="supply-draw-rule" class="supply-draw-rule" hidden></p>
+        <div class="horizontal-scroll supply-scroll" tabindex="0" aria-label="时代牌库，窄屏可左右滚动"><div id="supply" class="supply-row"></div></div>
+        <p class="scroll-hint">← 左右滑动查看全部 11 个时代 →</p>
+      </section>
+
+      <div class="play-layout"><div class="play-main">
+      <div class="board-toolbar">
+        <div class="preview-status"><span class="status-dot"></span><strong id="mode-label"></strong><span class="preview-caption" id="turn-status"></span></div>
+        <div class="mode-switch" role="group" aria-label="棋盘视图"><button data-mode="game" aria-pressed="true">当前对局</button><button data-mode="sample" aria-pressed="false">示例摆牌</button><button data-mode="empty" aria-pressed="false">空白棋盘</button></div>
+      </div>
+      <p class="mode-description" id="mode-description"></p>
+      <p id="action-message" class="action-message" role="status" hidden></p>
+      <section id="game-actions" class="game-actions" aria-label="你的行动">
+        <div class="action-buttons"><button id="draw-action" class="primary-button">抽牌</button><button id="meld-action" class="action-button">融合</button><button id="dogma-action" class="action-button">发动要求／条例</button><button id="achieve-action" class="action-button">统御成就</button><button id="decree-action" class="action-button" hidden>颁布法令</button></div>
+        <div class="action-meta"><span id="action-hint"></span><button id="pause-ai" class="quiet-button">暂停电脑</button></div>
+      </section>
+      <section id="choice-panel" class="choice-panel" aria-labelledby="choice-title" hidden></section>
+      <div class="board-tabs" role="tablist" aria-label="选择查看的面板">
+        <button id="tab-you" role="tab" aria-selected="true" aria-controls="your-board" data-seat="you">我方 <span id="tab-you-summary"></span></button>
+        <button id="tab-opponent" role="tab" aria-selected="false" aria-controls="opponent-board" tabindex="-1" data-seat="opponent">电脑 <span id="tab-opponent-summary"></span></button>
+      </div>
+
+      <section class="player-panel opponent-panel" id="opponent-board" role="tabpanel" aria-labelledby="tab-opponent" tabindex="0" hidden>
+        <div class="player-heading"><div class="player-identity"><span class="player-monogram" aria-hidden="true">II</span><div><h2 id="opponent-title">电脑<span>对手席位</span></h2><p id="opponent-summary"></p></div></div><span class="seat-label">OPPONENT</span></div>
+        <div class="icon-summary" id="opponent-icons" aria-label="电脑的可见图标数量"></div>
+        <div class="horizontal-scroll board-scroll" tabindex="0" aria-label="电脑的五色牌堆，可左右滚动"><div class="color-piles" id="opponent-piles"></div></div>
+        <div class="hand-area" id="opponent-hand-area"></div>
+      </section>
+
+      <section class="player-panel own-panel" id="your-board" role="tabpanel" aria-labelledby="tab-you" tabindex="0">
+        <div class="player-heading"><div class="player-identity"><span class="player-monogram" aria-hidden="true">I</span><div><h2 id="you-title">你<span>玩家席位</span></h2><p id="you-summary"></p></div></div><span class="seat-label">YOUR CIVILIZATION</span></div>
+        <div class="icon-summary" id="you-icons" aria-label="你的可见图标数量"></div>
+        <div class="horizontal-scroll board-scroll" tabindex="0" aria-label="你的五色牌堆，可左右滚动"><div class="color-piles" id="you-piles"></div></div>
+        <div class="hand-area" id="you-hand-area"></div>
+      </section>
+      <p class="board-help">点击出牌区任意卡牌，打开该颜色的牌堆：置顶效果、展开形态、逐张查看及展开对比。标记保留卡面原位置。</p>
+      <details class="achievement-panel" id="achievement-panel"><summary>成就区 <span>标准、特殊与连锁成就</span></summary><div id="achievements"></div></details>
+      </div><aside class="play-sidebar">
+      <details class="log-panel" id="log-panel" open><summary>行动记录 <span id="latest-event"></span></summary><div id="game-log" role="region" aria-label="按玩家和回合分组的行动记录" tabindex="0"></div><button class="quiet-button" id="log-bottom">跳到最新记录 ↓</button></details>
+      </aside></div>
+      <p class="sr-only" id="board-announcement" role="status" aria-live="polite"></p>
+    </div>
+  </main>
+
+  <footer class="site-footer"><span>创世发明 · 终极版 · 基础／回声／伟人／城市</span><span>本机自动保存 · <a href="./README.md">项目说明</a></span></footer>
+
+  <dialog id="inspector" aria-labelledby="inspector-heading">
+    <header class="inspector-bar"><button class="back-button" id="inspector-back" hidden>← 返回</button><span id="inspector-location"></span><button class="close-button" id="inspector-close" aria-label="关闭详情">×</button></header>
+    <div class="inspector-content" id="inspector-content"></div>
+    <aside class="keyword-tip" id="keyword-tip" role="tooltip" hidden></aside>
+  </dialog>
+  <noscript><p class="noscript-message">棋盘需要启用 JavaScript。所有卡牌资料均来自项目自身的静态文件。</p></noscript>
+  <script src="./src/file-help.js"></script>
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>

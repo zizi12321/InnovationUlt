@@ -1,0 +1,4966 @@
+{
+  "meta": {
+    "edition": "Innovation Ultimate / Fourth edition",
+    "card_count": 115,
+    "rules_source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf",
+    "official_source": "https://www.asmadigames.com/innovation/"
+  },
+  "cards": [
+    {
+      "id": "E001",
+      "set": "Echoes",
+      "name_zh": "手镯",
+      "name_en": "Bangle",
+      "age": 1,
+      "color": "RED",
+      "spots": [
+        0,
+        4,
+        10,
+        101,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        3,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E001",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "从你的手牌中置底一张【1】。",
+          "en": "Tuck a 【1】 from your hand."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一项执行：1. 抽取并预示一张【2】；或是2. 将你预示区的一张【2】置底。",
+          "en": "Choose to either draw and foreshadow a 【2】, or tuck a 【2】 from your forecast."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果你的预示区中没有牌，则抽取并预示一张【3】。",
+          "en": "If you have no cards in your forecast, draw and foreshadow a 【3】."
+        }
+      ]
+    },
+    {
+      "id": "E002",
+      "set": "Echoes",
+      "name_zh": "蜡烛",
+      "name_en": "Candles",
+      "age": 1,
+      "color": "RED",
+      "spots": [
+        10,
+        101,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        4,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E002",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "如果没有玩家的分数低于你，抽一张【3】。",
+          "en": "If no player has fewer points than you, draw a 【3】."
+        },
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你将一张带有【权威】或【概念】的手牌转移到我的手牌!若你如此做，抽一张【1】！",
+          "en": "I DEMAND you transfer a card with 【authority】 or 【concept】 from your hand to my hand! If you do, draw a 【1】!"
+        }
+      ]
+    },
+    {
+      "id": "E003",
+      "set": "Echoes",
+      "name_zh": "管道",
+      "name_en": "Plumbing",
+      "age": 1,
+      "color": "RED",
+      "spots": [
+        10,
+        102,
+        0,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        5,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E003",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "将你的蓝色置底牌计分。",
+          "en": "Score the bottom blue card from your board."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "移除【1】的基础抽牌堆。",
+          "en": "Junk all cards in the 【1】 deck."
+        }
+      ]
+    },
+    {
+      "id": "E004",
+      "set": "Echoes",
+      "name_zh": "筷子",
+      "name_en": "Chopsticks",
+      "age": 1,
+      "color": "YELLOW",
+      "spots": [
+        0,
+        2,
+        2,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        9,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E004",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "你可以抽取并预示一张【1】。",
+          "en": "You may draw and foreshadow a 【1】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以移除【1】时期的基础牌库。若你如此做，依常规要求统御移除区一张最高时期的牌。",
+          "en": "You may junk all cards in the 【1】 deck. If you do, achieve the highest card in the junk if eligible."
+        }
+      ]
+    },
+    {
+      "id": "E005",
+      "set": "Echoes",
+      "name_zh": "面条",
+      "name_en": "Noodles",
+      "age": 1,
+      "color": "YELLOW",
+      "spots": [
+        4,
+        0,
+        4,
+        101,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        10,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E005",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你手牌中的【1】多于所有对手，抽一张【2】并计分。",
+          "en": "If you have more 【1】 in your hand than every opponent, draw and score a 【2】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "抽取并展示一张 【1】。如果它是黄色的，将你手牌中所有【1】 计分。",
+          "en": "Draw and reveal a 【1】. If it is yellow, score all 【1】 from your hand."
+        }
+      ]
+    },
+    {
+      "id": "E006",
+      "set": "Echoes",
+      "name_zh": "肥皂",
+      "name_en": "Soap",
+      "age": 1,
+      "color": "YELLOW",
+      "spots": [
+        2,
+        102,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        11,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E006",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一个颜色。你可以将任意张该颜色的手牌置底。如果你这么做，并且你该颜色的置顶牌时期高于所有对手，你可以统御一张手牌（需满足统御条件）。",
+          "en": "Choose a color. You may tuck any number of cards of that color from your hand. If you do, and your top card of that color is higher than each opponent's, you may achieve (if eligible) a card from your hand."
+        }
+      ]
+    },
+    {
+      "id": "E007",
+      "set": "Echoes",
+      "name_zh": "梳子",
+      "name_en": "Comb",
+      "age": 1,
+      "color": "GREEN",
+      "spots": [
+        4,
+        4,
+        2,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        6,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E007",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "指定一个颜色，随后抽取并展示五张【1】。归还非指定颜色的抽取牌。若[梳子]因昭示入场，归还所有玩家场上所有该颜色的牌。",
+          "en": "Choose a color, then draw and reveal five 【1】. Return the drawn cards that do not match the chosen color. If Comb was foreseen, return all cards of the chosen color from all boards."
+        }
+      ]
+    },
+    {
+      "id": "E008",
+      "set": "Echoes",
+      "name_zh": "冰刀",
+      "name_en": "Ice Skates",
+      "age": 1,
+      "color": "GREEN",
+      "spots": [
+        4,
+        1,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        7,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E008",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "若[冰刀]因预示执行，移除【1】和【2】时期的基础牌库。",
+          "en": "If Ice Skates was foreseen, junk all cards in the 【1】 deck and 【2】 deck."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "归还你的至多两张手牌。每归还一张牌，就选择一次：抽取并融合一张【2】，或抽取并预示一张【3】。",
+          "en": "Return up to two cards from your hand. For each card you return, either draw and meld a 【2】, or draw and foreshadow a 【3】."
+        }
+      ]
+    },
+    {
+      "id": "E009",
+      "set": "Echoes",
+      "name_zh": "雨伞",
+      "name_en": "Umbrella",
+      "age": 1,
+      "color": "GREEN",
+      "spots": [
+        2,
+        2,
+        0,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        8,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E009",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "你可以将一张手牌放入场中。",
+          "en": "You may meld a card from your hand."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还任意数量的手牌，每归还一张，就将两张手牌计分。",
+          "en": "Return any number of cards from your hand. Score two cards from your hand for every card you return."
+        }
+      ]
+    },
+    {
+      "id": "E010",
+      "set": "Echoes",
+      "name_zh": "骰子",
+      "name_en": "Dice",
+      "age": 1,
+      "color": "BLUE",
+      "spots": [
+        0,
+        101,
+        1,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        0,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E010",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示一张回声【1】。如果该牌带有奖分，抽取并融合一张时期等于该奖分值的牌。",
+          "en": "Draw and reveal an Echoes 【1】. If the card has a bonus, draw and meld a card of value equal to its bonus."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果[骰子]因预示执行，抽一张 【4】，然后将该牌转移至任一奖分总值高于你的对手的手牌。",
+          "en": "If Dice was foreseen, draw a 【4】, then transfer it to the hand of an opponent with more bonus points than you."
+        }
+      ]
+    },
+    {
+      "id": "E011",
+      "set": "Echoes",
+      "name_zh": "香水",
+      "name_en": "Perfume",
+      "age": 1,
+      "color": "BLUE",
+      "spots": [
+        10,
+        4,
+        101,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        1,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E011",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张【1】并置底。如果它带有【权威】，重复执行此效果。",
+          "en": "Draw and tuck a 【1】. If it has 【authority】, repeat this effect."
+        },
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你转移一张时期与我场上任何一张置顶牌都不同的置顶牌到我的游戏区域！若你进行了转移，就抽一张相同时期的牌放到场上！",
+          "en": "I DEMAND you transfer a top card of different value from any top card on my board from your board to mine! If you do, draw and meld a card of equal value!"
+        }
+      ]
+    },
+    {
+      "id": "E012",
+      "set": "Echoes",
+      "name_zh": "尺",
+      "name_en": "Ruler",
+      "age": 1,
+      "color": "BLUE",
+      "spots": [
+        3,
+        0,
+        3,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        2,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E012",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽1张 【2】。",
+          "en": "Draw a 【2】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取两张回响【1】。预示其中一张，归还另一张。",
+          "en": "Draw two Echoes 【1】. Foreshadow one of them and return the other."
+        }
+      ]
+    },
+    {
+      "id": "E013",
+      "set": "Echoes",
+      "name_zh": "铃铛",
+      "name_en": "Bell",
+      "age": 1,
+      "color": "PURPLE",
+      "spots": [
+        4,
+        0,
+        4,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        12,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E013",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "你可以从手牌选择一张计分.",
+          "en": "You may score a card from your hand."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并预示一张【1】和一张【2】。",
+          "en": "Draw and foreshadow a 【1】 and a 【2】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果[铃铛]因预示执行，则归还所有玩家手牌中的所有牌。",
+          "en": "If Bell was foreseen, return all cards from all hands."
+        }
+      ]
+    },
+    {
+      "id": "E014",
+      "set": "Echoes",
+      "name_zh": "长笛",
+      "name_en": "Flute",
+      "age": 1,
+      "color": "PURPLE",
+      "spots": [
+        101,
+        0,
+        1,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        13,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E014",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "你可以将你一种颜色的牌堆向左展开。",
+          "en": "You may splay one color of your cards left."
+        },
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你从手牌中归还一张属于任意扩展的卡牌！",
+          "en": "I DEMAND you return an expansion card from your hand!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示一张回声扩展的【1】。如果它带有奖分，抽一张【1】。",
+          "en": "Draw and reveal an Echoes 【1】. If it has a bonus, draw a 【1】."
+        }
+      ]
+    },
+    {
+      "id": "E015",
+      "set": "Echoes",
+      "name_zh": "木偶",
+      "name_en": "Puppet",
+      "age": 1,
+      "color": "PURPLE",
+      "spots": [
+        0,
+        4,
+        103,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        14,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E015",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "移除一个时期等于你计分区中某张牌时期的可用成就。",
+          "en": "Junk an available achievement of value equal to the value of a card in your score pile."
+        }
+      ]
+    },
+    {
+      "id": "E016",
+      "set": "Echoes",
+      "name_zh": "十字弓",
+      "name_en": "Crossbow",
+      "age": 2,
+      "color": "RED",
+      "spots": [
+        103,
+        0,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        17,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E016",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你将一张扩展牌从手牌转移到我的计分区！",
+          "en": "I DEMAND you transfer an expansion card from your hand to my score pile!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "转移你的一张手牌到任一对手的场上。",
+          "en": "Transfer a card from your hand to any opponent's board."
+        }
+      ]
+    },
+    {
+      "id": "E017",
+      "set": "Echoes",
+      "name_zh": "马蹄铁",
+      "name_en": "Horseshoes",
+      "age": 2,
+      "color": "RED",
+      "spots": [
+        0,
+        102,
+        10,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        18,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E017",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "你可以抽取并预示一张【2】或【3】。",
+          "en": "You may draw and foreshadow a 【2】 or 【3】."
+        },
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你转移你场上一张不带有【权威】 或 【工业】的置顶牌到我的场上！若你这么做，抽取并融合一张 【2】!",
+          "en": "I DEMAND you transfer a top card without 【authority】 or 【industry】 from your board to my board! If you do, draw and meld a 【2】!"
+        }
+      ]
+    },
+    {
+      "id": "E018",
+      "set": "Echoes",
+      "name_zh": "牙刷",
+      "name_en": "Toothbrush",
+      "age": 2,
+      "color": "YELLOW",
+      "spots": [
+        102,
+        10,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        21,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E018",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "将你手牌中某一时期的牌全部置底。",
+          "en": "Tuck all cards of one present value from your hand."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将你任一颜色的牌堆向左展开。",
+          "en": "You may splay any one color of your cards left."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以移除【2】的基础抽牌堆。若你这么做，且满足条件，统御移除区最高时期的一张牌。",
+          "en": "You may junk all cards in the 【2】 deck. If you do, achieve the highest card in the junk if eligible."
+        }
+      ]
+    },
+    {
+      "id": "E019",
+      "set": "Echoes",
+      "name_zh": "水磨",
+      "name_en": "Watermill",
+      "age": 2,
+      "color": "YELLOW",
+      "spots": [
+        2,
+        2,
+        2,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        22,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E019",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张时期等同于你场上任一奖分值的牌（如有）。",
+          "en": "Draw a card of value equal to a bonus on your board, if you have one."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "将你手牌中的一张牌置底。如果[水磨]因预示执行，则将基础牌库中所有时期等于该张置底牌的牌一并置底。",
+          "en": "Tuck a card from your hand. If Watermill was foreseen, tuck all cards from the deck of value equal to the tucked card."
+        }
+      ]
+    },
+    {
+      "id": "E020",
+      "set": "Echoes",
+      "name_zh": "玻璃制作工艺",
+      "name_en": "Glassblowing",
+      "age": 2,
+      "color": "GREEN",
+      "spots": [
+        0,
+        1,
+        1,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        19,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E020",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "从你手牌中计分一张扩展牌。",
+          "en": "Score an expansion card from your hand."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并预示一张比你场上非绿色、最低时期的置顶牌高三个时期的牌。",
+          "en": "Draw and foreshadow a card of value three higher than the lowest non-green top card on your board."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "选择【2】或者【3】。移除该时期的基础抽牌堆。",
+          "en": "Choose 【2】 or 【3】. Junk all cards in that deck."
+        }
+      ]
+    },
+    {
+      "id": "E021",
+      "set": "Echoes",
+      "name_zh": "剪刀",
+      "name_en": "Scissors",
+      "age": 2,
+      "color": "GREEN",
+      "spots": [
+        10,
+        0,
+        102,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        20,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E021",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "将你的黄色置底牌计分。",
+          "en": "Score your bottom yellow card."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以选择至多两张手牌。将每张选择的牌放入场中或计分。",
+          "en": "You may choose up to two cards from your hand. For each card chosen, either meld it or score it."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果纸张是任一玩家的置顶牌，将其计分。",
+          "en": "If Paper is a top card on any player's board, score it."
+        }
+      ]
+    },
+    {
+      "id": "E022",
+      "set": "Echoes",
+      "name_zh": "杠杆",
+      "name_en": "Lever",
+      "age": 2,
+      "color": "BLUE",
+      "spots": [
+        3,
+        0,
+        10,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        15,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E022",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽两张【2】。",
+          "en": "Draw two 【2】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以归还你任意数量的手牌。对于每两张相同时期的归还牌，抽一张高一时期的牌。",
+          "en": "You may return any number of cards from your hand. For every two cards of matching value you return, draw a card of value one higher."
+        }
+      ]
+    },
+    {
+      "id": "E023",
+      "set": "Echoes",
+      "name_zh": "语言学",
+      "name_en": "Linguistics",
+      "age": 2,
+      "color": "BLUE",
+      "spots": [
+        3,
+        3,
+        10,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        16,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E023",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张 【3】 或抽取并预示一张 【4】。",
+          "en": "Draw a 【3】 or Draw and foreshadow a 【4】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张时期等于任一玩家场上某个奖分值的牌（如有）。若你这么做，并且[语言学]因预示执行，移除一个该时期的可用成就。",
+          "en": "Draw a card of value equal to a bonus on any board, if there is one. If you do, and Linguistics was foreseen, junk all available achievements of that value."
+        }
+      ]
+    },
+    {
+      "id": "E024",
+      "set": "Echoes",
+      "name_zh": "佛塔",
+      "name_en": "Pagoda",
+      "age": 2,
+      "color": "PURPLE",
+      "spots": [
+        4,
+        102,
+        0,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        23,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E024",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并预示一张【3】。你可以从手牌中置底另一张同色的牌。若你如此做，则融合抽取的牌。若你如此做，且[佛塔]因预示执行，则将所有其他玩家场上该颜色的所有牌融合。",
+          "en": "Draw and foreshadow a 【3】. You may tuck another card of matching color from your hand. If you do, meld the drawn card. If you do, and Pagoda was foreseen, meld all cards of that color from all other boards."
+        }
+      ]
+    },
+    {
+      "id": "E025",
+      "set": "Echoes",
+      "name_zh": "恰图兰卡",
+      "name_en": "Chaturanga",
+      "age": 2,
+      "color": "PURPLE",
+      "spots": [
+        1,
+        103,
+        1,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        24,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E025",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "融合一张手牌。抽取并预示一张与该牌时期相同的牌。",
+          "en": "Meld a card from your hand. Draw and foreshadow a card of value equal to the melded card."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果[恰图兰卡]因预示执行，抽取并预示一张时期等同于你场上颜色数的牌。",
+          "en": "If Chaturanga was foreseen, draw and foreshadow a card of value equal to the number of colors on your board."
+        }
+      ]
+    },
+    {
+      "id": "E026",
+      "set": "Echoes",
+      "name_zh": "燃烧弹",
+      "name_en": "Liquid Fire",
+      "age": 3,
+      "color": "RED",
+      "spots": [
+        0,
+        3,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        27,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E026",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你抽一张时期等同于你场上最高奖分值的牌！将其转移到我的预示区！如果它是红色，将你的所有手牌转移到我的影响力区！",
+          "en": "I DEMAND you draw a card of value equal to the highest bonus on your board! Transfer it to my forecast! If it is red, transfer all cards from your hand to my score pile!"
+        }
+      ]
+    },
+    {
+      "id": "E027",
+      "set": "Echoes",
+      "name_zh": "武士刀",
+      "name_en": "Katana",
+      "age": 3,
+      "color": "RED",
+      "spots": [
+        4,
+        4,
+        0,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        28,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E027",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你转移你场上两张带有【权威】的置顶牌到我的计分区！如果你转移了恰好一张牌，并且[武士刀]因预示执行，移除所有可用常规成就！",
+          "en": "I DEMAND you transfer two top cards with 【authority】 from your board to my score pile! If you transfer exactly one and Katana was foreseen, junk all available standard achievements!"
+        }
+      ]
+    },
+    {
+      "id": "E028",
+      "set": "Echoes",
+      "name_zh": "除臭剂",
+      "name_en": "Deodorant",
+      "age": 3,
+      "color": "YELLOW",
+      "spots": [
+        1,
+        10,
+        1,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        31,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E028",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张 【3】 放到场上。",
+          "en": "Draw and meld a 【3】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你有带有【权威】的置顶牌，抽取并融合一张【3】。否则，抽一张【4】。",
+          "en": "If you have a top card with 【authority】, draw and meld a 【3】. Otherwise, draw a 【4】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果你有一张带有【工业】的置顶牌，移除【4】的基础抽牌堆。",
+          "en": "If you have a top card with 【industry】, junk all cards in the 【4】 deck."
+        }
+      ]
+    },
+    {
+      "id": "E029",
+      "set": "Echoes",
+      "name_zh": "砂纸",
+      "name_en": "Sandpaper",
+      "age": 3,
+      "color": "YELLOW",
+      "spots": [
+        1,
+        1,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        32,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E029",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以归还任意数量的手牌。每归还一张，就抽一张【3】。",
+          "en": "You may return any number of cards from your hand. Draw a 【3】 for each card you return."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "将一张手牌放入场中。",
+          "en": "Meld a card from your hand."
+        },
+        {
+          "kind": "non_demand_effect_3",
+          "label": "条例 3",
+          "zh": "如果[砂纸]因预示执行，预示你的所有手牌。",
+          "en": "If Sandpaper was foreseen, foreshadow all cards in your hand."
+        }
+      ]
+    },
+    {
+      "id": "E030",
+      "set": "Echoes",
+      "name_zh": "慈善信托",
+      "name_en": "Charitable Trust",
+      "age": 3,
+      "color": "GREEN",
+      "spots": [
+        10,
+        0,
+        1,
+        103,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        29,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E030",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张 【3】 或者 【4】。",
+          "en": "Draw a 【3】 or 【4】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以根据\"慈善基金\"的回响效果，将刚刚抽到的最后一张牌融合。如果你融合的是【3】，且符合条件，则统御你最上面的绿色牌；如果你融合的是【4】，则将你最上面的绿色牌归还。",
+          "en": "You may meld the last card you drew due to Charitable Trust's echo effect. If you meld a 【3】, achieve your top green card, if eligible. If you meld a 【4】, return your top green card."
+        }
+      ]
+    },
+    {
+      "id": "E031",
+      "set": "Echoes",
+      "name_zh": "信鸽",
+      "name_en": "Homing Pigeons",
+      "age": 3,
+      "color": "GREEN",
+      "spots": [
+        103,
+        2,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        30,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E031",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你从你的计分区中归还两张时期与我手牌之一相同的牌！",
+          "en": "I DEMAND you return two cards from your score pile whose values each match a card in my hand!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将你的红色或绿色牌堆向左展开。如果[信鸽]因预示执行，将你所有颜色的牌堆向左展开。",
+          "en": "You may splay your red or green cards left. If Homing Pigeons was foreseen, splay all your colors left."
+        }
+      ]
+    },
+    {
+      "id": "E032",
+      "set": "Echoes",
+      "name_zh": "年鉴",
+      "name_en": "Almanac",
+      "age": 3,
+      "color": "BLUE",
+      "spots": [
+        0,
+        2,
+        104,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        25,
+        3
+      ],
+      "notes": [
+        "资料校正：BGA 将两段条例写在重复编号字段中；这里依据官方 E032 保留两段条例，中文均采用现有译文。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E032",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽取并预示一张回声【4】。",
+          "en": "Draw and foreshadow an Echoes 【4】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以从预示区中归还一张有奖分的牌。若你如此做，抽一张时期等于该奖分值+1的牌计分。",
+          "en": "You may return a card from your forecast with a bonus. If you do, draw and score a card of value one higher than that bonus."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "若[年鉴]因预示执行，则预示另一名玩家预示区中的所有牌。",
+          "en": "If Almanac was foreseen, foreshadow all cards in another player's forecast."
+        }
+      ]
+    },
+    {
+      "id": "E033",
+      "set": "Echoes",
+      "name_zh": "放大镜",
+      "name_en": "Magnifying Glass",
+      "age": 3,
+      "color": "BLUE",
+      "spots": [
+        3,
+        0,
+        103,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        26,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E033",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽取一张【4】 然后归还一张手牌。",
+          "en": "Draw a 【4】 then return a card from your hand."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以从手牌中归还恰好三张时期相同的牌。若如此做，抽取一张比你归还的牌时期高2的牌。",
+          "en": "You may return exactly three cards of equal value from your hand. If you do, draw a card of value two higher than the cards you return."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将你的黄色或蓝色牌堆向左展开。",
+          "en": "You may splay your yellow or blue cards left."
+        }
+      ]
+    },
+    {
+      "id": "E034",
+      "set": "Echoes",
+      "name_zh": "小说",
+      "name_en": "Novel",
+      "age": 3,
+      "color": "PURPLE",
+      "spots": [
+        0,
+        103,
+        1,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        33,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E034",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "将你预言牌堆中的所有卡牌归还。",
+          "en": "Return all cards from your forecast."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张 【3】。",
+          "en": "Draw a 【3】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将你的紫色牌堆向左展开。",
+          "en": "You may splay your purple cards left."
+        },
+        {
+          "kind": "non_demand_effect_3",
+          "label": "条例 3",
+          "zh": "如果你的所有非紫色置顶牌都拥有除 【繁荣】 以外的一种资源标记，则立即统御「霸权」领域。",
+          "en": "If all your non-purple top cards share a common icon other than 【prosperity】, claim the Supremacy achievement."
+        }
+      ]
+    },
+    {
+      "id": "E035",
+      "set": "Echoes",
+      "name_zh": "太阳镜",
+      "name_en": "Sunglasses",
+      "age": 3,
+      "color": "PURPLE",
+      "spots": [
+        0,
+        103,
+        10,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        34,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E035",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "从你手牌中将一张对应颜色牌堆已展开的牌计分。",
+          "en": "Score a card from your hand of a color you have splayed."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以选择一项执行：1. 将你的紫色牌堆向另一牌堆的相同方向展开；2. 将你的一个非紫色牌堆向紫色牌堆的相同方向展开。",
+          "en": "You may either splay your purple cards in the direction one of your other colors is splayed, or you may splay one of your other colors in the direction that your purple cards are splayed."
+        }
+      ]
+    },
+    {
+      "id": "E036",
+      "set": "Echoes",
+      "name_zh": "龟甲船",
+      "name_en": "Kobukson",
+      "age": 4,
+      "color": "RED",
+      "spots": [
+        105,
+        5,
+        0,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        37,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E036",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "将任一玩家的一种颜色的牌堆向左展开。",
+          "en": "Splay left one color on any player's board."
+        },
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你归还你场上每个颜色带有 【权威】 的所有置顶牌！抽一张 【4】并置底!",
+          "en": "I DEMAND you return a top card with 【authority】 of each color from your board! Draw and tuck a 【4】!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张 【4】 并置底。",
+          "en": "Draw and tuck a 【4】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果[龟船]]因预示执行，抽取并融合一张【5】。",
+          "en": "If Kobukson was foreseen, draw and meld a 【5】."
+        }
+      ]
+    },
+    {
+      "id": "E037",
+      "set": "Echoes",
+      "name_zh": "手里剑",
+      "name_en": "Shuriken",
+      "age": 4,
+      "color": "RED",
+      "spots": [
+        1,
+        1,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        38,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E037",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你转移你场上两张颜色不同且带有【权威】或 【头像】的置顶牌到我的场上！若你这么做，并且[手里剑]因预示执行，转移这些牌到我的成就区！",
+          "en": "I DEMAND you transfer two non-red top cards with 【authority】 or 【avatar】 of different colors from your board to my board! If you do, and Shuriken was foreseen, transfer them to my achievements!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将你的紫色牌堆向右展开。",
+          "en": "You may splay your purple cards right."
+        }
+      ]
+    },
+    {
+      "id": "E038",
+      "set": "Echoes",
+      "name_zh": "气压计",
+      "name_en": "Barometer",
+      "age": 4,
+      "color": "YELLOW",
+      "spots": [
+        2,
+        10,
+        2,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        41,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E038",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "将一张 【5】 从预示区转移到手牌。",
+          "en": "Transfer a 【5】 from your forecast to your hand."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并预示一张时期比任一玩家场上的任一奖分值高2的牌（如果存在）。",
+          "en": "Draw and foreshadow a card of value two higher than a bonus on any board, if there is one."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以归还你预示区的所有牌。若其中有蓝色牌，统御[命运Destiny]成就。",
+          "en": "You may return all cards in your forecast. If any are blue, claim the Destiny achievement."
+        }
+      ]
+    },
+    {
+      "id": "E039",
+      "set": "Echoes",
+      "name_zh": "铅笔",
+      "name_en": "Pencil",
+      "age": 4,
+      "color": "YELLOW",
+      "spots": [
+        0,
+        10,
+        3,
+        104,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        42,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E039",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张 【5】。",
+          "en": "Draw a 【5】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以归还至多三张手牌。若你这么做，抽等量的比你归还的牌最高时期高一的牌。归还这些牌至只剩一张，然后将其预示。",
+          "en": "You may return up to three cards from your hand. If you do, draw that many cards of value one higher than the highest card you return. Return all but one of them, and foreshadow the remaining card."
+        }
+      ]
+    },
+    {
+      "id": "E040",
+      "set": "Echoes",
+      "name_zh": "印花棉布",
+      "name_en": "Chintz",
+      "age": 4,
+      "color": "GREEN",
+      "spots": [
+        1,
+        0,
+        1,
+        104,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        39,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E040",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张 【4】。",
+          "en": "Draw a 【4】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果你的手牌张数恰好为1， 抽一张 【4】 ，然后抽一张 【4】 计分。",
+          "en": "If you have exactly one card in your hand, draw a 【4】, then draw and score a 【4】."
+        },
+        {
+          "kind": "non_demand_effect_3",
+          "label": "条例 3",
+          "zh": "如果[印花棉布]因预示执行，将你的所有手牌转移至待可用成就区。",
+          "en": "If Chintz was foreseen, transfer all cards from your hand to the available achievements."
+        }
+      ]
+    },
+    {
+      "id": "E041",
+      "set": "Echoes",
+      "name_zh": "地球仪",
+      "name_en": "Globe",
+      "age": 4,
+      "color": "GREEN",
+      "spots": [
+        5,
+        104,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        40,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E041",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以归还你的所有手牌。如果你归还了蓝色、绿色和黄色卡牌，则抽取并预示【6】、【7】、【8】各一张，然后将你任一颜色的牌堆向右展开。",
+          "en": "You may return all cards in your hand. If you return blue, green, and yellow cards, draw and foreshadow a 【6】, 【7】, and 【8】, then splay any color on your board right."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果[地球仪]因预示执行，则预示任一玩家的任一置顶牌。",
+          "en": "If Globe was foreseen, foreshadow a top card from any board."
+        }
+      ]
+    },
+    {
+      "id": "E042",
+      "set": "Echoes",
+      "name_zh": "算尺",
+      "name_en": "Slide Rule",
+      "age": 4,
+      "color": "BLUE",
+      "spots": [
+        3,
+        3,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        35,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E042",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将黄色牌堆向右展开.",
+          "en": "You may splay your yellow cards right."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "抽一张牌，其时期等同于你置顶牌的最低时期值加上你已展开的牌堆数量。",
+          "en": "Draw a card of value equal to the value of your lowest top card plus the number of colors you have splayed."
+        }
+      ]
+    },
+    {
+      "id": "E043",
+      "set": "Echoes",
+      "name_zh": "望远镜",
+      "name_en": "Telescope",
+      "age": 4,
+      "color": "BLUE",
+      "spots": [
+        0,
+        104,
+        3,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        36,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E043",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽取并预示一张回声扩展的【5】。",
+          "en": "Draw and foreshadow an Echoes 【5】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将你预示区的一张牌放置在其所属牌库顶部。若你如此做，将你预示区的所有牌与等数量的可用标准成就交换，随后移除【5】时期的基础牌库。",
+          "en": "You may place a card from your forecast on top of its deck. If you do, exchange all cards in your forecast with an equal number of available standard achievements, and junk all the cards in the 【5】 deck."
+        }
+      ]
+    },
+    {
+      "id": "E044",
+      "set": "Echoes",
+      "name_zh": "钟",
+      "name_en": "Clock",
+      "age": 4,
+      "color": "PURPLE",
+      "spots": [
+        10,
+        105,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        43,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E044",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "你可以将你牌数量最多的牌堆向右展开。",
+          "en": "You may splay your color with the most cards right."
+        },
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你将你手牌和计分区中所有时期为X的牌转移到我的计分区中，X为我场上由我指定牌堆的可见牌数！移除时期为X的一张可用成就！",
+          "en": "I DEMAND you transfer all cards of value equal to the number of visible cards of the color of my choice on my board from your hand and your score pile to my score pile! Junk an available achievement of that value!"
+        }
+      ]
+    },
+    {
+      "id": "E045",
+      "set": "Echoes",
+      "name_zh": "卫生间",
+      "name_en": "Toilet",
+      "age": 4,
+      "color": "PURPLE",
+      "spots": [
+        10,
+        2,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        44,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E045",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张 【4】 并置底。",
+          "en": "Draw and tuck a 【4】."
+        },
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求对于我场上出现的每个不同的奖分值，你退还一张时期等于该奖分值的计分牌！",
+          "en": "I DEMAND you return a card from your score pile matching each different bonus value on my board!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以归还一张手牌并抽一张时期相同的牌。",
+          "en": "You may return a card from your hand and draw a card of the same value."
+        }
+      ]
+    },
+    {
+      "id": "E046",
+      "set": "Echoes",
+      "name_zh": "焦炭",
+      "name_en": "Coke",
+      "age": 5,
+      "color": "RED",
+      "spots": [
+        10,
+        5,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        47,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E046",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张 【4】 并置底。",
+          "en": "Draw and tuck a 【4】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示一张【6】。如果它带有【工业】，将其融合并重复执行此条例。否则，将其预示。",
+          "en": "Draw and reveal a 【6】. If it has 【industry】, meld it and repeat this effect. Otherwise, foreshadow it."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "若[焦炭]因预示执行，对于你场上的每张非红色置顶牌，将该置顶牌计分。",
+          "en": "If Coke was foreseen, score your top card of each non-red color."
+        }
+      ]
+    },
+    {
+      "id": "E047",
+      "set": "Echoes",
+      "name_zh": "八分仪",
+      "name_en": "Octant",
+      "age": 5,
+      "color": "RED",
+      "spots": [
+        1,
+        1,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        48,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E047",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求对于你的每个非红色的牌堆，如果其置顶牌带有【健康】或【工业】，将该牌转移到我的场上！如果有牌因此被转移，且[八分仪]并非因预示执行，抽取并预示一张【6】！",
+          "en": "I DEMAND you transfer a top card with 【health】 or 【industry】 of each non-red color from your board to mine! If you transfer at least one and Octant wasn’t foreseen, draw and foreshadow a 【6】!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并预示一张 【6】 。",
+          "en": "Draw and foreshadow a 【6】."
+        }
+      ]
+    },
+    {
+      "id": "E048",
+      "set": "Echoes",
+      "name_zh": "高压锅",
+      "name_en": "Pressure Cooker",
+      "age": 5,
+      "color": "YELLOW",
+      "spots": [
+        105,
+        0,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        51,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E048",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果[高压锅]因预示执行，融合你的所有手牌。",
+          "en": "If Pressure Cooker was foreseen, meld all cards from your hand."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "归还你的所有手牌。对于你场上每个带有奖分的置顶牌，抽一张时期等于该奖分值的牌，并移除一张时期等于该奖分值的可用成就。",
+          "en": "Return all cards from your hand. For each top card of different color on your board with a bonus, both draw a card and junk an available achievement of value equal to that bonus."
+        }
+      ]
+    },
+    {
+      "id": "E049",
+      "set": "Echoes",
+      "name_zh": "火炉",
+      "name_en": "Stove",
+      "age": 5,
+      "color": "YELLOW",
+      "spots": [
+        0,
+        106,
+        5,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        52,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E049",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "将你的场上一张不带有【工业】的置顶牌计分。",
+          "en": "Score a top card from your board without 【industry】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张 【4】 并置底。如果你该颜色的置顶牌时期小于 4 ，抽一张 【4】 计分。",
+          "en": "Draw and tuck a 【4】. If your top card of the tucked card's color has value less than 4, draw and score a 【4】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将绿色牌堆向右展开.",
+          "en": "You may splay your green cards right."
+        }
+      ]
+    },
+    {
+      "id": "E050",
+      "set": "Echoes",
+      "name_zh": "帕稜布",
+      "name_en": "Palampore",
+      "age": 5,
+      "color": "GREEN",
+      "spots": [
+        5,
+        0,
+        5,
+        105,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        49,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E050",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张时期等于你场上出现多于一次的某个奖分值的牌并计分（如有）。",
+          "en": "Draw and score a card of value equal to a bonus that occurs more than once on your board, if there is one."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将你的紫色牌堆向右展开。",
+          "en": "You may splay your purple cards right."
+        },
+        {
+          "kind": "non_demand_effect_3",
+          "label": "条例 3",
+          "zh": "如果你场上有至少6个可见的奖分，统御财富成就。",
+          "en": "If you have at least six bonuses on your board, claim the Wealth acievement."
+        }
+      ]
+    },
+    {
+      "id": "E051",
+      "set": "Echoes",
+      "name_zh": "播种机",
+      "name_en": "Seed Drill",
+      "age": 5,
+      "color": "GREEN",
+      "spots": [
+        3,
+        2,
+        2,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        50,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E051",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你从你场上归还一张时期小于3的置顶牌！",
+          "en": "I DEMAND you return a top card from your board of value less than 3!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "指定时期【3】、【4】或【5】。你可以移除指定时期的基础牌库。若你如此做，依常规要求统御移除区中一张最高时期的牌。",
+          "en": "Choose the 【3】, 【4】, or 【5】 deck. You may junk all cards in the chosen deck. If you do, achieve the highest card in the junk if eligible."
+        }
+      ]
+    },
+    {
+      "id": "E052",
+      "set": "Echoes",
+      "name_zh": "避雷针",
+      "name_en": "Lightning Rod",
+      "age": 5,
+      "color": "BLUE",
+      "spots": [
+        10,
+        5,
+        0,
+        106,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        45,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E052",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张 【5】 并置底。",
+          "en": "Draw and tuck a 【5】."
+        },
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你抽一张 【5】 并置底！将该颜色的置顶牌归还！",
+          "en": "I DEMAND you draw and tuck a 【5】! Return your top card of the tucked card's color!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你的一张置顶牌。",
+          "en": "Return a top card from your board."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "移除【6】的基础抽牌堆。",
+          "en": "Junk all cards in the 【6】 deck."
+        }
+      ]
+    },
+    {
+      "id": "E053",
+      "set": "Echoes",
+      "name_zh": "温度计",
+      "name_en": "Thermometer",
+      "age": 5,
+      "color": "BLUE",
+      "spots": [
+        0,
+        10,
+        105,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        46,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E053",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "融合你的绿色置底牌。",
+          "en": "Meld your bottom green card."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并融合一张时期比你场上黄色置顶牌时期高一的牌。如果融合的牌是黄色的，或者在[温度计]因预示执行时融合的牌是红色或紫色的，重复执行此效果。",
+          "en": "Draw and meld a card of value one higher than the value of your top yellow card. If the melded card is yellow, or if Thermometer was foreseen and the melded card is red or purple, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "E054",
+      "set": "Echoes",
+      "name_zh": "钢琴",
+      "name_en": "Piano",
+      "age": 5,
+      "color": "PURPLE",
+      "spots": [
+        105,
+        10,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        53,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E054",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张与任一玩家的一张手牌时期相同的牌。",
+          "en": "Draw a card of a value present in any player's hand."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你的五张置顶牌时期都不同，就从影响力区归还五张牌，然后按升序抽取等同于你五张置顶牌对应时期的牌并计分。",
+          "en": "If you have five top cards, each with a different value, return five cards from your score pile and then draw and score a card of each of your top cards' values in ascending order."
+        }
+      ]
+    },
+    {
+      "id": "E055",
+      "set": "Echoes",
+      "name_zh": "音叉",
+      "name_en": "Tuning Fork",
+      "age": 5,
+      "color": "PURPLE",
+      "spots": [
+        10,
+        3,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        54,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E055",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张时期出现在任一玩家计分区的牌。",
+          "en": "Draw a card of value present in any score pile."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你的一张手牌预示。若你如此做，则抽取并展示一张时期相同的牌；如果该牌的时期高于你的同色置顶牌，则将其融合。若你未能将其融合，则将该牌归还，随后你可以重复此效果。",
+          "en": "Foreshadow a card from your hand. If you do, draw and reveal a card of the same value, and meld it if it is higher than the top card of the same color on your board. If you don't meld it, return it, and you may repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "E056",
+      "set": "Echoes",
+      "name_zh": "织布机",
+      "name_en": "Loom",
+      "age": 6,
+      "color": "RED",
+      "spots": [
+        5,
+        106,
+        0,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        57,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E056",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "将你时代最低的置顶卡计分。",
+          "en": "Score your lowest top card."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以归还你计分区中恰好两张不同时期的牌。若你这么做，抽三张【6】并置底。",
+          "en": "You may return exactly two cards of different value from your score pile. If you do, draw and tuck three 【6】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果你场上某一颜色有至少五个【六边形】，统御遗产成就。",
+          "en": "If you have at least five 【image】 on your board in one color, claim the Heritage achievement."
+        }
+      ]
+    },
+    {
+      "id": "E057",
+      "set": "Echoes",
+      "name_zh": "榴霰弹",
+      "name_en": "Shrapnel",
+      "age": 6,
+      "color": "RED",
+      "spots": [
+        5,
+        5,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        58,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E057",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你抽一张【6】并置底！转移你场上与抽取牌颜色相同的牌堆最上方的两张牌到我的计分区！将我场上该颜色的置底牌计分！",
+          "en": "I DEMAND you draw and tuck a 【6】! Transfer your top two cards of its color to my score pile! Score the bottom card of its color on my board!"
+        }
+      ]
+    },
+    {
+      "id": "E058",
+      "set": "Echoes",
+      "name_zh": "假牙",
+      "name_en": "Dentures",
+      "age": 6,
+      "color": "YELLOW",
+      "spots": [
+        10,
+        5,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        61,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E058",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张 【6】 并置底。",
+          "en": "Draw and tuck a 【6】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将因假牙而置底的最后一张牌的颜色中，你的顶部两张非底牌计分。若没有牌可计分，则抽取并置底一张【6】，然后重复此效果。",
+          "en": "Score your top two non-bottom cards of the color of the last card you tucked due to Dentures. If there are none to score, draw and tuck a 【6】, then repeat this effect."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将蓝色牌堆向右展开.",
+          "en": "You may splay your blue cards right."
+        }
+      ]
+    },
+    {
+      "id": "E059",
+      "set": "Echoes",
+      "name_zh": "吗啡",
+      "name_en": "Morphine",
+      "age": 6,
+      "color": "YELLOW",
+      "spots": [
+        3,
+        0,
+        107,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        62,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E059",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "将你手牌中一张奇数时期的牌计分。",
+          "en": "Score an odd-valued card from your hand."
+        },
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你归还手中所有奇数时代的牌! 抽一张【6】!",
+          "en": "I DEMAND you return all odd-valued cards in your hand! Draw a 【6】!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张时期比因霸权效果归还的最高时期的牌时期高一的牌。",
+          "en": "Draw a card of value one higher than the highest card returned due to the demand."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将红色牌堆向右展开.",
+          "en": "You may splay your red cards right."
+        }
+      ]
+    },
+    {
+      "id": "E060",
+      "set": "Echoes",
+      "name_zh": "热气球",
+      "name_en": "Hot Air Balloon",
+      "age": 6,
+      "color": "GREEN",
+      "spots": [
+        3,
+        10,
+        0,
+        107,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        59,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E060",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张 【7】 并计分。",
+          "en": "Draw and score a 【7】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "若符合常规要求，你可以统御对手场上时期为X的一张置顶牌，X为其统御区出现的任一时期。若你如此做，则将你的绿色置顶牌转移到该对手的场上。否则，抽取并融合一张【7】。",
+          "en": "You may achieve (if eligible) a top card from an opponent's board if they have an achievement of matching value. If you do, transfer your top green card to that player's board. Otherwise, draw and meld a 【7】."
+        }
+      ]
+    },
+    {
+      "id": "E061",
+      "set": "Echoes",
+      "name_zh": "蒸汽船",
+      "name_en": "Steamboat",
+      "age": 6,
+      "color": "GREEN",
+      "spots": [
+        0,
+        106,
+        1,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        60,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E061",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你抽取并展示一张【6】！如果其为蓝色或黄色，将你同该牌在内的所有手牌转移到我的手牌！如果其为红色或绿色，将你的两张计分牌转移到我的计分区！",
+          "en": "I DEMAND you draw and reveal a 【6】! If it is blue or yellow, transfer it and all cards in your hand to my hand! If it is red or green, transfer two cards from your score pile to mine!"
+        }
+      ]
+    },
+    {
+      "id": "E062",
+      "set": "Echoes",
+      "name_zh": "双光眼镜",
+      "name_en": "Bifocals",
+      "age": 6,
+      "color": "BLUE",
+      "spots": [
+        10,
+        0,
+        1,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        55,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E062",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "归还你预示区的一张牌。",
+          "en": "Return a card from your forecast."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并预示一张【7】，然后如果[双光眼镜]因预示执行，抽取并预示一张时期等于可用成就中最低时期的牌。。",
+          "en": "Draw and foreshadow a 【7】. If Bifocals was foreseen, draw and foreshadow a card of value equal to the lowest available standard achievement."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将你的绿色牌堆向右展开。若你如此做，将你任一颜色的牌堆向上展开。",
+          "en": "You may splay your green cards right. If you do, splay any color of your cards up."
+        }
+      ]
+    },
+    {
+      "id": "E063",
+      "set": "Echoes",
+      "name_zh": "听诊器",
+      "name_en": "Stethoscope",
+      "age": 6,
+      "color": "BLUE",
+      "spots": [
+        3,
+        10,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        56,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E063",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "从手牌将一张蓝色或黄色牌放入场中。",
+          "en": "Meld a blue or yellow card from your hand."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张【7】。如果你因[听诊器]的回声效果融合了一张蓝色牌，抽一张【8】，并且如果[听诊器]因预示执行，再抽一张【9】。",
+          "en": "Draw a 【7】. If you melded a blue card due to Stethoscope's echo effect, draw an 【8】, and if Stethoscope was foreseen, also draw a 【9】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将黄色牌堆向右展开.",
+          "en": "You may splay your yellow cards right."
+        }
+      ]
+    },
+    {
+      "id": "E064",
+      "set": "Echoes",
+      "name_zh": "印第安棒",
+      "name_en": "Indian Clubs",
+      "age": 6,
+      "color": "PURPLE",
+      "spots": [
+        0,
+        2,
+        106,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        63,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E064",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你从你的计分区中归还两张牌！如果[印第安棒]因预示执行，归还你计分区的所有牌！",
+          "en": "I DEMAND you return two cards from your score pile! If Indian Clubs was foreseen, return all cards from your score pile!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你影响力区中的牌每有一个不同时期，就从你的手牌中选一张相同时期的牌计分。",
+          "en": "For every value of card in your score pile, score a card from your hand of that value."
+        }
+      ]
+    },
+    {
+      "id": "E065",
+      "set": "Echoes",
+      "name_zh": "万花筒",
+      "name_en": "Kaleidoscope",
+      "age": 6,
+      "color": "PURPLE",
+      "spots": [
+        106,
+        3,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        64,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E065",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张 【7】 放到场上。你可以将该颜色的牌堆向右展开。",
+          "en": "Draw and meld a 【7】. You may splay your cards of that color right."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "移除时期等于你场上【概念】数量的可用成就。如果[万花筒]因预示执行，则废弃所有时期较低的可用成就。",
+          "en": "Junk an available achievement of value equal to the number of 【concept】 on your board. If Kaleidoscope was foreseen, junk all available achievements of lower value."
+        }
+      ]
+    },
+    {
+      "id": "E066",
+      "set": "Echoes",
+      "name_zh": "机枪",
+      "name_en": "Machine Gun",
+      "age": 7,
+      "color": "RED",
+      "spots": [
+        5,
+        5,
+        10,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        67,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E066",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "如果你有五张置顶牌，抽一张 【7】 计分。",
+          "en": "If you have five top cards, draw and score a 【7】."
+        },
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你转移你场上每种颜色各一张带有奖分的置顶牌到我的计分区！如果你转移了任何牌，移除四个可用成就，然后抽一张【7】！",
+          "en": "I DEMAND you transfer a top card with a bonus of each color from your board to my score pile! If you transfer any, junk four available achievements, and draw a 【7】!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你的非红色置顶牌。",
+          "en": "Return your top card of each non-red color."
+        }
+      ]
+    },
+    {
+      "id": "E067",
+      "set": "Echoes",
+      "name_zh": "橡胶",
+      "name_en": "Rubber",
+      "age": 7,
+      "color": "RED",
+      "spots": [
+        0,
+        10,
+        5,
+        107,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        68,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E067",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽取并置底两张【8】",
+          "en": "Draw and tuck two 【8】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你场上一张没有奖分的置顶牌计分。",
+          "en": "Score a top card from your board without a bonus."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将红色牌堆向上展开.",
+          "en": "You may splay your red cards up."
+        },
+        {
+          "kind": "non_demand_effect_3",
+          "label": "条例 3",
+          "zh": "如果[橡胶]因预示执行，预示一张你场上的置顶牌。",
+          "en": "If Rubber was foreseen, foreshadow a top card on your board."
+        }
+      ]
+    },
+    {
+      "id": "E068",
+      "set": "Echoes",
+      "name_zh": "电梯",
+      "name_en": "Elevator",
+      "age": 7,
+      "color": "YELLOW",
+      "spots": [
+        107,
+        10,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        71,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E068",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "将你的绿色置顶牌或置底牌记分。",
+          "en": "Score your top or bottom green card."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择你计分区中存在的一个时期。选择从所有对手的手牌或所有对手的计分区中，计分所有该时期的牌。抽取并预示一张该时期的牌。",
+          "en": "Choose a value present in your score pile. Choose to score all cards of the chosen value in either all opponents' hands or all their score piles. Draw and foreshadow a card of the chosen value."
+        }
+      ]
+    },
+    {
+      "id": "E069",
+      "set": "Echoes",
+      "name_zh": "肥料",
+      "name_en": "Fertilizer",
+      "age": 7,
+      "color": "YELLOW",
+      "spots": [
+        2,
+        0,
+        5,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        72,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E069",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以归还一张手牌。若你如此做，将所有该时期的牌从所有玩家的影响力区转移到你的手牌。",
+          "en": "You may return a card from your hand. If you do, transfer all cards from all score piles to your hand of value equal to the returned card."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "抽一张时期等于你手牌张数的牌，并预示其效果。",
+          "en": "Draw and foreshadow a card of value equal to the number of cards in your hand."
+        }
+      ]
+    },
+    {
+      "id": "E070",
+      "set": "Echoes",
+      "name_zh": "牛仔裤",
+      "name_en": "Jeans",
+      "age": 7,
+      "color": "GREEN",
+      "spots": [
+        10,
+        2,
+        0,
+        108,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        69,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E070",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽两张【8】。归还其中一张，预示另一张。",
+          "en": "Draw two 【8】. Return one, foreshadow the other."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽两张时期等同于你蓝色置顶牌时期的牌。融合其中一张，归还另一张。",
+          "en": "Draw and reveal two cards of value equal to your top blue card. Meld one, and return the other."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "选择【7】或【8】。废弃该时期基础牌库中的所有牌。",
+          "en": "Choose 【7】 or 【8】. Junk all cards in that deck."
+        },
+        {
+          "kind": "non_demand_effect_3",
+          "label": "条例 3",
+          "zh": "如果此牌条例因预示执行，转移一张被移除的有时期的牌至你的手牌。",
+          "en": "If Jeans was foreseen, transfer a valued card in the junk to your hand."
+        }
+      ]
+    },
+    {
+      "id": "E071",
+      "set": "Echoes",
+      "name_zh": "电报",
+      "name_en": "Telegraph",
+      "age": 7,
+      "color": "GREEN",
+      "spots": [
+        0,
+        6,
+        6,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        70,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E071",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以指定一位其他玩家和一个颜色，随后将你该颜色的牌堆效仿该玩家的展开方式。",
+          "en": "You may choose another player and a color, and match your splay in that color to theirs."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将你的蓝色牌堆向上展开。",
+          "en": "You may splay your blue cards up."
+        },
+        {
+          "kind": "non_demand_effect_3",
+          "label": "条例 3",
+          "zh": "若[电报]因预示执行，则将你所有已展开的颜色牌堆向上展开。",
+          "en": "If Telegraph was foreseen, splay all your splayed colors up."
+        }
+      ]
+    },
+    {
+      "id": "E072",
+      "set": "Echoes",
+      "name_zh": "摄影",
+      "name_en": "Photography",
+      "age": 7,
+      "color": "BLUE",
+      "spots": [
+        10,
+        3,
+        0,
+        107,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        65,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E072",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "从预示区将一张牌放入场中。",
+          "en": "Meld a card from your forecast."
+        },
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你将自己时期最高的顶牌转移到手牌！",
+          "en": "I DEMAND you transfer your highest top card to your hand!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你场上某一颜色至少有三个可见的回声效果，统御[历史History]成就。如果你这么做，并且[摄影]因预示执行，你获胜。",
+          "en": "If you have at least three echo effects in one color, claim the History achievement. If you do, and Photography was foreseen, you win."
+        }
+      ]
+    },
+    {
+      "id": "E073",
+      "set": "Echoes",
+      "name_zh": "打字机",
+      "name_en": "Typewriter",
+      "age": 7,
+      "color": "BLUE",
+      "spots": [
+        3,
+        0,
+        1,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        66,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E073",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你手牌中的所有牌，然后抽取一张【6】。对你归还的每种颜色，抽一张X，X为你手牌的最高时期+1。",
+          "en": "Return all cards from your hand, then draw a 【6】. For each color of card you return, draw a card of value one higher than the highest card in your hand."
+        }
+      ]
+    },
+    {
+      "id": "E074",
+      "set": "Echoes",
+      "name_zh": "冰淇淋",
+      "name_en": "Ice Cream",
+      "age": 7,
+      "color": "PURPLE",
+      "spots": [
+        0,
+        108,
+        2,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        73,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E074",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "将你场上一张非紫色且没有奖分的置顶牌计分。",
+          "en": "Score a non-purple top card from your board without a bonus."
+        },
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你抽一张【1】放入场中！",
+          "en": "I DEMAND you draw and meld a 【1】!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "指定时期 【6】、【7】、【8】或【9】。你可以移除指定时期的基础牌库。若你如此做，按常规要求统御移除区一张最高时期的牌。",
+          "en": "Choose the 【6】 , 【7】 , 【8】 , or 【9】 deck. You may junk all cards in the chosen deck. If you do, achieve the highest card in the junk if eligible."
+        }
+      ]
+    },
+    {
+      "id": "E075",
+      "set": "Echoes",
+      "name_zh": "萨克斯",
+      "name_en": "Saxophone",
+      "age": 7,
+      "color": "PURPLE",
+      "spots": [
+        107,
+        1,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        74,
+        3
+      ],
+      "notes": [
+        "官方终极版按四张指定牌的可见插图判定；BGA 英文中的音乐符号也指这些插图。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E075",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将紫色牌堆向上展开.",
+          "en": "You may splay your purple cards up."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果铃铛、长笛、钢琴和萨克斯管的【六边形】插图在任意面板上均可见，你获胜。否则，每有一个上述可见插图，抽一张【7】。",
+          "en": "If the 【image】 for Bell, Flute, Piano, and Saxophone are visible anywhere, you win. Otherwise, draw a 【7】 for each 【image】 that is visible."
+        }
+      ]
+    },
+    {
+      "id": "E076",
+      "set": "Echoes",
+      "name_zh": "绷带",
+      "name_en": "Bandage",
+      "age": 8,
+      "color": "RED",
+      "spots": [
+        2,
+        10,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        77,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E076",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "融合一张带有【健康】的手牌。",
+          "en": "Meld a card from your hand with 【health】."
+        },
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你退还你一张带有【效率】的计分牌！退还你一张带有【效率】的置顶牌！若你均如此做，对于你统御的每个成就，移除一张可用成就！",
+          "en": "I DEMAND you return a card with 【efficiency】 from your score pile! Return a top card with 【efficiency】 from your board! If you do both, junk an available achievement for each achievement you have!"
+        }
+      ]
+    },
+    {
+      "id": "E077",
+      "set": "Echoes",
+      "name_zh": "降落伞",
+      "name_en": "Parachute",
+      "age": 8,
+      "color": "RED",
+      "spots": [
+        5,
+        0,
+        6,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        78,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E077",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你转移所有不带有【效率】的手牌到我的手牌！",
+          "en": "I DEMAND you transfer all cards without 【efficiency】 in your hand to my hand!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果[降落伞]因预示执行，移除所有玩家场上的所有牌。",
+          "en": "If Parachute was foreseen, junk all cards from all boards."
+        }
+      ]
+    },
+    {
+      "id": "E078",
+      "set": "Echoes",
+      "name_zh": "空调",
+      "name_en": "Air Conditioner",
+      "age": 8,
+      "color": "YELLOW",
+      "spots": [
+        0,
+        10,
+        109,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        81,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E078",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "你可以从手牌选择一张计分.",
+          "en": "You may score a card from your hand."
+        },
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你将所有时期与你任意一张置顶牌相同的牌从影响力区退还！",
+          "en": "I DEMAND you return all cards from your score pile of value matching any of your top cards!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "废弃【9】基础牌库中的所有牌。",
+          "en": "Junk all cards in the 【9】 deck."
+        }
+      ]
+    },
+    {
+      "id": "E079",
+      "set": "Echoes",
+      "name_zh": "拖拉机",
+      "name_en": "Tractor",
+      "age": 8,
+      "color": "YELLOW",
+      "spots": [
+        10,
+        6,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        82,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E079",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张 【7】。",
+          "en": "Draw a 【7】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张 【7】 并计分。",
+          "en": "Draw and score a 【7】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "抽一张 【7】。",
+          "en": "Draw a 【7】."
+        },
+        {
+          "kind": "non_demand_effect_3",
+          "label": "条例 3",
+          "zh": "如果[拖拉机]因预示执行，抽七张【7】并计分。",
+          "en": "If Tractor was foreseen, draw and score seven 【7】."
+        }
+      ]
+    },
+    {
+      "id": "E080",
+      "set": "Echoes",
+      "name_zh": "尼龙",
+      "name_en": "Nylon",
+      "age": 8,
+      "color": "GREEN",
+      "spots": [
+        108,
+        5,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        79,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E080",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽三张【8】并置底。如果因此置底了任何绿色牌，重复执行此效果。",
+          "en": "Draw and tuck three 【8】. If any of the tucked cards are green, repeat this effect."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将红色牌堆向上展开.",
+          "en": "You may splay your red cards up."
+        }
+      ]
+    },
+    {
+      "id": "E081",
+      "set": "Echoes",
+      "name_zh": "切片面包",
+      "name_en": "Sliced Bread",
+      "age": 8,
+      "color": "GREEN",
+      "spots": [
+        10,
+        0,
+        109,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        80,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E081",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "归还你的所有手牌，抽两张【8】。",
+          "en": "Return all cards from your hand and draw two 【8】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你计分区中的一张牌。抽两张比该牌时期低一的牌并计分。",
+          "en": "Return a card from your score pile. Draw and score two cards of value one less than the value of the card you return."
+        }
+      ]
+    },
+    {
+      "id": "E082",
+      "set": "Echoes",
+      "name_zh": "射电望远镜",
+      "name_en": "Radio Telescope",
+      "age": 8,
+      "color": "BLUE",
+      "spots": [
+        0,
+        3,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        75,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E082",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你场上每有一个带有【概念】的颜色，就抽一张【9】，并且如果[射电望远镜]因预示执行，对每个符合条件的颜色再抽一张【10】。融合一张被抽取的牌，并归还其余的牌。如果你因此条例效果融合了[人工智能]，你获胜。",
+          "en": "For every color on your board with 【concept】, draw a 【9】, and if Radio Telescope was foreseen, for every color also draw a 【10】. Meld one of the drawn cards and return the rest. If you meld A.I. due to this effect, you win."
+        }
+      ]
+    },
+    {
+      "id": "E083",
+      "set": "Echoes",
+      "name_zh": "X光",
+      "name_en": "X-Ray",
+      "age": 8,
+      "color": "BLUE",
+      "spots": [
+        0,
+        2,
+        10,
+        108,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        76,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E083",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张 【8】 并置底。",
+          "en": "Draw and tuck an 【8】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一个时期。你场上每有一个颜色带有【健康】，就抽一张该时期的牌。预示其中任意数量的牌。",
+          "en": "Choose a value. For every color on your board with 【health】, draw a card of that value. Foreshadow any number of them."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "归还你手牌中的所有牌。",
+          "en": "Return all cards from your hand."
+        },
+        {
+          "kind": "non_demand_effect_3",
+          "label": "条例 3",
+          "zh": "你可以将你的黄色牌堆向上展开。",
+          "en": "You may splay your yellow cards up."
+        }
+      ]
+    },
+    {
+      "id": "E084",
+      "set": "Echoes",
+      "name_zh": "纵横字谜",
+      "name_en": "Crossword",
+      "age": 8,
+      "color": "PURPLE",
+      "spots": [
+        1,
+        108,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        83,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E084",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "对于你场上每个偶数奖分，抽一张时期与该奖分值相同的牌。若[纵横字谜]因预示执行，将抽取的所有牌转移到可用成就区。",
+          "en": "For each even bonus on your board, draw a card of that value. If Crossword was foreseen, transfer the drawn cards to the available achievements."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你场上每有一个奇数奖分，就归还你时期最低的一张手牌。",
+          "en": "For each odd bonus on your board, return the lowest card from your hand."
+        }
+      ]
+    },
+    {
+      "id": "E085",
+      "set": "Echoes",
+      "name_zh": "电视",
+      "name_en": "Television",
+      "age": 8,
+      "color": "PURPLE",
+      "spots": [
+        108,
+        0,
+        6,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        84,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E085",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张 【8】 放入场中。",
+          "en": "Draw and meld an 【8】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一个时期和一位对手。从后者的影响力区选择一张该时期的牌放到其场上。如果该对手的统御区有相同时期的牌且你符合对应条件，再将其影响力区的一张相同时期的牌统御。",
+          "en": "Choose a value and an opponent. Transfer a card of that value from their score pile to their board. If they have an achievement of the same value, achieve (if eligible) a card of that value from their score pile."
+        }
+      ]
+    },
+    {
+      "id": "E086",
+      "set": "Echoes",
+      "name_zh": "直升机",
+      "name_en": "Helicopter",
+      "age": 9,
+      "color": "RED",
+      "spots": [
+        5,
+        5,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        87,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E086",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "从任一玩家的场上转移一张非直升机的置顶牌到该玩家的计分区。你可以归还一张资源标记之一与被转移的牌资源标记之一相同的牌。若你这么做，重复执行此效果。",
+          "en": "Transfer a top card other than Helicopter from any player's board to its owner's score pile. You may return a card from your hand which shares an icon type with the transferred card. If you do, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "E087",
+      "set": "Echoes",
+      "name_zh": "飞机",
+      "name_en": "Jet",
+      "age": 9,
+      "color": "RED",
+      "spots": [
+        0,
+        10,
+        6,
+        110,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        88,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E087",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "将一张手牌放入场中。",
+          "en": "Meld a card from your hand."
+        },
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你归还与我本行动中最近一次因喷气式飞机的回声效果而融合的牌颜色相同的置顶牌！",
+          "en": "I DEMAND you return your top card of the color I last melded due to Jet's echo effect during this action! Junk all available achievements of values equal to the melded card and the returned card!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并预示一张 【10】 。",
+          "en": "Draw and foreshadow a 【10】."
+        }
+      ]
+    },
+    {
+      "id": "E088",
+      "set": "Echoes",
+      "name_zh": "自动取款机",
+      "name_en": "ATM",
+      "age": 9,
+      "color": "YELLOW",
+      "spots": [
+        1,
+        0,
+        10,
+        109,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        91,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E088",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张任意时代的牌并计分。",
+          "en": "Draw and score a card of any value."
+        },
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你转移你场上一张时期最高且不带有【繁荣】的置顶牌到我的场上！",
+          "en": "I DEMAND you transfer your highest top non-yellow card without 【prosperity】 to my board!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将紫色牌堆向上展开.",
+          "en": "You may splay your purple cards up."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "移除 【10】的基础牌库。",
+          "en": "Junk all cards in the 【10】 deck."
+        }
+      ]
+    },
+    {
+      "id": "E089",
+      "set": "Echoes",
+      "name_zh": "手表",
+      "name_en": "Wristwatch",
+      "age": 9,
+      "color": "YELLOW",
+      "spots": [
+        0,
+        5,
+        110,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        92,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E089",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "置底你的一张置顶牌。",
+          "en": "Tuck a top card from your board."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "若[手表]并非因预示执行，将你场上除置底牌以外的所有牌归还。",
+          "en": "If Wristwatch was foreseen, return all non-bottom cards from your board."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "对于每个时期按升序，若你场上有等于该时期的奖分值，则抽取并融合一张该时期的牌。",
+          "en": "For each value in ascending order, if you have a bonus on your board of that value, draw and meld a card of that value."
+        }
+      ]
+    },
+    {
+      "id": "E090",
+      "set": "Echoes",
+      "name_zh": "信用卡",
+      "name_en": "Credit Card",
+      "age": 9,
+      "color": "GREEN",
+      "spots": [
+        10,
+        1,
+        109,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        89,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E090",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽取并预示一张 【9】 。",
+          "en": "Draw and foreshadow a 【9】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将你一张非绿色的置顶牌转移到手牌。若你如此做，抽一张相同时期的牌计分。若你如此做，且[信用卡]因预示执行，重复此条例。",
+          "en": "You may transfer a top non-green card from your board to your hand. If you do, draw and score a card of equal value. If you do, and Credit Card was foreseen, repeat this effect."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将绿色牌堆向上展开.",
+          "en": "You may splay your green cards up."
+        }
+      ]
+    },
+    {
+      "id": "E091",
+      "set": "Echoes",
+      "name_zh": "电子邮件",
+      "name_en": "Email",
+      "age": 9,
+      "color": "GREEN",
+      "spots": [
+        10,
+        6,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        90,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E091",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽取并预示一张 【10】 。",
+          "en": "Draw and foreshadow a 【10】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并预示一张【9】。若[电子邮件]因预示执行，抽取并预示一张【11】",
+          "en": "Draw and foreshadow a 【9】. If Email was foreseen, draw and foreshadow an 【11】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "独自执行你场上非绿色的最低时期的牌。",
+          "en": "Self-execute your lowest non-green top card."
+        }
+      ]
+    },
+    {
+      "id": "E092",
+      "set": "Echoes",
+      "name_zh": "计算器",
+      "name_en": "Calculator",
+      "age": 9,
+      "color": "BLUE",
+      "spots": [
+        6,
+        0,
+        6,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        85,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E092",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你场上两张颜色不同的非蓝色置底牌计分。如果你计分了两张卡牌，且它们的时期之和小于12，则抽取一张时期等于两者之和的卡牌，并重复此效果（仅限一次）。",
+          "en": "Score two bottom non-blue cards of different colors on your board. If you score two and they have a total value less than 12, draw a card of that total value and repeat this effect (once only)."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将你的蓝色牌堆向上展开。",
+          "en": "You may splay your blue cards up."
+        }
+      ]
+    },
+    {
+      "id": "E093",
+      "set": "Echoes",
+      "name_zh": "激光",
+      "name_en": "Laser",
+      "age": 9,
+      "color": "BLUE",
+      "spots": [
+        3,
+        2,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        86,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E093",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你四张计分牌。归还所有可用标准成就。",
+          "en": "Return four cards from your score pile. Return all available standard achievements."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "抽取并预示一张 【11】。抽取并融合一张 【10】.。如果[激光]因预示执行， 抽取并融合一张【11】。",
+          "en": "Draw and foreshadow an 【11】. Draw and meld a 【10】. If Laser was foreseen, draw and meld an 【11】."
+        }
+      ]
+    },
+    {
+      "id": "E094",
+      "set": "Echoes",
+      "name_zh": "卡拉OK",
+      "name_en": "Karaoke",
+      "age": 9,
+      "color": "PURPLE",
+      "spots": [
+        0,
+        2,
+        109,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        93,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E094",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽取并融合一张时期与你任一手牌相同的牌。",
+          "en": "Draw and meld a card of a value present in your hand."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将每种颜色的底牌转移到手牌中。",
+          "en": "Transfer your bottom card of each color to your hand."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "统御一个时期等同于你本次行动中最近因卡拉OK的回声效果而融合的牌的时期的常规成就，无视常规要求。若你这么做，独自执行被融合牌。",
+          "en": "Claim an available achievement of value equal to the card you last melded due to Karaoke's echo effect during this action, regardless of eligibility. If you do, self-execute the melded card."
+        }
+      ]
+    },
+    {
+      "id": "E095",
+      "set": "Echoes",
+      "name_zh": "摇滚",
+      "name_en": "Rock",
+      "age": 9,
+      "color": "PURPLE",
+      "spots": [
+        2,
+        109,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        94,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E095",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你将你的绿色置顶牌转移到我的手牌！随后，如果剪刀是你的绿色置顶牌，我获胜！",
+          "en": "I DEMAND you transfer your top green card to my hand! If Scissors is your new top green card, I win!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将你场上一张置顶牌计分。如果「纸张」是你的置顶牌，你获胜。",
+          "en": "You may score a top card on your board. If Paper is your top green card, you win."
+        }
+      ]
+    },
+    {
+      "id": "E096",
+      "set": "Echoes",
+      "name_zh": "摄像机",
+      "name_en": "Camcorder",
+      "age": 10,
+      "color": "RED",
+      "spots": [
+        0,
+        6,
+        6,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        97,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E096",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你从手中转移所有牌到我的手中! 抽一张 【9】!",
+          "en": "I DEMAND you transfer all cards in your hand to my hand! Draw a 【9】!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "从你的手牌中融合所有【9】 。如果[摄像机]并非因预示执行，归还你的所有其他手牌并抽三张【9】 。",
+          "en": "Meld all 【9】 from your hand. If Camcorder wasn't foreseen, return all other cards from your hand, and draw three 【9】."
+        }
+      ]
+    },
+    {
+      "id": "E097",
+      "set": "Echoes",
+      "name_zh": "社交网络",
+      "name_en": "Social Networking",
+      "age": 10,
+      "color": "RED",
+      "spots": [
+        0,
+        110,
+        7,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 7,
+      "art_position": [
+        98,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E097",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "将你场上一张非红色置顶牌计分。",
+          "en": "Score a top non-red card from your board."
+        },
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你指定一个资源标记！将你所有不带有该标记的置顶牌转移到我的计分区！",
+          "en": "I DEMAND you choose a standard icon type! Transfer all top cards without that icon from your board to my score pile!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你的 【工业】,  【繁荣】,和 【权威】 都少于所有对手，你获胜。",
+          "en": "If you have fewer 【industry】, fewer 【prosperity】, and fewer 【authority】 than each opponent, you win."
+        }
+      ]
+    },
+    {
+      "id": "E098",
+      "set": "Echoes",
+      "name_zh": "手机",
+      "name_en": "Cell Phone",
+      "age": 10,
+      "color": "YELLOW",
+      "spots": [
+        6,
+        0,
+        110,
+        10,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        101,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E098",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽取并预示一张【11】。",
+          "en": "Draw and foreshadow an 【11】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "对于你场上每个带有【效率】的颜色，抽一张 【10】。",
+          "en": "Draw a 【10】 for every color on your board with 【efficiency】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将绿色牌堆向上展开.",
+          "en": "You may splay your green cards up."
+        },
+        {
+          "kind": "non_demand_effect_3",
+          "label": "条例 3",
+          "zh": "你可以将任意数量带有 【效率】 的牌从手牌中置底，并将置底的每种颜色的牌向上展开。",
+          "en": "You may tuck any number of cards with 【efficiency】 from your hand, splaying up each color into which you tuck."
+        }
+      ]
+    },
+    {
+      "id": "E099",
+      "set": "Echoes",
+      "name_zh": "播放器",
+      "name_en": "MP3",
+      "age": 10,
+      "color": "YELLOW",
+      "spots": [
+        7,
+        110,
+        10,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 7,
+      "art_position": [
+        102,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E099",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张 【10】 并计分。",
+          "en": "Draw and score a 【10】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张时期等同于你场上某一奖分值的牌。",
+          "en": "Draw and score a card of value equal to a bonus on your board, if there is one."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "归还你任意数量的手牌。对于每张归还的牌，依常规要求统御两张可用成就。",
+          "en": "Return any number of cards from your hand. For each card returned, claim two available standard achievements for which you are eligible."
+        }
+      ]
+    },
+    {
+      "id": "E100",
+      "set": "Echoes",
+      "name_zh": "全球定位系统",
+      "name_en": "GPS",
+      "age": 10,
+      "color": "GREEN",
+      "spots": [
+        1,
+        0,
+        6,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        99,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E100",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你从预示区归还所有的卡牌!",
+          "en": "I DEMAND you return all cards from your forecast!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将你的黄色牌堆向上展开。",
+          "en": "You may splay your yellow cards up."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "抽三张【11】。如果[全球定位系统]因预示执行，则预示抽到的牌。",
+          "en": "Draw three 【11】. If GPS was foreseen, foreshadow them."
+        }
+      ]
+    },
+    {
+      "id": "E101",
+      "set": "Echoes",
+      "name_zh": "条形码",
+      "name_en": "Barcode",
+      "age": 10,
+      "color": "GREEN",
+      "spots": [
+        5,
+        5,
+        0,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        100,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E101",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求对于你场上的每个奖分，你退还你计分区时期与该奖分值相同的一张牌！",
+          "en": "I DEMAND you return a card of matching value from your score pile for each bonus on your board!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将任一颜色的牌堆向上展开。如果[条形码]因预示执行，将你的所有牌堆向上展开。",
+          "en": "You may splay any one color of your cards up. If Barcode was foreseen, splay all your colors up."
+        }
+      ]
+    },
+    {
+      "id": "E102",
+      "set": "Echoes",
+      "name_zh": "人工心脏",
+      "name_en": "Artificial Heart",
+      "age": 10,
+      "color": "BLUE",
+      "spots": [
+        0,
+        2,
+        2,
+        111,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        95,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E102",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "依常规要求统御一张可用成就，执行此条例时你的分数翻倍计算。若你如此做，且[人工心脏]因预示执行，则重复此效果。",
+          "en": "Claim one available standard achievement, if eligible, doubling your current score for the purpose of checking eligibility. If you do, and Artificial Heart was foreseen, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "E103",
+      "set": "Echoes",
+      "name_zh": "人类基因组",
+      "name_en": "Human Genome",
+      "age": 10,
+      "color": "BLUE",
+      "spots": [
+        3,
+        10,
+        110,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        96,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E103",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "抽一张【11】。",
+          "en": "Draw an 【11】."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以抽一张任一时期的牌计分。将你的红色置底牌转移到手牌。如果你所有手牌的时期值与你所有计分牌的时期值一一对应（计重复），你获胜。",
+          "en": "You may draw and score a card of any value. Transfer your bottom red card to your hand. If the values of all the cards in your hand match the values of all the cards in your score pile exactly, you win."
+        }
+      ]
+    },
+    {
+      "id": "E104",
+      "set": "Echoes",
+      "name_zh": "魔方",
+      "name_en": "Puzzle Cube",
+      "age": 10,
+      "color": "PURPLE",
+      "spots": [
+        10,
+        1,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        103,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E104",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "从你的计分区中融合一张牌。",
+          "en": "Meld a card from your score pile."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将你场上某一颜色最下方的一至二张牌计分。如果你场上所有颜色可见牌数量相同，你获胜。",
+          "en": "You may score the bottom card or two bottom cards of one color from your board. If all colors on your board contain the same number of visible cards, you win."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "抽一张 【10】 放到场上。",
+          "en": "Draw and meld a 【10】."
+        }
+      ]
+    },
+    {
+      "id": "E105",
+      "set": "Echoes",
+      "name_zh": "数独",
+      "name_en": "Sudoku",
+      "age": 10,
+      "color": "PURPLE",
+      "spots": [
+        3,
+        0,
+        10,
+        111,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        104,
+        3
+      ],
+      "notes": [
+        "胜利条件按官方牌文：面板上恰好九种不同数值的可见奖分。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E105",
+      "effects": [
+        {
+          "kind": "echo_effect",
+          "label": "回声",
+          "zh": "你可以置底任意数量的手牌。",
+          "en": "You may tuck any number of cards from your hand."
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并融合一张任一时期的牌。如果你场上有九个不同的奖分值，你获胜。否则，独自执行被融合牌。",
+          "en": "Draw and meld a card of any value. If you have exactly nine different bonus values on your board, you win. Otherwise, self-execute the melded card."
+        }
+      ]
+    },
+    {
+      "id": "E106",
+      "set": "Echoes",
+      "name_zh": "无人机",
+      "name_en": "Drone",
+      "age": 11,
+      "color": "RED",
+      "spots": [
+        2,
+        6,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        107,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E106",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示一张 【10】。如果你场上该颜色的牌少于六张，将你该颜色的牌堆斜向展开。否则，将所有玩家场上该颜色底部的五张牌归还。若你如此做，则重复此效果。",
+          "en": "Draw and reveal a 【10】. If you have fewer than six cards of its color on your board, splay that color aslant on your board. Otherwise, return the bottom five cards of that color from all boards. If you do, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "E107",
+      "set": "Echoes",
+      "name_zh": "外骨骼",
+      "name_en": "Exoskeleton",
+      "age": 11,
+      "color": "RED",
+      "spots": [
+        5,
+        0,
+        6,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        108,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E107",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你把手牌中除最小的牌以外的所有牌都转移到我的计分区里！",
+          "en": "I DEMAND you transfer all but the lowest cards in your hand to my score pile!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以依常规要求统御任一玩家的一张手牌。若你如此做，且[外骨骼]因预示执行，重复此效果。",
+          "en": "You may achieve a card from any player's hand, if eligible. If you do, and Exoskeleton was foreseen, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "E108",
+      "set": "Echoes",
+      "name_zh": "电子宠物",
+      "name_en": "Digital Pet",
+      "age": 11,
+      "color": "YELLOW",
+      "spots": [
+        0,
+        2,
+        6,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        111,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E108",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你抽取并展示一张 【11】! 归还你场上和计分区中所有与该牌颜色相同的牌！",
+          "en": "I DEMAND you draw and reveal an 【11】! Return all cards from your board and score pile of color matching the drawn card!"
+        }
+      ]
+    },
+    {
+      "id": "E109",
+      "set": "Echoes",
+      "name_zh": "电子竞技",
+      "name_en": "Esports",
+      "age": 11,
+      "color": "YELLOW",
+      "spots": [
+        112,
+        7,
+        0,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": 7,
+      "art_position": [
+        112,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E109",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "对你场上每张非黄色的置顶牌，按照时期升序抽一张对应时期的牌并计分。如果你这么做，并且[电子竞技]因预示执行，你获胜。",
+          "en": "For each non-yellow top card on your board, draw and score a card of equal value, in ascending order. If you do, and Esports was foreseen, you win."
+        }
+      ]
+    },
+    {
+      "id": "E110",
+      "set": "Echoes",
+      "name_zh": "算法统治",
+      "name_en": "Algocracy",
+      "age": 11,
+      "color": "GREEN",
+      "spots": [
+        0,
+        6,
+        6,
+        111,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        109,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E110",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "指定一种标记。将条例需求为该标记的所有牌从所有玩家的手牌和计分区转移到场上该标记数量最多的唯一玩家的手牌。",
+          "en": "Choose an icon type. Transfer all cards with that featured icon from all hands and score piles to the hand of the single player with the most of the chosen icon on their board."
+        }
+      ]
+    },
+    {
+      "id": "E111",
+      "set": "Echoes",
+      "name_zh": "自动驾驶汽车",
+      "name_en": "Robocar",
+      "age": 11,
+      "color": "GREEN",
+      "spots": [
+        5,
+        5,
+        111,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        110,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E111",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一位对手。该玩家选择你的一张手牌（不展示）。你融合被选择的这张牌。若你这么做，并且处于你的回合内，独自执行该牌，然后重复执行此条例。",
+          "en": "Choose an opponent. That player chooses a card (unrevealed) in your hand. Meld the chosen card. If you do, and it is your turn, self-execute the card, then repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "E112",
+      "set": "Echoes",
+      "name_zh": "流媒体",
+      "name_en": "Streaming",
+      "age": 11,
+      "color": "BLUE",
+      "spots": [
+        111,
+        1,
+        1,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        105,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E112",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择出现在你场上的一种颜色。你可以选择统御该颜色的置顶牌（若符合条件），或将其计分。若你如此做，且[流媒体]因预示执行，则使用同一颜色重复此效果。",
+          "en": "Choose a color on your board. Choose to either achieve the top card of that color on your board, if eligible, or score it. If you do either, and Streaming was foreseen, repeat this effect using the same color."
+        }
+      ]
+    },
+    {
+      "id": "E113",
+      "set": "Echoes",
+      "name_zh": "触摸屏",
+      "name_en": "Touchscreen",
+      "age": 11,
+      "color": "BLUE",
+      "spots": [
+        0,
+        111,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        106,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E113",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你每个颜色的牌堆按照牌的数量进行展开：二或三张，向右上展开；四或五张，向上展开；六或七张，向右展开；八张或更多，向左展开。如果你因此使五种颜色的牌堆展开方式都发生了变化，你获胜。",
+          "en": "Splay each color on your board in a direction according to the exact number of cards of that color on your board: two or three, aslant; four or five, up; six or seven, right; eight or more, left. If you splay five colors, you win."
+        }
+      ]
+    },
+    {
+      "id": "E114",
+      "set": "Echoes",
+      "name_zh": "深度伪造",
+      "name_en": "Deepfake",
+      "age": 11,
+      "color": "PURPLE",
+      "spots": [
+        0,
+        3,
+        7,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": 7,
+      "art_position": [
+        113,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E114",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果当前在你的回合内，将任一玩家的任一置顶牌转移到你的场上，随后超级执行你场上除[深度伪造]以外的任一置顶牌。如果转移牌依然是任一玩家的置顶牌，将其转移到原本玩家的场上。",
+          "en": "If it is your turn, transfer a top card from any board to your board, then super-execute a top card on your board other than Deepfake. If the transferred card is still a top card, transfer it to its original board."
+        }
+      ]
+    },
+    {
+      "id": "E115",
+      "set": "Echoes",
+      "name_zh": "精英管理制度",
+      "name_en": "Meritocracy",
+      "age": 11,
+      "color": "PURPLE",
+      "spots": [
+        3,
+        0,
+        3,
+        112,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        114,
+        3
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=E115",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你选择我拥有最多的一种资源标记！转移你场上所有可见该标记的牌到我的场上，如果[精英管理制]因预示执行，则转移到我的成就区！",
+          "en": "I DEMAND you choose the standard icon of which I have the most among my icon types! Transfer all cards with that visible icon from your board to mine, or if Meritocracy was foreseen, to my achievements!"
+        }
+      ]
+    }
+  ],
+  "special_achievements": [
+    {
+      "id": "S-ECHOES-WEALTH",
+      "set": "Echoes",
+      "age": -1,
+      "color": null,
+      "source_url": "https://github.com/micahstairs/bga-innovation/blob/9b5464e6c9382d587e229741aeaa2de932e4ed8e/material.inc.php",
+      "bga_id": 435,
+      "deck_age": -1,
+      "name_zh": "财富",
+      "name_en": "Wealth",
+      "name_zh_raw": "财富",
+      "set_zh": "回响",
+      "type": "achievement",
+      "effects": [
+        {
+          "kind": "condition_for_claiming",
+          "label": "统御条件",
+          "zh": "任一玩家的一次行动结束时，如果你的场上至少有八个可见的奖分，统御此成就。",
+          "en": "Claim this special achievement at the end of any action if you have at least eight bonuses visible on your board.",
+          "raw_zh": "任一玩家的一次行动结束时，如果你的场上至少有八个可见的奖分，统御此成就。",
+          "raw_en": "Claim this special achievement at the end of any action if you have at least eight bonuses visible on your board.",
+          "function_tags": [],
+          "function_reasons": {}
+        },
+        {
+          "kind": "alternative_condition_for_claiming",
+          "label": "其他统御方式",
+          "zh": "也可以通过“ 【5】 帕稜布”统御。",
+          "en": "May also be claimed via 【5】 Palampore.",
+          "raw_zh": "也可以通过“ ${age_5} 帕稜布”统御。",
+          "raw_en": "May also be claimed via ${age_5} Palampore.",
+          "function_tags": [],
+          "function_reasons": {}
+        }
+      ],
+      "icons": [],
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "notes": [],
+      "art_position": null,
+      "function_tags": [],
+      "function_notes": []
+    },
+    {
+      "id": "S-ECHOES-DESTINY",
+      "set": "Echoes",
+      "age": -1,
+      "color": null,
+      "source_url": "https://github.com/micahstairs/bga-innovation/blob/9b5464e6c9382d587e229741aeaa2de932e4ed8e/material.inc.php",
+      "bga_id": 436,
+      "deck_age": -1,
+      "name_zh": "命运",
+      "name_en": "Destiny",
+      "name_zh_raw": "命运",
+      "set_zh": "回响",
+      "type": "achievement",
+      "effects": [
+        {
+          "kind": "condition_for_claiming",
+          "label": "统御条件",
+          "zh": "如果你的预示区有五张牌，在任一行动结束时统御该成就。",
+          "en": "Claim this special achievement at the end of any action if you have five cards in your forecast.",
+          "raw_zh": "如果你的预示区有五张牌，在任一行动结束时统御该成就。",
+          "raw_en": "Claim this special achievement at the end of any action if you have five cards in your forecast.",
+          "function_tags": [],
+          "function_reasons": {}
+        },
+        {
+          "kind": "alternative_condition_for_claiming",
+          "label": "其他统御方式",
+          "zh": "也可以通过“ 【4】 气压计”统御。",
+          "en": "May also be claimed via 【4】 Barometer.",
+          "raw_zh": "也可以通过“ ${age_4} 气压计”统御。",
+          "raw_en": "May also be claimed via ${age_4} Barometer.",
+          "function_tags": [],
+          "function_reasons": {}
+        }
+      ],
+      "icons": [],
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "notes": [],
+      "art_position": null,
+      "function_tags": [],
+      "function_notes": []
+    },
+    {
+      "id": "S-ECHOES-HERITAGE",
+      "set": "Echoes",
+      "age": -1,
+      "color": null,
+      "source_url": "https://github.com/micahstairs/bga-innovation/blob/9b5464e6c9382d587e229741aeaa2de932e4ed8e/material.inc.php",
+      "bga_id": 437,
+      "deck_age": -1,
+      "name_zh": "遗产",
+      "name_en": "Heritage",
+      "name_zh_raw": "遗产",
+      "set_zh": "回响",
+      "type": "achievement",
+      "effects": [
+        {
+          "kind": "condition_for_claiming",
+          "label": "统御条件",
+          "zh": "任一玩家的一次行动结束时，如果你场上某一颜色有至少八个可见的【六边形】，统御此成就。",
+          "en": "Claim this special achievement at the end of any action if you have at least eight 【hexagon】 visible in one color.",
+          "raw_zh": "任一玩家的一次行动结束时，如果你场上某一颜色有至少八个可见的${icon_0}，统御此成就。",
+          "raw_en": "Claim this special achievement at the end of any action if you have at least eight ${icon_0} visible in one color.",
+          "function_tags": [],
+          "function_reasons": {}
+        },
+        {
+          "kind": "alternative_condition_for_claiming",
+          "label": "其他统御方式",
+          "zh": "也可以通过“ 【6】 织布机”统御。",
+          "en": "May also be claimed via 【6】 Loom.",
+          "raw_zh": "也可以通过“ ${age_6} 织布机”统御。",
+          "raw_en": "May also be claimed via ${age_6} Loom.",
+          "function_tags": [],
+          "function_reasons": {}
+        }
+      ],
+      "icons": [],
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "notes": [],
+      "art_position": null,
+      "function_tags": [],
+      "function_notes": []
+    },
+    {
+      "id": "S-ECHOES-HISTORY",
+      "set": "Echoes",
+      "age": -1,
+      "color": null,
+      "source_url": "https://github.com/micahstairs/bga-innovation/blob/9b5464e6c9382d587e229741aeaa2de932e4ed8e/material.inc.php",
+      "bga_id": 438,
+      "deck_age": -1,
+      "name_zh": "历史",
+      "name_en": "History",
+      "name_zh_raw": "历史",
+      "set_zh": "回响",
+      "type": "achievement",
+      "effects": [
+        {
+          "kind": "condition_for_claiming",
+          "label": "统御条件",
+          "zh": "任一玩家的一次行动结束时，若你有一个颜色的牌堆有四个可见的回声效果，统御此成就。",
+          "en": "Claim this special achievement at the end of any action if you have a color with at least four echo effects.",
+          "raw_zh": "任一玩家的一次行动结束时，若你有一个颜色的牌堆有四个可见的回声效果，统御此成就。",
+          "raw_en": "Claim this special achievement at the end of any action if you have a color with at least four echo effects.",
+          "function_tags": [],
+          "function_reasons": {}
+        },
+        {
+          "kind": "alternative_condition_for_claiming",
+          "label": "其他统御方式",
+          "zh": "也可以通过“ 【7】 摄影”统御。",
+          "en": "May also be claimed via 【7】 Photography.",
+          "raw_zh": "也可以通过“ ${age_7} 摄影”统御。",
+          "raw_en": "May also be claimed via ${age_7} Photography.",
+          "function_tags": [],
+          "function_reasons": {}
+        }
+      ],
+      "icons": [],
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "notes": [],
+      "art_position": null,
+      "function_tags": [],
+      "function_notes": []
+    },
+    {
+      "id": "S-ECHOES-SUPREMACY",
+      "set": "Echoes",
+      "age": -1,
+      "color": null,
+      "source_url": "https://github.com/micahstairs/bga-innovation/blob/9b5464e6c9382d587e229741aeaa2de932e4ed8e/material.inc.php",
+      "bga_id": 439,
+      "deck_age": -1,
+      "name_zh": "霸权",
+      "name_en": "Supremacy",
+      "name_zh_raw": "霸权",
+      "set_zh": "回响",
+      "type": "achievement",
+      "effects": [
+        {
+          "kind": "condition_for_claiming",
+          "label": "统御条件",
+          "zh": "任一玩家的一次行动结束时，如果你至少有四个不同颜色的区域中，每个区域都显示了至少三个相同图标类型的图标，即可统御此特殊成就。（每个颜色的图标类型必须与其他颜色的图标类型相同。）",
+          "en": "Claim this special achievement at the end of any action if you have at least three icons of the same icon type visible in each of at least four different colors. (Each color has to have the same icon type as the other colors.)",
+          "raw_zh": "任一玩家的一次行动结束时，如果你至少有四个不同颜色的区域中，每个区域都显示了至少三个相同图标类型的图标，即可统御此特殊成就。（每个颜色的图标类型必须与其他颜色的图标类型相同。）",
+          "raw_en": "Claim this special achievement at the end of any action if you have at least three icons of the same icon type visible in each of at least four different colors. (Each color has to have the same icon type as the other colors.)",
+          "function_tags": [],
+          "function_reasons": {}
+        },
+        {
+          "kind": "alternative_condition_for_claiming",
+          "label": "其他统御方式",
+          "zh": "也可以通过“ 【3】 小说”统御。",
+          "en": "May also be claimed via 【3】 Novel.",
+          "raw_zh": "也可以通过“ ${age_3} 小说”统御。",
+          "raw_en": "May also be claimed via ${age_3} Novel.",
+          "function_tags": [],
+          "function_reasons": {}
+        }
+      ],
+      "icons": [],
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "notes": [],
+      "art_position": null,
+      "function_tags": [],
+      "function_notes": []
+    }
+  ],
+  "terms": [
+    {
+      "id": "echo",
+      "zh": "回声 / 回响",
+      "en": "Echo",
+      "pages": [
+        24
+      ],
+      "text": "占一个标记位置的小效果。激活某颜色的条例时，先从底到顶执行该颜色全部可见回声。回声是可共享的非要求效果。",
+      "aliases": [
+        "回响",
+        "Echo",
+        "回声",
+        "回音",
+        "echo effect"
+      ],
+      "official": "Echo",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=24"
+    },
+    {
+      "id": "foreshadow",
+      "zh": "预示",
+      "en": "Foreshadow",
+      "pages": [
+        12,
+        25
+      ],
+      "text": "把牌背面朝上放入预示区，自己可看正面。容量由最强展开决定；已达上限时不移动该牌。融合行动后必须推进一张时代不高于新融合牌的预示牌，随后免费发动其条例。",
+      "aliases": [
+        "预示",
+        "Foreshadow",
+        "预示区",
+        "預示",
+        "forecast",
+        "foreshadowed"
+      ],
+      "official": "Foreshadow",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=12",
+      "original": "Put the card in your Forecast, tucked face-down under the top edge of your Reference Card.",
+      "card_source": "https://www.asmadigames.com/innovation/index.php?cardID=E001"
+    },
+    {
+      "id": "foreseen",
+      "zh": "因预示执行",
+      "en": "Foreseen",
+      "pages": [
+        12,
+        25
+      ],
+      "text": "仅在某牌从预示区推进后，对它进行的那次免费条例行动中，才满足“If this card was foreseen”。不等于它过去曾进入预示区。",
+      "aliases": [
+        "因预示执行",
+        "Foreseen",
+        "因昭示入场",
+        "因昭示入場",
+        "因预示入场",
+        "was foreseen"
+      ],
+      "official": "Foreseen",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=12",
+      "original": "A card was foreseen if it is currently being executed during an extra Dogma Action after a foreshadow promotion.",
+      "card_source": "https://www.asmadigames.com/innovation/index.php?cardID=E007"
+    },
+    {
+      "id": "promote",
+      "zh": "推进 / 晋升",
+      "en": "Promote",
+      "pages": [
+        25
+      ],
+      "text": "融合行动完成后，必须从预示区选择一张时代不高于刚融合牌的牌融合，并对其进行一次免费条例行动。这次融合不另算融合行动。",
+      "aliases": [
+        "晋升",
+        "Promote",
+        "昭示",
+        "promoted",
+        "推进"
+      ],
+      "official": "Promote",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=25"
+    },
+    {
+      "id": "bonus",
+      "zh": "奖励图标",
+      "en": "Bonus icon",
+      "pages": [
+        7,
+        21
+      ],
+      "text": "自己场上最高的可见奖励按其数字增加分数，其他每个可见奖励各加 1 分。重复的同值奖励也只有其中一个按最高值计分。",
+      "aliases": [
+        "奖励图标",
+        "Bonus icon",
+        "奖分",
+        "bonus icons"
+      ],
+      "official": "Bonus icon",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=7"
+    },
+    {
+      "id": "icon10",
+      "zh": "回声",
+      "en": "Echo",
+      "aliases": [],
+      "text": "回声占据卡牌标记位置。发动该颜色时，先从下到上执行所有可见回声，再执行置顶牌条例；按置顶牌的特性图标判定分享。",
+      "pages": [
+        24
+      ]
+    },
+    {
+      "id": "icon101",
+      "zh": "奖分 1",
+      "en": "Bonus 1",
+      "aliases": [],
+      "text": "可见奖分计入总分：所有可见奖分中最高的一个按其数值计分，其余每个加 1 分。本标记数值为 1。",
+      "pages": [
+        21
+      ]
+    },
+    {
+      "id": "icon102",
+      "zh": "奖分 2",
+      "en": "Bonus 2",
+      "aliases": [],
+      "text": "可见奖分计入总分：所有可见奖分中最高的一个按其数值计分，其余每个加 1 分。本标记数值为 2。",
+      "pages": [
+        21
+      ]
+    },
+    {
+      "id": "icon103",
+      "zh": "奖分 3",
+      "en": "Bonus 3",
+      "aliases": [],
+      "text": "可见奖分计入总分：所有可见奖分中最高的一个按其数值计分，其余每个加 1 分。本标记数值为 3。",
+      "pages": [
+        21
+      ]
+    },
+    {
+      "id": "icon104",
+      "zh": "奖分 4",
+      "en": "Bonus 4",
+      "aliases": [],
+      "text": "可见奖分计入总分：所有可见奖分中最高的一个按其数值计分，其余每个加 1 分。本标记数值为 4。",
+      "pages": [
+        21
+      ]
+    },
+    {
+      "id": "icon105",
+      "zh": "奖分 5",
+      "en": "Bonus 5",
+      "aliases": [],
+      "text": "可见奖分计入总分：所有可见奖分中最高的一个按其数值计分，其余每个加 1 分。本标记数值为 5。",
+      "pages": [
+        21
+      ]
+    },
+    {
+      "id": "icon106",
+      "zh": "奖分 6",
+      "en": "Bonus 6",
+      "aliases": [],
+      "text": "可见奖分计入总分：所有可见奖分中最高的一个按其数值计分，其余每个加 1 分。本标记数值为 6。",
+      "pages": [
+        21
+      ]
+    },
+    {
+      "id": "icon107",
+      "zh": "奖分 7",
+      "en": "Bonus 7",
+      "aliases": [],
+      "text": "可见奖分计入总分：所有可见奖分中最高的一个按其数值计分，其余每个加 1 分。本标记数值为 7。",
+      "pages": [
+        21
+      ]
+    },
+    {
+      "id": "icon108",
+      "zh": "奖分 8",
+      "en": "Bonus 8",
+      "aliases": [],
+      "text": "可见奖分计入总分：所有可见奖分中最高的一个按其数值计分，其余每个加 1 分。本标记数值为 8。",
+      "pages": [
+        21
+      ]
+    },
+    {
+      "id": "icon109",
+      "zh": "奖分 9",
+      "en": "Bonus 9",
+      "aliases": [],
+      "text": "可见奖分计入总分：所有可见奖分中最高的一个按其数值计分，其余每个加 1 分。本标记数值为 9。",
+      "pages": [
+        21
+      ]
+    },
+    {
+      "id": "icon110",
+      "zh": "奖分 10",
+      "en": "Bonus 10",
+      "aliases": [],
+      "text": "可见奖分计入总分：所有可见奖分中最高的一个按其数值计分，其余每个加 1 分。本标记数值为 10。",
+      "pages": [
+        21
+      ]
+    },
+    {
+      "id": "icon111",
+      "zh": "奖分 11",
+      "en": "Bonus 11",
+      "aliases": [],
+      "text": "可见奖分计入总分：所有可见奖分中最高的一个按其数值计分，其余每个加 1 分。本标记数值为 11。",
+      "pages": [
+        21
+      ]
+    },
+    {
+      "id": "icon112",
+      "zh": "奖分 12",
+      "en": "Bonus 12",
+      "aliases": [],
+      "text": "可见奖分计入总分：所有可见奖分中最高的一个按其数值计分，其余每个加 1 分。本标记数值为 12。",
+      "pages": [
+        21
+      ]
+    }
+  ],
+  "icon_names": {
+    "10": "回声",
+    "101": "奖分 1",
+    "102": "奖分 2",
+    "103": "奖分 3",
+    "104": "奖分 4",
+    "105": "奖分 5",
+    "106": "奖分 6",
+    "107": "奖分 7",
+    "108": "奖分 8",
+    "109": "奖分 9",
+    "110": "奖分 10",
+    "111": "奖分 11",
+    "112": "奖分 12"
+  }
+}

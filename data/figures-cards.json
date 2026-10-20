@@ -1,0 +1,4970 @@
+{
+  "meta": {
+    "edition": "Innovation Ultimate / Fourth edition",
+    "figure_count": 115,
+    "decree_count": 5,
+    "age_zero_count": 15,
+    "rules_source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf"
+  },
+  "cards": [
+    {
+      "id": "F001",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "汉谟拉比",
+      "name_en": "HAMMURABI",
+      "age": 1,
+      "color": "RED",
+      "spots": [
+        3,
+        7,
+        0,
+        102,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        3,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F001",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要执行一项能够影响你的要求类效果，在那之前先由你对那位玩家执行该要求类效果。",
+          "en": "If a player would execute a demand effect against you, first execute that demand effect yourself on that player."
+        }
+      ]
+    },
+    {
+      "id": "F002",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "吉尔伽美什",
+      "name_en": "GILGAMESH",
+      "age": 1,
+      "color": "RED",
+      "spots": [
+        7,
+        0,
+        101,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        4,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F002",
+      "effects": [
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你面板中的每个【权威】额外为你提供1个【权威】和1个【工业】。",
+          "en": "Each 【authority】 on your board provides one additional 【authority】 and one additional 【industry】."
+        },
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "对手面板中的每个【权威】为该玩家提供-1分。",
+          "en": "Each 【authority】 on an opponent's board subtracts one point from that opponent's score."
+        }
+      ]
+    },
+    {
+      "id": "F003",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "提根莫斯",
+      "name_en": "TIGERNMAS",
+      "age": 1,
+      "color": "RED",
+      "spots": [
+        0,
+        2,
+        7,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        5,
+        4
+      ],
+      "notes": [
+        "卡面差异：按左上、左下、中下、右下，中文卡面为权威、插图、健康、头像；官方终极版卡面为插图、健康、头像、健康。本图鉴展示和标记筛选采用官方终极版排列，中文卡面原始排列另行保留，差异原因尚未确定。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F003",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布战争法令。",
+          "en": "You may issue a War Decree with any two figures."
+        },
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你手牌中的每张卡牌为你提供1分。",
+          "en": "Each card in your hand provides one additional point towards your score."
+        }
+      ]
+    },
+    {
+      "id": "F004",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "孙叔敖",
+      "name_en": "SUNSHU AO",
+      "age": 1,
+      "color": "YELLOW",
+      "spots": [
+        0,
+        101,
+        7,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        9,
+        4
+      ],
+      "notes": [
+        "卡面差异：按左上、左下、中下、右下，中文卡面为健康、插图、奖励1、头像；官方终极版卡面为插图、奖励1、头像、权威。本图鉴展示和标记筛选采用官方终极版排列，中文卡面原始排列另行保留，差异原因尚未确定。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F004",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你在融合行动中将要融合1张非伟人牌，则改为独自执行该卡牌的效果。",
+          "en": "If you would meld a non-figure with a Meld action, instead self-execute it."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你在本回合中将要置底第6张卡牌，或将要计分第6张卡牌时，则首先抽取1张【1】并作为成就宣称。",
+          "en": "If you would tuck a sixth card or score a sixth card this turn, first draw and achieve a 【1】."
+        }
+      ]
+    },
+    {
+      "id": "F005",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "神农",
+      "name_en": "SHENNONG",
+      "age": 1,
+      "color": "YELLOW",
+      "spots": [
+        2,
+        2,
+        0,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        10,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F005",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你在你的第一行动中将要抽取1张【1】，则首先抽取1张时代等同于你手牌中【1】数量的卡牌并计分。",
+          "en": "If you would draw a 【1】 during your first action, first draw and score a card of value equal to the number of 【1】 in your hand."
+        }
+      ]
+    },
+    {
+      "id": "F006",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "斯尼夫鲁",
+      "name_en": "SNEFERU",
+      "age": 1,
+      "color": "YELLOW",
+      "spots": [
+        0,
+        4,
+        4,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        11,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F006",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布扩张法令。",
+          "en": "You may issue an Expansion Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合1张卡牌，则首先抽取1张【2】并置底。如果该置底的卡牌不带有【权威】，则将其归还。",
+          "en": "If you would meld a card, first draw and tuck a 【2】. If the tucked card has no 【authority】, return it."
+        }
+      ]
+    },
+    {
+      "id": "F007",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "哈特谢普苏特",
+      "name_en": "HATSHEPSUT",
+      "age": 1,
+      "color": "GREEN",
+      "spots": [
+        101,
+        1,
+        7,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        6,
+        4
+      ],
+      "notes": [
+        "游戏中的该段文字已依官方终极版英文修正；独立图鉴保留的原始社区译文未改动。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F007",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要抽取高于时代 1 的牌，且手中有【1】 的牌，首先归还你的所有手牌；每归还一张，抽取一张原本将要抽取时代的牌。",
+          "en": "If you would draw a card of value higher than 1 and you have a 【1】 in your hand, first return all cards from your hand and draw a card of that value for each card you return."
+        }
+      ]
+    },
+    {
+      "id": "F008",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "伏羲",
+      "name_en": "FU XI",
+      "age": 1,
+      "color": "GREEN",
+      "spots": [
+        7,
+        1,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        7,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F008",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布贸易法令。",
+          "en": "You may issue a Trade Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你在你的第一行动中将要抽取1张卡牌，则首先抽取1张【2】并计分。",
+          "en": "If you would draw a card during your first action, first draw and score a 【2】."
+        }
+      ]
+    },
+    {
+      "id": "F009",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "萨尔贡一世",
+      "name_en": "SARGON OF AKKAD",
+      "age": 1,
+      "color": "GREEN",
+      "spots": [
+        101,
+        1,
+        0,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        8,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F009",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果在判定共享条件时你不满足参与共享的条件，则改为你满足条件，并废弃1张时代为1的可用成就。",
+          "en": "If you would not be eligible for sharing, instead become eligible for sharing and junk an available achievement of value 1."
+        }
+      ]
+    },
+    {
+      "id": "F010",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "代达罗斯",
+      "name_en": "DAEDALUS",
+      "age": 1,
+      "color": "BLUE",
+      "spots": [
+        7,
+        0,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        0,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F010",
+      "effects": [
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "当你宣称成就时，你的面板中每有1种颜色处于未展开状态，你置顶牌的最高时代便视为比原本时代高1时代。",
+          "en": "Each unsplayed color on your board adds one to the value of your highest top card for the purpose of claiming achievements."
+        }
+      ]
+    },
+    {
+      "id": "F011",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "伊姆霍特普",
+      "name_en": "IMHOTEP",
+      "age": 1,
+      "color": "BLUE",
+      "spots": [
+        4,
+        0,
+        4,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        1,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F011",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你在你的第二行动中将要选择1张【1】来执行条例行动，则首先抽取1张【2】并融合，然后将你融合的卡牌颜色向左展开。如果你成功执行了融合和展开，且融合的卡牌是【2】，则从所有面板中归还该颜色的置顶牌。",
+          "en": "If you would dogma a 【1】 as your second action, first draw and meld a 【2】, then splay left the color of the melded card on your board. If you do both, and the melded card was a 【2】, return the top card of that color from all boards."
+        }
+      ]
+    },
+    {
+      "id": "F012",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "黄帝",
+      "name_en": "HUANG DI",
+      "age": 1,
+      "color": "BLUE",
+      "spots": [
+        3,
+        3,
+        7,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        2,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F012",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布进步法令。",
+          "en": "You may issue an Advancement Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要选择1张特性图标为【健康】的卡牌来执行条例行动，则首先抽取1张【2】。",
+          "en": "If you would dogma a card using 【health】 as a featured icon, first draw a 【2】."
+        }
+      ]
+    },
+    {
+      "id": "F013",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "普塔霍特普",
+      "name_en": "PTAHHOTEP",
+      "age": 1,
+      "color": "PURPLE",
+      "spots": [
+        0,
+        7,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        12,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F013",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你在你的第二行动中将要执行条例行动，则改为从你手牌中将1张卡牌计分。若你如此做，则超级执行计分的卡牌的效果。",
+          "en": "If you would dogma a card as your second action, instead score a card from your hand. If you do, super-execute the scored card."
+        }
+      ]
+    },
+    {
+      "id": "F014",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "辛努亥",
+      "name_en": "SINUHE",
+      "age": 1,
+      "color": "PURPLE",
+      "spots": [
+        7,
+        2,
+        2,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        13,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F014",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布竞争法令。",
+          "en": "You may issue a Rivalry Decree with any two figures."
+        },
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你面板中的每个【权威】为你提供1分。",
+          "en": "Each 【authority】 on your board provides one additional point towards your score."
+        }
+      ]
+    },
+    {
+      "id": "F015",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "荷马",
+      "name_en": "HOMER",
+      "age": 1,
+      "color": "PURPLE",
+      "spots": [
+        0,
+        7,
+        102,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        14,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F015",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行条例行动，则首先抽取1张【2】并置底，然后如果置底的卡牌颜色与将要执行条例的卡牌颜色不同，则从你置底的卡牌堆叠中归还置顶牌。",
+          "en": "If you would dogma a card of a color, first draw and tuck a 【2】, then return your top card of the drawn card's color if it is different."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要从你手牌中废弃或归还伟人牌，则改为将其置底。",
+          "en": "If you would junk or return a figure from your hand, instead tuck it."
+        }
+      ]
+    },
+    {
+      "id": "F016",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "孙武",
+      "name_en": "SUN TZU",
+      "age": 2,
+      "color": "RED",
+      "spots": [
+        7,
+        4,
+        0,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        17,
+        4
+      ],
+      "notes": [
+        "用词说明：卡面将共享奖励称为“免费抽牌行动”。官方英文这里指共享奖励抽牌，并非玩家主动选择的 Draw action；触发时点须按英文与规则区分。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F016",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布战争法令。",
+          "en": "You may issue a War Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要因为共享而进行免费抽牌行动，则首先从你手牌中将任意数量的带有本次共享条例特性图标的卡牌融合。",
+          "en": "If you would draw for a share bonus, first meld any number of cards from your hand having the Dogma action's featured icon."
+        }
+      ]
+    },
+    {
+      "id": "F017",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "亚历山大大帝",
+      "name_en": "ALEXANDER THE GREAT",
+      "age": 2,
+      "color": "RED",
+      "spots": [
+        102,
+        7,
+        0,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        18,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F017",
+      "effects": [
+        {
+          "kind": "karma_when",
+          "label": "业报 · When（融合时）",
+          "zh": "当你融合本卡牌时，将所有对手的置顶伟人牌计分。",
+          "en": "When you meld this card, score all opponents' top figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行条例行动，则首先抽取1张【2】并计分。如果抽取的卡牌不是【2】，则将亚历山大大帝计分。",
+          "en": "If you would take a Dogma action, first draw and score a 【2】. If it isn't a 【2】, score Alexander the Great."
+        }
+      ]
+    },
+    {
+      "id": "F018",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "西门豹",
+      "name_en": "XIMEN BAO",
+      "age": 2,
+      "color": "YELLOW",
+      "spots": [
+        7,
+        102,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        21,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F018",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布扩张法令。",
+          "en": "You may issue an Expansion Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要颁布一项法令，则首先废弃所有对手的所有手牌。",
+          "en": "If you would issue a Decree, first junk all cards from all opponents' hands."
+        }
+      ]
+    },
+    {
+      "id": "F019",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "蔡伦",
+      "name_en": "CAI LUN",
+      "age": 2,
+      "color": "YELLOW",
+      "spots": [
+        7,
+        1,
+        1,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        22,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F019",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要将1张卡牌计分，则首先将你面板中的所有颜色向左展开。",
+          "en": "If a player would score a card, first splay all colors on your board left."
+        },
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你面板中的每个未展开的颜色堆叠的置顶牌均可被你视为可用成就。",
+          "en": "Each top card on your board of a color not splayed counts as an available achievement for you."
+        }
+      ]
+    },
+    {
+      "id": "F020",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "托勒密",
+      "name_en": "PTOLEMY",
+      "age": 2,
+      "color": "GREEN",
+      "spots": [
+        0,
+        1,
+        7,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        19,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F020",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布贸易法令。",
+          "en": "You may issue a Trade Decree with any two figures."
+        },
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "每位玩家面板中的蓝色置顶牌均视为你可以在条例行动中选择执行效果的卡牌。",
+          "en": "Each top blue card on every player's board counts as a card you can activate with a Dogma action."
+        }
+      ]
+    },
+    {
+      "id": "F021",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "奥古斯都·凯撒",
+      "name_en": "AUGUSTUS CAESAR",
+      "age": 2,
+      "color": "GREEN",
+      "spots": [
+        4,
+        0,
+        4,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        20,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F021",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要选择1张带有【权威】的卡牌来执行条例行动，则改为你抽取1张时代相同的卡牌并展示。如果展示的卡牌带有【权威】或【概念】，则你将其融合。否则，那位玩家对原本将要执行条例的卡牌进行超级执行。",
+          "en": "If a player would dogma a card with 【authority】, instead draw and reveal a card of the same value. If it has 【authority】 or 【concept】, meld it. Otherwise, the player super-executes the original card."
+        }
+      ]
+    },
+    {
+      "id": "F022",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "阿基米德",
+      "name_en": "ARCHIMEDES",
+      "age": 2,
+      "color": "BLUE",
+      "spots": [
+        3,
+        0,
+        7,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        15,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F022",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布进步法令。",
+          "en": "You may issue an Advancement Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行一项效果，则首先在该效果期间将所有【 】中提及的时代视为比原本高1时代。",
+          "en": "If you would execute an effect, first increase every 【 】 value in the effect by one for the duration of the effect."
+        }
+      ]
+    },
+    {
+      "id": "F023",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "张衡",
+      "name_en": "ZHANG HENG",
+      "age": 2,
+      "color": "BLUE",
+      "spots": [
+        2,
+        7,
+        102,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        16,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F023",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要宣称一项成就，你首先抽取1张【3】并置底，然后将堆叠中该置底的卡牌上方的所有卡牌计分。",
+          "en": "If a player would claim an achievement, first draw and tuck a 【3】, then score all cards above the tucked card."
+        }
+      ]
+    },
+    {
+      "id": "F024",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "孔子",
+      "name_en": "CONFUCIUS",
+      "age": 2,
+      "color": "PURPLE",
+      "spots": [
+        0,
+        2,
+        7,
+        103,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        23,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F024",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要选择1张特性图标为【权威】的卡牌来执行条例行动，则改为将该卡牌计分，并废弃【2】或【3】牌堆中的所有卡牌。",
+          "en": "If you would dogma a card using 【authority】 as a featured icon, instead score the card and junk all cards in the 【2】 deck or the 【3】 deck."
+        }
+      ]
+    },
+    {
+      "id": "F025",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "柏拉图",
+      "name_en": "PLATO",
+      "age": 2,
+      "color": "PURPLE",
+      "spots": [
+        3,
+        0,
+        3,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        24,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F025",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布竞争法令。",
+          "en": "You may issue a Rivalry Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你在你的第一行动中将要执行条例行动，则首先将要执行条例的卡牌颜色向左展开。若你未如此做，则废弃1张时代为2的可用成就。",
+          "en": "If you would dogma a card as your first action, first splay the card's color left. If you don't, junk an available achievement of value 2."
+        }
+      ]
+    },
+    {
+      "id": "F026",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "陈兴道",
+      "name_en": "TRAN HUANG DAO",
+      "age": 3,
+      "color": "RED",
+      "spots": [
+        0,
+        7,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        27,
+        4
+      ],
+      "notes": [
+        "游戏中的该段文字已依官方终极版英文修正；独立图鉴保留的原始社区译文未改动。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F026",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要抽取1张【3】，则首先从任意面板中将1张时代小于4的红色置顶牌计分。",
+          "en": "If you would draw a 【3】, first score a top red card of value less than 4 from anywhere."
+        },
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你面板上每两个【权威】，额外提供你面板上已有的每种其他标准图标各一个。",
+          "en": "Each two 【authority】 on your board provides one additional icon of every other standard icon type on your board."
+        }
+      ]
+    },
+    {
+      "id": "F027",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "萨拉丁",
+      "name_en": "SALADIN",
+      "age": 3,
+      "color": "RED",
+      "spots": [
+        103,
+        0,
+        7,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        28,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F027",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布战争法令。",
+          "en": "You may issue a War Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要选择1张带有要求类效果的卡牌来执行条例行动，则改为从每位对手的面板中将每个颜色的1张带有【权威】的置顶牌计分。",
+          "en": "If you would dogma a card with a demand effect, instead score a top card with 【authority】 of each color on each opponent's board."
+        }
+      ]
+    },
+    {
+      "id": "F028",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "阿维森纳",
+      "name_en": "AVICENNA",
+      "age": 3,
+      "color": "YELLOW",
+      "spots": [
+        7,
+        2,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        31,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F028",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布扩张法令。",
+          "en": "You may issue an Expansion Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你在你的第一行动中将要执行条例行动，则改为废弃1张最低时代的可用标准成就，并超级执行废弃的卡牌的效果。",
+          "en": "If you would dogma a card as your first action, instead junk the lowest available standard achievement, then super-execute the junked card."
+        }
+      ]
+    },
+    {
+      "id": "F029",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "拉齐斯",
+      "name_en": "RHAZES",
+      "age": 3,
+      "color": "YELLOW",
+      "spots": [
+        0,
+        2,
+        2,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        32,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F029",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要抽取1张卡牌，则首先从你手牌或任意对手的分数区中将1张与将要抽取的卡牌时代相同的卡牌置底。",
+          "en": "If you would draw a card, first tuck a card of the same value from your hand or from an opponent's score pile."
+        }
+      ]
+    },
+    {
+      "id": "F030",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "沈括",
+      "name_en": "SHEN KUO",
+      "age": 3,
+      "color": "GREEN",
+      "spots": [
+        1,
+        0,
+        7,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        29,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F030",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要将1张某种颜色的非伟人牌计分，或将你的1种颜色向左展开时，改为将该颜色向右展开。",
+          "en": "If you would score a non-figure of a color or splay a color of your cards left, instead splay that color right."
+        },
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你面板中的每张可见卡牌为你提供1分。",
+          "en": "Each visible card on your board provides an additional point towards your score."
+        }
+      ]
+    },
+    {
+      "id": "F031",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "苏颂",
+      "name_en": "SU SONG",
+      "age": 3,
+      "color": "GREEN",
+      "spots": [
+        1,
+        7,
+        0,
+        103,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        30,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F031",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布贸易法令。",
+          "en": "You may issue a Trade Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合1张卡牌，则首先抽取1张【3】并融合。如果抽取的卡牌不带有【健康】，则将其归还。",
+          "en": "If you would meld a card, first draw and meld a 【3】. If the drawn card has no 【health】, return it."
+        }
+      ]
+    },
+    {
+      "id": "F032",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "阿尔哈森",
+      "name_en": "ALHAZEN",
+      "age": 3,
+      "color": "BLUE",
+      "spots": [
+        3,
+        3,
+        7,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        25,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F032",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行抽牌行动，则改为将任意面板中的1张带有【权威】的置顶牌置底于你的面板中。然后根据你面板中由你所选的颜色堆叠中的【权威】或【概念】的数量，抽取1张时代等同于该数量的卡牌。",
+          "en": "If you would take a Draw action, instead tuck a top card with 【authority】 from anywhere. Then draw a card of value equal to the number of 【authority】 or 【concept】 in a color on your board."
+        }
+      ]
+    },
+    {
+      "id": "F033",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "世宗大王",
+      "name_en": "SEJONG THE GREAT",
+      "age": 3,
+      "color": "BLUE",
+      "spots": [
+        7,
+        103,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        26,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F033",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布进步法令。",
+          "en": "You may issue an Advancement Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合1张与你红色置顶牌时代相同的卡牌，则改为归还将要融合的卡牌，再抽取1张高1时代的卡牌并融合。",
+          "en": "If you would meld a card of value equal to your top red card, instead return it and draw and meld a card of value one higher."
+        }
+      ]
+    },
+    {
+      "id": "F034",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "紫式部",
+      "name_en": "MURASAKI SHIKIBU",
+      "age": 3,
+      "color": "PURPLE",
+      "spots": [
+        3,
+        0,
+        104,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        33,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F034",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布竞争法令。",
+          "en": "You may issue a Rivalry Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要宣称一项标准成就，则你首先可以从你分数区将1张卡牌作为成就宣称（需满足宣称条件），这2次宣称都不计算分数区中的这张卡牌的分数。",
+          "en": "If you would claim a standard achievement, first you may achieve a card from your score pile if eligible for both without its points."
+        }
+      ]
+    },
+    {
+      "id": "F035",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "肯迪",
+      "name_en": "AL-KINDI",
+      "age": 3,
+      "color": "PURPLE",
+      "spots": [
+        0,
+        1,
+        1,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        34,
+        4
+      ],
+      "notes": [
+        "用词说明：卡面将共享奖励称为“免费抽牌行动”。官方英文这里指共享奖励抽牌，并非玩家主动选择的 Draw action；触发时点须按英文与规则区分。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F035",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要因为共享而进行免费抽牌行动，则首先抽取2张与将要抽取的卡牌时代相同的卡牌。",
+          "en": "If you would draw a card for sharing, first draw two cards of the same value."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位其他玩家将要因为共享而进行免费抽牌行动，则你首先从你手牌中将1张卡牌计分。",
+          "en": "If another player would draw a card for sharing, first score a card from your hand."
+        }
+      ]
+    },
+    {
+      "id": "F036",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "阿米娜·苏盖拉",
+      "name_en": "AMINA SUKHERA",
+      "age": 4,
+      "color": "RED",
+      "spots": [
+        5,
+        7,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        37,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F036",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你在你的第二行动中将要执行条例行动，则首先从一位对手的手牌中将1张伟人牌计分。",
+          "en": "If you would dogma a card as your second action, first score a figure from an opponent's hand."
+        },
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你面板中的每张带有【权威】的置顶牌均可被你视为可用成就。",
+          "en": "Each top card with 【authority】 on your board counts as an available achievement for you."
+        }
+      ]
+    },
+    {
+      "id": "F037",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "李舜臣",
+      "name_en": "YI SUN-SIN",
+      "age": 4,
+      "color": "RED",
+      "spots": [
+        104,
+        0,
+        5,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        38,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F037",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要转移1张卡牌或交换任意数量的卡牌，则改为你将这些卡牌置底，然后抽取1张【4】并置底，再将任意面板中的1张带有【权威】的置顶牌计分。",
+          "en": "If any player would transfer a card or exchange any number of cards, instead tuck that card or those cards, draw and tuck a 【4】, and score a top card with 【authority】 from anywhere."
+        }
+      ]
+    },
+    {
+      "id": "F038",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "列奥纳多·达·芬奇",
+      "name_en": "LEONARDO DA VINCI",
+      "age": 4,
+      "color": "YELLOW",
+      "spots": [
+        7,
+        105,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        41,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F038",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合1张卡牌，则你首先从你手牌中融合另1张卡牌。如果先融合的这张卡牌是紫色，则抽取3张【4】，然后从任意面板中将1张置顶伟人牌计分。",
+          "en": "If you would meld a card, first meld another card in your hand. If the other card is purple, draw three 【4】, then score a top figure from anywhere."
+        }
+      ]
+    },
+    {
+      "id": "F039",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "米开朗基罗",
+      "name_en": "MICHELANGELO",
+      "age": 4,
+      "color": "YELLOW",
+      "spots": [
+        1,
+        0,
+        7,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        42,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F039",
+      "effects": [
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你手牌中的每张卡牌同时视为位于你的分数区。",
+          "en": "Each card in your hand is also considered part of your score pile."
+        }
+      ]
+    },
+    {
+      "id": "F040",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "伽利略·伽利雷",
+      "name_en": "GALILEO GALILEI",
+      "age": 4,
+      "color": "GREEN",
+      "spots": [
+        0,
+        1,
+        1,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        39,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F040",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要抽取1张卡牌，则首先废弃【4】或【5】牌堆中的所有卡牌。",
+          "en": "If you would draw a card, first junk all cards in either the 【4】 or 【5】 deck."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合1张卡牌，则首先废弃1张时代为3、4或5的可用成就。",
+          "en": "If you would meld a card, first junk an available achievement of value 3, 4, or 5."
+        }
+      ]
+    },
+    {
+      "id": "F041",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "佩德罗·阿尔瓦雷斯·卡布拉尔",
+      "name_en": "PEDRO ALVARES CABRAL",
+      "age": 4,
+      "color": "GREEN",
+      "spots": [
+        104,
+        2,
+        0,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        40,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F041",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布贸易法令。",
+          "en": "You may issue a Trade Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要选择1张【1】来执行条例行动，则改为宣称世界成就。若你未如此做，且一神论是你面板中的置顶牌，你获胜。",
+          "en": "If you would dogma a 【1】, instead claim the World achievement. If you don't, and Monotheism is a top card on your board, you win."
+        }
+      ]
+    },
+    {
+      "id": "F042",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "塔其·阿丁",
+      "name_en": "TAKI AD-DIN",
+      "age": 4,
+      "color": "BLUE",
+      "spots": [
+        7,
+        2,
+        2,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        35,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F042",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布进步法令。",
+          "en": "You may issue an Advancement Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行抽牌行动，则改为抽取1张【5】并展示，然后将你面板中与抽取的卡牌颜色相同的堆叠向右展开。如果抽取的卡牌带有【概念】，则将其融合。",
+          "en": "If you would take a Draw action, instead draw and reveal a 【5】, and splay its color on your board right. If the drawn card has 【concept】, meld it."
+        }
+      ]
+    },
+    {
+      "id": "F043",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "约翰尼斯·开普勒",
+      "name_en": "JOHANNES KEPLER",
+      "age": 4,
+      "color": "BLUE",
+      "spots": [
+        0,
+        3,
+        7,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        36,
+        4
+      ],
+      "notes": [
+        "游戏中的该段文字已依官方终极版英文修正；独立图鉴保留的原始社区译文未改动。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F043",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要进行条例行动，改为进行该行动，并使该行动中每段效果的所有【时代数值】增加你面板上大于 3 的不同置顶时代数。",
+          "en": "If you would take a Dogma action, instead do so while increasing each 【 】 value in every effect during this action by the number of different top card values on your board greater than 3."
+        }
+      ]
+    },
+    {
+      "id": "F044",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "尼科洛·马基雅维利",
+      "name_en": "NICCOLÒ MACHIAVELLI",
+      "age": 4,
+      "color": "PURPLE",
+      "spots": [
+        7,
+        3,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        43,
+        4
+      ],
+      "notes": [
+        "名称对应说明：Yucata 英文姓名与 Asmadi 官方拼写不同，已按卡牌编号和中文卡面对应；英文显示官方拼写。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F044",
+      "effects": [
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "每种仅在你面板中向右展开的颜色均视为你额外拥有了一项成就。",
+          "en": "Each color splayed right on only your board counts as an achievement for you."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要将你的1种颜色展开，则首先将所有对手面板中的该颜色恢复为未展开状态。",
+          "en": "If you would splay a color on your board, first unsplay that color on all opponents' boards."
+        }
+      ]
+    },
+    {
+      "id": "F045",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "威廉·莎士比亚",
+      "name_en": "WILLIAM SHAKESPEARE",
+      "age": 4,
+      "color": "PURPLE",
+      "spots": [
+        104,
+        7,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        44,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F045",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意1张伟人牌便可颁布竞争法令。",
+          "en": "You may issue a Rivalry Decree with any one figure."
+        },
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意3张伟人牌便可颁布任意一项法令。",
+          "en": "You may issue any Decree with any three figures."
+        }
+      ]
+    },
+    {
+      "id": "F046",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "希瓦吉",
+      "name_en": "SHIVAJI",
+      "age": 5,
+      "color": "RED",
+      "spots": [
+        7,
+        5,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        47,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F046",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位对手将要宣称一项成就，则你首先宣称另一项可用的标准成就（需满足宣称条件）。",
+          "en": "If an opponent would claim an achievement, first you claim another available standard achievement if eligible."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要选择1张黄色牌来执行条例行动，则首先将你面板中的所有紫色牌转移至可用成就区。",
+          "en": "If you would dogma a yellow card, first transfer all purple cards on your board to the available achievements."
+        }
+      ]
+    },
+    {
+      "id": "F047",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "彼得大帝",
+      "name_en": "PETER THE GREAT",
+      "age": 5,
+      "color": "RED",
+      "spots": [
+        5,
+        7,
+        105,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        48,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F047",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布战争法令。",
+          "en": "You may issue a War Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要归还1张卡牌，则首先将你的绿色置底牌计分。如果计分的卡牌带有【繁荣】，再将你的绿色置底牌作为成就宣称（需满足宣称条件）。",
+          "en": "If you would return a card, first score your bottom green card. If the scored card has 【prosperity】, achieve your bottom green card, if eligible."
+        }
+      ]
+    },
+    {
+      "id": "F048",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "安东尼·范·列文虎克",
+      "name_en": "ANTONIE VAN LEEUWENHOEK",
+      "age": 5,
+      "color": "YELLOW",
+      "spots": [
+        7,
+        3,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        51,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F048",
+      "effects": [
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你手牌中的每张卡牌在宣称与之时代相同的成就时为你提供10分。",
+          "en": "Each card in your hand counts as ten points towards the cost of claiming an achievement of that card's value."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要抽取1张卡牌，你首先可以从你手牌中归还1张【5】。若你如此做，则抽取1张【6】。",
+          "en": "If you would draw a card, first you may return a 【5】 from your hand. If you do, draw a 【6】."
+        }
+      ]
+    },
+    {
+      "id": "F049",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "克里斯托弗·波勒姆",
+      "name_en": "CHRISTOPHER POLHEM",
+      "age": 5,
+      "color": "YELLOW",
+      "spots": [
+        0,
+        5,
+        5,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        52,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F049",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布扩张法令。",
+          "en": "You may issue an Expansion Decree with any two figures."
+        },
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你面板中的每个【工业】为你提供等同于你已拥有的成就数量的分数。",
+          "en": "Each 【industry】 on your board provides one additional point towards your score for every achievement you have."
+        }
+      ]
+    },
+    {
+      "id": "F050",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "塞缪尔·德·尚普兰",
+      "name_en": "SAMUEL DE CHAMPLAIN",
+      "age": 5,
+      "color": "GREEN",
+      "spots": [
+        1,
+        105,
+        0,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        49,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F050",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要抽取1张卡牌作为你的第5张手牌，则你首先宣称一项时代小于等于将要抽取的卡牌的可用成就，无需满足宣称条件。",
+          "en": "If you would draw a fifth card into your hand, first claim an available achievement of that card's value or below, regardless of eligibility."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要抽取1张卡牌作为你的第1张手牌，则首先抽取1张【6】。",
+          "en": "If you would draw a first card into your hand, first draw a 【6】."
+        }
+      ]
+    },
+    {
+      "id": "F051",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "巴沙洛缪·罗伯茨",
+      "name_en": "BARTHOLOMEW ROBERTS",
+      "age": 5,
+      "color": "GREEN",
+      "spots": [
+        7,
+        0,
+        1,
+        106,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        50,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F051",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行抽牌行动，则改为将任意面板中的1张带有【繁荣】的置顶牌计分。",
+          "en": "If you would take a Draw action, instead score a top card with 【prosperity】 from anywhere."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要抽取1张卡牌，则你首先宣称一项时代等同于将要抽取的卡牌的可用成就，无需满足宣称条件。",
+          "en": "If you would draw a card, first claim an available achievement matching that card's value regardless of eligibility."
+        }
+      ]
+    },
+    {
+      "id": "F052",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "伊萨克·牛顿",
+      "name_en": "ISAAC NEWTON",
+      "age": 5,
+      "color": "BLUE",
+      "spots": [
+        0,
+        3,
+        7,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        45,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F052",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行抽牌行动，则首先抽取1张【1】并将其转移至任意玩家的面板。",
+          "en": "If you would take a Draw action, first draw a 【1】 and transfer it to any player's board."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行条例行动，则首先将你面板中与将要执行条例的卡牌时代相同的所有置顶牌的所属颜色堆叠向右展开。",
+          "en": "If you would dogma a card, first splay right every color on your board with a top card of that card's value."
+        }
+      ]
+    },
+    {
+      "id": "F053",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "克里斯蒂安·惠更斯",
+      "name_en": "CHRISTIAAN HUYGENS",
+      "age": 5,
+      "color": "BLUE",
+      "spots": [
+        7,
+        3,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        46,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F053",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你在你的第一行动中将要执行条例行动，则改为废弃【6】牌堆中的所有卡牌。然后抽取1张【7】或2张【8】或3张【9】并展示。如果抽取的卡牌中带有的【效率】总数量比你面板中该图标的数量更多，则将抽取的卡牌全部归还。",
+          "en": "If you would dogma a card as your first action, instead junk all cards in the 【6】 deck. Then draw and reveal one 【7】, two 【8】, or three 【9】. If the drawn cards have more 【efficiency】 than you have on your board, return them."
+        }
+      ]
+    },
+    {
+      "id": "F054",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "巴托罗密欧·克里斯多弗利",
+      "name_en": "BARTOLOMEO CRISTOFORI",
+      "age": 5,
+      "color": "PURPLE",
+      "spots": [
+        2,
+        7,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        53,
+        4
+      ],
+      "notes": [
+        "名称对应说明：Yucata 英文姓名与 Asmadi 官方拼写不同，已按卡牌编号和中文卡面对应；英文显示官方拼写。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F054",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合1张卡牌作为你面板中某个颜色堆叠的第5张可见卡牌，则你首先宣称一项可用成就，无需满足宣称条件。",
+          "en": "If you would meld a fifth visible card of a color on your board, first claim an available achievement regardless of eligibility."
+        }
+      ]
+    },
+    {
+      "id": "F055",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "约翰内斯·维米尔",
+      "name_en": "JOHANNES VERMEER",
+      "age": 5,
+      "color": "PURPLE",
+      "spots": [
+        105,
+        0,
+        7,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        54,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F055",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要宣称一项标准成就，则你首先宣称一项比你将要宣称的成就高1时代的可用成就，无需满足宣称条件。",
+          "en": "If you would claim a standard achievement, first claim an available achievement of value one higher, regardless of eligibility."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合1张卡牌，则首先将你面板中1种颜色的所有卡牌计分。",
+          "en": "If you would meld a card, first score all cards of a color on your board."
+        }
+      ]
+    },
+    {
+      "id": "F056",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "拿破仑·波拿巴",
+      "name_en": "NAPOLEON BONAPARTE",
+      "age": 6,
+      "color": "RED",
+      "spots": [
+        0,
+        106,
+        5,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        57,
+        4
+      ],
+      "notes": [
+        "名称校正：社区姓名词库写作“拿破仑·波拿马”，中文卡面为“拿破仑·波拿巴”；本页采用卡面名称，原词库名称仍可搜索。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F056",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布战争法令。",
+          "en": "You may issue a War Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合、置底、计分或是归还1张卡牌，则改为将其融合，然后如果融合的卡牌是红色或蓝色，则再将其置底。再从任意面板中将1张时代为5或6的置顶牌计分。",
+          "en": "If you would meld, tuck, score, or return a card, instead meld it, then if the melded card is red or blue, tuck it. Score a top card of value 5 or 6 from anywhere."
+        }
+      ]
+    },
+    {
+      "id": "F057",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "特库姆塞",
+      "name_en": "TECUMSEH",
+      "age": 6,
+      "color": "RED",
+      "spots": [
+        5,
+        0,
+        7,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        58,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F057",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合1张卡牌，则你首先选择1个时代。从每位玩家的面板中分别归还1张带有【工业】的所选时代的置顶牌。再废弃1张所选时代的可用成就。",
+          "en": "If you would meld a card, first choose a value. Return a top card with 【industry】 of the chosen value from each player's board. Junk an available achievement of the chosen value."
+        }
+      ]
+    },
+    {
+      "id": "F058",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "约翰·劳登·马卡丹",
+      "name_en": "JOHN LOUDON MCADAM",
+      "age": 6,
+      "color": "YELLOW",
+      "spots": [
+        0,
+        5,
+        7,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        61,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F058",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布扩张法令。",
+          "en": "You may issue an Expansion Decree with any two figures."
+        },
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你面板中的每张带有【工业】的置顶牌均可被你视为可用成就。",
+          "en": "Each top card with 【industry】 on your board counts as an available achievement for you."
+        }
+      ]
+    },
+    {
+      "id": "F059",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "爱德华·詹纳",
+      "name_en": "EDWARD JENNER",
+      "age": 6,
+      "color": "YELLOW",
+      "spots": [
+        7,
+        2,
+        2,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        62,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F059",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要执行一项能够影响你的要求类效果，则改为从你手牌中归还1张卡牌。",
+          "en": "If a player would execute a demand effect against you, instead return a card from your hand."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位对手将要将1张卡牌计分，则你首先废弃1张与计分卡牌时代相同的可用成就。",
+          "en": "If an opponent would score a card, first junk an available achievement of the same value."
+        }
+      ]
+    },
+    {
+      "id": "F060",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "亚当·斯密",
+      "name_en": "ADAM SMITH",
+      "age": 6,
+      "color": "GREEN",
+      "spots": [
+        7,
+        0,
+        1,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        59,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F060",
+      "effects": [
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你面板中的每个【繁荣】额外为你提供2个【繁荣】。",
+          "en": "Each 【prosperity】 on your board provides two additional 【prosperity】."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行一项没有玩家能够参与共享的条例行动，则首先废弃【6】牌堆中的所有卡牌。如果你未如此做，则将你的1种颜色向右展开。",
+          "en": "If you would take a Dogma action with no player eligible to share, first junk all cards in the 【6】 deck. If you don't, splay one color of your cards right."
+        }
+      ]
+    },
+    {
+      "id": "F061",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "约翰·哈里森",
+      "name_en": "JOHN HARRISON",
+      "age": 6,
+      "color": "GREEN",
+      "spots": [
+        106,
+        1,
+        0,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        60,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F061",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布贸易法令。",
+          "en": "You may issue a Trade Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行抽牌行动，则首先从你手牌中归还1张卡牌。若你如此做，则从任意基础或扩展套组中抽取1张与归还的卡牌时代相同的卡牌。",
+          "en": "If you would take a Draw action, first return a card from your hand. If you do, draw a card from any set of value equal to the returned card."
+        }
+      ]
+    },
+    {
+      "id": "F062",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "卡尔·弗里德里希·高斯",
+      "name_en": "CARL FRIEDRICH GAUSS",
+      "age": 6,
+      "color": "BLUE",
+      "spots": [
+        3,
+        3,
+        7,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        55,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F062",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合1张卡牌，则首先选择1个时代，并从你的手牌和分数区中将其余所有与所选时代相同的卡牌融合。",
+          "en": "If you would meld a card, first choose a value and meld all other cards of that value from your hand and score pile."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行抽牌行动，则首先抽取1张【7】。",
+          "en": "If you would take a Draw action, first draw a 【7】."
+        }
+      ]
+    },
+    {
+      "id": "F063",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "本杰明·富兰克林",
+      "name_en": "BENJAMIN FRANKLIN",
+      "age": 6,
+      "color": "BLUE",
+      "spots": [
+        3,
+        7,
+        0,
+        106,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        56,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F063",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布进步法令。",
+          "en": "You may issue an Advancement Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合1张卡牌，且任意对手面板中有与将要融合的卡牌颜色相同的置顶伟人牌，则首先将满足上述条件的1张置顶伟人牌转移至你的手牌。",
+          "en": "If you would meld a card, first if there is a top figure of the same color on any opponent's board, transfer that figure to your hand."
+        }
+      ]
+    },
+    {
+      "id": "F064",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "凯瑟琳大帝",
+      "name_en": "CATHERINE THE GREAT",
+      "age": 6,
+      "color": "PURPLE",
+      "spots": [
+        7,
+        3,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        63,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F064",
+      "effects": [
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你面板中的每个【概念】额外为你提供1个【概念】和1个【效率】。",
+          "en": "Each 【concept】 on your board provides one additional 【concept】 and one additional 【efficiency】."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要融合1张卡牌，则他首先需要将他面板中与融合的卡牌颜色相同的置顶牌转移至他的手牌。",
+          "en": "If a player would meld a card, first that player transfers their top card of the same color into their hand."
+        }
+      ]
+    },
+    {
+      "id": "F065",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "路德维希·范·贝多芬",
+      "name_en": "LUDWIG VAN BEETHOVEN",
+      "age": 6,
+      "color": "PURPLE",
+      "spots": [
+        0,
+        7,
+        107,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        64,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F065",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布竞争法令。",
+          "en": "You may issue a Rivalry Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要将1张卡牌计分，则首先废弃你分数区中的所有卡牌，然后抽取4张【5】并计分。如果你抽取并计分的这些卡牌均为【5】，则再抽取4张【5】并计分。",
+          "en": "If you would score a card, first junk all cards from your score pile, then draw and score four 【5】. If you score only 【5】s, draw and score four 【5】."
+        }
+      ]
+    },
+    {
+      "id": "F066",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "罗伯特·爱德华·李",
+      "name_en": "ROBERT E. LEE",
+      "age": 7,
+      "color": "RED",
+      "spots": [
+        7,
+        0,
+        2,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        67,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F066",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要选择1张带有要求类效果的卡牌来执行条例行动，则你先将任意面板中的1张与将要执行条例的卡牌颜色不同且带有【健康】的置顶牌转移至任意一位玩家的面板。",
+          "en": "If a player would dogma a card with a demand effect, first transfer a top card of another color with 【health】 from anywhere to any player's board."
+        },
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你面板中每有7个【健康】，便视为你额外拥有了一项成就。",
+          "en": "Each seven 【health】 on your board counts as an achievement."
+        }
+      ]
+    },
+    {
+      "id": "F067",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "约翰·埃里克森",
+      "name_en": "JOHN ERICSSON",
+      "age": 7,
+      "color": "RED",
+      "spots": [
+        0,
+        5,
+        5,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        68,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F067",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要选择1张卡牌来执行条例行动，而任意对手面板中与该卡牌相同的颜色堆叠已向右展开，则你首先选择一位对手将他面板中该颜色恢复为未展开状态。",
+          "en": "If you would dogma a card of a color an opponent has splayed right, first unsplay that color on an opponent's board."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位对手将要抽取1张卡牌，则你首先抽取1张【7】并置底。",
+          "en": "If an opponent would draw a card, first draw and tuck a 【7】."
+        }
+      ]
+    },
+    {
+      "id": "F068",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "罗兰·希尔",
+      "name_en": "ROWLAND HILL",
+      "age": 7,
+      "color": "YELLOW",
+      "spots": [
+        7,
+        1,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        71,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F068",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要宣称一项成就，则首先从你手牌中归还3张卡牌。若你如此做，则将你手牌中的其余卡牌宣称为你的成就，无需满足宣称条件。",
+          "en": "If you would claim an achievement, first return three cards from your hand. If you do, achieve all other cards in your hand, ignoring eligibility."
+        }
+      ]
+    },
+    {
+      "id": "F069",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "弗洛伦斯·南丁格尔",
+      "name_en": "FLORENCE NIGHTINGALE",
+      "age": 7,
+      "color": "YELLOW",
+      "spots": [
+        0,
+        2,
+        7,
+        107,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        72,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F069",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布扩张法令。",
+          "en": "You may issue an Expansion Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要从你的分数区转移、归还、计分、融合或废弃1张卡牌，则改为将该卡牌保留在你的分数区。",
+          "en": "If a player would transfer, return, score, meld, or junk a card from your score pile, instead leave it there."
+        }
+      ]
+    },
+    {
+      "id": "F070",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "乔治·斯蒂芬森",
+      "name_en": "GEORGE STEPHENSON",
+      "age": 7,
+      "color": "GREEN",
+      "spots": [
+        107,
+        7,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        69,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F070",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要选择1张你面板中已向右展开的颜色的卡牌来执行条例行动，则首先将你面板中的该颜色向上展开。",
+          "en": "If you would dogma a card of a color you have splayed right, first splay that color on your board up."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要宣称一项成就，则首先将每个面板中的黄色置底牌转移至可用成就区。",
+          "en": "If you would claim an achievement, first transfer the bottom yellow card on each board to the available achievements."
+        }
+      ]
+    },
+    {
+      "id": "F071",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "阿尔弗雷德·诺贝尔",
+      "name_en": "ALFRED NOBEL",
+      "age": 7,
+      "color": "GREEN",
+      "spots": [
+        1,
+        0,
+        1,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        70,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F071",
+      "effects": [
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "如果你面板中的某个标准图标的数量大于等于所有对手中该图标数量最多的对手的2倍，则每种满足上述条件的标准图标类型均视为你额外拥有了一项成就。",
+          "en": "Each standard icon type on your board counts as an achievement, if you have at least twice as many of that icon as every opponent."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要转移1张卡牌，则首先废弃【7】牌堆中的所有卡牌。",
+          "en": "If a player would transfer a card, first junk all cards in the 【7】 deck."
+        }
+      ]
+    },
+    {
+      "id": "F072",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "查尔斯·达尔文",
+      "name_en": "CHARLES DARWIN",
+      "age": 7,
+      "color": "BLUE",
+      "spots": [
+        7,
+        108,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        65,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F072",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布进步法令。",
+          "en": "You may issue an Advancement Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要宣称一项成就，首先如果你的成就数量大于等于每一位对手，则你获胜。否则，抽取1张【8】。",
+          "en": "If you would claim an achievement, first if no opponent has more achievements than you, you win. Otherwise, draw an 【8】."
+        }
+      ]
+    },
+    {
+      "id": "F073",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "詹姆斯·克拉克·麦克斯韦",
+      "name_en": "JAMES CLERK MAXWELL",
+      "age": 7,
+      "color": "BLUE",
+      "spots": [
+        0,
+        7,
+        107,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        66,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F073",
+      "effects": [
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你手牌中的每张卡牌为你提供你面板中已有的所有标准图标类型各1个。",
+          "en": "Each card in your hand provides one additional standard icon of every type on your board."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要归还1张时代小于8的卡牌，则你首先抽取1张【8】。",
+          "en": "If a player would return a card of value lower than 8, first draw an 【8】."
+        }
+      ]
+    },
+    {
+      "id": "F074",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "明治天皇",
+      "name_en": "EMPEROR MEIJI",
+      "age": 7,
+      "color": "PURPLE",
+      "spots": [
+        0,
+        6,
+        6,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        73,
+        4
+      ],
+      "notes": [
+        "游戏中的该段文字已依官方终极版英文修正；独立图鉴保留的原始社区译文未改动。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F074",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合1张【10】，且你面板中有5张不同时代的置顶牌，则改为你获胜。",
+          "en": "If you would meld a 【10】 and you have top cards of five unique values on your board, instead you win."
+        },
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "在你回合中的第二次行动之前，每位对手手中的每张牌也视为在你手中。",
+          "en": "Until your second action on your turn, each card in an opponent's hand counts as being in your hand."
+        }
+      ]
+    },
+    {
+      "id": "F075",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "维多利亚女王",
+      "name_en": "QUEEN VICTORIA",
+      "age": 7,
+      "color": "PURPLE",
+      "spots": [
+        3,
+        3,
+        7,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        74,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F075",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布竞争法令。",
+          "en": "You may issue a Rivalry Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要将1张卡牌计分，则首先从任意分数区选择1张伟人牌。你选择将该卡牌计分，或将其转移至可用成就区。",
+          "en": "If you would score a card, first choose a figure in any score pile. Choose to either score it, or transfer it to the available achievements."
+        }
+      ]
+    },
+    {
+      "id": "F076",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "埃尔温·隆美尔",
+      "name_en": "ERWIN ROMMEL",
+      "age": 8,
+      "color": "RED",
+      "spots": [
+        5,
+        0,
+        5,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        77,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F076",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布战争法令。",
+          "en": "You may issue a War Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要将1张非伟人牌计分，则改为从所有面板中将与该卡牌颜色相同的置顶牌计分，再将任意分数区的1张卡牌计分。",
+          "en": "If you would score a non-figure, instead score the top card of its color from all boards, and score a card in any score pile."
+        }
+      ]
+    },
+    {
+      "id": "F077",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "约翰·冯·诺依曼",
+      "name_en": "JOHN VON NEUMANN",
+      "age": 8,
+      "color": "RED",
+      "spots": [
+        0,
+        6,
+        6,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        78,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F077",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要抽取1张【8】，则首先废弃【8】牌堆中的所有卡牌。",
+          "en": "If you would draw an 【8】, first junk all cards in the 【8】 deck."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合1张卡牌，则改为将其融合并独自执行该卡牌的效果。",
+          "en": "If you would meld a card, instead meld it and self-execute it."
+        }
+      ]
+    },
+    {
+      "id": "F078",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "卡雷斯·克罗斯比",
+      "name_en": "CARESSE CROSBY",
+      "age": 8,
+      "color": "YELLOW",
+      "spots": [
+        2,
+        0,
+        108,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        81,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F078",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要选择1张卡牌来执行条例行动，而你面板中与该卡牌颜色相同的堆叠未向左展开，则你首先将任意面板中的该颜色向左展开，并抽取2张【2】。如果你选择向左展开你的颜色并使得你的5种颜色都已向左展开，则你获胜。",
+          "en": "If a player would dogma a card of a color you do not have splayed left, first splay that color on any board left and draw two 【2】. If you splay a fifth color left on your board this way, you win."
+        }
+      ]
+    },
+    {
+      "id": "F079",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "尼古拉·特斯拉",
+      "name_en": "NIKOLA TESLA",
+      "age": 8,
+      "color": "YELLOW",
+      "spots": [
+        108,
+        7,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        82,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F079",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布扩张法令。",
+          "en": "You may issue an Expansion Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合1张卡牌，则首先将任意对手的1张不带有【概念】和【效率】的置顶牌计分。如果计分的卡牌是你分数区中的最高时代，则抽取1张【9】。",
+          "en": "If you would meld a card, first score an opponent's top card with neither 【concept】 nor 【efficiency】. If the scored card is the highest in your score pile, draw a 【9】."
+        }
+      ]
+    },
+    {
+      "id": "F080",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "约翰·皮尔庞特·摩根",
+      "name_en": "J.P. MORGAN",
+      "age": 8,
+      "color": "GREEN",
+      "spots": [
+        1,
+        7,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        79,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F080",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布贸易法令。",
+          "en": "You may issue a Trade Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要执行条例行动，则首先将你面板中与将要执行条例的卡牌颜色相同的堆叠向上展开。",
+          "en": "If a player would dogma a card, first splay the color of the card up on your board."
+        }
+      ]
+    },
+    {
+      "id": "F081",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "艾米·诺特",
+      "name_en": "EMMY NOETHER",
+      "age": 8,
+      "color": "GREEN",
+      "spots": [
+        7,
+        6,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        80,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F081",
+      "effects": [
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你面板中的每个【效率】为你提供等同于你面板中【效率】数量的分数。",
+          "en": "Each 【efficiency】 on your board provides an additional number of points equal to the number of 【efficiency】 on your board."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要将1张卡牌计分，则你首先从该玩家的分数区废弃1张卡牌。",
+          "en": "If a player would score a card, first junk a card from that player's score pile."
+        }
+      ]
+    },
+    {
+      "id": "F082",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "玛丽·居里",
+      "name_en": "MARIE CURIE",
+      "age": 8,
+      "color": "BLUE",
+      "spots": [
+        5,
+        7,
+        0,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        75,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F082",
+      "effects": [
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你分数区中已有的每个高于6的不同时代均视为你额外拥有了一项成就。",
+          "en": "Each different value present in your score pile above 6 counts as an achievement."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要抽取1张你手牌中未拥有的时代的卡牌，则首先抽取1张【9】。",
+          "en": "If you would draw a card of a value not present in your hand, first draw a 【9】."
+        }
+      ]
+    },
+    {
+      "id": "F083",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "阿尔伯特·爱因斯坦",
+      "name_en": "ALBERT EINSTEIN",
+      "age": 8,
+      "color": "BLUE",
+      "spots": [
+        0,
+        3,
+        7,
+        108,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        76,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F083",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布进步法令。",
+          "en": "You may issue an Advancement Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行抽牌行动，则首先从每位玩家的手牌中融合所有带有【概念】或【效率】的卡牌。",
+          "en": "If you would take a Draw action, first meld all cards with 【concept】 or 【efficiency】 from each player's hand."
+        }
+      ]
+    },
+    {
+      "id": "F084",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "赫伯特·乔治·威尔斯",
+      "name_en": "H.G. WELLS",
+      "age": 8,
+      "color": "PURPLE",
+      "spots": [
+        2,
+        7,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        83,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F084",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要选择1张特性图标为【概念】的卡牌来执行条例行动，则改为抽取1张【10】并废弃，然后超级执行废弃的卡牌的效果。",
+          "en": "If you would dogma a card using 【concept】 as a featured icon, instead draw and junk a 【10】, then super-execute the junked card."
+        }
+      ]
+    },
+    {
+      "id": "F085",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "艾灵顿公爵",
+      "name_en": "DUKE ELLINGTON",
+      "age": 8,
+      "color": "PURPLE",
+      "spots": [
+        3,
+        109,
+        7,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        84,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F085",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要归隐伟人牌，则改为不进行归隐。",
+          "en": "If you are required to fade a figure, instead do nothing."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合1张伟人牌，且你面板中已有至少4张置顶伟人牌，则改为你获胜。",
+          "en": "If you would meld a figure and have at least four top figures already, instead you win."
+        }
+      ]
+    },
+    {
+      "id": "F086",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "纳尔逊·曼德拉",
+      "name_en": "NELSON MANDELA",
+      "age": 9,
+      "color": "RED",
+      "spots": [
+        2,
+        7,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        87,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F086",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你在你的第二行动中将要选择一张卡牌执行条例行动，则改为将该卡牌超级执行。",
+          "en": "If you would dogma a card as your second action, instead super-execute the card."
+        },
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "你面板中每有2个【头像】，便视为你额外拥有了一项成就。",
+          "en": "Each two 【avatar】 on your board counts as an achievement."
+        }
+      ]
+    },
+    {
+      "id": "F087",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "米哈伊尔·卡拉斯尼科夫",
+      "name_en": "MIKHAIL KALASHNIKOV",
+      "age": 9,
+      "color": "RED",
+      "spots": [
+        7,
+        5,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        88,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F087",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位对手将要融合1张卡牌，则你首先从一位对手的面板中选择1张红色置顶牌。对于你选择的这张卡牌，你选择将其计分，或由你独自执行该卡牌的效果。",
+          "en": "If an opponent would meld a card, first choose a top red card on an opponent's board. Choose to either score it, or self-execute it."
+        }
+      ]
+    },
+    {
+      "id": "F088",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "露丝·汉德勒",
+      "name_en": "RUTH HANDLER",
+      "age": 9,
+      "color": "YELLOW",
+      "spots": [
+        109,
+        7,
+        0,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        91,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F088",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合1张卡牌，则首先从所有玩家的手牌中融合与该卡牌颜色相同的所有其余卡牌，然后你每因此融合了1张卡牌，便抽取1张【9】并宣称为成就，无需满足宣称条件。",
+          "en": "If you would meld a card, first meld all other cards of that color from each player's hand, then draw and achieve a 【9】 for each card you meld in this way, regardless of eligibility."
+        }
+      ]
+    },
+    {
+      "id": "F089",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "切·格瓦拉",
+      "name_en": "CHE GUEVARA",
+      "age": 9,
+      "color": "YELLOW",
+      "spots": [
+        0,
+        2,
+        7,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        92,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F089",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合1张卡牌，则首先抽取1张【9】并计分。如果计分的卡牌是黄色，则废弃所有分数区中的所有卡牌和所有可用成就。",
+          "en": "If you would meld a card, first draw and score a 【9】. If the scored card is yellow, junk all cards in all score piles and all available achievements."
+        }
+      ]
+    },
+    {
+      "id": "F090",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "海蒂·拉玛",
+      "name_en": "HEDY LAMARR",
+      "age": 9,
+      "color": "GREEN",
+      "spots": [
+        6,
+        7,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        89,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F090",
+      "effects": [
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "每张特殊成就的宣称条件中的数值需求被你视为原本的数值减1。",
+          "en": "Each special achievement is claimed with one fewer or one lower of each requirement listed for you."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要宣称一项成就，则首先将你的1种颜色向上展开。",
+          "en": "If you would claim an achievement, first splay a color of your cards up."
+        }
+      ]
+    },
+    {
+      "id": "F091",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "大野耐一",
+      "name_en": "TAIICHI OHNO",
+      "age": 9,
+      "color": "GREEN",
+      "spots": [
+        0,
+        6,
+        6,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        90,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F091",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行条例行动，则你首先可以从你手牌中将1张特性图标与将要执行条例的卡牌特性图标相同的卡牌作为成就宣称，无需满足宣称条件。若你未如此做，则抽取1张【11】。",
+          "en": "If you would dogma a card, first you may achieve a card from your hand with featured icon matching that card's featured icon, regardless of eligibility. If you don't, draw an 【11】."
+        }
+      ]
+    },
+    {
+      "id": "F092",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "格雷丝·赫柏",
+      "name_en": "GRACE HOPPER",
+      "age": 9,
+      "color": "BLUE",
+      "spots": [
+        3,
+        0,
+        109,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        85,
+        4
+      ],
+      "notes": [
+        "用词说明：卡面将共享奖励称为“免费抽牌行动”。官方英文这里指共享奖励抽牌，并非玩家主动选择的 Draw action；触发时点须按英文与规则区分。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F092",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位对手将要结束条例行动且没有因为共享而获得免费抽牌行动，则你首先抽取1张【10】并展示。如果展示的卡牌是蓝色，你获胜。",
+          "en": "If an opponent would not draw a card for sharing after a Dogma action, first draw and reveal a 【10】. If the revealed card is blue, you win."
+        }
+      ]
+    },
+    {
+      "id": "F093",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "沃纳·冯·布劳恩",
+      "name_en": "WERNHER VON BRAUN",
+      "age": 9,
+      "color": "BLUE",
+      "spots": [
+        7,
+        3,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        86,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F093",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要抽取1张伟人牌，则你首先废弃【9】或【10】牌堆中的所有卡牌。",
+          "en": "If a player would draw a figure, first junk all cards in the 【9】 or 【10】 deck."
+        },
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "废弃区中的每张具有时代的卡牌均视为位于你的分数区。",
+          "en": "Each valued card in the junk counts as being in your score pile."
+        }
+      ]
+    },
+    {
+      "id": "F094",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "球王贝利",
+      "name_en": "PELÉ",
+      "age": 9,
+      "color": "PURPLE",
+      "spots": [
+        0,
+        110,
+        7,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        93,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F094",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布竞争法令。",
+          "en": "You may issue a Rivalry Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要将1张卡牌计分，则首先如果你的黄色和绿色置顶牌均为你面板中最高时代的置顶牌，你获胜。",
+          "en": "If you would score a card, first if both your top yellow card and your top green card are highest top cards on your board, you win."
+        }
+      ]
+    },
+    {
+      "id": "F095",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "罗德·瑟林",
+      "name_en": "ROD SERLING",
+      "age": 9,
+      "color": "PURPLE",
+      "spots": [
+        1,
+        0,
+        7,
+        109,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        94,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F095",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要转移、归还、抽取、计分、融合、置底或废弃1张时代小于4的卡牌，则改为那位玩家输掉游戏。",
+          "en": "If a player would transfer, return, draw, score, meld, tuck, or junk a card of value less than 4, instead that player loses."
+        }
+      ]
+    },
+    {
+      "id": "F096",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "成龙",
+      "name_en": "JACKIE CHAN",
+      "age": 10,
+      "color": "RED",
+      "spots": [
+        7,
+        7,
+        7,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        97,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F096",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位对手将要获胜，则首先将除成龙以外的所有置顶伟人牌计分。然后如果你是分数最高的玩家，则改为你获胜。",
+          "en": "If an opponent would win, first score all other top figures anywhere. If you now have the most points, you win instead."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要抽取1张卡牌，则首先从你手牌中将1张伟人牌计分。",
+          "en": "If you would draw a card, first score a figure from your hand."
+        }
+      ]
+    },
+    {
+      "id": "F097",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "玛格丽特·撒切尔",
+      "name_en": "MARGARET THATCHER",
+      "age": 10,
+      "color": "RED",
+      "spots": [
+        5,
+        5,
+        7,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        98,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F097",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布战争法令。",
+          "en": "You may issue a War Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行条例行动，则你首先从任意面板中将1张带有【繁荣】或【工业】的置顶牌计分。",
+          "en": "If you would take a Dogma action, first score any top card with 【prosperity】 or 【industry】 from anywhere."
+        }
+      ]
+    },
+    {
+      "id": "F098",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "亚历克斯·特雷贝克",
+      "name_en": "ALEX TREBEK",
+      "age": 10,
+      "color": "YELLOW",
+      "spots": [
+        3,
+        0,
+        7,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        101,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F098",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要抽取1张卡牌且手牌中没有伟人牌，则首先说出“谁是”并声明1张伟人牌的名字。从文明巨擘扩展的任意时代的牌堆中搜索你所声明的伟人牌，如果该卡牌位于牌堆中，则将其转移至你的手牌。然后将搜索过的牌堆洗牌。",
+          "en": "If you would draw a card and have no figures in hand, first say “Who is” and name a figure. Search the figures deck of any age for the named figure and transfer it into your hand if present. Then shuffle that deck."
+        }
+      ]
+    },
+    {
+      "id": "F099",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "宫本茂",
+      "name_en": "SHIGERU MIYAMOTO",
+      "age": 10,
+      "color": "YELLOW",
+      "spots": [
+        0,
+        110,
+        6,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        102,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F099",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要选择1张特性图标为【效率】的卡牌来执行条例行动，则首先如果你面板中的【效率】的数量正好为1、3或6，你获胜。",
+          "en": "If you would dogma a card using 【efficiency】 as the featured icon, first if you have exactly one, three, or six 【efficiency】 on your board, you win."
+        }
+      ]
+    },
+    {
+      "id": "F100",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "穆罕默德·尤努斯",
+      "name_en": "MUHAMMAD YUNUS",
+      "age": 10,
+      "color": "GREEN",
+      "spots": [
+        1,
+        7,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        99,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F100",
+      "effects": [
+        {
+          "kind": "karma_decree",
+          "label": "业报 · Decree（法令资格）",
+          "zh": "你手牌中只需有任意2张伟人牌便可颁布贸易法令。",
+          "en": "You may issue a Trade Decree with any two figures."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要执行条例行动，则你首先可以归还你的绿色置底牌。若你如此做，则你视为该行动中所有图标数量均为独自最多的玩家。",
+          "en": "If a player would take a Dogma action, first you may return your bottom green card. If you do, you have sole majority in every icon during the action."
+        }
+      ]
+    },
+    {
+      "id": "F101",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "谢尔盖·布林",
+      "name_en": "SERGEY BRIN",
+      "age": 10,
+      "color": "GREEN",
+      "spots": [
+        0,
+        6,
+        6,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        100,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F101",
+      "effects": [
+        {
+          "kind": "karma_each",
+          "label": "业报 · Each（持续修改）",
+          "zh": "每位玩家面板中的每张置顶牌均视为你可以在条例行动中选择执行条例效果的卡牌。",
+          "en": "Each top card on every player's board counts as a card you can activate with a Dogma action."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要从其他玩家的面板中选择卡牌来执行条例行动，则首先将你面板中与该卡牌颜色相同的堆叠向上展开。",
+          "en": "If you would dogma a card on another player's board, first splay its color up on your board."
+        }
+      ]
+    },
+    {
+      "id": "F102",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "苏珊·布莱克摩尔",
+      "name_en": "SUSAN BLACKMORE",
+      "age": 10,
+      "color": "BLUE",
+      "spots": [
+        7,
+        3,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        95,
+        4
+      ],
+      "notes": [
+        "用词说明：卡面将共享奖励称为“免费抽牌行动”。官方英文这里指共享奖励抽牌，并非玩家主动选择的 Draw action；触发时点须按英文与规则区分。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F102",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位其他玩家将要结束条例行动且没有因为共享而获得免费抽牌行动，或你将要因为共享而进行免费抽牌行动，则你首先独自执行本次条例行动中执行的卡牌的效果。",
+          "en": "If another player would not draw a card for sharing after a Dogma action, or you would draw a card for sharing, first self-execute the card activated by the Dogma action."
+        }
+      ]
+    },
+    {
+      "id": "F103",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "史蒂芬·霍金",
+      "name_en": "STEPHEN HAWKING",
+      "age": 10,
+      "color": "BLUE",
+      "spots": [
+        111,
+        7,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        96,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F103",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行条例行动，则首先根据你面板中与将要执行条例的卡牌颜色相同的堆叠中【六边形】的可见数量，从该堆叠底部将相同数量的卡牌计分。",
+          "en": "If you would dogma a card, first score your bottom card of its color for each 【hex】 in that color on your board."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要抽取1张卡牌，则首先抽取1张与将要抽取的卡牌时代相同的卡牌并置底。",
+          "en": "If you would draw a card, first draw and tuck a card of the same value."
+        }
+      ]
+    },
+    {
+      "id": "F104",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "马丁·斯科塞斯",
+      "name_en": "MARTIN SCORSESE",
+      "age": 10,
+      "color": "PURPLE",
+      "spots": [
+        5,
+        0,
+        110,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        103,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F104",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要融合1张伟人牌，则改为将其置底并宣称一项可用成就，无需满足宣称条件。",
+          "en": "If you would meld a figure, instead tuck the figure and claim an achievement, regardless of eligibility."
+        }
+      ]
+    },
+    {
+      "id": "F105",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "金妍儿",
+      "name_en": "YUNA KIM",
+      "age": 10,
+      "color": "PURPLE",
+      "spots": [
+        0,
+        2,
+        7,
+        110,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        104,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F105",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要将1张卡牌计分，则首先如果你面板中与将要计分的卡牌颜色相同的置顶牌带有【权威】，你获胜。",
+          "en": "If you would score a card, first if your top card of the same color has 【authority】, you win."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要融合1张卡牌，则改为从所有面板的每个与将要融合的卡牌颜色相同的卡牌堆叠中分别归还各自顶部的3张卡牌。然后那位玩家置底那张将要融合的卡牌。",
+          "en": "If a player would meld a card, instead return the top three cards of its color from all boards. Then that player tucks the card."
+        }
+      ]
+    },
+    {
+      "id": "F106",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "马克思·维斯塔潘",
+      "name_en": "MAX VERSTAPPEN",
+      "age": 11,
+      "color": "RED",
+      "spots": [
+        112,
+        7,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        107,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F106",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行一项条例效果，则你首先可以从你手牌中归还任意数量的卡牌。若你如此做，则你每归还了1张卡牌，便额外执行该效果一次。然后再抽取1张【11】。",
+          "en": "If you would execute a dogma effect, first return any number of cards from your hand. If you do, execute that dogma effect an additional time for every card you return, then draw an 【11】."
+        }
+      ]
+    },
+    {
+      "id": "F107",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "谢赫·塔米姆",
+      "name_en": "SHEIKH TAMIM",
+      "age": 11,
+      "color": "RED",
+      "spots": [
+        1,
+        1,
+        0,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        108,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F107",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行条例行动，则你首先可以从你手牌中归还1张带有将要执行条例的特性图标的卡牌。若你如此做，则你颁布一项与你归还的卡牌颜色相同的法令。",
+          "en": "If you would dogma a card using a featured icon, first you may return a card from your hand with that icon. If you do, issue a Decree of color matching the color of the returned card."
+        }
+      ]
+    },
+    {
+      "id": "F108",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "格雷塔·通贝里",
+      "name_en": "GRETA THUNBERG",
+      "age": 11,
+      "color": "YELLOW",
+      "spots": [
+        0,
+        2,
+        7,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        111,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F108",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要执行条例行动，则你首先从任意面板中废弃1张不为将要执行条例且带有【工业】的置顶牌。然后如果在任意玩家的面板中的所有置顶牌均不带有【工业】，则你获胜。",
+          "en": "If a player would dogma a card, first junk another top card with 【industry】 from any board. Then if there is no top card with 【industry】 on any board, you win."
+        }
+      ]
+    },
+    {
+      "id": "F109",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "特雷泽·基隆戈齐",
+      "name_en": "THERESE KIRONGOZI",
+      "age": 11,
+      "color": "YELLOW",
+      "spots": [
+        1,
+        111,
+        0,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        112,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F109",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位对手将要执行条例行动，则改为他抽取1张由他所选时代的卡牌，展示该卡牌并归还。然后如果他的面板中有与展示的卡牌相同的颜色，则他超级执行该颜色置顶牌的效果。",
+          "en": "If an opponent would take a Dogma action, instead the opponent draws, reveals, and returns a card of any value. The opponent super-executes their top card of the revealed card's color, if there is one."
+        }
+      ]
+    },
+    {
+      "id": "F110",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "贝尔·格里尔斯",
+      "name_en": "BEAR GRYLLS",
+      "age": 11,
+      "color": "GREEN",
+      "spots": [
+        0,
+        2,
+        2,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        109,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F110",
+      "effects": [
+        {
+          "kind": "karma_when",
+          "label": "业报 · When（融合时）",
+          "zh": "当你融合本卡牌时，废弃游戏中所有不为成就且不位于牌堆中的卡牌。将【0】牌堆引入游戏中。抽取1张【0】。",
+          "en": "When you meld this card, junk all cards that are not achievements or in decks. Introduce the 【0】 deck. Draw a 【0】."
+        }
+      ]
+    },
+    {
+      "id": "F111",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "博扬·斯莱特",
+      "name_en": "BOYAN SLAT",
+      "age": 11,
+      "color": "GREEN",
+      "spots": [
+        3,
+        0,
+        7,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        110,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F111",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要抽取1张卡牌，则你首先选择1个时代并从所有分数区中归还所选时代的所有卡牌。如果你正好归还了1张卡牌，则将该卡牌作为成就宣称，无需满足宣称条件。",
+          "en": "If you would draw a card, first choose a value and return all cards of that value from all score piles. If you return exactly one card, achieve it, regardless of eligbility."
+        }
+      ]
+    },
+    {
+      "id": "F112",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "朱塞佩·西昂蒂",
+      "name_en": "GIUSEPPE SCIONTI",
+      "age": 11,
+      "color": "BLUE",
+      "spots": [
+        5,
+        5,
+        7,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        105,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F112",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要执行一项条例效果，则你首先抽取1张【9】并计分。",
+          "en": "If you would execute a dogma effect, first draw and score a 【9】."
+        }
+      ]
+    },
+    {
+      "id": "F113",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "康斯坦丁·诺沃肖洛夫",
+      "name_en": "KONSTANTIN NOVOSELOV",
+      "age": 11,
+      "color": "BLUE",
+      "spots": [
+        7,
+        6,
+        0,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        106,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F113",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你在你的第二行动中将要执行条例行动，则改为按照红色、蓝色、绿色、黄色、紫色的顺序依次超级执行你面板中的置顶牌的效果。",
+          "en": "If you would take a Dogma action as your second action, instead super-execute each of your top cards, if you have one, in red, blue, green, yellow, purple order."
+        }
+      ]
+    },
+    {
+      "id": "F114",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "艾玛·沃特森",
+      "name_en": "EMMA WATSON",
+      "age": 11,
+      "color": "PURPLE",
+      "spots": [
+        0,
+        7,
+        7,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        113,
+        4
+      ],
+      "notes": [],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F114",
+      "effects": [
+        {
+          "kind": "karma_when",
+          "label": "业报 · When（融合时）",
+          "zh": "当你融合本卡牌时，将所有面板中的所有颜色恢复为未展开状态。",
+          "en": "When you meld this card, unsplay all colors on all boards."
+        },
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果一位玩家将要融合1张卡牌，则你首先从他面板中与他将要融合的卡牌颜色相同的堆叠中归还顶部的6张卡牌。若你未如此做，则该玩家从所有面板中将所有该颜色的卡牌计分。",
+          "en": "If a player would meld a card, first return their top six cards of its color. If you don't, that player scores all cards of its color from all boards."
+        }
+      ]
+    },
+    {
+      "id": "F115",
+      "set": "Figures",
+      "type": "figure",
+      "name_zh": "莉莉·赫维什",
+      "name_en": "LILY HEVESH",
+      "age": 11,
+      "color": "PURPLE",
+      "spots": [
+        7,
+        7,
+        0,
+        111,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        114,
+        4
+      ],
+      "notes": [
+        "游戏中的该段文字已依官方终极版英文修正；独立图鉴保留的原始社区译文未改动。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=F115",
+      "effects": [
+        {
+          "kind": "karma_would",
+          "label": "业报 · Would（事件发生前）",
+          "zh": "如果你将要进行抽牌行动，改为逐次展示五个牌库的置顶牌。如果展示了五种颜色，你获胜。否则，抽取其中一张展示的牌，并将你的一种颜色斜向展开。",
+          "en": "If you would take a Draw action, instead reveal the top card of five decks, one at a time. If you reveal five colors, you win. Otherwise, draw one of the revealed cards, and splay aslant a color on your board."
+        }
+      ]
+    },
+    {
+      "id": "Z001",
+      "set": "Base",
+      "type": "age_zero",
+      "name_zh": "淡水",
+      "name_en": "FRESH WATER",
+      "age": 0,
+      "color": "YELLOW",
+      "spots": [
+        18,
+        2,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": null,
+      "notes": [
+        "与伟人扩展相关的时代 0 基础牌；官方卡牌检索站将其列在 Figures 牌组下。时代为 0，并非无时代的 -1。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=Z001",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你面板中的1种未展开的颜色向左展开。若你未如此做，你输掉游戏。",
+          "en": "Splay an unsplayed color on your board left. If you don't, you lose."
+        }
+      ]
+    },
+    {
+      "id": "Z002",
+      "set": "Base",
+      "type": "age_zero",
+      "name_zh": "避难所",
+      "name_en": "SHELTER",
+      "age": 0,
+      "color": "YELLOW",
+      "spots": [
+        0,
+        3,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": null,
+      "notes": [
+        "与伟人扩展相关的时代 0 基础牌；官方卡牌检索站将其列在 Figures 牌组下。时代为 0，并非无时代的 -1。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=Z002",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你从你手牌中将1张卡牌计分！如果你分数区的卡牌数量少于我分数区的卡牌数量，你输掉游戏！",
+          "en": "I DEMAND you score a card from your hand! If there are fewer cards in your score pile than in mine, you lose!"
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "将你的所有手牌与你分数区的2张卡牌交换。",
+          "en": "Exchange all cards in your hand with two cards in your score pile."
+        }
+      ]
+    },
+    {
+      "id": "Z003",
+      "set": "Base",
+      "type": "age_zero",
+      "name_zh": "剥皮",
+      "name_en": "SKINNING",
+      "age": 0,
+      "color": "YELLOW",
+      "spots": [
+        0,
+        2,
+        18,
+        18,
+        null,
+        null
+      ],
+      "dogma_icon": 18,
+      "art_position": null,
+      "notes": [
+        "与伟人扩展相关的时代 0 基础牌；官方卡牌检索站将其列在 Figures 牌组下。时代为 0，并非无时代的 -1。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=Z003",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "从你面板中将1张带有【食物】的卡牌计分。若你如此做，则计分的卡牌每带有1个【食物】，便从你手牌中融合1张卡牌。",
+          "en": "Score a card with a 【food】 on your board. If you do, meld a card from your hand for each 【food】 on the scored card."
+        }
+      ]
+    },
+    {
+      "id": "Z004",
+      "set": "Base",
+      "type": "age_zero",
+      "name_zh": "捕鱼",
+      "name_en": "FISHING",
+      "age": 0,
+      "color": "GREEN",
+      "spots": [
+        18,
+        0,
+        18,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 18,
+      "art_position": null,
+      "notes": [
+        "与伟人扩展相关的时代 0 基础牌；官方卡牌检索站将其列在 Figures 牌组下。时代为 0，并非无时代的 -1。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=Z004",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取1张【0】并融合。展示所有玩家的手牌，并将其中与刚抽取的卡牌颜色相同的所有卡牌转移至你的手牌，然后如果你刚抽取的是淡水，则抽取1张【1】。如果你手牌中某个颜色的卡牌数量大于等于3，则抽取1张【2】。",
+          "en": "Draw and meld a 【0】. Reveal all hands and transfer all revealed cards of the drawn card's color to your hand, and if you draw Fresh Water, draw a 【1】. If you have three cards of any one color in your hand, draw a 【2】."
+        }
+      ]
+    },
+    {
+      "id": "Z005",
+      "set": "Base",
+      "type": "age_zero",
+      "name_zh": "觅食",
+      "name_en": "FORAGING",
+      "age": 0,
+      "color": "GREEN",
+      "spots": [
+        2,
+        0,
+        2,
+        18,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": null,
+      "notes": [
+        "与伟人扩展相关的时代 0 基础牌；官方卡牌检索站将其列在 Figures 牌组下。时代为 0，并非无时代的 -1。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=Z005",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取1张【0】。如果抽取的卡牌不带有【食物】，你可以将其展示，再将其计分，并抽取1张【0】。",
+          "en": "Draw a 【0】. If it has no 【food】, you may reveal it, score it, and draw a 【0】."
+        }
+      ]
+    },
+    {
+      "id": "Z006",
+      "set": "Base",
+      "type": "age_zero",
+      "name_zh": "狩猎",
+      "name_en": "HUNTING",
+      "age": 0,
+      "color": "GREEN",
+      "spots": [
+        18,
+        18,
+        0,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 18,
+      "art_position": null,
+      "notes": [
+        "与伟人扩展相关的时代 0 基础牌；官方卡牌检索站将其列在 Figures 牌组下。时代为 0，并非无时代的 -1。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=Z006",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你抽取2张【0】并展示！将展示的卡牌中由我选择的1张卡牌转移至我的面板！",
+          "en": "I DEMAND you draw and reveal two 【0】! Transfer the card of my choice to my board!"
+        }
+      ]
+    },
+    {
+      "id": "Z007",
+      "set": "Base",
+      "type": "age_zero",
+      "name_zh": "火",
+      "name_en": "FIRE",
+      "age": 0,
+      "color": "RED",
+      "spots": [
+        18,
+        3,
+        18,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 18,
+      "art_position": null,
+      "notes": [
+        "与伟人扩展相关的时代 0 基础牌；官方卡牌检索站将其列在 Figures 牌组下。时代为 0，并非无时代的 -1。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=Z007",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你从你手牌中展示1张颜色是我面板中未拥有的或时代高于0的卡牌！若你未如此做，则你输掉游戏！",
+          "en": "I DEMAND you reveal a card in your hand of color not on my board or of value greater than 0! If you don't, you lose!"
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "从你手牌中融合1张你面板已有颜色的卡牌。若你未如此做，则你输掉游戏。",
+          "en": "Meld a card from your hand of color on your board. If you don't, you lose."
+        }
+      ]
+    },
+    {
+      "id": "Z008",
+      "set": "Base",
+      "type": "age_zero",
+      "name_zh": "石刀",
+      "name_en": "STONE KNIVES",
+      "age": 0,
+      "color": "RED",
+      "spots": [
+        0,
+        4,
+        1,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": null,
+      "notes": [
+        "与伟人扩展相关的时代 0 基础牌；官方卡牌检索站将其列在 Figures 牌组下。时代为 0，并非无时代的 -1。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=Z008",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你抽取1张【0】，将其展示并归还！将你面板中与展示的卡牌颜色相同的置顶牌转移至我的面板！",
+          "en": "I DEMAND you draw, reveal, and return a 【0】! Transfer your top card of the color of the revealed card to my board!"
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果剥皮是你面板中的置顶牌，则抽取1张【1】。",
+          "en": "If Skinning is a top card on your board, draw a 【1】."
+        }
+      ]
+    },
+    {
+      "id": "Z009",
+      "set": "Base",
+      "type": "age_zero",
+      "name_zh": "陷阱制作",
+      "name_en": "TRAPPING",
+      "age": 0,
+      "color": "RED",
+      "spots": [
+        0,
+        18,
+        18,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 18,
+      "art_position": null,
+      "notes": [
+        "与伟人扩展相关的时代 0 基础牌；官方卡牌检索站将其列在 Figures 牌组下。时代为 0，并非无时代的 -1。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=Z009",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你展示你的所有手牌和我分数区中的所有卡牌！将你手牌中颜色为我分数区卡牌已有颜色的所有卡牌转移至我的手牌！",
+          "en": "I DEMAND you reveal your hand and all cards in my score pile! Transfer all cards in your hand of the colors of the cards in my score pile to my hand!"
+        }
+      ]
+    },
+    {
+      "id": "Z010",
+      "set": "Base",
+      "type": "age_zero",
+      "name_zh": "鸟语",
+      "name_en": "SPEAK WITH BIRD",
+      "age": 0,
+      "color": "PURPLE",
+      "spots": [
+        0,
+        2,
+        2,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": null,
+      "notes": [
+        "与伟人扩展相关的时代 0 基础牌；官方卡牌检索站将其列在 Figures 牌组下。时代为 0，并非无时代的 -1。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=Z010",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你面板中有5种颜色且置顶牌时代均为0，你获胜。",
+          "en": "If you have five top cards of value 0 on your board, you win."
+        }
+      ]
+    },
+    {
+      "id": "Z011",
+      "set": "Base",
+      "type": "age_zero",
+      "name_zh": "制革",
+      "name_en": "TANNING",
+      "age": 0,
+      "color": "PURPLE",
+      "spots": [
+        1,
+        1,
+        0,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": null,
+      "notes": [
+        "与伟人扩展相关的时代 0 基础牌；官方卡牌检索站将其列在 Figures 牌组下。时代为 0，并非无时代的 -1。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=Z011",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "从你手牌中将2张卡牌计分。",
+          "en": "Score two cards from your hand."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "将你分数区中的1张卡牌转移至一位其他玩家的面板。若你如此做，则将转移后卡牌所在堆叠的置底牌融合。",
+          "en": "Transfer a card from your score pile to another player's board. If you do, meld that player's bottom card of the transferred card's color."
+        }
+      ]
+    },
+    {
+      "id": "Z012",
+      "set": "Base",
+      "type": "age_zero",
+      "name_zh": "追寻踪迹",
+      "name_en": "TRACKING",
+      "age": 0,
+      "color": "PURPLE",
+      "spots": [
+        1,
+        0,
+        1,
+        18,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": null,
+      "notes": [
+        "与伟人扩展相关的时代 0 基础牌；官方卡牌检索站将其列在 Figures 牌组下。时代为 0，并非无时代的 -1。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=Z012",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取2张【0】。从抽取的卡牌中归还1张卡牌。",
+          "en": "Draw two 【0】. Return one of them."
+        }
+      ]
+    },
+    {
+      "id": "Z013",
+      "set": "Base",
+      "type": "age_zero",
+      "name_zh": "食物加工",
+      "name_en": "CURING",
+      "age": 0,
+      "color": "BLUE",
+      "spots": [
+        1,
+        0,
+        18,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": null,
+      "notes": [
+        "与伟人扩展相关的时代 0 基础牌；官方卡牌检索站将其列在 Figures 牌组下。时代为 0，并非无时代的 -1。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=Z013",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你面板中除食物加工以外的1张带有【食物】的置顶牌计分。若你未如此做，则你输掉游戏。",
+          "en": "Score another top card with a 【food】 on your board. If you don't, you lose."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将你的所有手牌与一位对手分数区中的所有最高时代的卡牌交换。",
+          "en": "You may exchange all cards in your hand with all the highest cards in an opponent's score pile."
+        }
+      ]
+    },
+    {
+      "id": "Z014",
+      "set": "Base",
+      "type": "age_zero",
+      "name_zh": "急救",
+      "name_en": "FIRST AID",
+      "age": 0,
+      "color": "BLUE",
+      "spots": [
+        3,
+        2,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": null,
+      "notes": [
+        "与伟人扩展相关的时代 0 基础牌；官方卡牌检索站将其列在 Figures 牌组下。时代为 0，并非无时代的 -1。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=Z014",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你面板中的1张置顶牌。抽取1张【0】。展示你的所有手牌。如果你手牌中与归还的卡牌颜色相同的卡牌数量正好为1，则将该卡牌融合。否则，你输掉游戏。",
+          "en": "Return a top card from your board. Draw a 【0】. Reveal your hand. If you have exactly one card in your hand of the color of the returned card, meld it. Otherwise, you lose."
+        }
+      ]
+    },
+    {
+      "id": "Z015",
+      "set": "Base",
+      "type": "age_zero",
+      "name_zh": "绳结",
+      "name_en": "KNOTS",
+      "age": 0,
+      "color": "BLUE",
+      "spots": [
+        2,
+        0,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": null,
+      "notes": [
+        "与伟人扩展相关的时代 0 基础牌；官方卡牌检索站将其列在 Figures 牌组下。时代为 0，并非无时代的 -1。"
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=Z015",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "从你分数区展示1张你面板中已有颜色的卡牌。若你如此做，则抽取1张【1】。",
+          "en": "Reveal a card in your score pile of a color on your board. If you do, draw a 【1】."
+        }
+      ]
+    }
+  ],
+  "decrees": [
+    {
+      "id": "figures-decree-21",
+      "set": "Figures",
+      "type": "decree",
+      "name_zh": "战争",
+      "name_en": "War",
+      "age": -1,
+      "color": "RED",
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": null,
+      "notes": [
+        "此法令中文效果已按终极版中文卡面转录；尚未取得可核对的终极版英文卡面，英文对照留空，不采用旧版法令文字。编号为图鉴本地编号。"
+      ],
+      "source_url": "https://img.915159.xyz/InnovationUltimate/figures_specialfront_21.png",
+      "effects": [
+        {
+          "kind": "decree_effect",
+          "label": "法令效果",
+          "zh": "选择1个时代。从所有对手面板中归还每个颜色的1张该时代的置顶牌。",
+          "en": ""
+        }
+      ]
+    },
+    {
+      "id": "figures-decree-22",
+      "set": "Figures",
+      "type": "decree",
+      "name_zh": "扩张",
+      "name_en": "Expansion",
+      "age": -1,
+      "color": "YELLOW",
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": null,
+      "notes": [
+        "此法令中文效果已按终极版中文卡面转录；尚未取得可核对的终极版英文卡面，英文对照留空，不采用旧版法令文字。编号为图鉴本地编号。"
+      ],
+      "source_url": "https://img.915159.xyz/InnovationUltimate/figures_specialfront_22.png",
+      "effects": [
+        {
+          "kind": "decree_effect",
+          "label": "法令效果",
+          "zh": "将你的任意1种颜色向上展开。",
+          "en": ""
+        }
+      ]
+    },
+    {
+      "id": "figures-decree-23",
+      "set": "Figures",
+      "type": "decree",
+      "name_zh": "贸易",
+      "name_en": "Trade",
+      "age": -1,
+      "color": "GREEN",
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": null,
+      "notes": [
+        "此法令中文效果已按终极版中文卡面转录；尚未取得可核对的终极版英文卡面，英文对照留空，不采用旧版法令文字。编号为图鉴本地编号。"
+      ],
+      "source_url": "https://img.915159.xyz/InnovationUltimate/figures_specialfront_23.png",
+      "effects": [
+        {
+          "kind": "decree_effect",
+          "label": "法令效果",
+          "zh": "抽取3张比你最高时代置顶牌高1时代的卡牌。",
+          "en": ""
+        }
+      ]
+    },
+    {
+      "id": "figures-decree-24",
+      "set": "Figures",
+      "type": "decree",
+      "name_zh": "进步",
+      "name_en": "Advancement",
+      "age": -1,
+      "color": "BLUE",
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": null,
+      "notes": [
+        "此法令中文效果已按终极版中文卡面转录；尚未取得可核对的终极版英文卡面，英文对照留空，不采用旧版法令文字。编号为图鉴本地编号。"
+      ],
+      "source_url": "https://img.915159.xyz/InnovationUltimate/figures_specialfront_24.png",
+      "effects": [
+        {
+          "kind": "decree_effect",
+          "label": "法令效果",
+          "zh": "抽取1张比你最高时代置顶牌高2个时代的卡牌。",
+          "en": ""
+        }
+      ]
+    },
+    {
+      "id": "figures-decree-25",
+      "set": "Figures",
+      "type": "decree",
+      "name_zh": "竞争",
+      "name_en": "Rivalry",
+      "age": -1,
+      "color": "PURPLE",
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": null,
+      "notes": [
+        "此法令中文效果已按终极版中文卡面转录；尚未取得可核对的终极版英文卡面，英文对照留空，不采用旧版法令文字。编号为图鉴本地编号。"
+      ],
+      "source_url": "https://img.915159.xyz/InnovationUltimate/figures_specialfront_25.png",
+      "effects": [
+        {
+          "kind": "decree_effect",
+          "label": "法令效果",
+          "zh": "选择一位对手。从他分数区归还3张卡牌。从他面板中的每个颜色归还置顶伟人牌。",
+          "en": ""
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "id": "auspice",
+      "zh": "卜兆 / 庇佑",
+      "en": "Auspice",
+      "pages": [
+        28
+      ],
+      "text": "如自己的置顶伟人带有此次条例原本的特性图标，可选择卜兆，改用头像统计本次共享和要求资格。",
+      "aliases": [
+        "庇佑",
+        "Auspice",
+        "庇护",
+        "卜兆"
+      ],
+      "official": "Auspice",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=28"
+    },
+    {
+      "id": "karma",
+      "zh": "业报 / 因果",
+      "en": "Karma",
+      "pages": [
+        28,
+        29
+      ],
+      "text": "伟人置顶时的规则修改效果，有 When、Each、Would、Decree 四类。业报不通过自身或其他业报连锁触发；详见伟人章节。",
+      "aliases": [
+        "因果",
+        "Karma",
+        "业报"
+      ],
+      "official": "Karma",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=28"
+    },
+    {
+      "id": "decree",
+      "zh": "法令",
+      "en": "Decree",
+      "pages": [
+        30
+      ],
+      "text": "通常用手中三个不同年代的伟人满足资格，移除整手牌，选择匹配颜色法令。对手持有时先收回供应区；供应区法令执行后取得；自己持有时再执行效果。",
+      "aliases": [
+        "法令",
+        "Decree"
+      ],
+      "official": "Decree",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=30"
+    },
+    {
+      "id": "fade",
+      "zh": "归隐 / 淡出",
+      "en": "Fade",
+      "pages": [
+        30
+      ],
+      "text": "每次行动结束时，多于一张置顶伟人的玩家把多余伟人逐张计分，直到只剩一张。发生在特殊成就与成就胜利检查之前。",
+      "aliases": [
+        "淡出",
+        "Fade",
+        "归隐"
+      ],
+      "official": "Fade",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=30"
+    },
+    {
+      "id": "food",
+      "zh": "食物",
+      "en": "Food",
+      "official": "Food",
+      "pages": [
+        30
+      ],
+      "text": "时代 0 卡牌启用后加入的标准资源图标。可见的食物图标用于相应条例的共享和要求资格判定。它不是“无时代”的标记。",
+      "aliases": [
+        "食物",
+        "Food"
+      ],
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=30"
+    },
+    {
+      "id": "karma-when",
+      "zh": "When",
+      "en": "When karma",
+      "official": "When karma",
+      "pages": [
+        28,
+        29
+      ],
+      "text": "融合此伟人时按牌面指令立即处理；可以由融合行动或效果中的融合触发。",
+      "aliases": [
+        "When"
+      ],
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=28"
+    },
+    {
+      "id": "karma-each",
+      "zh": "Each",
+      "en": "Each karma",
+      "official": "Each karma",
+      "pages": [
+        28,
+        29
+      ],
+      "text": "此伟人置顶时持续修改游戏状态。按未被其他 Each 业报修改的基本状态判断，不让多个 Each 递归放大。",
+      "aliases": [
+        "Each"
+      ],
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=28"
+    },
+    {
+      "id": "karma-would",
+      "zh": "Would",
+      "en": "Would karma",
+      "official": "Would karma",
+      "pages": [
+        28,
+        29
+      ],
+      "text": "指定事件将发生前触发。first 表示先处理业报再继续原指令；instead 表示替换原指令。业报处理中的事件不会连锁触发其他业报。",
+      "aliases": [
+        "Would"
+      ],
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=28"
+    },
+    {
+      "id": "karma-decree",
+      "zh": "法令资格",
+      "en": "Decree karma",
+      "official": "Decree karma",
+      "pages": [
+        29,
+        30
+      ],
+      "text": "置顶伟人上的法令资格业报按牌面放宽所需伟人的数量、时代或颜色限制。具体例外以该牌为准；法令行动仍需移除全部手牌。",
+      "aliases": [
+        "法令资格"
+      ],
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=29"
+    },
+    {
+      "id": "icon18",
+      "zh": "食物",
+      "en": "Food",
+      "aliases": [],
+      "pages": [
+        30
+      ],
+      "text": "引入时代 0 牌库后启用的标准图标，可用于要求和分享比较。"
+    }
+  ],
+  "icon_names": {
+    "18": "食物"
+  }
+}

@@ -1,0 +1,64 @@
+Data and artwork sources
+
+Innovation Ultimate is designed by Carl Chudyk and published by Asmadi Games.
+Card text and artwork remain the property of their respective rights holders.
+Official reference: https://www.asmadigames.com/innovation/
+
+This project's card data and Chinese translations were adapted from the
+previously reviewed fourth-edition catalogue. Sources are also recorded in
+data/base-cards.json, data/echoes-cards.json, data/figures-cards.json, data/cities-cards.json and individual card records.
+BGA implementation and image atlas:
+https://github.com/micahstairs/bga-innovation
+
+Echoes of the Past text and rule cross-checks:
+https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf (pp. 21, 24-25)
+https://www.asmadigames.com/innovation/ (cards E001-E115)
+https://github.com/micahstairs/bga-innovation/tree/9b5464e6c9382d587e229741aeaa2de932e4ed8e/modules/Innovation/Cards/Echoes
+The local echoes-illustrations.png is the Echoes row extracted from the existing
+BGA image atlas. Rules are explicit JavaScript implementations; the cited BGA
+fourth-edition code was used to resolve specific ordering and boundary cases.
+
+Figures in the Sand text and rule cross-checks:
+https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf (pp. 21, 28-30)
+https://www.asmadigames.com/innovation/ (F001-F115, Z001-Z015)
+Figure illustrations are cropped from the existing BGA atlas; age-zero images
+and the Food icon come from the previously reviewed catalogue sources. The
+standalone catalogue is unchanged. English paragraphs and numeric boxes in
+the game data are aligned with downloaded official card pages.
+
+Cities of Destiny references:
+https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf (pp. 9-10, 21-23)
+https://www.asmadigames.com/innovation/ (official C001-C115 card images)
+https://github.com/micahstairs/bga-innovation/tree/9b5464e6c9382d587e229741aeaa2de932e4ed8e
+Chinese city names and six-position data derive from the reviewed BGA catalogue.
+Cities contain printed icons rather than paragraphs: the bilingual explanations
+in game data are paraphrases of the official rules. cities-illustrations.png is
+the Cities row of the existing BGA atlas. Special symbols and magnifiers use
+local SVG paths. No official full-card images are shipped or loaded at runtime.
+
+Rule terminology references klingeling's Yucata localization project:
+https://code.915159.xyz/yucata/InnovationUltimate.json
+The license below applies to that localization contribution, not to the
+underlying game or all card text and artwork.
+
+MIT License
+
+Copyright (c) 2023 klingeling
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

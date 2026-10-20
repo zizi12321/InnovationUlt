@@ -1,0 +1,14 @@
+{
+  "name": "innovation-base-board",
+  "version": "0.6.0",
+  "private": true,
+  "type": "module",
+  "description": "Innovation Ultimate: Base, Echoes, Figures and Cities with an offline computer opponent",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "dev": "node tools/serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

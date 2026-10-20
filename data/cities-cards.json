@@ -1,0 +1,4781 @@
+{
+  "meta": {
+    "edition": "Innovation Ultimate / Fourth edition",
+    "card_count": 115,
+    "special_count": 5,
+    "rules_source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf",
+    "search_source": "Pinned BGA fourth-edition stMeld; official image review recorded in work/cities_research"
+  },
+  "cards": [
+    {
+      "id": "C001",
+      "set": "Cities",
+      "age": 1,
+      "color": "RED",
+      "name_zh": "雅典",
+      "name_en": "Athens",
+      "spots": [
+        3,
+        3,
+        3,
+        2,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        1,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C001",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "set": "Cities",
+      "age": 1,
+      "color": "RED",
+      "name_zh": "长安",
+      "name_en": "Chang' An",
+      "spots": [
+        2,
+        2,
+        2,
+        1,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        1,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C002",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "set": "Cities",
+      "age": 1,
+      "color": "RED",
+      "name_zh": "底比斯",
+      "name_en": "Thebes",
+      "spots": [
+        1,
+        1,
+        1,
+        3,
+        0,
+        3
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        1,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C003",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 3,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 1 基础牌库顶部的 1 张牌（不足时只展示余下牌，不顺延）。将带【概念】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "set": "Cities",
+      "age": 1,
+      "color": "YELLOW",
+      "name_zh": "大马士革",
+      "name_en": "Damascus",
+      "spots": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        4
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        3,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C004",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 4,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 1 基础牌库顶部的 1 张牌（不足时只展示余下牌，不顺延）。将带【权威】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "set": "Cities",
+      "age": 1,
+      "color": "YELLOW",
+      "name_zh": "临淄",
+      "name_en": "Linzi",
+      "spots": [
+        4,
+        1,
+        1,
+        4,
+        0,
+        4
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        3,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C005",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 4,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 1 基础牌库顶部的 1 张牌（不足时只展示余下牌，不顺延）。将带【权威】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "set": "Cities",
+      "age": 1,
+      "color": "YELLOW",
+      "name_zh": "乌鲁克",
+      "name_en": "Uruk",
+      "spots": [
+        4,
+        1,
+        4,
+        4,
+        0,
+        4
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        3,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C006",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 4,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 1 基础牌库顶部的 1 张牌（不足时只展示余下牌，不顺延）。将带【权威】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C007",
+      "set": "Cities",
+      "age": 1,
+      "color": "GREEN",
+      "name_zh": "巴比伦",
+      "name_en": "Babylon",
+      "spots": [
+        3,
+        3,
+        3,
+        1,
+        0,
+        16
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        2,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C007",
+      "notes": [
+        "待核对：图标“提升”的英文为 uplift；中文图标名称尚未与实体版核对。"
+      ],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 16,
+          "label": "融合行动 · 提升",
+          "zh": "移除比此城市高 1 时代的基础牌库，然后抽取一张比此城市高 2 时代的牌。",
+          "en": "Junk the base deck one value higher, then draw a card two values higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C008",
+      "set": "Cities",
+      "age": 1,
+      "color": "GREEN",
+      "name_zh": "耶路撒冷",
+      "name_en": "Jerusalem",
+      "spots": [
+        4,
+        3,
+        3,
+        4,
+        0,
+        4
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        2,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C008",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 4,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 1 基础牌库顶部的 1 张牌（不足时只展示余下牌，不顺延）。将带【权威】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C009",
+      "set": "Cities",
+      "age": 1,
+      "color": "GREEN",
+      "name_zh": "孟菲斯",
+      "name_en": "Memphis",
+      "spots": [
+        4,
+        2,
+        4,
+        4,
+        0,
+        4
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        2,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C009",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 4,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 1 基础牌库顶部的 1 张牌（不足时只展示余下牌，不顺延）。将带【权威】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C010",
+      "set": "Cities",
+      "age": 1,
+      "color": "BLUE",
+      "name_zh": "亚特兰蒂斯",
+      "name_en": "Atlantis",
+      "spots": [
+        2,
+        2,
+        2,
+        2,
+        0,
+        4
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        0,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C010",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 4,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 1 基础牌库顶部的 1 张牌（不足时只展示余下牌，不顺延）。将带【权威】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C011",
+      "set": "Cities",
+      "age": 1,
+      "color": "BLUE",
+      "name_zh": "特洛伊",
+      "name_en": "Troy",
+      "spots": [
+        1,
+        1,
+        1,
+        4,
+        0,
+        15
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        0,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C011",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 15,
+          "label": "融合行动 · 移除",
+          "zh": "移除一项与此城市时代相同的可用成就（若存在）。",
+          "en": "Junk an available achievement of the city’s value, if one exists."
+        }
+      ]
+    },
+    {
+      "id": "C012",
+      "set": "Cities",
+      "age": 1,
+      "color": "BLUE",
+      "name_zh": "殷",
+      "name_en": "Yin",
+      "spots": [
+        4,
+        2,
+        2,
+        4,
+        0,
+        4
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        0,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C012",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 4,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 1 基础牌库顶部的 1 张牌（不足时只展示余下牌，不顺延）。将带【权威】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C013",
+      "set": "Cities",
+      "age": 1,
+      "color": "PURPLE",
+      "name_zh": "以弗所",
+      "name_en": "Ephesus",
+      "spots": [
+        1,
+        1,
+        1,
+        4,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        4,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C013",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C014",
+      "set": "Cities",
+      "age": 1,
+      "color": "PURPLE",
+      "name_zh": "哈图沙",
+      "name_en": "Hattusa",
+      "spots": [
+        2,
+        2,
+        2,
+        4,
+        0,
+        4
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        4,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C014",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 4,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 1 基础牌库顶部的 1 张牌（不足时只展示余下牌，不顺延）。将带【权威】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C015",
+      "set": "Cities",
+      "age": 1,
+      "color": "PURPLE",
+      "name_zh": "摩亨佐-达罗",
+      "name_en": "Mohenjo-Daro",
+      "spots": [
+        2,
+        2,
+        2,
+        4,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        4,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C015",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C016",
+      "set": "Cities",
+      "age": 2,
+      "color": "RED",
+      "name_zh": "斯巴达",
+      "name_en": "Sparta",
+      "spots": [
+        4,
+        5,
+        4,
+        4,
+        0,
+        15
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        6,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C016",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 15,
+          "label": "融合行动 · 移除",
+          "zh": "移除一项与此城市时代相同的可用成就（若存在）。",
+          "en": "Junk an available achievement of the city’s value, if one exists."
+        }
+      ]
+    },
+    {
+      "id": "C017",
+      "set": "Cities",
+      "age": 2,
+      "color": "RED",
+      "name_zh": "蒂卡尔",
+      "name_en": "Tikal",
+      "spots": [
+        4,
+        2,
+        104,
+        4,
+        0,
+        4
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        6,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C017",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 4,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 2 基础牌库顶部的 2 张牌（不足时只展示余下牌，不顺延）。将带【权威】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C018",
+      "set": "Cities",
+      "age": 2,
+      "color": "YELLOW",
+      "name_zh": "尼尼微",
+      "name_en": "Nineveh",
+      "spots": [
+        2,
+        2,
+        1,
+        102,
+        0,
+        2
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        8,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C018",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 2,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 2 基础牌库顶部的 2 张牌（不足时只展示余下牌，不顺延）。将带【健康】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C019",
+      "set": "Cities",
+      "age": 2,
+      "color": "YELLOW",
+      "name_zh": "特奥蒂华坎",
+      "name_en": "Teotihuacan",
+      "spots": [
+        2,
+        2,
+        103,
+        4,
+        0,
+        2
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        8,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C019",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 2,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 2 基础牌库顶部的 2 张牌（不足时只展示余下牌，不顺延）。将带【健康】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C020",
+      "set": "Cities",
+      "age": 2,
+      "color": "GREEN",
+      "name_zh": "马赛",
+      "name_en": "Marseille",
+      "spots": [
+        1,
+        102,
+        1,
+        4,
+        0,
+        1
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        7,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C020",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 1,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 2 基础牌库顶部的 2 张牌（不足时只展示余下牌，不顺延）。将带【繁荣】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C021",
+      "set": "Cities",
+      "age": 2,
+      "color": "GREEN",
+      "name_zh": "南京",
+      "name_en": "Nanjing",
+      "spots": [
+        103,
+        1,
+        4,
+        4,
+        0,
+        4
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        7,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C021",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 4,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 2 基础牌库顶部的 2 张牌（不足时只展示余下牌，不顺延）。将带【权威】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C022",
+      "set": "Cities",
+      "age": 2,
+      "color": "BLUE",
+      "name_zh": "亚历山德里亚",
+      "name_en": "Alexandria",
+      "spots": [
+        1,
+        102,
+        1,
+        3,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        5,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C022",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C023",
+      "set": "Cities",
+      "age": 2,
+      "color": "BLUE",
+      "name_zh": "迦太基",
+      "name_en": "Carthage",
+      "spots": [
+        1,
+        3,
+        1,
+        1,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        5,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C023",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C024",
+      "set": "Cities",
+      "age": 2,
+      "color": "PURPLE",
+      "name_zh": "洛阳",
+      "name_en": "Luoyang",
+      "spots": [
+        3,
+        3,
+        2,
+        102,
+        0,
+        16
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        9,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C024",
+      "notes": [
+        "待核对：图标“提升”的英文为 uplift；中文图标名称尚未与实体版核对。"
+      ],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 16,
+          "label": "融合行动 · 提升",
+          "zh": "移除比此城市高 1 时代的基础牌库，然后抽取一张比此城市高 2 时代的牌。",
+          "en": "Junk the base deck one value higher, then draw a card two values higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C025",
+      "set": "Cities",
+      "age": 2,
+      "color": "PURPLE",
+      "name_zh": "罗马",
+      "name_en": "Rome",
+      "spots": [
+        102,
+        3,
+        3,
+        4,
+        0,
+        3
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        9,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C025",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 3,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 2 基础牌库顶部的 2 张牌（不足时只展示余下牌，不顺延）。将带【概念】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C026",
+      "set": "Cities",
+      "age": 3,
+      "color": "RED",
+      "name_zh": "巴塞罗那",
+      "name_en": "Barcelona",
+      "spots": [
+        104,
+        4,
+        1,
+        4,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        11,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C026",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C027",
+      "set": "Cities",
+      "age": 3,
+      "color": "RED",
+      "name_zh": "德里",
+      "name_en": "Delhi",
+      "spots": [
+        3,
+        2,
+        3,
+        3,
+        0,
+        11
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        11,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C027",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 11,
+          "label": "融合行动 · 向左展开",
+          "zh": "将此城市颜色的牌堆向左展开。",
+          "en": "Splay this city’s color left."
+        }
+      ]
+    },
+    {
+      "id": "C028",
+      "set": "Cities",
+      "age": 3,
+      "color": "YELLOW",
+      "name_zh": "雅加达",
+      "name_en": "Jakarta",
+      "spots": [
+        2,
+        1,
+        2,
+        2,
+        0,
+        15
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        13,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C028",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 15,
+          "label": "融合行动 · 移除",
+          "zh": "移除一项与此城市时代相同的可用成就（若存在）。",
+          "en": "Junk an available achievement of the city’s value, if one exists."
+        }
+      ]
+    },
+    {
+      "id": "C029",
+      "set": "Cities",
+      "age": 3,
+      "color": "YELLOW",
+      "name_zh": "开封",
+      "name_en": "Kaifeng",
+      "spots": [
+        4,
+        2,
+        4,
+        4,
+        0,
+        11
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        13,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C029",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 11,
+          "label": "融合行动 · 向左展开",
+          "zh": "将此城市颜色的牌堆向左展开。",
+          "en": "Splay this city’s color left."
+        }
+      ]
+    },
+    {
+      "id": "C030",
+      "set": "Cities",
+      "age": 3,
+      "color": "GREEN",
+      "name_zh": "巴格达",
+      "name_en": "Baghdad",
+      "spots": [
+        1,
+        1,
+        3,
+        103,
+        0,
+        11
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        12,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C030",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 11,
+          "label": "融合行动 · 向左展开",
+          "zh": "将此城市颜色的牌堆向左展开。",
+          "en": "Splay this city’s color left."
+        }
+      ]
+    },
+    {
+      "id": "C031",
+      "set": "Cities",
+      "age": 3,
+      "color": "GREEN",
+      "name_zh": "威尼斯",
+      "name_en": "Venice",
+      "spots": [
+        5,
+        1,
+        1,
+        1,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        12,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C031",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C032",
+      "set": "Cities",
+      "age": 3,
+      "color": "BLUE",
+      "name_zh": "科尔多瓦",
+      "name_en": "Cordoba",
+      "spots": [
+        5,
+        5,
+        5,
+        3,
+        0,
+        11
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        10,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C032",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 11,
+          "label": "融合行动 · 向左展开",
+          "zh": "将此城市颜色的牌堆向左展开。",
+          "en": "Splay this city’s color left."
+        }
+      ]
+    },
+    {
+      "id": "C033",
+      "set": "Cities",
+      "age": 3,
+      "color": "BLUE",
+      "name_zh": "杭州",
+      "name_en": "Hangzhou",
+      "spots": [
+        3,
+        3,
+        3,
+        4,
+        0,
+        16
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        10,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C033",
+      "notes": [
+        "待核对：图标“提升”的英文为 uplift；中文图标名称尚未与实体版核对。"
+      ],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 16,
+          "label": "融合行动 · 提升",
+          "zh": "移除比此城市高 1 时代的基础牌库，然后抽取一张比此城市高 2 时代的牌。",
+          "en": "Junk the base deck one value higher, then draw a card two values higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C034",
+      "set": "Cities",
+      "age": 3,
+      "color": "PURPLE",
+      "name_zh": "君士坦丁堡",
+      "name_en": "Constantinople",
+      "spots": [
+        4,
+        1,
+        103,
+        4,
+        0,
+        11
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        14,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C034",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 11,
+          "label": "融合行动 · 向左展开",
+          "zh": "将此城市颜色的牌堆向左展开。",
+          "en": "Splay this city’s color left."
+        }
+      ]
+    },
+    {
+      "id": "C035",
+      "set": "Cities",
+      "age": 3,
+      "color": "PURPLE",
+      "name_zh": "麦加",
+      "name_en": "Mecca",
+      "spots": [
+        2,
+        105,
+        1,
+        2,
+        0,
+        2
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        14,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C035",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 2,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 3 基础牌库顶部的 3 张牌（不足时只展示余下牌，不顺延）。将带【健康】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C036",
+      "set": "Cities",
+      "age": 4,
+      "color": "RED",
+      "name_zh": "米兰",
+      "name_en": "Milan",
+      "spots": [
+        5,
+        5,
+        16,
+        3,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        16,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C036",
+      "notes": [
+        "待核对：图标“提升”的英文为 uplift；中文图标名称尚未与实体版核对。"
+      ],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 16,
+          "label": "融合行动 · 提升",
+          "zh": "移除比此城市高 1 时代的基础牌库，然后抽取一张比此城市高 2 时代的牌。",
+          "en": "Junk the base deck one value higher, then draw a card two values higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C037",
+      "set": "Cities",
+      "age": 4,
+      "color": "RED",
+      "name_zh": "特诺奇蒂特兰",
+      "name_en": "Tenochtitlan",
+      "spots": [
+        4,
+        4,
+        104,
+        3,
+        0,
+        11
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        16,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C037",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 11,
+          "label": "融合行动 · 向左展开",
+          "zh": "将此城市颜色的牌堆向左展开。",
+          "en": "Splay this city’s color left."
+        }
+      ]
+    },
+    {
+      "id": "C038",
+      "set": "Cities",
+      "age": 4,
+      "color": "YELLOW",
+      "name_zh": "北京",
+      "name_en": "Beijing",
+      "spots": [
+        4,
+        4,
+        4,
+        2,
+        0,
+        11
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        18,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C038",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 11,
+          "label": "融合行动 · 向左展开",
+          "zh": "将此城市颜色的牌堆向左展开。",
+          "en": "Splay this city’s color left."
+        }
+      ]
+    },
+    {
+      "id": "C039",
+      "set": "Cities",
+      "age": 4,
+      "color": "YELLOW",
+      "name_zh": "里斯本",
+      "name_en": "Lisbon",
+      "spots": [
+        5,
+        5,
+        14,
+        2,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        18,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C039",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C040",
+      "set": "Cities",
+      "age": 4,
+      "color": "GREEN",
+      "name_zh": "卡利卡特",
+      "name_en": "Calicut",
+      "spots": [
+        105,
+        1,
+        2,
+        2,
+        0,
+        2
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        17,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C040",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 2,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 4 基础牌库顶部的 4 张牌（不足时只展示余下牌，不顺延）。将带【健康】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C041",
+      "set": "Cities",
+      "age": 4,
+      "color": "GREEN",
+      "name_zh": "马尼拉",
+      "name_en": "Manila",
+      "spots": [
+        1,
+        104,
+        1,
+        2,
+        0,
+        11
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        17,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C041",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 11,
+          "label": "融合行动 · 向左展开",
+          "zh": "将此城市颜色的牌堆向左展开。",
+          "en": "Splay this city’s color left."
+        }
+      ]
+    },
+    {
+      "id": "C042",
+      "set": "Cities",
+      "age": 4,
+      "color": "BLUE",
+      "name_zh": "法兰克福",
+      "name_en": "Frankfurt",
+      "spots": [
+        3,
+        3,
+        14,
+        5,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        15,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C042",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C043",
+      "set": "Cities",
+      "age": 4,
+      "color": "BLUE",
+      "name_zh": "马德里",
+      "name_en": "Madrid",
+      "spots": [
+        3,
+        3,
+        3,
+        1,
+        0,
+        11
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        15,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C043",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 11,
+          "label": "融合行动 · 向左展开",
+          "zh": "将此城市颜色的牌堆向左展开。",
+          "en": "Splay this city’s color left."
+        }
+      ]
+    },
+    {
+      "id": "C044",
+      "set": "Cities",
+      "age": 4,
+      "color": "PURPLE",
+      "name_zh": "佛罗伦萨",
+      "name_en": "Florence",
+      "spots": [
+        1,
+        3,
+        3,
+        104,
+        0,
+        11
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        19,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C044",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 11,
+          "label": "融合行动 · 向左展开",
+          "zh": "将此城市颜色的牌堆向左展开。",
+          "en": "Splay this city’s color left."
+        }
+      ]
+    },
+    {
+      "id": "C045",
+      "set": "Cities",
+      "age": 4,
+      "color": "PURPLE",
+      "name_zh": "塞维利亚",
+      "name_en": "Seville",
+      "spots": [
+        1,
+        1,
+        1,
+        3,
+        0,
+        15
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        19,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C045",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 15,
+          "label": "融合行动 · 移除",
+          "zh": "移除一项与此城市时代相同的可用成就（若存在）。",
+          "en": "Junk an available achievement of the city’s value, if one exists."
+        }
+      ]
+    },
+    {
+      "id": "C046",
+      "set": "Cities",
+      "age": 5,
+      "color": "RED",
+      "name_zh": "阿尔及尔",
+      "name_en": "Algiers",
+      "spots": [
+        1,
+        3,
+        3,
+        105,
+        0,
+        8
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        21,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C046",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 8,
+          "label": "持续 · 旗帜",
+          "zh": "只要此旗帜可见，且没有对手的同色可见卡牌比你多，它便计作一项成就。",
+          "en": "While visible, this flag counts as an achievement if no opponent has more visible cards of this color."
+        }
+      ]
+    },
+    {
+      "id": "C047",
+      "set": "Cities",
+      "age": 5,
+      "color": "RED",
+      "name_zh": "苏黎世",
+      "name_en": "Zurich",
+      "spots": [
+        5,
+        5,
+        5,
+        3,
+        0,
+        15
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        21,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C047",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 15,
+          "label": "融合行动 · 移除",
+          "zh": "移除一项与此城市时代相同的可用成就（若存在）。",
+          "en": "Junk an available achievement of the city’s value, if one exists."
+        }
+      ]
+    },
+    {
+      "id": "C048",
+      "set": "Cities",
+      "age": 5,
+      "color": "YELLOW",
+      "name_zh": "会安",
+      "name_en": "Hoi An",
+      "spots": [
+        107,
+        1,
+        1,
+        2,
+        0,
+        1
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        23,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C048",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 1,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 5 基础牌库顶部的 5 张牌（不足时只展示余下牌，不顺延）。将带【繁荣】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C049",
+      "set": "Cities",
+      "age": 5,
+      "color": "YELLOW",
+      "name_zh": "大阪",
+      "name_en": "Osaka",
+      "spots": [
+        2,
+        2,
+        3,
+        3,
+        0,
+        3
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        23,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C049",
+      "notes": [],
+      "type": "city",
+      "search_slots": [
+        5
+      ],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 3,
+          "label": "融合行动 · 搜索",
+          "zh": "展示时代 5 基础牌库顶部的 5 张牌（不足时只展示余下牌，不顺延）。将带【概念】的牌拿入手中，其余按自选顺序归还；整个搜索过程不算抽牌，不触发也不受业报影响。",
+          "en": "Reveal the top X cards of the base X deck. Take cards matching this Search icon into hand and return the rest in any order. Search ignores karma and expansion draw rules."
+        }
+      ]
+    },
+    {
+      "id": "C050",
+      "set": "Cities",
+      "age": 5,
+      "color": "GREEN",
+      "name_zh": "阿姆斯特丹",
+      "name_en": "Amsterdam",
+      "spots": [
+        4,
+        2,
+        16,
+        4,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        22,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C050",
+      "notes": [
+        "待核对：图标“提升”的英文为 uplift；中文图标名称尚未与实体版核对。"
+      ],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 16,
+          "label": "融合行动 · 提升",
+          "zh": "移除比此城市高 1 时代的基础牌库，然后抽取一张比此城市高 2 时代的牌。",
+          "en": "Junk the base deck one value higher, then draw a card two values higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C051",
+      "set": "Cities",
+      "age": 5,
+      "color": "GREEN",
+      "name_zh": "斯德哥尔摩",
+      "name_en": "Stockholm",
+      "spots": [
+        5,
+        1,
+        105,
+        1,
+        0,
+        8
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        22,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C051",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 8,
+          "label": "持续 · 旗帜",
+          "zh": "只要此旗帜可见，且没有对手的同色可见卡牌比你多，它便计作一项成就。",
+          "en": "While visible, this flag counts as an achievement if no opponent has more visible cards of this color."
+        }
+      ]
+    },
+    {
+      "id": "C052",
+      "set": "Cities",
+      "age": 5,
+      "color": "BLUE",
+      "name_zh": "波士顿",
+      "name_en": "Boston",
+      "spots": [
+        5,
+        3,
+        14,
+        3,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        20,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C052",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C053",
+      "set": "Cities",
+      "age": 5,
+      "color": "BLUE",
+      "name_zh": "那不勒斯",
+      "name_en": "Naples",
+      "spots": [
+        3,
+        3,
+        14,
+        2,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        20,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C053",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C054",
+      "set": "Cities",
+      "age": 5,
+      "color": "PURPLE",
+      "name_zh": "格但斯克",
+      "name_en": "Gdansk",
+      "spots": [
+        1,
+        105,
+        5,
+        1,
+        0,
+        8
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        24,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C054",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 8,
+          "label": "持续 · 旗帜",
+          "zh": "只要此旗帜可见，且没有对手的同色可见卡牌比你多，它便计作一项成就。",
+          "en": "While visible, this flag counts as an achievement if no opponent has more visible cards of this color."
+        }
+      ]
+    },
+    {
+      "id": "C055",
+      "set": "Cities",
+      "age": 5,
+      "color": "PURPLE",
+      "name_zh": "东京",
+      "name_en": "Tokyo",
+      "spots": [
+        4,
+        4,
+        6,
+        4,
+        0,
+        8
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        24,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C055",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 8,
+          "label": "持续 · 旗帜",
+          "zh": "只要此旗帜可见，且没有对手的同色可见卡牌比你多，它便计作一项成就。",
+          "en": "While visible, this flag counts as an achievement if no opponent has more visible cards of this color."
+        }
+      ]
+    },
+    {
+      "id": "C056",
+      "set": "Cities",
+      "age": 6,
+      "color": "RED",
+      "name_zh": "费城",
+      "name_en": "Philadelphia",
+      "spots": [
+        5,
+        6,
+        14,
+        6,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        26,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C056",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C057",
+      "set": "Cities",
+      "age": 6,
+      "color": "RED",
+      "name_zh": "德黑兰",
+      "name_en": "Tehran",
+      "spots": [
+        5,
+        1,
+        12,
+        1,
+        0,
+        8
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        26,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C057",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 8,
+          "label": "持续 · 旗帜",
+          "zh": "只要此旗帜可见，且没有对手的同色可见卡牌比你多，它便计作一项成就。",
+          "en": "While visible, this flag counts as an achievement if no opponent has more visible cards of this color."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 12,
+          "label": "融合行动 · 向右展开",
+          "zh": "将此城市颜色的牌堆向右展开。",
+          "en": "Splay this city’s color right."
+        }
+      ]
+    },
+    {
+      "id": "C058",
+      "set": "Cities",
+      "age": 6,
+      "color": "YELLOW",
+      "name_zh": "都柏林",
+      "name_en": "Dublin",
+      "spots": [
+        5,
+        2,
+        12,
+        5,
+        0,
+        15
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        28,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C058",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 15,
+          "label": "融合行动 · 移除",
+          "zh": "移除一项与此城市时代相同的可用成就（若存在）。",
+          "en": "Junk an available achievement of the city’s value, if one exists."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 12,
+          "label": "融合行动 · 向右展开",
+          "zh": "将此城市颜色的牌堆向右展开。",
+          "en": "Splay this city’s color right."
+        }
+      ]
+    },
+    {
+      "id": "C059",
+      "set": "Cities",
+      "age": 6,
+      "color": "YELLOW",
+      "name_zh": "巴黎",
+      "name_en": "Paris",
+      "spots": [
+        2,
+        2,
+        6,
+        107,
+        0,
+        8
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        28,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C059",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 8,
+          "label": "持续 · 旗帜",
+          "zh": "只要此旗帜可见，且没有对手的同色可见卡牌比你多，它便计作一项成就。",
+          "en": "While visible, this flag counts as an achievement if no opponent has more visible cards of this color."
+        }
+      ]
+    },
+    {
+      "id": "C060",
+      "set": "Cities",
+      "age": 6,
+      "color": "GREEN",
+      "name_zh": "孟买",
+      "name_en": "Bombay",
+      "spots": [
+        106,
+        1,
+        2,
+        2,
+        0,
+        12
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        27,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C060",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 12,
+          "label": "融合行动 · 向右展开",
+          "zh": "将此城市颜色的牌堆向右展开。",
+          "en": "Splay this city’s color right."
+        }
+      ]
+    },
+    {
+      "id": "C061",
+      "set": "Cities",
+      "age": 6,
+      "color": "GREEN",
+      "name_zh": "里约热内卢",
+      "name_en": "Rio De Janeiro",
+      "spots": [
+        5,
+        107,
+        5,
+        1,
+        0,
+        8
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        27,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C061",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 8,
+          "label": "持续 · 旗帜",
+          "zh": "只要此旗帜可见，且没有对手的同色可见卡牌比你多，它便计作一项成就。",
+          "en": "While visible, this flag counts as an achievement if no opponent has more visible cards of this color."
+        }
+      ]
+    },
+    {
+      "id": "C062",
+      "set": "Cities",
+      "age": 6,
+      "color": "BLUE",
+      "name_zh": "柏林",
+      "name_en": "Berlin",
+      "spots": [
+        5,
+        5,
+        12,
+        3,
+        0,
+        8
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        25,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C062",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 8,
+          "label": "持续 · 旗帜",
+          "zh": "只要此旗帜可见，且没有对手的同色可见卡牌比你多，它便计作一项成就。",
+          "en": "While visible, this flag counts as an achievement if no opponent has more visible cards of this color."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 12,
+          "label": "融合行动 · 向右展开",
+          "zh": "将此城市颜色的牌堆向右展开。",
+          "en": "Splay this city’s color right."
+        }
+      ]
+    },
+    {
+      "id": "C063",
+      "set": "Cities",
+      "age": 6,
+      "color": "BLUE",
+      "name_zh": "爱丁堡",
+      "name_en": "Edinburgh",
+      "spots": [
+        3,
+        5,
+        14,
+        3,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        25,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C063",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C064",
+      "set": "Cities",
+      "age": 6,
+      "color": "PURPLE",
+      "name_zh": "纽约城",
+      "name_en": "New York City",
+      "spots": [
+        3,
+        1,
+        16,
+        1,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        29,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C064",
+      "notes": [
+        "待核对：图标“提升”的英文为 uplift；中文图标名称尚未与实体版核对。"
+      ],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 16,
+          "label": "融合行动 · 提升",
+          "zh": "移除比此城市高 1 时代的基础牌库，然后抽取一张比此城市高 2 时代的牌。",
+          "en": "Junk the base deck one value higher, then draw a card two values higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C065",
+      "set": "Cities",
+      "age": 6,
+      "color": "PURPLE",
+      "name_zh": "维也纳",
+      "name_en": "Vienna",
+      "spots": [
+        3,
+        3,
+        106,
+        1,
+        0,
+        12
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        29,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C065",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 12,
+          "label": "融合行动 · 向右展开",
+          "zh": "将此城市颜色的牌堆向右展开。",
+          "en": "Splay this city’s color right."
+        }
+      ]
+    },
+    {
+      "id": "C066",
+      "set": "Cities",
+      "age": 7,
+      "color": "RED",
+      "name_zh": "里昂",
+      "name_en": "Lyon",
+      "spots": [
+        1,
+        5,
+        12,
+        5,
+        0,
+        8
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        31,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C066",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 8,
+          "label": "持续 · 旗帜",
+          "zh": "只要此旗帜可见，且没有对手的同色可见卡牌比你多，它便计作一项成就。",
+          "en": "While visible, this flag counts as an achievement if no opponent has more visible cards of this color."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 12,
+          "label": "融合行动 · 向右展开",
+          "zh": "将此城市颜色的牌堆向右展开。",
+          "en": "Splay this city’s color right."
+        }
+      ]
+    },
+    {
+      "id": "C067",
+      "set": "Cities",
+      "age": 7,
+      "color": "RED",
+      "name_zh": "蒙特利尔",
+      "name_en": "Montreal",
+      "spots": [
+        5,
+        5,
+        14,
+        1,
+        0,
+        15
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        31,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C067",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 15,
+          "label": "融合行动 · 移除",
+          "zh": "移除一项与此城市时代相同的可用成就（若存在）。",
+          "en": "Junk an available achievement of the city’s value, if one exists."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C068",
+      "set": "Cities",
+      "age": 7,
+      "color": "YELLOW",
+      "name_zh": "墨尔本",
+      "name_en": "Melbourne",
+      "spots": [
+        107,
+        107,
+        2,
+        1,
+        0,
+        107
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        33,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C068",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_info",
+          "label": "城市图标",
+          "zh": "这张城市没有即时特殊图标。可见的标准图标与奖分正常计数；作为置顶城市时可用于签署强化。",
+          "en": "Standard icons and bonuses count while visible. This city can enable Endorse while on top."
+        }
+      ]
+    },
+    {
+      "id": "C069",
+      "set": "Cities",
+      "age": 7,
+      "color": "YELLOW",
+      "name_zh": "圣彼得堡",
+      "name_en": "St. Petersburg",
+      "spots": [
+        2,
+        5,
+        12,
+        2,
+        0,
+        8
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        33,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C069",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 8,
+          "label": "持续 · 旗帜",
+          "zh": "只要此旗帜可见，且没有对手的同色可见卡牌比你多，它便计作一项成就。",
+          "en": "While visible, this flag counts as an achievement if no opponent has more visible cards of this color."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 12,
+          "label": "融合行动 · 向右展开",
+          "zh": "将此城市颜色的牌堆向右展开。",
+          "en": "Splay this city’s color right."
+        }
+      ]
+    },
+    {
+      "id": "C070",
+      "set": "Cities",
+      "age": 7,
+      "color": "GREEN",
+      "name_zh": "伦敦",
+      "name_en": "London",
+      "spots": [
+        5,
+        6,
+        16,
+        6,
+        0,
+        12
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        32,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C070",
+      "notes": [
+        "待核对：图标“提升”的英文为 uplift；中文图标名称尚未与实体版核对。"
+      ],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 12,
+          "label": "融合行动 · 向右展开",
+          "zh": "将此城市颜色的牌堆向右展开。",
+          "en": "Splay this city’s color right."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 16,
+          "label": "融合行动 · 提升",
+          "zh": "移除比此城市高 1 时代的基础牌库，然后抽取一张比此城市高 2 时代的牌。",
+          "en": "Junk the base deck one value higher, then draw a card two values higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C071",
+      "set": "Cities",
+      "age": 7,
+      "color": "GREEN",
+      "name_zh": "多伦多",
+      "name_en": "Toronto",
+      "spots": [
+        107,
+        107,
+        6,
+        2,
+        0,
+        107
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        32,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C071",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_info",
+          "label": "城市图标",
+          "zh": "这张城市没有即时特殊图标。可见的标准图标与奖分正常计数；作为置顶城市时可用于签署强化。",
+          "en": "Standard icons and bonuses count while visible. This city can enable Endorse while on top."
+        }
+      ]
+    },
+    {
+      "id": "C072",
+      "set": "Cities",
+      "age": 7,
+      "color": "BLUE",
+      "name_zh": "约翰内斯堡",
+      "name_en": "Johannesburg",
+      "spots": [
+        107,
+        107,
+        3,
+        1,
+        0,
+        107
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        30,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C072",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_info",
+          "label": "城市图标",
+          "zh": "这张城市没有即时特殊图标。可见的标准图标与奖分正常计数；作为置顶城市时可用于签署强化。",
+          "en": "Standard icons and bonuses count while visible. This city can enable Endorse while on top."
+        }
+      ]
+    },
+    {
+      "id": "C073",
+      "set": "Cities",
+      "age": 7,
+      "color": "BLUE",
+      "name_zh": "慕尼黑",
+      "name_en": "Munich",
+      "spots": [
+        3,
+        6,
+        14,
+        3,
+        0,
+        12
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        30,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C073",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 12,
+          "label": "融合行动 · 向右展开",
+          "zh": "将此城市颜色的牌堆向右展开。",
+          "en": "Splay this city’s color right."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C074",
+      "set": "Cities",
+      "age": 7,
+      "color": "PURPLE",
+      "name_zh": "旧金山",
+      "name_en": "San Francisco",
+      "spots": [
+        1,
+        3,
+        109,
+        109,
+        0,
+        109
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        34,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C074",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_info",
+          "label": "城市图标",
+          "zh": "这张城市没有即时特殊图标。可见的标准图标与奖分正常计数；作为置顶城市时可用于签署强化。",
+          "en": "Standard icons and bonuses count while visible. This city can enable Endorse while on top."
+        }
+      ]
+    },
+    {
+      "id": "C075",
+      "set": "Cities",
+      "age": 7,
+      "color": "PURPLE",
+      "name_zh": "华盛顿",
+      "name_en": "Washington",
+      "spots": [
+        5,
+        3,
+        12,
+        3,
+        0,
+        8
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        34,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C075",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 8,
+          "label": "持续 · 旗帜",
+          "zh": "只要此旗帜可见，且没有对手的同色可见卡牌比你多，它便计作一项成就。",
+          "en": "While visible, this flag counts as an achievement if no opponent has more visible cards of this color."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 12,
+          "label": "融合行动 · 向右展开",
+          "zh": "将此城市颜色的牌堆向右展开。",
+          "en": "Splay this city’s color right."
+        }
+      ]
+    },
+    {
+      "id": "C076",
+      "set": "Cities",
+      "age": 8,
+      "color": "RED",
+      "name_zh": "吉隆坡",
+      "name_en": "Kuala Lumpur",
+      "spots": [
+        5,
+        5,
+        6,
+        5,
+        0,
+        9
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        36,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C076",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 9,
+          "label": "持续 · 喷泉",
+          "zh": "每个可见喷泉计作一项成就。",
+          "en": "Each visible fountain counts as an achievement."
+        }
+      ]
+    },
+    {
+      "id": "C077",
+      "set": "Cities",
+      "age": 8,
+      "color": "RED",
+      "name_zh": "洛杉矶",
+      "name_en": "Los Angeles",
+      "spots": [
+        109,
+        5,
+        109,
+        3,
+        0,
+        109
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        36,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C077",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_info",
+          "label": "城市图标",
+          "zh": "这张城市没有即时特殊图标。可见的标准图标与奖分正常计数；作为置顶城市时可用于签署强化。",
+          "en": "Standard icons and bonuses count while visible. This city can enable Endorse while on top."
+        }
+      ]
+    },
+    {
+      "id": "C078",
+      "set": "Cities",
+      "age": 8,
+      "color": "YELLOW",
+      "name_zh": "芝加哥",
+      "name_en": "Chicago",
+      "spots": [
+        108,
+        108,
+        6,
+        2,
+        0,
+        108
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        38,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C078",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_info",
+          "label": "城市图标",
+          "zh": "这张城市没有即时特殊图标。可见的标准图标与奖分正常计数；作为置顶城市时可用于签署强化。",
+          "en": "Standard icons and bonuses count while visible. This city can enable Endorse while on top."
+        }
+      ]
+    },
+    {
+      "id": "C079",
+      "set": "Cities",
+      "age": 8,
+      "color": "YELLOW",
+      "name_zh": "上海",
+      "name_en": "Shanghai",
+      "spots": [
+        2,
+        1,
+        2,
+        2,
+        0,
+        9
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        38,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C079",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 9,
+          "label": "持续 · 喷泉",
+          "zh": "每个可见喷泉计作一项成就。",
+          "en": "Each visible fountain counts as an achievement."
+        }
+      ]
+    },
+    {
+      "id": "C080",
+      "set": "Cities",
+      "age": 8,
+      "color": "GREEN",
+      "name_zh": "汉堡",
+      "name_en": "Hamburg",
+      "spots": [
+        1,
+        6,
+        6,
+        6,
+        0,
+        15
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        37,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C080",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 15,
+          "label": "融合行动 · 移除",
+          "zh": "移除一项与此城市时代相同的可用成就（若存在）。",
+          "en": "Junk an available achievement of the city’s value, if one exists."
+        }
+      ]
+    },
+    {
+      "id": "C081",
+      "set": "Cities",
+      "age": 8,
+      "color": "GREEN",
+      "name_zh": "圣保罗",
+      "name_en": "São Paulo",
+      "spots": [
+        108,
+        108,
+        1,
+        2,
+        0,
+        108
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        37,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C081",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_info",
+          "label": "城市图标",
+          "zh": "这张城市没有即时特殊图标。可见的标准图标与奖分正常计数；作为置顶城市时可用于签署强化。",
+          "en": "Standard icons and bonuses count while visible. This city can enable Endorse while on top."
+        }
+      ]
+    },
+    {
+      "id": "C082",
+      "set": "Cities",
+      "age": 8,
+      "color": "BLUE",
+      "name_zh": "重庆",
+      "name_en": "Chongqing",
+      "spots": [
+        5,
+        5,
+        16,
+        3,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        35,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C082",
+      "notes": [
+        "待核对：图标“提升”的英文为 uplift；中文图标名称尚未与实体版核对。"
+      ],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 16,
+          "label": "融合行动 · 提升",
+          "zh": "移除比此城市高 1 时代的基础牌库，然后抽取一张比此城市高 2 时代的牌。",
+          "en": "Junk the base deck one value higher, then draw a card two values higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C083",
+      "set": "Cities",
+      "age": 8,
+      "color": "BLUE",
+      "name_zh": "基辅",
+      "name_en": "Kyiv",
+      "spots": [
+        5,
+        6,
+        14,
+        5,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        35,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C083",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C084",
+      "set": "Cities",
+      "age": 8,
+      "color": "PURPLE",
+      "name_zh": "布宜诺斯艾利斯",
+      "name_en": "Buenos Aires",
+      "spots": [
+        109,
+        6,
+        109,
+        3,
+        0,
+        109
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        39,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C084",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_info",
+          "label": "城市图标",
+          "zh": "这张城市没有即时特殊图标。可见的标准图标与奖分正常计数；作为置顶城市时可用于签署强化。",
+          "en": "Standard icons and bonuses count while visible. This city can enable Endorse while on top."
+        }
+      ]
+    },
+    {
+      "id": "C085",
+      "set": "Cities",
+      "age": 8,
+      "color": "PURPLE",
+      "name_zh": "温哥华",
+      "name_en": "Vancouver",
+      "spots": [
+        1,
+        3,
+        14,
+        3,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        39,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C085",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C086",
+      "set": "Cities",
+      "age": 9,
+      "color": "RED",
+      "name_zh": "达拉斯",
+      "name_en": "Dallas",
+      "spots": [
+        5,
+        6,
+        14,
+        6,
+        0,
+        13
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        41,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C086",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 13,
+          "label": "融合行动 · 向上展开",
+          "zh": "将此城市颜色的牌堆向上展开。",
+          "en": "Splay this city’s color up."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C087",
+      "set": "Cities",
+      "age": 9,
+      "color": "RED",
+      "name_zh": "珀斯",
+      "name_en": "Perth",
+      "spots": [
+        110,
+        5,
+        110,
+        1,
+        0,
+        110
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        41,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C087",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_info",
+          "label": "城市图标",
+          "zh": "这张城市没有即时特殊图标。可见的标准图标与奖分正常计数；作为置顶城市时可用于签署强化。",
+          "en": "Standard icons and bonuses count while visible. This city can enable Endorse while on top."
+        }
+      ]
+    },
+    {
+      "id": "C088",
+      "set": "Cities",
+      "age": 9,
+      "color": "YELLOW",
+      "name_zh": "瓜达拉哈拉",
+      "name_en": "Guadalajara",
+      "spots": [
+        2,
+        6,
+        14,
+        6,
+        0,
+        13
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        43,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C088",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 13,
+          "label": "融合行动 · 向上展开",
+          "zh": "将此城市颜色的牌堆向上展开。",
+          "en": "Splay this city’s color up."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C089",
+      "set": "Cities",
+      "age": 9,
+      "color": "YELLOW",
+      "name_zh": "迈阿密",
+      "name_en": "Miami",
+      "spots": [
+        109,
+        1,
+        109,
+        2,
+        0,
+        109
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        43,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C089",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_info",
+          "label": "城市图标",
+          "zh": "这张城市没有即时特殊图标。可见的标准图标与奖分正常计数；作为置顶城市时可用于签署强化。",
+          "en": "Standard icons and bonuses count while visible. This city can enable Endorse while on top."
+        }
+      ]
+    },
+    {
+      "id": "C090",
+      "set": "Cities",
+      "age": 9,
+      "color": "GREEN",
+      "name_zh": "圣地亚哥",
+      "name_en": "Santiago",
+      "spots": [
+        109,
+        109,
+        6,
+        3,
+        0,
+        109
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        42,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C090",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_info",
+          "label": "城市图标",
+          "zh": "这张城市没有即时特殊图标。可见的标准图标与奖分正常计数；作为置顶城市时可用于签署强化。",
+          "en": "Standard icons and bonuses count while visible. This city can enable Endorse while on top."
+        }
+      ]
+    },
+    {
+      "id": "C091",
+      "set": "Cities",
+      "age": 9,
+      "color": "GREEN",
+      "name_zh": "悉尼",
+      "name_en": "Sydney",
+      "spots": [
+        3,
+        1,
+        13,
+        1,
+        0,
+        9
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        42,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C091",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 9,
+          "label": "持续 · 喷泉",
+          "zh": "每个可见喷泉计作一项成就。",
+          "en": "Each visible fountain counts as an achievement."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 13,
+          "label": "融合行动 · 向上展开",
+          "zh": "将此城市颜色的牌堆向上展开。",
+          "en": "Splay this city’s color up."
+        }
+      ]
+    },
+    {
+      "id": "C092",
+      "set": "Cities",
+      "age": 9,
+      "color": "BLUE",
+      "name_zh": "休斯顿",
+      "name_en": "Houston",
+      "spots": [
+        110,
+        6,
+        110,
+        1,
+        0,
+        110
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        40,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C092",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_info",
+          "label": "城市图标",
+          "zh": "这张城市没有即时特殊图标。可见的标准图标与奖分正常计数；作为置顶城市时可用于签署强化。",
+          "en": "Standard icons and bonuses count while visible. This city can enable Endorse while on top."
+        }
+      ]
+    },
+    {
+      "id": "C093",
+      "set": "Cities",
+      "age": 9,
+      "color": "BLUE",
+      "name_zh": "台北",
+      "name_en": "Taipei",
+      "spots": [
+        6,
+        6,
+        13,
+        3,
+        0,
+        9
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        40,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C093",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 9,
+          "label": "持续 · 喷泉",
+          "zh": "每个可见喷泉计作一项成就。",
+          "en": "Each visible fountain counts as an achievement."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 13,
+          "label": "融合行动 · 向上展开",
+          "zh": "将此城市颜色的牌堆向上展开。",
+          "en": "Splay this city’s color up."
+        }
+      ]
+    },
+    {
+      "id": "C094",
+      "set": "Cities",
+      "age": 9,
+      "color": "PURPLE",
+      "name_zh": "香港",
+      "name_en": "Hong Kong",
+      "spots": [
+        5,
+        6,
+        16,
+        5,
+        0,
+        13
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        44,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C094",
+      "notes": [
+        "待核对：图标“提升”的英文为 uplift；中文图标名称尚未与实体版核对。"
+      ],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 13,
+          "label": "融合行动 · 向上展开",
+          "zh": "将此城市颜色的牌堆向上展开。",
+          "en": "Splay this city’s color up."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 16,
+          "label": "融合行动 · 提升",
+          "zh": "移除比此城市高 1 时代的基础牌库，然后抽取一张比此城市高 2 时代的牌。",
+          "en": "Junk the base deck one value higher, then draw a card two values higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C095",
+      "set": "Cities",
+      "age": 9,
+      "color": "PURPLE",
+      "name_zh": "莫斯科",
+      "name_en": "Moscow",
+      "spots": [
+        2,
+        3,
+        15,
+        2,
+        0,
+        9
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        44,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C095",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 9,
+          "label": "持续 · 喷泉",
+          "zh": "每个可见喷泉计作一项成就。",
+          "en": "Each visible fountain counts as an achievement."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 15,
+          "label": "融合行动 · 移除",
+          "zh": "移除一项与此城市时代相同的可用成就（若存在）。",
+          "en": "Junk an available achievement of the city’s value, if one exists."
+        }
+      ]
+    },
+    {
+      "id": "C096",
+      "set": "Cities",
+      "age": 10,
+      "color": "RED",
+      "name_zh": "首尔",
+      "name_en": "Seoul",
+      "spots": [
+        7,
+        7,
+        13,
+        7,
+        0,
+        17
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        46,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C096",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 17,
+          "label": "融合行动 · 还原展开",
+          "zh": "将所有对手面板上此城市颜色的牌堆还原为未展开。",
+          "en": "Unsplay this city’s color on all opponents’ boards."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 13,
+          "label": "融合行动 · 向上展开",
+          "zh": "将此城市颜色的牌堆向上展开。",
+          "en": "Splay this city’s color up."
+        }
+      ]
+    },
+    {
+      "id": "C097",
+      "set": "Cities",
+      "age": 10,
+      "color": "RED",
+      "name_zh": "新加坡",
+      "name_en": "Singapore",
+      "spots": [
+        5,
+        110,
+        5,
+        1,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        46,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C097",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C098",
+      "set": "Cities",
+      "age": 10,
+      "color": "YELLOW",
+      "name_zh": "哥本哈根",
+      "name_en": "Copenhagen",
+      "spots": [
+        2,
+        6,
+        13,
+        2,
+        0,
+        17
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        48,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C098",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 17,
+          "label": "融合行动 · 还原展开",
+          "zh": "将所有对手面板上此城市颜色的牌堆还原为未展开。",
+          "en": "Unsplay this city’s color on all opponents’ boards."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 13,
+          "label": "融合行动 · 向上展开",
+          "zh": "将此城市颜色的牌堆向上展开。",
+          "en": "Splay this city’s color up."
+        }
+      ]
+    },
+    {
+      "id": "C099",
+      "set": "Cities",
+      "age": 10,
+      "color": "YELLOW",
+      "name_zh": "迪拜",
+      "name_en": "Dubai",
+      "spots": [
+        110,
+        1,
+        6,
+        1,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        48,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C099",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C100",
+      "set": "Cities",
+      "age": 10,
+      "color": "GREEN",
+      "name_zh": "曼谷",
+      "name_en": "Bangkok",
+      "spots": [
+        6,
+        1,
+        111,
+        111,
+        0,
+        111
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        47,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C100",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_info",
+          "label": "城市图标",
+          "zh": "这张城市没有即时特殊图标。可见的标准图标与奖分正常计数；作为置顶城市时可用于签署强化。",
+          "en": "Standard icons and bonuses count while visible. This city can enable Endorse while on top."
+        }
+      ]
+    },
+    {
+      "id": "C101",
+      "set": "Cities",
+      "age": 10,
+      "color": "GREEN",
+      "name_zh": "特拉维夫",
+      "name_en": "Tel Aviv",
+      "spots": [
+        3,
+        6,
+        13,
+        6,
+        0,
+        17
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        47,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C101",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 17,
+          "label": "融合行动 · 还原展开",
+          "zh": "将所有对手面板上此城市颜色的牌堆还原为未展开。",
+          "en": "Unsplay this city’s color on all opponents’ boards."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 13,
+          "label": "融合行动 · 向上展开",
+          "zh": "将此城市颜色的牌堆向上展开。",
+          "en": "Splay this city’s color up."
+        }
+      ]
+    },
+    {
+      "id": "C102",
+      "set": "Cities",
+      "age": 10,
+      "color": "BLUE",
+      "name_zh": "亚特兰大",
+      "name_en": "Atlanta",
+      "spots": [
+        110,
+        6,
+        6,
+        3,
+        0,
+        14
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        45,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C102",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 14,
+          "label": "融合行动 · 加号",
+          "zh": "抽取一张比此城市时代高 1 的牌。",
+          "en": "Draw a card of value one higher than the city."
+        }
+      ]
+    },
+    {
+      "id": "C103",
+      "set": "Cities",
+      "age": 10,
+      "color": "BLUE",
+      "name_zh": "班加罗尔",
+      "name_en": "Bangalore",
+      "spots": [
+        2,
+        2,
+        13,
+        3,
+        0,
+        17
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        45,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C103",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 17,
+          "label": "融合行动 · 还原展开",
+          "zh": "将所有对手面板上此城市颜色的牌堆还原为未展开。",
+          "en": "Unsplay this city’s color on all opponents’ boards."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 13,
+          "label": "融合行动 · 向上展开",
+          "zh": "将此城市颜色的牌堆向上展开。",
+          "en": "Splay this city’s color up."
+        }
+      ]
+    },
+    {
+      "id": "C104",
+      "set": "Cities",
+      "age": 10,
+      "color": "PURPLE",
+      "name_zh": "布鲁塞尔",
+      "name_en": "Brussels",
+      "spots": [
+        5,
+        7,
+        5,
+        5,
+        0,
+        15
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        49,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C104",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 15,
+          "label": "融合行动 · 移除",
+          "zh": "移除一项与此城市时代相同的可用成就（若存在）。",
+          "en": "Junk an available achievement of the city’s value, if one exists."
+        }
+      ]
+    },
+    {
+      "id": "C105",
+      "set": "Cities",
+      "age": 10,
+      "color": "PURPLE",
+      "name_zh": "拉各斯",
+      "name_en": "Lagos",
+      "spots": [
+        2,
+        3,
+        13,
+        3,
+        0,
+        17
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        49,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C105",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 17,
+          "label": "融合行动 · 还原展开",
+          "zh": "将所有对手面板上此城市颜色的牌堆还原为未展开。",
+          "en": "Unsplay this city’s color on all opponents’ boards."
+        },
+        {
+          "kind": "city_immediate",
+          "slot": 2,
+          "icon": 13,
+          "label": "融合行动 · 向上展开",
+          "zh": "将此城市颜色的牌堆向上展开。",
+          "en": "Splay this city’s color up."
+        }
+      ]
+    },
+    {
+      "id": "C106",
+      "set": "Cities",
+      "age": 11,
+      "color": "RED",
+      "name_zh": "广州",
+      "name_en": "Guangzhou",
+      "spots": [
+        1,
+        5,
+        9,
+        5,
+        0,
+        9
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        51,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C106",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 9,
+          "label": "持续 · 喷泉",
+          "zh": "每个可见喷泉计作一项成就。",
+          "en": "Each visible fountain counts as an achievement."
+        },
+        {
+          "kind": "city_constant",
+          "slot": 2,
+          "icon": 9,
+          "label": "持续 · 喷泉",
+          "zh": "每个可见喷泉计作一项成就。",
+          "en": "Each visible fountain counts as an achievement."
+        }
+      ]
+    },
+    {
+      "id": "C107",
+      "set": "Cities",
+      "age": 11,
+      "color": "RED",
+      "name_zh": "华沙",
+      "name_en": "Warsaw",
+      "spots": [
+        6,
+        111,
+        3,
+        6,
+        0,
+        17
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        51,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C107",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 17,
+          "label": "融合行动 · 还原展开",
+          "zh": "将所有对手面板上此城市颜色的牌堆还原为未展开。",
+          "en": "Unsplay this city’s color on all opponents’ boards."
+        }
+      ]
+    },
+    {
+      "id": "C108",
+      "set": "Cities",
+      "age": 11,
+      "color": "YELLOW",
+      "name_zh": "内罗毕",
+      "name_en": "Nairobi",
+      "spots": [
+        5,
+        2,
+        9,
+        2,
+        0,
+        9
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        53,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C108",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 9,
+          "label": "持续 · 喷泉",
+          "zh": "每个可见喷泉计作一项成就。",
+          "en": "Each visible fountain counts as an achievement."
+        },
+        {
+          "kind": "city_constant",
+          "slot": 2,
+          "icon": 9,
+          "label": "持续 · 喷泉",
+          "zh": "每个可见喷泉计作一项成就。",
+          "en": "Each visible fountain counts as an achievement."
+        }
+      ]
+    },
+    {
+      "id": "C109",
+      "set": "Cities",
+      "age": 11,
+      "color": "YELLOW",
+      "name_zh": "深圳",
+      "name_en": "Shenzhen",
+      "spots": [
+        111,
+        6,
+        6,
+        6,
+        0,
+        17
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        53,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C109",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 17,
+          "label": "融合行动 · 还原展开",
+          "zh": "将所有对手面板上此城市颜色的牌堆还原为未展开。",
+          "en": "Unsplay this city’s color on all opponents’ boards."
+        }
+      ]
+    },
+    {
+      "id": "C110",
+      "set": "Cities",
+      "age": 11,
+      "color": "GREEN",
+      "name_zh": "贝鲁特",
+      "name_en": "Beirut",
+      "spots": [
+        1,
+        7,
+        1,
+        111,
+        0,
+        17
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        52,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C110",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 17,
+          "label": "融合行动 · 还原展开",
+          "zh": "将所有对手面板上此城市颜色的牌堆还原为未展开。",
+          "en": "Unsplay this city’s color on all opponents’ boards."
+        }
+      ]
+    },
+    {
+      "id": "C111",
+      "set": "Cities",
+      "age": 11,
+      "color": "GREEN",
+      "name_zh": "利雅得",
+      "name_en": "Riyadh",
+      "spots": [
+        6,
+        112,
+        1,
+        112,
+        0,
+        112
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        52,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C111",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_info",
+          "label": "城市图标",
+          "zh": "这张城市没有即时特殊图标。可见的标准图标与奖分正常计数；作为置顶城市时可用于签署强化。",
+          "en": "Standard icons and bonuses count while visible. This city can enable Endorse while on top."
+        }
+      ]
+    },
+    {
+      "id": "C112",
+      "set": "Cities",
+      "age": 11,
+      "color": "BLUE",
+      "name_zh": "布拉格",
+      "name_en": "Prague",
+      "spots": [
+        3,
+        3,
+        9,
+        6,
+        0,
+        9
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        50,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C112",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_constant",
+          "slot": 5,
+          "icon": 9,
+          "label": "持续 · 喷泉",
+          "zh": "每个可见喷泉计作一项成就。",
+          "en": "Each visible fountain counts as an achievement."
+        },
+        {
+          "kind": "city_constant",
+          "slot": 2,
+          "icon": 9,
+          "label": "持续 · 喷泉",
+          "zh": "每个可见喷泉计作一项成就。",
+          "en": "Each visible fountain counts as an achievement."
+        }
+      ]
+    },
+    {
+      "id": "C113",
+      "set": "Cities",
+      "age": 11,
+      "color": "BLUE",
+      "name_zh": "西雅图",
+      "name_en": "Seattle",
+      "spots": [
+        5,
+        5,
+        111,
+        7,
+        0,
+        17
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        50,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C113",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 17,
+          "label": "融合行动 · 还原展开",
+          "zh": "将所有对手面板上此城市颜色的牌堆还原为未展开。",
+          "en": "Unsplay this city’s color on all opponents’ boards."
+        }
+      ]
+    },
+    {
+      "id": "C114",
+      "set": "Cities",
+      "age": 11,
+      "color": "PURPLE",
+      "name_zh": "布里斯班",
+      "name_en": "Brisbane",
+      "spots": [
+        7,
+        111,
+        111,
+        2,
+        0,
+        111
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        54,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C114",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_info",
+          "label": "城市图标",
+          "zh": "这张城市没有即时特殊图标。可见的标准图标与奖分正常计数；作为置顶城市时可用于签署强化。",
+          "en": "Standard icons and bonuses count while visible. This city can enable Endorse while on top."
+        }
+      ]
+    },
+    {
+      "id": "C115",
+      "set": "Cities",
+      "age": 11,
+      "color": "PURPLE",
+      "name_zh": "利马",
+      "name_en": "Lima",
+      "spots": [
+        3,
+        2,
+        111,
+        3,
+        0,
+        17
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        54,
+        2
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=C115",
+      "notes": [],
+      "type": "city",
+      "search_slots": [],
+      "effects": [
+        {
+          "kind": "city_immediate",
+          "slot": 5,
+          "icon": 17,
+          "label": "融合行动 · 还原展开",
+          "zh": "将所有对手面板上此城市颜色的牌堆还原为未展开。",
+          "en": "Unsplay this city’s color on all opponents’ boards."
+        }
+      ]
+    }
+  ],
+  "special_achievements": [
+    {
+      "id": "S-CITIES-FAME",
+      "set": "Cities",
+      "age": -1,
+      "color": null,
+      "name_zh": "盛名",
+      "name_en": "Fame",
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": null,
+      "source_url": "https://github.com/micahstairs/bga-innovation/blob/9b5464e6c9382d587e229741aeaa2de932e4ed8e/material.inc.php",
+      "notes": [],
+      "type": "achievement",
+      "effects": [
+        {
+          "kind": "condition_for_claiming",
+          "label": "统御条件",
+          "zh": "如果你将一张有 【向上展开】 的城市牌放入场上一个已经向上展开的牌堆，立即 统御此「盛名」成就。",
+          "en": "Claim this special achievement immediately if you meld a city with a 【splay up】 on a color already splayed up."
+        }
+      ]
+    },
+    {
+      "id": "S-CITIES-GLORY",
+      "set": "Cities",
+      "age": -1,
+      "color": null,
+      "name_zh": "荣耀",
+      "name_en": "Glory",
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": null,
+      "source_url": "https://github.com/micahstairs/bga-innovation/blob/9b5464e6c9382d587e229741aeaa2de932e4ed8e/material.inc.php",
+      "notes": [],
+      "type": "achievement",
+      "effects": [
+        {
+          "kind": "condition_for_claiming",
+          "label": "统御条件",
+          "zh": "如果你从手牌中移除了一张带有【旗帜】的城市， 立即 统御此成就。",
+          "en": "Claim this special achievement immediately if you junk a city with a 【flag】 from your hand."
+        }
+      ]
+    },
+    {
+      "id": "S-CITIES-REPUTE",
+      "set": "Cities",
+      "age": -1,
+      "color": null,
+      "name_zh": "美誉",
+      "name_en": "Repute",
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": null,
+      "source_url": "https://github.com/micahstairs/bga-innovation/blob/9b5464e6c9382d587e229741aeaa2de932e4ed8e/material.inc.php",
+      "notes": [],
+      "type": "achievement",
+      "effects": [
+        {
+          "kind": "condition_for_claiming",
+          "label": "统御条件",
+          "zh": "如果你将一张有 【向右展开】 的城市牌放入场上一个已经向右展开的牌堆，立即 统御此「美誉」成就。",
+          "en": "Claim this special achievement immediately if you meld a city with a 【splay right】 on a color already splayed right."
+        }
+      ]
+    },
+    {
+      "id": "S-CITIES-TRADITION",
+      "set": "Cities",
+      "age": -1,
+      "color": null,
+      "name_zh": "传统",
+      "name_en": "Tradition",
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": null,
+      "source_url": "https://github.com/micahstairs/bga-innovation/blob/9b5464e6c9382d587e229741aeaa2de932e4ed8e/material.inc.php",
+      "notes": [],
+      "type": "achievement",
+      "effects": [
+        {
+          "kind": "condition_for_claiming",
+          "label": "统御条件",
+          "zh": "如果你将一张有 【向左展开】 的城市牌放入场上一个已经向左展开的牌堆，立即 统御此「传统」成就。",
+          "en": "Claim this special achievement immediately if you meld a city with a 【splay left】 on a color already splayed left."
+        }
+      ]
+    },
+    {
+      "id": "S-CITIES-VICTORY",
+      "set": "Cities",
+      "age": -1,
+      "color": null,
+      "name_zh": "胜利",
+      "name_en": "Victory",
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": null,
+      "source_url": "https://github.com/micahstairs/bga-innovation/blob/9b5464e6c9382d587e229741aeaa2de932e4ed8e/material.inc.php",
+      "notes": [],
+      "type": "achievement",
+      "effects": [
+        {
+          "kind": "condition_for_claiming",
+          "label": "统御条件",
+          "zh": "如果你从手牌中移除了一张带有【喷泉】的城市，立即统御此成就。",
+          "en": "Claim this special achievement immediately if you junk a city with a 【fountain】 from your hand."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "id": "unsplay",
+      "zh": "封锁 / 还原展开",
+      "en": "Unsplay",
+      "pages": [
+        14,
+        22
+      ],
+      "text": "把指定颜色的牌堆整齐叠回未展开状态。城市的还原图标影响所有对手的该城市颜色。",
+      "aliases": [
+        "还原展开",
+        "Unsplay",
+        "还原为未展开",
+        "还原为未展开状态",
+        "取消展开",
+        "合拢",
+        "unsplayed",
+        "封锁",
+        "恢复未展开"
+      ],
+      "official": "Unsplay",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=14"
+    },
+    {
+      "id": "endorse",
+      "zh": "签署 / 强化",
+      "en": "Endorse",
+      "pages": [
+        23
+      ],
+      "text": "每回合至多一次。置顶城市须有本次特性图标，移除一张时代不高于该城市的手牌付费。自己的普通效果和对手受到的要求执行两次，其他人共享只一次，共享奖励仍只一次。",
+      "aliases": [
+        "强化",
+        "Endorse",
+        "背书",
+        "endorsed",
+        "签署"
+      ],
+      "official": "Endorse",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=23"
+    },
+    {
+      "id": "flag",
+      "zh": "旗帜",
+      "en": "Flag",
+      "pages": [
+        22
+      ],
+      "text": "持续效果：可见时，若没有对手的同色可见卡牌数量多于你，计作一个成就；并列最多也有效。",
+      "aliases": [
+        "旗帜",
+        "Flag"
+      ],
+      "official": "Flag",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=22"
+    },
+    {
+      "id": "fountain",
+      "zh": "喷泉",
+      "en": "Fountain",
+      "pages": [
+        22
+      ],
+      "text": "持续效果：只要在你场上可见，每个喷泉计作一个成就。",
+      "aliases": [
+        "喷泉",
+        "Fountain"
+      ],
+      "official": "Fountain",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=22"
+    },
+    {
+      "id": "search",
+      "zh": "搜索",
+      "en": "Search",
+      "pages": [
+        22
+      ],
+      "text": "城市的即时效果。按城市时代 X 展示基础 X 牌库顶 X 张，有匹配资源图标的加入手牌，其余归还。牌不足不升时代；取牌不是抽牌，不触发扩展抽牌或业报。搜索图标仍贡献对应资源。",
+      "aliases": [
+        "搜索",
+        "Search",
+        "搜索标记"
+      ],
+      "official": "Search",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=22"
+    },
+    {
+      "id": "plus",
+      "zh": "进步 / 加号",
+      "en": "Plus",
+      "pages": [
+        22
+      ],
+      "text": "通过融合行动融合该城市后，抽一张比城市时代高 1 的牌。",
+      "aliases": [
+        "加号",
+        "Plus",
+        "进步"
+      ],
+      "official": "Plus",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=22"
+    },
+    {
+      "id": "uplift",
+      "zh": "发展 / 提升",
+      "en": "Uplift",
+      "pages": [
+        22
+      ],
+      "text": "通过融合行动融合该城市后，移除比城市时代高 1 的基础牌库，然后抽一张比城市时代高 2 的牌。“提升”为本图鉴译名，未核对实体中文版用词。",
+      "aliases": [
+        "提升",
+        "Uplift",
+        "发展"
+      ],
+      "official": "Uplift",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=22"
+    },
+    {
+      "id": "city-junk",
+      "zh": "城市移除标记",
+      "en": "City junk icon",
+      "pages": [
+        22
+      ],
+      "text": "通过融合行动融合这张城市时，移除一张与城市时代相同的可用成就（若存在）。如果有两个即时标记，先执行上方，再执行下方。",
+      "aliases": [
+        "城市移除标记",
+        "City junk icon"
+      ],
+      "official": "City junk icon",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=22"
+    },
+    {
+      "id": "city-left",
+      "zh": "城市向左箭头",
+      "en": "City left arrow",
+      "pages": [
+        22
+      ],
+      "text": "通过融合行动融合这张城市时，把自己该城市颜色的牌堆向左展开。没有足够卡牌或已在同一方向时不会产生变化。",
+      "aliases": [
+        "城市向左箭头",
+        "City left arrow"
+      ],
+      "official": "City left arrow",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=22"
+    },
+    {
+      "id": "city-right",
+      "zh": "城市向右箭头",
+      "en": "City right arrow",
+      "pages": [
+        22
+      ],
+      "text": "通过融合行动融合这张城市时，把自己该城市颜色的牌堆向右展开。没有足够卡牌或已在同一方向时不会产生变化。",
+      "aliases": [
+        "城市向右箭头",
+        "City right arrow"
+      ],
+      "official": "City right arrow",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=22"
+    },
+    {
+      "id": "city-up",
+      "zh": "城市向上箭头",
+      "en": "City up arrow",
+      "pages": [
+        22
+      ],
+      "text": "通过融合行动融合这张城市时，把自己该城市颜色的牌堆向上展开。没有足够卡牌或已在同一方向时不会产生变化。",
+      "aliases": [
+        "城市向上箭头",
+        "City up arrow"
+      ],
+      "official": "City up arrow",
+      "source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf#page=22"
+    },
+    {
+      "id": "icon8",
+      "zh": "旗帜",
+      "en": "旗帜",
+      "aliases": [],
+      "pages": [
+        22
+      ],
+      "text": "只要此旗帜可见，且没有对手的同色可见卡牌比你多，它便计作一项成就。"
+    },
+    {
+      "id": "icon9",
+      "zh": "喷泉",
+      "en": "喷泉",
+      "aliases": [],
+      "pages": [
+        22
+      ],
+      "text": "每个可见喷泉计作一项成就。"
+    },
+    {
+      "id": "icon11",
+      "zh": "向左展开",
+      "en": "向左展开",
+      "aliases": [],
+      "pages": [
+        22
+      ],
+      "text": "将此城市颜色的牌堆向左展开。"
+    },
+    {
+      "id": "icon12",
+      "zh": "向右展开",
+      "en": "向右展开",
+      "aliases": [],
+      "pages": [
+        22
+      ],
+      "text": "将此城市颜色的牌堆向右展开。"
+    },
+    {
+      "id": "icon13",
+      "zh": "向上展开",
+      "en": "向上展开",
+      "aliases": [],
+      "pages": [
+        22
+      ],
+      "text": "将此城市颜色的牌堆向上展开。"
+    },
+    {
+      "id": "icon14",
+      "zh": "加号",
+      "en": "加号",
+      "aliases": [],
+      "pages": [
+        22
+      ],
+      "text": "抽取一张比此城市时代高 1 的牌。"
+    },
+    {
+      "id": "icon15",
+      "zh": "移除",
+      "en": "移除",
+      "aliases": [],
+      "pages": [
+        22
+      ],
+      "text": "移除一项与此城市时代相同的可用成就（若存在）。"
+    },
+    {
+      "id": "icon16",
+      "zh": "提升",
+      "en": "提升",
+      "aliases": [],
+      "pages": [
+        22
+      ],
+      "text": "移除比此城市高 1 时代的基础牌库，然后抽取一张比此城市高 2 时代的牌。"
+    },
+    {
+      "id": "icon17",
+      "zh": "还原展开",
+      "en": "还原展开",
+      "aliases": [],
+      "pages": [
+        22
+      ],
+      "text": "将所有对手面板上此城市颜色的牌堆还原为未展开。"
+    },
+    {
+      "id": "city-search",
+      "zh": "搜索",
+      "en": "Search",
+      "aliases": [],
+      "pages": [
+        22
+      ],
+      "text": "放大镜标记也提供对应的标准图标。融合行动时展示同代基础牌库顶部至多等于时代数的牌，匹配图标的拿入手中，其余归还。搜索不顺延，不算抽牌，也不触发或受到业报影响。"
+    }
+  ],
+  "icon_names": {
+    "8": "旗帜",
+    "9": "喷泉",
+    "11": "向左展开",
+    "12": "向右展开",
+    "13": "向上展开",
+    "14": "加号",
+    "15": "移除",
+    "16": "提升",
+    "17": "还原展开"
+  }
+}
