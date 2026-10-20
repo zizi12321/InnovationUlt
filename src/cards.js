@@ -30,7 +30,7 @@ export function markHTML(card, slot, iconNames, interactive = false, exposed = n
   const term = searching ? 'city-search' : code === 0 ? 'image' : `icon${code}`;
   let art = '';
   if (code === 0 && card.type==='age_zero') art=`<img class="zero-art" src="./assets/age-zero-${card.color.toLowerCase()}.webp" alt="">`;
-  else if (code === 0) art = `<span class="hex-art${cardSet(card) === 'Echoes' ? ' is-echoes' : cardSet(card)==='Figures'?' is-figures':cardSet(card)==='Cities'?' is-cities':''}" style="--atlas-x:${-card.art_position[0]}"></span>`;
+  else if (code === 0) art = `<span class="hex-art${cardSet(card) === 'Echoes' ? ' is-echoes' : cardSet(card)==='Figures'?' is-figures':cardSet(card)==='Cities'?' is-cities':cardSet(card)==='Artifacts'?' is-artifacts':cardSet(card)==='Unseen'?' is-unseen':''}" style="--atlas-x:${-card.art_position[0]}"></span>`;
   else if (code === 7) art = '<img class="avatar-art" src="./assets/avatar.svg" alt="">';
   else if (code === 18) art = '<img class="food-art" src="./assets/food.svg" alt="">';
   else if (citySymbolHTML(code)) art = citySymbolHTML(code);

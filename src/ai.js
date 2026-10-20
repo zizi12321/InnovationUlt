@@ -1,5 +1,6 @@
 import { isCity } from './cities-rules.js';
 import { isBonus, bonusValue } from './echoes-rules.js';
+import { isDemand, isCompel } from './dogma.js';
 
 // Small, deterministic offline policy. It receives an observation, not the
 // engine's hidden state. Replace this policy later without changing rules.
@@ -8,6 +9,7 @@ export function chooseAction(view, actions, cards) {
   const newColorHand = view.me.hand.some(id => !view.me.piles[cards.get(id).color].length);
   const uniqueColors = ownColors.filter(color => !view.rival.piles[color].length).length;
   const value = action => {
+    if (action.type === 'showcase') return 10000;
     if (action.type === 'achieve') return 100 + action.age;
     if (action.type === 'decree') return 65 + ((view.me.decrees || []).includes(action.cardId) ? 0 : 12);
     if (action.type === 'draw') return view.me.hand.length < 2 ? 10 : 1;
@@ -61,8 +63,9 @@ export function chooseAction(view, actions, cards) {
     };
     // Newer cards get a usable baseline, with pure demands suppressed when
     // the opponent is immune. This is a heuristic, not a look-ahead solver.
-    const demandOnly = card.effects.every(effect => effect.kind === 'i_demand_effect');
-    const baseline = demandOnly && shared ? -6 : 8 + card.age * .6 + card.effects.filter(effect => effect.kind === 'echo_effect').length * 2;
+    const demandOnly = card.effects.every(isDemand);
+    const affected=card.effects.some(effect=>isCompel(effect)?shared:isDemand(effect)&&!shared);
+    const baseline = demandOnly && !affected ? -6 : 8 + card.age * .6 + card.effects.filter(effect => effect.kind === 'echo_effect').length * 2;
     const repeats = (view.recentActions || []).filter(action => action.type === 'dogma' && action.cardId === card.id).length;
     // Public action history prevents getting stuck on a legal but ineffective
     // conditional dogma. Revisit it later after drawing or changing the board.
@@ -72,10 +75,11 @@ export function chooseAction(view, actions, cards) {
 }
 
 export function chooseAnswer(choice, cards) {
+  if(choice.kind==='subgame-action')return [JSON.stringify(chooseAction(choice.observation,choice.actions,cards))];
   const options = choice.options.slice();
   if (choice.prompt.startsWith('签署费用')) return [options.sort((a,b)=>(cards.get(a.value)?.age||0)-(cards.get(b.value)?.age||0))[0].value];
   if (options.some(option => option.value === 'yes')) return ['yes'];
-  if (options.some(option => option.value === 'exchange')) return ['skip'];
+  if (options.some(option => option.value === 'exchange') && options.some(option=>option.value==='skip')) return ['skip'];
   // The computer prioritizes making progress. Only legal choices supplied by
   // the engine are considered; opponent-private cards are never supplied.
   options.sort((a, b) => {

@@ -42,7 +42,7 @@ function entryHTML(entry, cards, names, richText) {
   // than inventing a demand/non-demand attribution from the affected player.
   const label = card ? meta.kind === 'activation' ? dogmaTypeLabel(card)
     : meta.kind === 'endorse' ? '签署强化' : meta.kind === 'bonus' ? '分享奖励' : card.effects[meta.index]?.label || (meta.kind === 'demand' ? '要求' : '条例') : '';
-  return `<li class="log-entry" ${card ? `data-effect-kind="${esc(meta.kind)}" data-source-card="${card.id}"` : ''}>${card ? `<span class="log-effect-tag ${meta.kind === 'demand' ? 'is-demand' : 'is-ordinary'}" style="${colorStyle(card.color)}" title="${esc(card.name_zh)} · ${esc(label)}">${resourceIconHTML(meta.icon || card.dogma_icon, card.color, names)}<b>${esc(label)}</b><span>${esc(card.name_zh)}</span></span>` : ''}<span class="log-entry-text">${richText(entry.text, { color: card?.color || 'BLUE', interactive: false })}</span></li>`;
+  return `<li class="log-entry" ${card ? `data-effect-kind="${esc(meta.kind)}" data-source-card="${card.id}"` : ''}>${card ? `<span class="log-effect-tag ${['demand','compel'].includes(meta.kind) ? 'is-demand' : 'is-ordinary'}" style="${colorStyle(card.color)}" title="${esc(card.name_zh)} · ${esc(label)}">${resourceIconHTML(meta.icon || card.dogma_icon, card.color, names)}<b>${esc(label)}</b><span>${esc(card.name_zh)}</span></span>` : ''}<span class="log-entry-text">${richText(entry.text, { color: card?.color || 'BLUE', interactive: false })}</span></li>`;
 }
 
 export function logHTML(state, cards, names, richText = esc) {

@@ -31,7 +31,7 @@ export function* all(c, p, ids, to, target = p, verb = '', keyword = null) {
   const values = [...new Set(read())];
   // Return/meld/tuck order can alter future play. Let the executing player
   // choose the sequence, even for mandatory "all" movements.
-  const ordered = values.length > 1 && ['return', 'meld', 'tuck', 'foreshadow'].includes(to)
+  const ordered = values.length > 1 && ['return', 'meld', 'tuck', 'foreshadow', 'safe', 'safeguard'].includes(to)
     ? yield* c.pick(p, `按执行顺序选择全部 ${values.length} 张牌。`, values, values.length, values.length) : values;
   return ordered.filter(id => c.move(id, to, target, verb, keyword));
 }

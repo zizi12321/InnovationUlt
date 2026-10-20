@@ -62,3 +62,12 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Artifacts of History: 115 card faces/effect texts and illustration row from the same official Ultimate/BGA sources above. Chinese rule corrections checked against official individual card pages and rulebook v4.1 pp.26–27. Five Museum cards are represented by a locally authored generic museum symbol.
+
+The Unseen: 115 cards and five special achievements from the same official
+Ultimate card pages and reviewed BGA catalogue. Rules checked against v4.1
+pp.13, 21 and 31, including the Robber Barons and Teleprompter appendices.
+unseen-illustrations.png is the Unseen row of the existing BGA illustration
+atlas. The Safe lock symbol is locally authored SVG. All assets are local;
+the application does not contact BGA, Asmadi or an AI service during play.

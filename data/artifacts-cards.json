@@ -1,0 +1,4147 @@
+{
+  "meta": {
+    "edition": "Innovation Ultimate / Fourth edition",
+    "card_count": 115,
+    "museum_count": 5,
+    "rules_source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf",
+    "effect_source": "Official Asmadi individual card pages; reviewed Chinese translation"
+  },
+  "cards": [
+    {
+      "id": "A001",
+      "set": "Artifacts",
+      "age": 1,
+      "color": "RED",
+      "name_zh": "霍姆加德弓",
+      "name_en": "Holmegaard Bows",
+      "spots": [
+        4,
+        2,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        3,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A001",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 1,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：转移你场上一张带有【权威】的最高时期的置顶牌到我的手牌！若你不能这么做，移除时期等同于你最低时期置顶牌的基础抽牌堆！",
+          "en": "I COMPEL you to transfer your highest top card with 【权威】 to my hand! If you don't, junk all cards in the deck of value equal to the value of your lowest top card!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽1张 【2】。",
+          "en": "Draw a 【2】."
+        }
+      ]
+    },
+    {
+      "id": "A002",
+      "set": "Artifacts",
+      "age": 1,
+      "color": "RED",
+      "name_zh": "埃及亡灵书",
+      "name_en": "Papyrus of Ani",
+      "spots": [
+        2,
+        2,
+        2,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        4,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A002",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 1,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你的一张紫色手牌。若你这么做，抽一张比该牌时期高二的任一抽牌堆的牌。如果被抽取的牌是紫色，将其融合并独自执行该牌。",
+          "en": "Return a purple card from your hand. If you do, draw and reveal a card from any set of value two higher. If the drawn card is purple, meld it and self-execute it."
+        }
+      ]
+    },
+    {
+      "id": "A003",
+      "set": "Artifacts",
+      "age": 1,
+      "color": "RED",
+      "name_zh": "巴甫洛夫象牙",
+      "name_en": "Pavlovian Tusk",
+      "spots": [
+        0,
+        1,
+        4,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        5,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A003",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 1,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取三张与绿色置顶牌时期相同的牌。将一张抽取牌归还。将一张抽取牌计分。",
+          "en": "Draw three cards of value equal to your top green card. Return one of the drawn cards. Score one of the drawn cards."
+        }
+      ]
+    },
+    {
+      "id": "A004",
+      "set": "Artifacts",
+      "age": 1,
+      "color": "YELLOW",
+      "name_zh": "舞蹈女孩",
+      "name_en": "Dancing Girl",
+      "spots": [
+        0,
+        3,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        9,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A004",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 1,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫： 你将“舞蹈女孩”转移至你的游戏区域！",
+          "en": "I COMPEL you to transfer Dancing Girl to your board!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果“舞蹈女孩”在本次条例行动中在所有玩家的游戏区域都停留过，且最先是从你的游戏区域上开始传递的，则获得胜利。",
+          "en": "If Dancing Girl has been on every opponent's board during this action, and it is your turn, you win."
+        }
+      ]
+    },
+    {
+      "id": "A005",
+      "set": "Artifacts",
+      "age": 1,
+      "color": "YELLOW",
+      "name_zh": "勒根独木舟",
+      "name_en": "Lurgan Canoe",
+      "spots": [
+        0,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        10,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A005",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 1,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "融合一张手牌。将你场上与该颜色相同的其他牌计分。如果你计分了至少一张牌，重复执行此条例。",
+          "en": "Meld a card from your hand. Score all other cards of the same color from your board. If you score a card, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "A006",
+      "set": "Artifacts",
+      "age": 1,
+      "color": "YELLOW",
+      "name_zh": "仙人洞陶器",
+      "name_en": "Xianrendong Shards",
+      "spots": [
+        0,
+        2,
+        2,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        11,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A006",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 1,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "展示三张手牌。将其中两张计分，置底另一张。如果你计分了两张相同颜色的牌，抽三张【1】。",
+          "en": "Reveal three cards from your hand. Score two, then tuck the other. If you score two cards of the same color, draw three 【1】."
+        }
+      ]
+    },
+    {
+      "id": "A007",
+      "set": "Artifacts",
+      "age": 1,
+      "color": "GREEN",
+      "name_zh": "祭司王",
+      "name_en": "Priest-King",
+      "spots": [
+        4,
+        0,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        6,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A007",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 1,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "计分一张手牌。如果你有一张颜色与该牌相同的置顶牌，在你的回合内则超级执行该牌，否则独自执行该牌。",
+          "en": "Score a card from your hand. If you have a top card matching its color, super-execute that top card if it is your turn, otherwise self-execute it."
+        }
+      ]
+    },
+    {
+      "id": "A008",
+      "set": "Artifacts",
+      "age": 1,
+      "color": "GREEN",
+      "name_zh": "以弗所金币",
+      "name_en": "Electrum Stater of Efesos",
+      "spots": [
+        1,
+        0,
+        4,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        7,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A008",
+      "notes": [
+        "待核对：BGA 名称为“Electrum Stater of Efesos”，官方牌表名称为“ELECTRUM STATER OF EPHESUS”；此处按名称对应归档，尚未实卡复核。"
+      ],
+      "type": "artifact",
+      "deck_age": 1,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示一张【3】。如果你没有该颜色的置顶牌，就将它放入场上并重复执行此条例。",
+          "en": "Draw and reveal a 【3】. If you do not have a top card of the drawn card's color, meld it and repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "A009",
+      "set": "Artifacts",
+      "age": 1,
+      "color": "GREEN",
+      "name_zh": "吉斯卡卢摩科项链",
+      "name_en": "Jiskairumoko Necklace",
+      "spots": [
+        0,
+        1,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        8,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A009",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 1,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫： 从你的计分区归还一张牌！若你这么做，从你的成就区转移一个时期与该牌相同的成就到我的成就区，然后移除该时期的基础抽牌堆！",
+          "en": "I COMPEL you to return a card from your score pile! If you do, transfer an achievement of the same value from your achievements to mine, and junk all cards in the deck of that value!"
+        }
+      ]
+    },
+    {
+      "id": "A010",
+      "set": "Artifacts",
+      "age": 1,
+      "color": "BLUE",
+      "name_zh": "卡迭石条约",
+      "name_en": "Treaty of Kadesh",
+      "spots": [
+        1,
+        4,
+        0,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        0,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A010",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 1,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：归还你每种颜色的一张带要求效果（包括强迫）的置顶牌！",
+          "en": "I COMPEL you to return a top card with a demand effect of each color from your board!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "计分你的一张带要求效果（包括强迫）的非蓝色置顶牌。",
+          "en": "Score a top, non-blue card with a demand effect on your board."
+        }
+      ]
+    },
+    {
+      "id": "A011",
+      "set": "Artifacts",
+      "age": 1,
+      "color": "BLUE",
+      "name_zh": "西比杜针",
+      "name_en": "Sibidu Needle",
+      "spots": [
+        4,
+        4,
+        4,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        1,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A011",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 1,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示一张【1】。如果该牌与你的一张置顶牌颜色和时期都相同，则将该牌计分并重复执行此条例。",
+          "en": "Draw and reveal a 【1】. If you have a top card of matching color and value to the drawn card, score the drawn card and repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "A012",
+      "set": "Artifacts",
+      "age": 1,
+      "color": "BLUE",
+      "name_zh": "巴苏尔霍尤克代币",
+      "name_en": "Basur Hoyuk Tokens",
+      "spots": [
+        1,
+        0,
+        2,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        2,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A012",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 1,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示一张【4】。如果你有一张同色的置顶牌，且它的英文首字母比抽取牌的在字母表上更靠前，则归还抽取牌和计分区所有的牌。",
+          "en": "Draw and reveal a 【4】. If you have a top card of the drawn card's color that comes before it in the alphabet, return the drawn card and all cards from your score pile."
+        }
+      ]
+    },
+    {
+      "id": "A013",
+      "set": "Artifacts",
+      "age": 1,
+      "color": "PURPLE",
+      "name_zh": "瓦尔卡面具",
+      "name_en": "Mask of Warka",
+      "spots": [
+        4,
+        4,
+        0,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        12,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A013",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 1,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一个颜色。每名玩家展示自己的手牌。如果你是唯一展示了至少一张该颜色手牌的玩家，归还这些牌，并且统御这些牌对应时期的所有成就，无视常规要求。",
+          "en": "Choose a color. Each player reveals their hand. If you are the only player to reveal at least one card of that color, return them and claim all available achievements of value matching those cards, ignoring eligibility."
+        }
+      ]
+    },
+    {
+      "id": "A014",
+      "set": "Artifacts",
+      "age": 1,
+      "color": "PURPLE",
+      "name_zh": "约柜",
+      "name_en": "Ark of the Covenant",
+      "spots": [
+        0,
+        4,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        13,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A014",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 1,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还一张手牌。将所有没有置顶文物牌的玩家场上该颜色所有牌计分。",
+          "en": "Return a card from your hand. Score all cards of the same color on the boards of all players with no top Artifacts."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果约柜是任一玩家场上的置顶牌，则将其转移到你的手牌。",
+          "en": "If Ark of the Covenant is a top card on any board, transfer it to your hand."
+        }
+      ]
+    },
+    {
+      "id": "A015",
+      "set": "Artifacts",
+      "age": 1,
+      "color": "PURPLE",
+      "name_zh": "船难水手的传说",
+      "name_en": "Tale of the Shipwrecked Sailor",
+      "spots": [
+        0,
+        4,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        14,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A015",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 1,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一种颜色。抽取一张【1】。从手牌中融合一张所选颜色的牌。若如此做，将该颜色向左展开，并废弃一个融合牌时期的可用成就。",
+          "en": "Choose a color. Draw a 【1】. Meld a card of the chosen color from your hand. If you do, splay that color left, and junk an available achievement of value equal to the value of the melded card."
+        }
+      ]
+    },
+    {
+      "id": "A016",
+      "set": "Artifacts",
+      "age": 2,
+      "color": "RED",
+      "name_zh": "左传",
+      "name_en": "Chronicle of Zuo",
+      "spots": [
+        1,
+        0,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        17,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A016",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 2,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你的【权威】或【繁荣】最少，抽一张【3】。",
+          "en": "If you have the least 【权威】 or the least 【繁荣】, draw a 【3】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果你拥有的【概念】最少，则抽取一张【4】。",
+          "en": "If you have the least 【概念】, draw a 【4】."
+        }
+      ]
+    },
+    {
+      "id": "A017",
+      "set": "Artifacts",
+      "age": 2,
+      "color": "RED",
+      "name_zh": "巴比伦编年史",
+      "name_en": "Babylonian Chronicles",
+      "spots": [
+        0,
+        4,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        18,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A017",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 2,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：转移你场上一张非红色且带有【权威】的置顶牌到我的场上！",
+          "en": "I COMPEL you to transfer a top non-red card with 【权威】 from your board to my board!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张 【3】 并计分。",
+          "en": "Draw and score a 【3】."
+        }
+      ]
+    },
+    {
+      "id": "A018",
+      "set": "Artifacts",
+      "age": 2,
+      "color": "YELLOW",
+      "name_zh": "圣杯",
+      "name_en": "Holy Grail",
+      "spots": [
+        2,
+        0,
+        1,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        21,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A018",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 2,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还一张手牌。统御一个与该牌时期相同的可用成就，无视常规要求。",
+          "en": "Return a card from your hand. Claim an available achievement of matching value ignoring eligibility."
+        }
+      ]
+    },
+    {
+      "id": "A019",
+      "set": "Artifacts",
+      "age": 2,
+      "color": "YELLOW",
+      "name_zh": "兵马俑",
+      "name_en": "Terracotta Army",
+      "spots": [
+        1,
+        1,
+        1,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        22,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A019",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 2,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：退还你场上一张不带有【权威】的置顶牌！",
+          "en": "I COMPEL you to return a top card with no 【权威】 from your board!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将一张不带有【权威】的手牌计分。若你这么做，移除该牌对应时期的基础牌库。否则，将[兵马俑]置底。",
+          "en": "Score a card from your hand with no 【权威】. If you do, junk all cards in the deck of value equal to the scored card. Otherwise, tuck Terracotta Army."
+        }
+      ]
+    },
+    {
+      "id": "A020",
+      "set": "Artifacts",
+      "age": 2,
+      "color": "GREEN",
+      "name_zh": "圣枪",
+      "name_en": "Holy Lance",
+      "spots": [
+        4,
+        2,
+        0,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        19,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A020",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 2,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：将你游戏区域中的一张置顶的文物牌转移至我的游戏区域！",
+          "en": "I COMPEL you to transfer a top Artifact from your board to my board!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果圣杯是你游戏区域的一张置顶牌，则你获得胜利。",
+          "en": "If Holy Grail is a top card on your board, you win."
+        }
+      ]
+    },
+    {
+      "id": "A021",
+      "set": "Artifacts",
+      "age": 2,
+      "color": "GREEN",
+      "name_zh": "巴格达蓄电池",
+      "name_en": "Baghdad Battery",
+      "spots": [
+        1,
+        3,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        20,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A021",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 2,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "融合一张手牌。计分一张手牌。如果你两个都做了，并且这两张牌时期不同，移除这两张牌对应时期的基础抽牌堆。",
+          "en": "Meld a card from your hand. Score a card from your hand. If you do both, and the cards have different values, junk all cards in the decks of both values."
+        }
+      ]
+    },
+    {
+      "id": "A022",
+      "set": "Artifacts",
+      "age": 2,
+      "color": "BLUE",
+      "name_zh": "塞基洛斯的墓志铭",
+      "name_en": "Seikilos Epitaph",
+      "spots": [
+        2,
+        2,
+        2,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        15,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A022",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 2,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张牌并融合成 【3】。将你手牌中最底的一张同色牌融合进去，然后独自执行该融合。",
+          "en": "Draw and meld a 【3】. Meld your bottom card of the drawn card's color, then self-execute it."
+        }
+      ]
+    },
+    {
+      "id": "A023",
+      "set": "Artifacts",
+      "age": 2,
+      "color": "BLUE",
+      "name_zh": "罗塞塔石碑",
+      "name_en": "Rosetta Stone",
+      "spots": [
+        4,
+        4,
+        4,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        16,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A023",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 2,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一个类型（基础、回声、伟人、城市、文物、匿影）。抽取两张该类型的【2】。将其中一张融合，并将另一张转移到对手的场上。",
+          "en": "Choose a set. Draw two 【2】 from that set. Meld one and transfer the other to an opponent's board."
+        }
+      ]
+    },
+    {
+      "id": "A024",
+      "set": "Artifacts",
+      "age": 2,
+      "color": "PURPLE",
+      "name_zh": "死海古卷",
+      "name_en": "Dead Sea Scrolls",
+      "spots": [
+        0,
+        4,
+        3,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        23,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A024",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 2,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张时期等同于你置顶牌最高时期的文物牌。移除该时期的文物抽牌堆。",
+          "en": "Draw an Artifact of value equal to the value of your highest top card. Junk the Artifact deck of that value."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "选择一名玩家。移除与该玩家场上最高时期的置顶牌时期相同的一个待统御成就。",
+          "en": "Choose a player. Junk an available achievement of value equal to the highest top card on that player's board."
+        }
+      ]
+    },
+    {
+      "id": "A025",
+      "set": "Artifacts",
+      "age": 2,
+      "color": "PURPLE",
+      "name_zh": "居鲁士文书",
+      "name_en": "Cyrus Cylinder",
+      "spots": [
+        0,
+        3,
+        3,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        24,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A025",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 2,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将任一玩家的一个牌堆向左展开。",
+          "en": "Splay left a color on any player's board."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "指定任一玩家场上除[居鲁士文书]以外的任一紫色置顶牌。将其独自执行。 ",
+          "en": "Choose any top purple card other than Cyrus Cylinder on any player's board. Self-execute it."
+        }
+      ]
+    },
+    {
+      "id": "A026",
+      "set": "Artifacts",
+      "age": 3,
+      "color": "RED",
+      "name_zh": "王者之剑",
+      "name_en": "Excalibur",
+      "spots": [
+        1,
+        0,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        27,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A026",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 3,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：从你的游戏区域中转移一张时期高于我同色置顶牌的时期的置顶牌到我的游戏区域！",
+          "en": "I COMPEL you to transfer a top card of higher value than my top card of the same color from your board to my board!"
+        }
+      ]
+    },
+    {
+      "id": "A027",
+      "set": "Artifacts",
+      "age": 3,
+      "color": "RED",
+      "name_zh": "雷神之锤护身符",
+      "name_en": "Mjölnir Amulet",
+      "spots": [
+        0,
+        4,
+        4,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        28,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A027",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 3,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫： 你选择你的一张置顶牌！将你场上该颜色的所有牌转移到我的计分区！",
+          "en": "I COMPEL you to choose a top card on your board! Transfer all cards of that card's color from your board to my score pile!"
+        }
+      ]
+    },
+    {
+      "id": "A028",
+      "set": "Artifacts",
+      "age": 3,
+      "color": "YELLOW",
+      "name_zh": "莫伊洛圣束带",
+      "name_en": "Moylough Belt Shrine",
+      "spots": [
+        4,
+        2,
+        0,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        31,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A028",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 3,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：展示你的手牌，将其中一张由我指定的卡牌转移到我的场上！若你如此做，移除与指定牌时期相同的基础牌库！",
+          "en": "I COMPEL you to reveal all cards in your hand and transfer the card of my choice to my board! If you do, junk all cards in the deck of the chosen card's value!"
+        }
+      ]
+    },
+    {
+      "id": "A029",
+      "set": "Artifacts",
+      "age": 3,
+      "color": "YELLOW",
+      "name_zh": "清明上河图",
+      "name_en": "Along the River during the Qingming Festival",
+      "spots": [
+        1,
+        1,
+        1,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        32,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A029",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 3,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示一张【4】。如果是黄色，则将它置底。如果是紫色，则将它计分。否则，重复执行此条例。",
+          "en": "Draw and reveal a 【4】. If it is yellow, tuck it. If it is purple, score it. Otherwise, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "A030",
+      "set": "Artifacts",
+      "age": 3,
+      "color": "GREEN",
+      "name_zh": "贤者之石",
+      "name_en": "Philosopher's Stone",
+      "spots": [
+        1,
+        1,
+        1,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        29,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A030",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 3,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还一张手牌。将数量等同于该牌时期的手牌计分。移除时期等同于你本次计分总和的基础抽牌堆。",
+          "en": "Return a card from your hand. Score a number of cards from your hand equal to the value of the card you return. Junk all cards in the deck of value equal to the total value of the cards you score."
+        }
+      ]
+    },
+    {
+      "id": "A031",
+      "set": "Artifacts",
+      "age": 3,
+      "color": "GREEN",
+      "name_zh": "伊费铜头像",
+      "name_en": "Ife Head",
+      "spots": [
+        1,
+        1,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        30,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A031",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 3,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你场上一个未展开的颜色向右展开。移除一个时期等同于你场上该颜色牌数量的可用成就。如果你不能这么做，抽一张该时期的牌。",
+          "en": "Splay right an unsplayed color on your board. Junk an available achievement of value equal to the number of cards of that color on your board. If you don't, draw a card of that value."
+        }
+      ]
+    },
+    {
+      "id": "A032",
+      "set": "Artifacts",
+      "age": 3,
+      "color": "BLUE",
+      "name_zh": "敦煌星图",
+      "name_en": "Dunhuang Star Chart",
+      "spots": [
+        3,
+        3,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        25,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A032",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 3,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还所有手牌。抽一张时期等于归还牌数量的牌。",
+          "en": "Return all cards in your hand. Draw a card of value equal to the number of cards you return."
+        }
+      ]
+    },
+    {
+      "id": "A033",
+      "set": "Artifacts",
+      "age": 3,
+      "color": "BLUE",
+      "name_zh": "八咫镜",
+      "name_en": "Yata No Kagami",
+      "spots": [
+        3,
+        3,
+        0,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        26,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A033",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 3,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "展示你的一张手牌，若你这么做，将你场上该颜色的牌堆向左展开，然后选择一张任一玩家场上一张同颜色的置顶牌（不能是此牌）并且独自执行该牌。",
+          "en": "Reveal a card from your hand. If you do, splay left its color on your board, then choose a top card other than Yata No Kagami of that color on any board and self-execute it."
+        }
+      ]
+    },
+    {
+      "id": "A034",
+      "set": "Artifacts",
+      "age": 3,
+      "color": "PURPLE",
+      "name_zh": "死灵之书",
+      "name_en": "Necronomicon",
+      "spots": [
+        0,
+        2,
+        2,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        33,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A034",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 3,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示一张【3】。如果该牌的颜色是：黄色，归还所有手牌；绿色，将所有牌堆还原到未展开；红色，归还计分区所有牌；蓝色，抽一张【9】。",
+          "en": "Draw and reveal a 【3】. If it is: Yellow: Return all cards in your hand. Green: Unsplay all your colors. Red: Return all cards in your score pile. Blue: Draw a 【9】."
+        }
+      ]
+    },
+    {
+      "id": "A035",
+      "set": "Artifacts",
+      "age": 3,
+      "color": "PURPLE",
+      "name_zh": "都灵裹尸布",
+      "name_en": "Shroud of Turin",
+      "spots": [
+        2,
+        0,
+        2,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        34,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A035",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 3,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "从手牌中归还一张卡牌。若你如此做，则从你的场上归还一张同色的顶牌，并从你的计分区中归还一张同色的牌。若你如此做，则可无视常规要求，统御一项可用的成就。",
+          "en": "Return a card from your hand. If you do, return a top card of the same color from your board and a card of the same color from your score pile. If you do all three, claim an available achievement ignoring eligibility."
+        }
+      ]
+    },
+    {
+      "id": "A036",
+      "set": "Artifacts",
+      "age": 4,
+      "color": "RED",
+      "name_zh": "东印度公司特许状",
+      "name_en": "East India Company Charter",
+      "spots": [
+        1,
+        5,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        37,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A036",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 4,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一个【5】以外的时期。从所有计分区中归还该时期的所有牌。对于每个从中归还了牌的计分区，抽取并计分一张【5】。如果你计分的都是【5】，则废弃所选时期基础牌库中的所有牌。",
+          "en": "Choose a value other than 【5】. Return all cards of that value from all score piles. For each score pile from which cards are returned, draw and score a 【5】. If you score only 【5】s, junk all cards in the deck of the chosen value."
+        }
+      ]
+    },
+    {
+      "id": "A037",
+      "set": "Artifacts",
+      "age": 4,
+      "color": "RED",
+      "name_zh": "阿托卡夫人号大帆船",
+      "name_en": "Galleon Nuestra Señora De Atocha",
+      "spots": [
+        5,
+        5,
+        1,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        38,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A037",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 4,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：转移你计分区中所有我指定时期的牌到我的计分区！若你这么做，转移你该时期的一张置顶牌到我的场上！",
+          "en": "I COMPEL you to transfer all the cards of the value of my choice from your score pile to my score pile! If you do, transfer a top card on your board of that value to my board!"
+        }
+      ]
+    },
+    {
+      "id": "A038",
+      "set": "Artifacts",
+      "age": 4,
+      "color": "YELLOW",
+      "name_zh": "摩西手杖",
+      "name_en": "Moses",
+      "spots": [
+        2,
+        2,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        41,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A038",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 4,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：转移你场上每种颜色带有【繁荣】的置顶牌各一张到我的计分区！",
+          "en": "I COMPEL you to transfer a top card with 【繁荣】 of each color from your board to my score pile!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你场上的一张带有【繁荣】的置顶牌计分。",
+          "en": "Score a top card on your board with 【繁荣】."
+        }
+      ]
+    },
+    {
+      "id": "A039",
+      "set": "Artifacts",
+      "age": 4,
+      "color": "YELLOW",
+      "name_zh": "蒙娜丽莎",
+      "name_en": "Mona Lisa",
+      "spots": [
+        0,
+        1,
+        2,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        42,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A039",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 4,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "指定一种颜色的张数。抽五张【4】，然后展示你的手牌。如果你手牌中该颜色的张数与指定的一致，则将该颜色的牌全部计分，并将该颜色向右展开。否则，归还所有手牌。",
+          "en": "Choose a number and a color. Draw five 【4】, then reveal your hand. If you have exactly that many cards of that color, score them, and splay right your cards of that color. Otherwise, return all cards from your hand."
+        }
+      ]
+    },
+    {
+      "id": "A040",
+      "set": "Artifacts",
+      "age": 4,
+      "color": "GREEN",
+      "name_zh": "莫拉西斯暗礁沉船",
+      "name_en": "Molasses Reef Caravel",
+      "spots": [
+        3,
+        3,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        39,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A040",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 4,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你手牌中的所有牌。",
+          "en": "Return all cards from your hand."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "抽三张 【4】。从手牌中融合一张绿色卡牌。移除时期与你绿色置顶牌相同的基础牌库。",
+          "en": "Draw three 【4】. Meld a green card from your hand. Junk all cards in the deck of value equal to your top green card."
+        }
+      ]
+    },
+    {
+      "id": "A041",
+      "set": "Artifacts",
+      "age": 4,
+      "color": "GREEN",
+      "name_zh": "亨特-勒诺克斯地球仪",
+      "name_en": "Hunt-Lenox Globe",
+      "spots": [
+        3,
+        3,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        40,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A041",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 4,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你的手牌少于四张，归还你的所有非绿色置顶牌。每归还一张，就抽一张【5】。",
+          "en": "If you have fewer than four cards in your hand, return your top card of each non-green color. Draw a 【5】 for each card you return."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "将一张手牌放入场中。",
+          "en": "Meld a card from your hand."
+        }
+      ]
+    },
+    {
+      "id": "A042",
+      "set": "Artifacts",
+      "age": 4,
+      "color": "BLUE",
+      "name_zh": "权利请愿书",
+      "name_en": "Petition of Right",
+      "spots": [
+        3,
+        0,
+        1,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        35,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A042",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 4,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫： 对于你每个带有【权威】的颜色，将你一张计分牌转移到我的计分区！",
+          "en": "I COMPEL you to transfer a card from your score pile to my score pile for every color with 【权威】 on your board!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "移除一个时期等于你场上【权威】数量的可用成就。",
+          "en": "Junk an available achievement of value equal to the number of 【权威】 on your board."
+        }
+      ]
+    },
+    {
+      "id": "A043",
+      "set": "Artifacts",
+      "age": 4,
+      "color": "BLUE",
+      "name_zh": "代尔夫特袖珍望远镜",
+      "name_en": "Delft Pocket Telescope",
+      "spots": [
+        5,
+        0,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        36,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A043",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 4,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你计分区中的一张牌。若你这么做，抽一张【5】和一张【6】，然后展示其中一张有任一标记出现在被归还的牌中的牌。如果你不能这么做，将抽取的两张牌归还，然后重复执行此条例。",
+          "en": "Return a card from your score pile. If you do, draw a 【5】 and a 【6】, then reveal one of the drawn cards that has an icon in common with the returned card. If you cannot, return the drawn cards and repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "A044",
+      "set": "Artifacts",
+      "age": 4,
+      "color": "PURPLE",
+      "name_zh": "科罗纳多十字架",
+      "name_en": "Cross of Coronado",
+      "spots": [
+        1,
+        1,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        43,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A044",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 4,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "展示你的手牌。如果你恰好有五张牌且颜色各不相同，则你获得胜利。",
+          "en": "Reveal your hand. If you have exactly five cards and five colors in your hand, you win."
+        }
+      ]
+    },
+    {
+      "id": "A045",
+      "set": "Artifacts",
+      "age": 4,
+      "color": "PURPLE",
+      "name_zh": "阿贝尔画廊羽管键琴",
+      "name_en": "Abell Gallery Harpsichord",
+      "spots": [
+        2,
+        0,
+        1,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        44,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A045",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 4,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你游戏区域中每有一张置顶牌的时期只可见一次，就抽一张该时期的牌并计分，按时期升序进行抽取。",
+          "en": "For each value of top card on your board appearing exactly once, draw and score a card of that value in ascending order."
+        }
+      ]
+    },
+    {
+      "id": "A046",
+      "set": "Artifacts",
+      "age": 5,
+      "color": "RED",
+      "name_zh": "维达号",
+      "name_en": "Galley Whydah",
+      "spots": [
+        0,
+        2,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        47,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A046",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 5,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：选择你场上的一个可见牌比我场上可见牌多的颜色！从下至上，将我场上所有该颜色的牌转移至我的计分区，然后将你场上所有该颜色的牌转移到我的场上！",
+          "en": "I COMPEL you to choose a color of which there are more visible cards on your board than on my board! From the bottom up, transfer all cards of that color from my board to my score pile, then from your board to my board!"
+        }
+      ]
+    },
+    {
+      "id": "A047",
+      "set": "Artifacts",
+      "age": 5,
+      "color": "RED",
+      "name_zh": "苏塞克斯号战列舰",
+      "name_en": "Ship of the Line Sussex",
+      "spots": [
+        5,
+        5,
+        0,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        48,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A047",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 5,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你的计分区没有牌，选择一个颜色并将你场上该颜色的所有牌计分。否则，归还你计分区的所有牌。",
+          "en": "If you have no cards in your score pile, choose a color and score all cards of that color on your board. Otherwise, return all cards from your score pile."
+        }
+      ]
+    },
+    {
+      "id": "A048",
+      "set": "Artifacts",
+      "age": 5,
+      "color": "YELLOW",
+      "name_zh": "古今图书集成",
+      "name_en": "Gujin Tushu Jicheng",
+      "spots": [
+        3,
+        1,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        51,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A048",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 5,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果是你的回合，从任一其他玩家的场上选择一张置顶牌，并将其超级执行。",
+          "en": "If it is your turn, choose any other top card on any other board and super-execute it."
+        }
+      ]
+    },
+    {
+      "id": "A049",
+      "set": "Artifacts",
+      "age": 5,
+      "color": "YELLOW",
+      "name_zh": "每日新闻",
+      "name_en": "The Daily Courant",
+      "spots": [
+        5,
+        5,
+        1,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        52,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A049",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 5,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取，展示并归还一张【6】。抽取并融合一张时期与你场上与被展示的牌颜色相同的牌时期相同的牌。独自执行此牌。",
+          "en": "Draw, reveal, and return a 【6】. Draw and meld a card of value equal to the value of your top card of the same color as the returned card. Self-execute the melded card."
+        }
+      ]
+    },
+    {
+      "id": "A050",
+      "set": "Artifacts",
+      "age": 5,
+      "color": "GREEN",
+      "name_zh": "美丽号三桅帆船",
+      "name_en": "Barque-Longue La Belle",
+      "spots": [
+        5,
+        0,
+        5,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        49,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A050",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 5,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取一张【5】并放入场上。如果抽到的牌不是绿色，重复执行此条例。",
+          "en": "Draw and meld a 【5】. If the drawn card is not green, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "A051",
+      "set": "Artifacts",
+      "age": 5,
+      "color": "GREEN",
+      "name_zh": "哈德逊湾公司档案",
+      "name_en": "Hudson's Bay Company Archives",
+      "spots": [
+        1,
+        0,
+        5,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        50,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A051",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 5,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "计分你场上每个颜色牌堆的置底牌。从你的计分区中融合一张牌。将与该融合牌颜色相同的牌向右展开。移除与融合牌相同时期的基础牌库。",
+          "en": "Score the bottom card of every color on your board. Meld a card from your score pile. Splay right the color of the melded card. Junk all cards in the deck of value equal to the melded card."
+        }
+      ]
+    },
+    {
+      "id": "A052",
+      "set": "Artifacts",
+      "age": 5,
+      "color": "BLUE",
+      "name_zh": "布尔哈夫显微镜",
+      "name_en": "Boerhaave Microscope",
+      "spots": [
+        3,
+        5,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        45,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A052",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 5,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你最低时期的一张手牌和你最低时期的一张置顶牌。抽一张时期等于二者之和的牌计分。",
+          "en": "Return the lowest card in your hand and the lowest top card on your board. Draw and score a card of value equal to the sum of the values of the cards you return."
+        }
+      ]
+    },
+    {
+      "id": "A053",
+      "set": "Artifacts",
+      "age": 5,
+      "color": "BLUE",
+      "name_zh": "自然哲学的数学原理",
+      "name_en": "Principia",
+      "spots": [
+        3,
+        3,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        46,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A053",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 5,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你所有非蓝色的置顶牌。每归还一张牌，就并按照时期升序抽取并融合一张比该牌高一时期的牌。",
+          "en": "Return your top card of each non-blue color. For each card you return, draw and meld a card of value one higher than the value of the returned card, in ascending order."
+        }
+      ]
+    },
+    {
+      "id": "A054",
+      "set": "Artifacts",
+      "age": 5,
+      "color": "PURPLE",
+      "name_zh": "山德汉姆·卢姆的板球拍",
+      "name_en": "Sandham Room Cricket Bat",
+      "spots": [
+        2,
+        2,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        53,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A054",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 5,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示一张【6】。若为红色，则无视常规要求统御一项可用的普通成就。否则，废弃一项可用的普通成就。",
+          "en": "Draw and reveal a 【6】. If it is red, claim an available standard achievement, ignoring eligibility. Otherwise, junk an available standard achievement."
+        }
+      ]
+    },
+    {
+      "id": "A055",
+      "set": "Artifacts",
+      "age": 5,
+      "color": "PURPLE",
+      "name_zh": "卡斯蒂利亚女王阿尔米拉",
+      "name_en": "Almira, Queen of Castile",
+      "spots": [
+        1,
+        0,
+        1,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        54,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A055",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 5,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "融合一张手牌。若你这么做，统御一个对应时期的可用成就，无视常规要求。否则，移除时期等于最低可用成就的基础牌库（如有）。",
+          "en": "Meld a card from your hand. If you do, claim an available achievement of matching value, ignoring eligibility. Otherwise, junk all cards in the deck of value equal to the lowest available achievement, if there is one."
+        }
+      ]
+    },
+    {
+      "id": "A056",
+      "set": "Artifacts",
+      "age": 6,
+      "color": "RED",
+      "name_zh": "宪法号风帆护卫舰",
+      "name_en": "Frigate Constitution",
+      "spots": [
+        0,
+        5,
+        5,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        57,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A056",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 6,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫： 你展示你的一张手牌！若你这样做，并且这张卡牌的时期等于我任意置顶牌的时期，你归还这张牌以及你的游戏区域中该颜色的所有卡牌！",
+          "en": "I COMPEL you to reveal a card in your hand! If you do, and its value is equal to the value of any of my top cards, return it and all cards of its color from your board!"
+        }
+      ]
+    },
+    {
+      "id": "A057",
+      "set": "Artifacts",
+      "age": 6,
+      "color": "RED",
+      "name_zh": "美国独立宣言",
+      "name_en": "U.S. Declaration of Independence",
+      "spots": [
+        1,
+        1,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        58,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A057",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 6,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：将你最高时期的一张手牌转移到我的手牌，将你最高时期的一张计分区的牌转移到我的计分区，将你最高时期、带有【工业】的一张置顶牌转移到我的场上！",
+          "en": "I COMPEL you to transfer the highest card in your hand to my hand, the highest card in your score pile to my score pile, and the highest top card with 【工业】 from your board to my board!"
+        }
+      ]
+    },
+    {
+      "id": "A058",
+      "set": "Artifacts",
+      "age": 6,
+      "color": "YELLOW",
+      "name_zh": "乾隆龙袍",
+      "name_en": "Qianlong's Dragon Robe",
+      "spots": [
+        0,
+        1,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        61,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A058",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 6,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫： 你转移你的红色置顶牌到我的计分区！转移你绿色的置顶牌到我的场上！转移你计分区中的一张黄色牌到我的计分区！转移你计分区中一张紫色的牌到我的场上！",
+          "en": "I COMPEL you to transfer your top red card to my score pile! Transfer your top green card to my board! Transfer a yellow card from your score pile to mine! Transfer a purple card from your score pile to my hand!"
+        }
+      ]
+    },
+    {
+      "id": "A059",
+      "set": "Artifacts",
+      "age": 6,
+      "color": "YELLOW",
+      "name_zh": "傲慢与偏见",
+      "name_en": "Pride and Prejudice",
+      "spots": [
+        0,
+        3,
+        2,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        62,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A059",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 6,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取一张【6】并放入场上。如果抽取卡牌的颜色与你游戏区域中可见卡牌最少（或并列最少）的牌堆颜色相同，则将该牌放入影响力区，并重复执行此条例。",
+          "en": "Draw and meld a 【6】. If the drawn card's color is the color with the fewest (or tied) number of visible cards on your board, score the melded card, and repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "A060",
+      "set": "Artifacts",
+      "age": 6,
+      "color": "GREEN",
+      "name_zh": "国富论",
+      "name_en": "The Wealth of Nations",
+      "spots": [
+        1,
+        5,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        59,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A060",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 6,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张【1】并计分。将你计分区中所有牌的时期求和除以五，向上取整。抽一张时期与结果相同的牌并计分。移除该时期的基础抽牌堆。",
+          "en": "Draw and score a 【1】. Add up the values of all cards in your score pile, divide by five, and round up. Draw and score a card of value equal to the result. Junk all cards in the deck of that value."
+        }
+      ]
+    },
+    {
+      "id": "A061",
+      "set": "Artifacts",
+      "age": 6,
+      "color": "GREEN",
+      "name_zh": "梧桐树协议",
+      "name_en": "Buttonwood Agreement",
+      "spots": [
+        5,
+        1,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        60,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A061",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 6,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择三种颜色。抽取并展示一张【8】。如果被抽取的牌颜色与你选择的颜色之一相同，将该牌计分并将你该颜色的牌堆向上展开。否则，归还你计分区中所有该颜色的牌，并将你该颜色的牌堆变为未展开。",
+          "en": "Choose three colors. Draw and reveal an 【8】. If the drawn card is one of the chosen colors, score it and splay up that color on your board. Otherwise, return all cards of that color from your score pile, and unsplay that color."
+        }
+      ]
+    },
+    {
+      "id": "A062",
+      "set": "Artifacts",
+      "age": 6,
+      "color": "BLUE",
+      "name_zh": "千克基准原器",
+      "name_en": "Kilogram of the Archives",
+      "spots": [
+        5,
+        0,
+        5,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        55,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A062",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 6,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你的一张手牌。归还你的一张置顶牌。如果你归还了两张时期之和为10的牌，抽一张【10】计分。否则，移除时期为X的基础牌库，X为归还牌的时期之和。",
+          "en": "Return a card from your hand. Return a top card from your board. If you return two cards and their values sum to ten, draw and score a 【10】. Otherwise, junk all cards in the deck of value equal to the sum."
+        }
+      ]
+    },
+    {
+      "id": "A063",
+      "set": "Artifacts",
+      "age": 6,
+      "color": "BLUE",
+      "name_zh": "普芬比利蒸汽火车",
+      "name_en": "Puffing Billy",
+      "spots": [
+        5,
+        0,
+        5,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        56,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A063",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 6,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你的一张手牌置底。将你场上与该牌颜色相同的牌堆向右展开。抽一张时期等同于该牌堆上可见最多的一种符号数量的牌。",
+          "en": "Tuck a card from your hand. Splay right its color on your board. Draw a card of value equal to the highest number of icons of the same type in that color on your board."
+        }
+      ]
+    },
+    {
+      "id": "A064",
+      "set": "Artifacts",
+      "age": 6,
+      "color": "PURPLE",
+      "name_zh": "月光奏鸣曲",
+      "name_en": "Moonlight Sonata",
+      "spots": [
+        3,
+        3,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        63,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A064",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 6,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择你场上有最高时期置顶牌的一个颜色。将该颜色的置底牌融合。",
+          "en": "Choose a color on your board having the highest top card. Meld your bottom card of that color."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "无视常规要求统御一个待统御的标准成就。移除一张可用标准成就。",
+          "en": "Claim an available standard achievement, ignoring eligibility. Junk an available standard achievement."
+        }
+      ]
+    },
+    {
+      "id": "A065",
+      "set": "Artifacts",
+      "age": 6,
+      "color": "PURPLE",
+      "name_zh": "皇家进行曲",
+      "name_en": "Marcha Real",
+      "spots": [
+        2,
+        2,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        64,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A065",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 6,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "展示并归还你手牌中的两张牌。如果它们的时期相同，则抽一张时期比它们高1的牌。如果它们的花色相同，则可统御一个可用的成就，且无视常规要求。",
+          "en": "Reveal and return two cards from your hand. If they have the same value, draw a card of value one higher. If they have the same color, claim an available achievement, ignoring eligibility."
+        }
+      ]
+    },
+    {
+      "id": "A066",
+      "set": "Artifacts",
+      "age": 7,
+      "color": "RED",
+      "name_zh": "汉利号潜艇",
+      "name_en": "Submarine H. L. Hunley",
+      "spots": [
+        5,
+        5,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        67,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A066",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 7,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：抽取并融合一张 【7】！展示你场上与该牌颜色相同的置底牌！如果被展示的牌时期是偶数，从你的场上归还该颜色的所有牌！",
+          "en": "I COMPEL you to draw and meld a 【7】! Reveal your bottom card of the melded card's color! If the revealed card is even-valued, return all cards of its color from your board!"
+        }
+      ]
+    },
+    {
+      "id": "A067",
+      "set": "Artifacts",
+      "age": 7,
+      "color": "RED",
+      "name_zh": "耶德利克的电磁自转子",
+      "name_en": "Jedlik's Electromagnetic Self-Rotor",
+      "spots": [
+        0,
+        6,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        68,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A067",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 7,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张【8】并计分。",
+          "en": "Draw and score an 【8】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "抽取并融合一张【8】。若融合的牌是【8】，选择一个时代，移除该时代的基础牌库。",
+          "en": "Draw and meld an 【8】. If it is an 【8】, choose a value, and junk all cards in the deck of that value."
+        }
+      ]
+    },
+    {
+      "id": "A068",
+      "set": "Artifacts",
+      "age": 7,
+      "color": "YELLOW",
+      "name_zh": "柯尔特·帕特森左轮手枪",
+      "name_en": "Colt Paterson Revolver",
+      "spots": [
+        5,
+        0,
+        5,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        71,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A068",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 7,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：展示你的手牌！抽取一张【7】！若抽到的牌与其他任意手牌颜色相同，归还你的所有手牌及计分区中的所有牌！",
+          "en": "I COMPEL you to reveal your hand! Draw a 【7】! If the color of the drawn card matches the color of any other card in your hand, return all cards in your hand and all cards in your score pile!"
+        }
+      ]
+    },
+    {
+      "id": "A069",
+      "set": "Artifacts",
+      "age": 7,
+      "color": "YELLOW",
+      "name_zh": "胜家缝纫机27型",
+      "name_en": "Singer Model 27",
+      "spots": [
+        0,
+        5,
+        6,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        72,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A069",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 7,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你一张手牌置底。若你如此做，将你与置底牌颜色相同的牌堆向上展开，随后将你该颜色的所有计分牌置底。若你如此做，移除一张可用标准成就。",
+          "en": "Tuck a card from your hand. If you do, splay up its color, and then tuck all cards from your score pile of that color. If you do, junk an available standard achievement."
+        }
+      ]
+    },
+    {
+      "id": "A070",
+      "set": "Artifacts",
+      "age": 7,
+      "color": "GREEN",
+      "name_zh": "国际米基准原器",
+      "name_en": "International Prototype Metre Bar",
+      "spots": [
+        1,
+        0,
+        1,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        69,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A070",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 7,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一个时期。抽取并展示三张该时期的牌。将展示的牌的颜色向上展开。如果你场上每种颜色的牌的数量没有其他玩家多，则重复此效果。",
+          "en": "Choose a value. Draw and reveal three cards of that value. Splay up the colors of the cards. If the number of cards of each of those colors on your board is equal to that value, you win. Otherwise, return the drawn cards."
+        }
+      ]
+    },
+    {
+      "id": "A071",
+      "set": "Artifacts",
+      "age": 7,
+      "color": "GREEN",
+      "name_zh": "汉森书写球",
+      "name_en": "Hansen Writing Ball",
+      "spots": [
+        6,
+        2,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        70,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A071",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 7,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫： 你抽四张【7】！将一张蓝色牌放入场上，然后将你所有手牌交给我！",
+          "en": "I COMPEL you to draw four 【7】! Meld a blue card, then transfer all cards in your hand to my hand!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示一张【7】。如果该牌不带有【效率】，则将其置底并重复执行此条例。",
+          "en": "Draw and reveal a 【7】. If it has no 【效率】, tuck it and repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "A072",
+      "set": "Artifacts",
+      "age": 7,
+      "color": "BLUE",
+      "name_zh": "元素周期表",
+      "name_en": "Periodic Table",
+      "spots": [
+        3,
+        0,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        65,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A072",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 7,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择你游戏区域内时期相同的两张置顶牌。若你这样做，抽取一张高于所选时期一个时期的牌并放入场中。如果该牌覆盖了所选的牌，重复该效果。",
+          "en": "Choose two top cards on your board of the same value. If you do, draw a card of value one higher and meld it. If you meld it over one of the chosen cards, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "A073",
+      "set": "Artifacts",
+      "age": 7,
+      "color": "BLUE",
+      "name_zh": "挑战者号护卫舰",
+      "name_en": "Corvette Challenger",
+      "spots": [
+        2,
+        3,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        66,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A073",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 7,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张 【8】 并置底。将你与该牌颜色相同的牌堆向上展开。抽一张时期等同于与该牌堆牌数的牌并计分。移除与该牌时期相同的基础抽牌堆。",
+          "en": "Draw and tuck an 【8】. Splay up the color of the tucked card. Draw and score a card of value equal to the number of cards of that color on your board. Junk all cards in the deck of that value."
+        }
+      ]
+    },
+    {
+      "id": "A074",
+      "set": "Artifacts",
+      "age": 7,
+      "color": "PURPLE",
+      "name_zh": "朗德海花园场景",
+      "name_en": "Roundhay Garden Scene",
+      "spots": [
+        2,
+        2,
+        2,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        73,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A074",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 7,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你计分区中时期最高的牌融合。抽取并计分两张时期与该融合牌相同的牌。独自执行该融合牌。",
+          "en": "Meld the highest card from your score pile. Draw and score two cards of value equal to the melded card. Self-execute the melded card."
+        }
+      ]
+    },
+    {
+      "id": "A075",
+      "set": "Artifacts",
+      "age": 7,
+      "color": "PURPLE",
+      "name_zh": "共产党宣言",
+      "name_en": "The Communist Manifesto",
+      "spots": [
+        1,
+        1,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        74,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A075",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 7,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "每有一名玩家就抽取并展示一张【7】。分别转移一张被抽取的牌到每名其他玩家的场上，融合最后一张，并且独自执行它。",
+          "en": "For each player, draw and reveal a 【7】. Transfer one of the drawn cards to each other player's board. Meld the last, and self-execute it."
+        }
+      ]
+    },
+    {
+      "id": "A076",
+      "set": "Artifacts",
+      "age": 8,
+      "color": "RED",
+      "name_zh": "俾斯麦号战列舰",
+      "name_en": "Battleship Bismarck",
+      "spots": [
+        0,
+        5,
+        5,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        77,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A076",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 8,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：抽取一张 【8】并展示！归还你游戏区域中与该牌颜色相同的所有牌！",
+          "en": "I COMPEL you to draw and reveal an 【8】! Return all cards of the drawn card's color from your board!"
+        }
+      ]
+    },
+    {
+      "id": "A077",
+      "set": "Artifacts",
+      "age": 8,
+      "color": "RED",
+      "name_zh": "大和号战列舰",
+      "name_en": "Battleship Yamato",
+      "spots": [
+        null,
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": [
+        78,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A077",
+      "notes": [
+        "放在时代 8 文物牌库；在面板上（包括非置顶位置）为时代 11，离开面板后恢复时代 8。没有图标或效果，不能发动条例。"
+      ],
+      "type": "artifact",
+      "deck_age": 8,
+      "board_age": 11,
+      "effects": []
+    },
+    {
+      "id": "A078",
+      "set": "Artifacts",
+      "age": 8,
+      "color": "YELLOW",
+      "name_zh": "泰迪熊",
+      "name_en": "Plüsch Beweglich Rod Bear",
+      "spots": [
+        2,
+        2,
+        2,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        81,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A078",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 8,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一个时期。将你场上每个置顶牌为该时期的牌堆向上展开。从所有玩家的计分区中归还该时期的所有牌。",
+          "en": "Choose a value. Splay up each color on your board with a top card of the chosen value. Return all cards of the chosen value from all score piles."
+        }
+      ]
+    },
+    {
+      "id": "A079",
+      "set": "Artifacts",
+      "age": 8,
+      "color": "YELLOW",
+      "name_zh": "动作漫画第一期",
+      "name_en": "Action Comics #1",
+      "spots": [
+        0,
+        6,
+        6,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        82,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A079",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 8,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：抽一张【8】！如果抽取牌为绿色，且[动作漫画第一期]是任一玩家的置顶牌，将[动作漫画第一期]统御！否则，如果抽取牌带有【效率】，将其归还，且如果你与其颜色相同的置顶牌带有【效率】，将该置顶牌转移到我的统御区，随后重复此条例！",
+          "en": "I COMPEL you to draw an 【8】! If it is green, achieve Action Comics #1 if it is a top card! Otherwise, if it has 【效率】, return it, and if your top card of its color has 【效率】, transfer it to my achievements, and repeat this effect!"
+        }
+      ]
+    },
+    {
+      "id": "A080",
+      "set": "Artifacts",
+      "age": 8,
+      "color": "GREEN",
+      "name_zh": "泰坦尼克号",
+      "name_en": "Liner Titanic",
+      "spots": [
+        1,
+        5,
+        1,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        79,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A080",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 8,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你场上每个颜色的置底牌计分。",
+          "en": "Score your bottom card of each color."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "移除至少有一张牌的最低时期的基础牌库。",
+          "en": "Junk all cards from the deck of lowest value with a card."
+        }
+      ]
+    },
+    {
+      "id": "A081",
+      "set": "Artifacts",
+      "age": 8,
+      "color": "GREEN",
+      "name_zh": "明治村邮票自动售货机",
+      "name_en": "Meiji-Mura Stamp Vending Machine",
+      "spots": [
+        2,
+        1,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        80,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A081",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 8,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还一张手牌。抽三张与该牌时期相同的牌并计分。如果你未能这么做，移除时期与被计分的牌中最高时期相同的基础抽牌堆。",
+          "en": "Return a card from your hand. Draw and score three cards of the returned card's value. If you don't, junk all cards in the deck of value equal to the highest scored card."
+        }
+      ]
+    },
+    {
+      "id": "A082",
+      "set": "Artifacts",
+      "age": 8,
+      "color": "BLUE",
+      "name_zh": "帕奈尔沥青滴漏实验",
+      "name_en": "Parnell Pitch Drop",
+      "spots": [
+        3,
+        3,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        75,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A082",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 8,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并融合一张时期比你置顶牌最高时期高一的牌。移除一个可用常规成就。如果你不能这么做，并且融合的牌至少有三个【效率】，你获胜。",
+          "en": "Draw and meld a card of value one higher than the highest top card on your board. Junk an available standard achievement. If you don't, and the melded card has at least three 【效率】, you win."
+        }
+      ]
+    },
+    {
+      "id": "A083",
+      "set": "Artifacts",
+      "age": 8,
+      "color": "BLUE",
+      "name_zh": "埃尔哈特的洛克希德·伊莱克特拉10型飞机",
+      "name_en": "Earhart's Lockheed Electra 10E",
+      "spots": [
+        6,
+        0,
+        6,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        76,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A083",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 8,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "对于每个低于9的时期，按照降序，移除你场上一张该时期的置顶牌。然后，如果小于9的所有时期都有至少一张牌在移除区，你获胜。",
+          "en": "For each value below 9, junk a top card of that value from your board, in descending order. Then, if there is a junked card of each value below 9, you win."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "统御一个成就，无视常规要求。",
+          "en": "Claim an available achievement, ignoring eligibility."
+        }
+      ]
+    },
+    {
+      "id": "A084",
+      "set": "Artifacts",
+      "age": 8,
+      "color": "PURPLE",
+      "name_zh": "加兰德的红宝石鞋",
+      "name_en": "Garland's Ruby Slippers",
+      "spots": [
+        0,
+        6,
+        6,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        83,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A084",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 8,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "从你的手牌中将一张【8】融合。如果因此进场的牌没有任何效果，你获胜。否则，独自执行该牌。",
+          "en": "Meld an 【8】 from your hand. If the melded card has no effects, you win. Otherwise, self-execute it."
+        }
+      ]
+    },
+    {
+      "id": "A085",
+      "set": "Artifacts",
+      "age": 8,
+      "color": "PURPLE",
+      "name_zh": "首届世界杯决赛用球",
+      "name_en": "'30 World Cup Final Ball",
+      "spots": [
+        2,
+        2,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        84,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A085",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 8,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫： 你归还一张已统御的标准成就！",
+          "en": "I COMPEL you to return one of your claimed standard achievements!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示一张【8】。该牌颜色的置顶牌时期唯一最高的玩家，将其该颜色的置顶牌统御，无视常规要求。如果有玩家这么做，重复执行此条例。",
+          "en": "Draw and reveal an 【8】. The single player with the highest top card of the drawn card's color achieves the top card, ignoring eligibility. If they do, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "A086",
+      "set": "Artifacts",
+      "age": 9,
+      "color": "RED",
+      "name_zh": "十字军兔",
+      "name_en": "Crusader Rabbit",
+      "spots": [
+        0,
+        2,
+        6,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        87,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A086",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 9,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：将每种拥有要求效果顶牌的颜色的两张底牌转移到我的计分区！",
+          "en": "I COMPEL you to transfer the two bottom cards of each color which has a top card with a demand effect to my score pile!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你有带有霸权条例的置顶牌，将其计分，随后抽一张【10】。",
+          "en": "If you have a top card on your board with a demand effect, score it, and draw a 【10】."
+        }
+      ]
+    },
+    {
+      "id": "A087",
+      "set": "Artifacts",
+      "age": 9,
+      "color": "RED",
+      "name_zh": "尼龙搭扣鞋",
+      "name_en": "Velcro Shoes",
+      "spots": [
+        5,
+        5,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        88,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A087",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 9,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫： 你必须将手牌中的 【9】 转移到我手中！若否，就把你计分区里的 【9】 转移到我的计分区里！若两者皆不做，我就赢了！",
+          "en": "I COMPEL you to transfer a 【9】 from your hand to my hand! If you don't, transfer a 【9】 from your score pile to my score pile! If you do neither, I win!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你最高时期的置顶牌计分。",
+          "en": "Score your highest top card."
+        }
+      ]
+    },
+    {
+      "id": "A088",
+      "set": "Artifacts",
+      "age": 9,
+      "color": "YELLOW",
+      "name_zh": "整日摇滚",
+      "name_en": "Rock Around the Clock",
+      "spots": [
+        2,
+        6,
+        0,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        91,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A088",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 9,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你的每张带【效率】的置顶牌各使你抽取并计分一张【9】。",
+          "en": "For each top card on your board with 【效率】 , draw and score a 【9】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "移除时期与你计分区卡牌数量相同的基础牌库。",
+          "en": "Junk all cards in the deck of value equal to the number of cards in your score pile."
+        }
+      ]
+    },
+    {
+      "id": "A089",
+      "set": "Artifacts",
+      "age": 9,
+      "color": "YELLOW",
+      "name_zh": "米罗华奥德赛游戏机",
+      "name_en": "Magnavox Odyssey",
+      "spots": [
+        3,
+        2,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        92,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A089",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 9,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并融合两张【10】。如果它们颜色相同，你获胜。",
+          "en": "Draw and meld two 【10】. If they are the same color, you win."
+        }
+      ]
+    },
+    {
+      "id": "A090",
+      "set": "Artifacts",
+      "age": 9,
+      "color": "GREEN",
+      "name_zh": "飞利浦小型盒式磁带",
+      "name_en": "Philips Compact Cassette",
+      "spots": [
+        0,
+        2,
+        2,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        89,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A090",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 9,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：将你的游戏区域上已展开的颜色还原为未展开状态！",
+          "en": "I COMPEL you to unsplay all splayed colors on your board!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你游戏面板上的两种颜色向上展开。",
+          "en": "Splay up two colors on your board."
+        }
+      ]
+    },
+    {
+      "id": "A091",
+      "set": "Artifacts",
+      "age": 9,
+      "color": "GREEN",
+      "name_zh": "地球同步通信卫星三号",
+      "name_en": "Syncom 3",
+      "spots": [
+        0,
+        6,
+        6,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        90,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A091",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 9,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你的所有手牌。抽取并展示五张 【9】。如果你展示了五种颜色的牌，你获胜。",
+          "en": "Return all cards from your hand. Draw and reveal five 【9】. If you reveal five colors, you win."
+        }
+      ]
+    },
+    {
+      "id": "A092",
+      "set": "Artifacts",
+      "age": 9,
+      "color": "BLUE",
+      "name_zh": "耶格尔的贝尔X-1A超音速机",
+      "name_en": "Yeager's Bell X-1A",
+      "spots": [
+        6,
+        6,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        85,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A092",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 9,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并融合一张【9】，然后独自执行该牌。如果该牌带有【效率】，重复执行此条例。",
+          "en": "Draw and meld a 【9】, and self-execute it. If that card has 【效率】, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "A093",
+      "set": "Artifacts",
+      "age": 9,
+      "color": "BLUE",
+      "name_zh": "月球三号探测器",
+      "name_en": "Luna 3",
+      "spots": [
+        5,
+        0,
+        5,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        86,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A093",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 9,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你计分区所有卡牌。抽取一张时期等于归还卡牌数量的牌放入计分区。",
+          "en": "Return all cards from your score pile. Draw and score a card of value equal to the number of cards you return."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "选择一个时期。移除该时期的基础抽牌堆。",
+          "en": "Choose a value. Junk all cards in that deck."
+        }
+      ]
+    },
+    {
+      "id": "A094",
+      "set": "Artifacts",
+      "age": 9,
+      "color": "PURPLE",
+      "name_zh": "宇宙大爆炸理论",
+      "name_en": "The Big Bang",
+      "spots": [
+        3,
+        0,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        93,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A094",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 9,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "独自执行你的蓝色置顶牌。如果因此产生了任何变化，抽取并移除一张【10】，然后重复执行此条例。",
+          "en": "Self-execute your top blue card. If this causes any change to occur, draw and junk a 【10】, then repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "A095",
+      "set": "Artifacts",
+      "age": 9,
+      "color": "PURPLE",
+      "name_zh": "玛丽莲·梦露双联画",
+      "name_en": "Marilyn Diptych",
+      "spots": [
+        1,
+        1,
+        1,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        94,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A095",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 9,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将一张手牌计分。你可以将计分区的一张牌拿回手牌。如果此时恰好有25分，则你获得胜利。",
+          "en": "You may score a card from your hand. You may transfer any card from your score pile to your hand. If you have exactly 25 points, you win."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "移除一个可用常规成就。",
+          "en": "Junk an available standard achievement."
+        }
+      ]
+    },
+    {
+      "id": "A096",
+      "set": "Artifacts",
+      "age": 10,
+      "color": "RED",
+      "name_zh": "埃克森·瓦尔迪兹号油轮",
+      "name_en": "Tanker Exxon Valdez",
+      "spots": [
+        5,
+        0,
+        5,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        97,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A096",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 10,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫： 你废弃所有牌！你输了！",
+          "en": "I COMPEL you to junk all your cards! You lose!"
+        }
+      ]
+    },
+    {
+      "id": "A097",
+      "set": "Artifacts",
+      "age": 10,
+      "color": "RED",
+      "name_zh": "马尔代夫",
+      "name_en": "Maldives",
+      "spots": [
+        6,
+        0,
+        6,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        98,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A097",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 10,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫： 你保留两张手牌并归还其他所有手牌！以及保留两张牌并归还其他所有计分区的牌！",
+          "en": "I COMPEL you to return all cards in your hand but two! Return all cards in your score pile but two!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "保留计分区的四张卡牌，归还其余卡牌。",
+          "en": "Return all cards in your score pile but four."
+        }
+      ]
+    },
+    {
+      "id": "A098",
+      "set": "Artifacts",
+      "age": 10,
+      "color": "YELLOW",
+      "name_zh": "克隆羊多莉",
+      "name_en": "Dolly the Sheep",
+      "spots": [
+        0,
+        6,
+        2,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        101,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A098",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 10,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以计分你的黄色底牌。你可以抽取一张【1】并将其置底。如果你的黄色底牌是驯化，你获胜。否则，融合你手牌中最高时期的牌，然后抽取一张【11】。",
+          "en": "You may score your bottom yellow card. You may draw and tuck a 【1】. If your bottom yellow card is Domestication, you win. Otherwise, meld the highest card in your hand, then draw an 【11】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "移除所有可用成就。",
+          "en": "Junk all available achievements."
+        }
+      ]
+    },
+    {
+      "id": "A099",
+      "set": "Artifacts",
+      "age": 10,
+      "color": "YELLOW",
+      "name_zh": "聪明的沃里？",
+      "name_en": "Where's Waldo?",
+      "spots": [
+        2,
+        7,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        102,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A099",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 10,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你获胜。",
+          "en": "You win."
+        }
+      ]
+    },
+    {
+      "id": "A100",
+      "set": "Artifacts",
+      "age": 10,
+      "color": "GREEN",
+      "name_zh": "马斯克的特斯拉电动跑车",
+      "name_en": "Musk's Tesla Roadster",
+      "spots": [
+        5,
+        5,
+        0,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        99,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A100",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 10,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你的计分牌数量不少于任一玩家，你获胜。否则，抽取并展示一张【11】。将你场上颜色与展示牌相同的所有牌计分。若你如此做，归还抽取牌。否则，将抽取牌融合。",
+          "en": "If you have the most cards in your score pile, you win. Otherwise, draw and reveal an 【11】. Score all cards on your board of the color of the drawn card. If you do, return the drawn card. Otherwise, meld it."
+        }
+      ]
+    },
+    {
+      "id": "A101",
+      "set": "Artifacts",
+      "age": 10,
+      "color": "GREEN",
+      "name_zh": "青函隧道",
+      "name_en": "Seikan Tunnel",
+      "spots": [
+        6,
+        6,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        100,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A101",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 10,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你有一个牌堆的牌数比所有玩家的所有其他牌堆都要多，你获胜。",
+          "en": "If you have the most cards of a color visible on your board out of all colors on all boards, you win."
+        }
+      ]
+    },
+    {
+      "id": "A102",
+      "set": "Artifacts",
+      "age": 10,
+      "color": "BLUE",
+      "name_zh": "好奇号火星探测器",
+      "name_en": "Rover Curiosity",
+      "spots": [
+        0,
+        3,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        95,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A102",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 10,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并融合一张文物【10】，然后将其独自执行。",
+          "en": "Draw and meld an Artifact 【10】, then self-execute it."
+        }
+      ]
+    },
+    {
+      "id": "A103",
+      "set": "Artifacts",
+      "age": 10,
+      "color": "BLUE",
+      "name_zh": "希格斯玻色子",
+      "name_en": "Higgs Boson",
+      "spots": [
+        7,
+        7,
+        7,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 7,
+      "art_position": [
+        96,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A103",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 10,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你场上的所有牌计分。",
+          "en": "Score all cards on your board."
+        }
+      ]
+    },
+    {
+      "id": "A104",
+      "set": "Artifacts",
+      "age": 10,
+      "color": "PURPLE",
+      "name_zh": "德罗宁DMC-12跑车",
+      "name_en": "DeLorean DMC-12",
+      "spots": [
+        0,
+        6,
+        6,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        103,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A104",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 10,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果德罗宁DMC-12是任一玩家的置顶牌，移除所有玩家的所有手牌和每种颜色的置顶牌各一张。",
+          "en": "If Delorean DMC-12 is a top card on any board, junk a top card of each color from each board and all cards in all hands."
+        }
+      ]
+    },
+    {
+      "id": "A105",
+      "set": "Artifacts",
+      "age": 10,
+      "color": "PURPLE",
+      "name_zh": "《龙穴历险记》",
+      "name_en": "Dragon's Lair",
+      "spots": [
+        0,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        104,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A105",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 10,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫： 你将你计分区的一张X融合，X为你计分区最低的、只出现一次的时期！若你如此做，将你一张颜色与融合牌相同的手牌融合！如果你共计只融合了一张牌，你败北！否则，将所有基础牌库的置顶牌移除！",
+          "en": "I COMPEL you to meld the lowest card in your score pile with a unique value! If you do, meld a card of the same color from your hand! If you meld one card total, you lose! Otherwise, junk the top card of each deck!"
+        }
+      ]
+    },
+    {
+      "id": "A106",
+      "set": "Artifacts",
+      "age": 11,
+      "color": "RED",
+      "name_zh": "小行星 16",
+      "name_en": "Psyche",
+      "spots": [
+        5,
+        5,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        107,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A106",
+      "notes": [
+        "待核对：BGA 名称为“Psyche”，官方牌表名称为“16 PSYCHE”；此处按名称对应归档，尚未实卡复核。"
+      ],
+      "type": "artifact",
+      "deck_age": 11,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一个与你场上任一置顶牌时期均不同的时期。将该时期的基础抽牌堆中的所有牌计分。将被移除的该时期的所有牌计分。",
+          "en": "Choose a value different from any top card on your board. Score all cards in the deck of that value. Score all cards in the junk of that value."
+        }
+      ]
+    },
+    {
+      "id": "A107",
+      "set": "Artifacts",
+      "age": 11,
+      "color": "RED",
+      "name_zh": "帕卡亚火山披萨",
+      "name_en": "Pizza Pacaya",
+      "spots": [
+        0,
+        1,
+        6,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        108,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A107",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 11,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫：移除你场上的所有牌！按照时期升序抽取每个时期的牌各一张并融合！",
+          "en": "I COMPEL you to junk all cards from your board! Draw and meld a card of each value in ascending order!"
+        }
+      ]
+    },
+    {
+      "id": "A108",
+      "set": "Artifacts",
+      "age": 11,
+      "color": "YELLOW",
+      "name_zh": "《狐狸叫》",
+      "name_en": "What Does The Fox Say",
+      "spots": [
+        0,
+        1,
+        7,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": 7,
+      "art_position": [
+        111,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A108",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 11,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽两张【11】。 将一张牌融合，随后如果此时在你的回合内，你将另一张牌融合并将后者超级执行，否则将另一张牌融合并将后者独自执行。",
+          "en": "Draw two 【11】. Meld one of them, then meld the other and if it is your turn, super-execute it, otherwise self-execute it."
+        }
+      ]
+    },
+    {
+      "id": "A109",
+      "set": "Artifacts",
+      "age": 11,
+      "color": "YELLOW",
+      "name_zh": "塔斯马尼亚虎",
+      "name_en": "Tasmanian Tiger",
+      "spots": [
+        3,
+        0,
+        3,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        112,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A109",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 11,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "指定你计分区的一张牌。指定任一玩家场上该颜色的置顶牌。交换两张牌。你可以归还你的两张手牌。若你如此做，则重复此效果。",
+          "en": "Choose a card in your score pile. Choose a top card of the same color on any player's board. Exchange the two cards. You may return two cards from your hand. If you do, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "A110",
+      "set": "Artifacts",
+      "age": 11,
+      "color": "GREEN",
+      "name_zh": "格陵兰",
+      "name_en": "Greenland",
+      "spots": [
+        2,
+        6,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        109,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A110",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 11,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫： 你必须用【效率】归还你的一张顶牌！若你如此做，则重复此效果。",
+          "en": "I COMPEL you to return one of your top cards with 【效率】! If you do, repeat this effect!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你的一张带【繁荣】的置顶牌。若你如此做，重复此效果。",
+          "en": "Return one of your top cards with 【繁荣】. If you do, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "A111",
+      "set": "Artifacts",
+      "age": 11,
+      "color": "GREEN",
+      "name_zh": "梵文",
+      "name_en": "Sanskrit",
+      "spots": [
+        3,
+        0,
+        7,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        110,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A111",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 11,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "移除所有玩家计分区中的所有牌。若你未如此做，每位玩家各选择自己时代最高的一张置顶牌，并将自己其他每种颜色的置顶牌转移到自己的计分区。",
+          "en": "Junk all cards in all score piles. If you don't, for each player, choose their highest top card, then for each other different color, transfer their top card of that color to their score pile."
+        }
+      ]
+    },
+    {
+      "id": "A112",
+      "set": "Artifacts",
+      "age": 11,
+      "color": "BLUE",
+      "name_zh": "大堡礁",
+      "name_en": "Great Barrier Reef",
+      "spots": [
+        2,
+        0,
+        2,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        105,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A112",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 11,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你场上除每种颜色前五张卡牌以外的所有卡牌废弃。",
+          "en": "Junk all cards on your board other than the top five of each color."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "将你所有颜色的牌堆向右上展开。",
+          "en": "Splay each color on your board aslant."
+        }
+      ]
+    },
+    {
+      "id": "A113",
+      "set": "Artifacts",
+      "age": 11,
+      "color": "BLUE",
+      "name_zh": "火星互联网",
+      "name_en": "Martian Internet",
+      "spots": [
+        7,
+        7,
+        7,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 7,
+      "art_position": [
+        106,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A113",
+      "notes": [
+        "官方卡面未详述子对局回归时的展开及展示区冲突。本实现的解释见规则手册“岁月遗珍”和 RULES.md，相关代码已注释标明。"
+      ],
+      "type": "artifact",
+      "deck_age": 11,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "暂时忽略所有玩家当前拥有的牌，使用剩余牌开启一场不洗牌的新对局，每位玩家各抽取并融合一张【9】作为起始牌。子对局的赢家将其拥有的牌转移回本局；移除该子对局中其他玩家拥有的牌。",
+          "en": "Start a new game, ignoring all players' current cards and without shuffling, each player drawing and melding a 【9】 to begin, the winner then transfering their cards to this game and junking each player's other cards from that game."
+        }
+      ]
+    },
+    {
+      "id": "A114",
+      "set": "Artifacts",
+      "age": 11,
+      "color": "PURPLE",
+      "name_zh": "珍宝海鲜舫",
+      "name_en": "Jumbo Kingdom",
+      "spots": [
+        0,
+        1,
+        1,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        113,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A114",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 11,
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "指定出现在你场上的一个颜色。将所有玩家场上该颜色的所有牌移除。",
+          "en": "Choose a color on your board. Junk all cards of that color from all boards."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "指定移除区的一张牌。将移除区所有时期与其相同的牌计分。若你如此做，且你获得分数低于11，重复此条例。",
+          "en": "Choose a valued card in the junk. Score all cards of the chosen card's value in the junk. If you do, and you score fewer than eleven points, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "A115",
+      "set": "Artifacts",
+      "age": 11,
+      "color": "PURPLE",
+      "name_zh": "VR头显",
+      "name_en": "Oculus Quest",
+      "spots": [
+        3,
+        6,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        114,
+        1
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=A115",
+      "notes": [],
+      "type": "artifact",
+      "deck_age": 11,
+      "effects": [
+        {
+          "kind": "i_compel_effect",
+          "label": "强迫",
+          "zh": "强迫： 你转移所有你场上的牌到你的手牌！",
+          "en": "I COMPEL you to transfer all cards on your board to your hand!"
+        }
+      ]
+    }
+  ],
+  "museums": [
+    {
+      "id": "M-ARTIFACTS-1",
+      "set": "Artifacts",
+      "age": -1,
+      "type": "museum",
+      "name_zh": "博物馆 1",
+      "name_en": "Museum 1",
+      "color": null,
+      "spots": [],
+      "effects": []
+    },
+    {
+      "id": "M-ARTIFACTS-2",
+      "set": "Artifacts",
+      "age": -1,
+      "type": "museum",
+      "name_zh": "博物馆 2",
+      "name_en": "Museum 2",
+      "color": null,
+      "spots": [],
+      "effects": []
+    },
+    {
+      "id": "M-ARTIFACTS-3",
+      "set": "Artifacts",
+      "age": -1,
+      "type": "museum",
+      "name_zh": "博物馆 3",
+      "name_en": "Museum 3",
+      "color": null,
+      "spots": [],
+      "effects": []
+    },
+    {
+      "id": "M-ARTIFACTS-4",
+      "set": "Artifacts",
+      "age": -1,
+      "type": "museum",
+      "name_zh": "博物馆 4",
+      "name_en": "Museum 4",
+      "color": null,
+      "spots": [],
+      "effects": []
+    },
+    {
+      "id": "M-ARTIFACTS-5",
+      "set": "Artifacts",
+      "age": -1,
+      "type": "museum",
+      "name_zh": "博物馆 5",
+      "name_en": "Museum 5",
+      "color": null,
+      "spots": [],
+      "effects": []
+    }
+  ],
+  "special_achievements": [],
+  "terms": [
+    {
+      "id": "dig",
+      "zh": "发掘",
+      "en": "Dig",
+      "aliases": [
+        "发掘",
+        "Dig",
+        "挖掘"
+      ],
+      "pages": [
+        26,
+        27
+      ],
+      "text": "融合行动覆盖了时代不低于新牌的牌，或两张牌的六边形插图位置相同，可以发掘。以被覆盖牌时代为准，按基础空牌库顺延，取对应时代文物牌至展示区。已有展示文物、文物牌库为空或超过时代 11 时忽略。也可以改为夺取对手博物馆中该时代的文物。"
+    },
+    {
+      "id": "showcase",
+      "zh": "展览",
+      "en": "Showcase",
+      "aliases": [
+        "展览",
+        "Showcase",
+        "展示文物"
+      ],
+      "pages": [
+        26,
+        27
+      ],
+      "text": "回合开始时，若展示区有文物，必须进行展览。可以先免费发动它的条例；只在判定分享与要求资格时计入该文物的图标，不执行回声。随后将文物轮转至可用博物馆，没有空馆则轮转至手牌。"
+    },
+    {
+      "id": "seize",
+      "zh": "夺取",
+      "en": "Seize",
+      "aliases": [
+        "夺取",
+        "Seize"
+      ],
+      "pages": [
+        26,
+        27
+      ],
+      "text": "可以用夺取替代发掘：把对手博物馆中符合发掘时代的文物连同博物馆一起轮转到自己面前。即使自己已有展示文物也可以夺取。"
+    },
+    {
+      "id": "rotate",
+      "zh": "轮转",
+      "en": "Rotate",
+      "aliases": [
+        "轮转",
+        "Rotate",
+        "轮换"
+      ],
+      "pages": [
+        26,
+        27
+      ],
+      "text": "将指定牌移动至指定区域。轮转不属于融合或转移，不触发这些关键词的业报。"
+    },
+    {
+      "id": "museum",
+      "zh": "博物馆",
+      "en": "Museum",
+      "aliases": [
+        "博物馆",
+        "Museum"
+      ],
+      "pages": [
+        26,
+        27
+      ],
+      "text": "博物馆中的文物不是手牌或面板牌，不能直接发动条例，但可以用一次融合行动将它融合，并释放该博物馆。展览后若没有可用博物馆，进行博物馆检查：唯一收藏最多文物的玩家取得一座博物馆作为成就；然后当前玩家按自选顺序归还所有馆藏文物，空馆回到供应区。"
+    },
+    {
+      "id": "compel",
+      "zh": "强迫",
+      "en": "Compel",
+      "aliases": [
+        "强迫",
+        "Compel",
+        "诱使",
+        "I COMPEL",
+        "我诱使",
+        "诱导",
+        "compel effect",
+        "我强迫"
+      ],
+      "pages": [
+        26,
+        27
+      ],
+      "text": "强迫是一类要求，作用于具备分享资格的对手（通常其主导图标数不小于发动者）。强迫不产生分享奖励；自执行和超执行都跳过强迫。"
+    }
+  ]
+}

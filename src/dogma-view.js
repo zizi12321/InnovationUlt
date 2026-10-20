@@ -1,4 +1,4 @@
-import { dogmaEligibility, dogmaTypeLabel, isDemand } from './dogma.js';
+import { dogmaEligibility, dogmaTypeLabel, isDemand, isCompel } from './dogma.js';
 import { resourceIconHTML, colorStyle, escapeHTML as esc } from './cards.js';
 import { publicDemandBlockReason, publicOrdinaryBlockReason } from './dogma-hints.js';
 
@@ -9,11 +9,12 @@ export function assessDogma(card, engine, state, actor, names) {
   if(forcedSharing){eligibility.share=true;eligibility.vulnerable=false;}
   const { own, rival, vulnerable, share } = eligibility, iconName = names[card.dogma_icon];
   const steps = engine.effectSteps(state, card.id), hasEchoes = steps.some(step => step.echo);
-  const demand = card.effects.some(isDemand), ordinary = hasEchoes || card.effects.some(effect => !isDemand(effect));
+  const demand = card.effects.some(effect=>isDemand(effect)&&!isCompel(effect)), compel=card.effects.some(isCompel), ordinary = hasEchoes || card.effects.some(effect => !isDemand(effect));
   const observation = engine.observation(state, actor);
   const noDemandTarget = !hasEchoes && vulnerable && isDemand(card.effects[0]) ? publicDemandBlockReason(card, observation, engine.cards) : null;
   const noOrdinaryTarget = !hasEchoes && share && !isDemand(card.effects[0]) ? publicOrdinaryBlockReason(card, observation) : null;
   const rows = [];
+  if(compel)rows.push({kind:'compel',label:'强迫',warn:!share,text:share?`${rivalPlayer.name}具有分享资格，会执行强迫（${iconName} ${rival} ≥ ${own}，或业报赋予资格）。`:`强迫不作用于${rivalPlayer.name}：其${iconName}数量 ${rival} < ${own}，不具备分享资格。`});
   if (demand) rows.push({ kind: 'demand', label: '要求', warn: !vulnerable || !!noDemandTarget, text: vulnerable
     ? noDemandTarget ? `要求当前没有可执行目标：${noDemandTarget}` : `${rivalPlayer.name}会执行要求（${iconName} ${rival} < ${own}）。`
     : forcedSharing ? `要求不作用于${rivalPlayer.name}：萨尔贡的业报使其具备分享资格。` : `要求不作用于${rivalPlayer.name}：其${iconName}数量 ${rival} ≥ ${own}。` });
@@ -33,5 +34,5 @@ export function dogmaButtonHTML(card, names, assessment, enabled, className = 'p
 }
 
 export function dogmaAssessmentHTML(card, names, assessment, richText) {
-  return `<div class="dogma-assessment" style="${colorStyle(card.color)}"><div class="dogma-comparison">${resourceIconHTML(card.dogma_icon, card.color, names)}<strong>${esc(assessment.ownName)} ${assessment.own}</strong><span>：</span><strong>${esc(assessment.rivalName)} ${assessment.rival}</strong><small>按当前可见图标判断</small></div>${assessment.rows.map(row => `<p class="dogma-status${row.warn ? ' has-warning' : ''}"><b>${row.label}</b><span>${richText(row.text, { color: card.color })}</span></p>`).join('')}<p class="dogma-hint">红色提示：电脑能分享条例，或要求不能影响电脑。仍可照常发动。${esc(assessment.provisional || '')}</p></div>`;
+  return `<div class="dogma-assessment" style="${colorStyle(card.color)}"><div class="dogma-comparison">${resourceIconHTML(card.dogma_icon, card.color, names)}<strong>${esc(assessment.ownName)} ${assessment.own}</strong><span>：</span><strong>${esc(assessment.rivalName)} ${assessment.rival}</strong><small>按当前可见图标判断</small></div>${assessment.rows.map(row => `<p class="dogma-status${row.warn ? ' has-warning' : ''}"><b>${row.label}</b><span>${richText(row.text, { color: card.color })}</span></p>`).join('')}<p class="dogma-hint">红色提示：电脑能分享条例，或要求／强迫不能影响电脑。仍可照常发动。${esc(assessment.provisional || '')}</p></div>`;
 }

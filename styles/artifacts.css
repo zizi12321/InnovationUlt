@@ -1,0 +1,24 @@
+.hex-art.is-artifacts{background-image:url('../assets/artifacts-illustrations.png')}
+.artifacts-deck .deck-back{background:linear-gradient(155deg,#6e4932,#a47c48);border-color:#795336}
+.artifacts-area{display:grid;grid-template-columns:minmax(0,1fr);min-width:0;gap:24px;margin-top:26px;border-top:1px solid var(--line,#ddd);padding-top:24px}
+.artifact-display,.artifact-museums{min-width:0;border:1px solid #d6c4a3;border-radius:14px;padding:18px;background:#faf7ef}
+.artifact-museums{background:#f5f3ee}
+.artifacts-area .hand-heading{gap:12px;flex-wrap:wrap}
+.artifact-stage{font-size:12px;color:#795336}
+.artifact-help{font-size:13px;line-height:1.7;color:#6c6253;margin:8px 0 16px}
+.artifact-display .hand-grid{max-width:560px}
+.museum-card{min-width:0}
+.museum-card>.list-card{width:100%}
+.museum-card>.hand-play{width:100%}
+.museum-supply{margin:18px 0}
+.museum-supply h3,.artifact-museums h3,.museum-achievements{display:flex;align-items:center;gap:8px}
+.museum-supply svg,.artifact-museums h3 svg,.museum-achievements svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.6}
+.museum-tokens{display:flex;gap:8px;flex-wrap:wrap}
+.museum-token{display:grid;grid-template-columns:22px 1fr;align-items:center;gap:4px 8px;border:1px solid #c8b18a;border-radius:9px;padding:9px 12px;background:#faf5e8;min-width:98px;color:#75552c}
+.museum-token small{grid-column:1/-1;font-size:11px}
+.museum-token.is-occupied{background:#e9e6df;color:#6e6a60}
+.museum-token.is-achieved{background:#e0eee4;border-color:#8eae97;color:#305b40}
+.museum-achievements{font-size:13px;color:#665641}
+.subgame-banner{padding:12px 16px;border:1px solid #a8b9d1;background:#edf3fc;border-radius:10px;color:#344f76;margin:8px 0;font-size:13px;line-height:1.6}
+.showcase-notice{padding:14px;border:1px solid #c8ae81;background:#fff8e9;border-radius:10px}
+@media(max-width:600px){.artifact-display,.artifact-museums{padding:12px}.museum-token{min-width:78px;padding:8px}.artifact-stage{width:100%}}

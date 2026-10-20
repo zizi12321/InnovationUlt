@@ -19,7 +19,7 @@ export function figureState(state, card, visible, registry) {
     for (const mark of marks(p)) if (Object.hasOwn(counts, mark.icon)) counts[mark.icon]++;
     return counts;
   };
-  const ownedAchievements = p => p.achievements.length + p.specials.length + (p.decrees || []).length + cityAchievements(state, p, visible).total;
+  const ownedAchievements = p => p.achievements.length + p.specials.length + (p.decrees || []).length + (p.museumAchievements || []).length + cityAchievements(state, p, visible).total;
   const base = { state, players, p: id => raw.get(id), card, tops, visible, icons,
     other: id => players.find(p => p.id !== id).id, highest: p => Math.max(0, ...tops(p).map(id => card(id).age)),
     hand: p => p.hand, score: p => p.score, achievements: ownedAchievements,

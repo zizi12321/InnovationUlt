@@ -1,8 +1,10 @@
-export const isDemand = effect => effect.kind === 'i_demand_effect';
+export const isCompel = effect => effect.kind === 'i_compel_effect';
+export const isDemand = effect => effect.kind === 'i_demand_effect' || isCompel(effect);
 
 export function dogmaTypeLabel(card, includesEcho = false) {
   const labels = [];
-  if (card.effects.some(isDemand)) labels.push('要求');
+  if (card.effects.some(effect => isDemand(effect) && !isCompel(effect))) labels.push('要求');
+  if (card.effects.some(isCompel)) labels.push('强迫');
   if (includesEcho || card.effects.some(effect => !isDemand(effect))) labels.push('条例');
   return labels.join('＋');
 }

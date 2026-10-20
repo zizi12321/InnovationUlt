@@ -94,7 +94,7 @@ export const BASE_RED_EFFECTS = {
   B087: [function* (c, p) {
     const id = c.draw(p, c.value(10), 'hand', true);
     if (c.card(id).color !== 'RED') return;
-    for (const owner of c.state.players) for (const value of [...owner.hand, ...owner.score, ...owner.forecast, ...Object.values(owner.piles).flat()]) c.move(value, 'junk', owner.id);
+    for (const owner of c.state.players) for (const value of [...owner.hand, ...owner.score, ...owner.forecast, ...(owner.safe||[]), ...(owner.display||[]), ...(owner.museum||[]), ...Object.values(owner.piles).flat()]) c.move(value, 'junk', owner.id);
     c.stopDogma();
   }, function* (c, p) {
     // Official card combines return + draw in ONE shared effect, unlike BGA.

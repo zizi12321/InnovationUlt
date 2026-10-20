@@ -1,3 +1,4 @@
+import { isDemand } from './dogma.js';
 // Sufficient public reasons that a first demand cannot move a card. This is
 // an advisory, not a simulator: unlisted/uncertain cases stay undecided.
 // Only the normal observation is accepted; hidden hand/score faces and draw
@@ -35,7 +36,7 @@ export function publicDemandBlockReason(card, view, cards) {
     case 'B100': return !scoreAges.length ? noScore : !rival.achievements ? '对手没有成就，本段要求归还的数量为 0。' : null;
     case 'B110': return !top.some((c, index) => top.some((other, j) => index !== j && c.age === other.age)) ? '对手没有两张同一时代的置顶牌，无法组成要求的配对。' : null;
     case 'B112': return noTop(c => c.spots.some(icon => [1, 3, 4, 5, 6, 7].includes(icon))) ? noTarget : null;
-    case 'B115': return noTop(c => c.effects.some(effect => effect.kind === 'i_demand_effect')) ? noTarget : null;
+    case 'B115': return noTop(c => c.effects.some(isDemand)) ? noTarget : null;
     default: return null;
   }
 }

@@ -1,0 +1,4340 @@
+{
+  "meta": {
+    "edition": "Innovation Ultimate / Fourth edition",
+    "card_count": 115,
+    "special_count": 5,
+    "rules_source": "https://www.asmadigames.com/rules/InnoUlt_Rulebook_v4.1.pdf",
+    "effect_source": "Official Asmadi card pages and appendix; reviewed BGA Chinese translation"
+  },
+  "cards": [
+    {
+      "id": "U001",
+      "set": "Unseen",
+      "age": 1,
+      "color": "RED",
+      "name_zh": "暗杀",
+      "name_en": "Assassination",
+      "spots": [
+        1,
+        0,
+        1,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        3,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U001",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你抽取并展示一张 【1】！若其带有【权威】，将该牌与你该颜色的置顶牌转移到我的计分区！",
+          "en": "I DEMAND you draw and reveal a 【1】! If it has 【权威】, transfer it and the top card on your board of its color to my score pile!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果没有玩家拥有绿色顶牌，则统御[机密Confidence]成就。",
+          "en": "If no player has a top green card, claim the Confidence achievement."
+        }
+      ]
+    },
+    {
+      "id": "U002",
+      "set": "Unseen",
+      "age": 1,
+      "color": "RED",
+      "name_zh": "迷宫",
+      "name_en": "Maze",
+      "spots": [
+        4,
+        4,
+        0,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        4,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U002",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 对于我手牌中的每张牌，你都可以从自己的手牌中计分一张颜色相同的牌！如果你没有计分，而我手牌中有牌，则将你手牌中的所有牌与我计分区中的所有牌交换！",
+          "en": "I DEMAND you score a card from your hand of matching color for each card in my hand! If you don't, and I have a card in my hand, exchange all cards in your hand with all cards in my score pile!"
+        }
+      ]
+    },
+    {
+      "id": "U003",
+      "set": "Unseen",
+      "age": 1,
+      "color": "RED",
+      "name_zh": "朝圣",
+      "name_en": "Pilgrimage",
+      "spots": [
+        2,
+        2,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        5,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U003",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以归还一张时代为 1 的手牌。若如此做，保密一张与归还牌同代的可用成就，然后将所需时代增加 1 并重复此效果。",
+          "en": "You may return a card of value 1 from your hand. If you do, safeguard an available achievement of value equal to the returned card, then repeat this effect using a value one higher."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以移除【1】时期的基础牌库。",
+          "en": "You may junk all cards in the 【1】 deck."
+        }
+      ]
+    },
+    {
+      "id": "U004",
+      "set": "Unseen",
+      "age": 1,
+      "color": "YELLOW",
+      "name_zh": "握手",
+      "name_en": "Handshake",
+      "spots": [
+        0,
+        1,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        9,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U004",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你转移所有我的手牌到你的手牌！选择你手牌中有的两种颜色！转移这两种颜色的所有牌到我的手牌！",
+          "en": "I DEMAND you transfer all cards from my hand to your hand! Choose two colors of cards in your hand! Transfer all cards in your hand of those colors to my hand!"
+        }
+      ]
+    },
+    {
+      "id": "U005",
+      "set": "Unseen",
+      "age": 1,
+      "color": "YELLOW",
+      "name_zh": "坟墓",
+      "name_en": "Tomb",
+      "spots": [
+        1,
+        0,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        10,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U005",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "保密一个时期等于1+你的成就数的可用成就。",
+          "en": "Safeguard an available achievement of value 1 plus the number of achievements you have."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以转移最低时期的可用成就到你的手牌。若你这么做，归还你场上所有黄色和蓝色的牌。",
+          "en": "You may transfer the lowest available achievement to your hand. If you do, return all yellow cards and all blue cards on your board."
+        }
+      ]
+    },
+    {
+      "id": "U006",
+      "set": "Unseen",
+      "age": 1,
+      "color": "YELLOW",
+      "name_zh": "木工",
+      "name_en": "Woodworking",
+      "spots": [
+        2,
+        2,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        11,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U006",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并融合一张【2】。如果被融合的牌是你场上的一张置底牌，将其计分。",
+          "en": "Draw and meld a 【2】. If the melded card is a bottom card on your board, score it."
+        }
+      ]
+    },
+    {
+      "id": "U007",
+      "set": "Unseen",
+      "age": 1,
+      "color": "GREEN",
+      "name_zh": "舞蹈",
+      "name_en": "Dance",
+      "spots": [
+        2,
+        2,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        6,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U007",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "转移你场上一张带有【权威】的置顶牌到另一名玩家的场上。若你这么做，融合该玩家场上最低时期的一张不带有【权威】的置顶牌。",
+          "en": "Transfer a top card on your board with 【权威】 to the board of any other player. If you do, meld the lowest top card without 【权威】 from that player's board."
+        }
+      ]
+    },
+    {
+      "id": "U008",
+      "set": "Unseen",
+      "age": 1,
+      "color": "GREEN",
+      "name_zh": "流言",
+      "name_en": "Rumor",
+      "spots": [
+        1,
+        1,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        7,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U008",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "从你的计分区归还一张牌。若你这么做，抽一张比你归还的牌高一时期的牌。",
+          "en": "Return a card from your score pile. If you do, draw a card of value one higher than the card you return."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "将一张牌从你的手牌转移到你左边玩家的手牌中。",
+          "en": "Transfer a card from your hand to the hand of the player on your left."
+        }
+      ]
+    },
+    {
+      "id": "U009",
+      "set": "Unseen",
+      "age": 1,
+      "color": "GREEN",
+      "name_zh": "丝绸",
+      "name_en": "Silk",
+      "spots": [
+        1,
+        1,
+        2,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        8,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U009",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将一张手牌放入场中。",
+          "en": "Meld a card from your hand."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你场上每有一个颜色就可以计分一张该颜色的手牌。",
+          "en": "You may score a card from your hand of each color on your board."
+        }
+      ]
+    },
+    {
+      "id": "U010",
+      "set": "Unseen",
+      "age": 1,
+      "color": "BLUE",
+      "name_zh": "间谍活动",
+      "name_en": "Espionage",
+      "spots": [
+        4,
+        0,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        0,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U010",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你展示你的一张手牌！若你如此做，且我没有相同颜色的手牌，将其转移到我的手牌，随后重复此条例！",
+          "en": "I DEMAND you reveal a card in your hand! If you do, and I have no card in my hand of the same color, transfer it to my hand, then repeat this effect!"
+        }
+      ]
+    },
+    {
+      "id": "U011",
+      "set": "Unseen",
+      "age": 1,
+      "color": "BLUE",
+      "name_zh": "手相学",
+      "name_en": "Palmistry",
+      "spots": [
+        2,
+        4,
+        0,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        1,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U011",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张 【1】 并放入场上。",
+          "en": "Draw and meld a 【1】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "归还两张手牌。若你这么做，抽一张【2】并计分。",
+          "en": "Return two cards from your hand. If you do, draw and score a 【2】."
+        }
+      ]
+    },
+    {
+      "id": "U012",
+      "set": "Unseen",
+      "age": 1,
+      "color": "BLUE",
+      "name_zh": "谚语",
+      "name_en": "Proverb",
+      "spots": [
+        0,
+        1,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        2,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U012",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取，展示并归还一张【1】。如果其为黄色或紫色，保密一张时期出现在你手牌中的待统御成就，随后归还你的所有手牌。否则，抽两张【1】。",
+          "en": "Draw, reveal, and return a 【1】. If the color of the returned card is yellow or purple, safeguard an available achievement of value equal to a card in your hand, then return all cards from your hand. Otherwise, draw two 【1】."
+        }
+      ]
+    },
+    {
+      "id": "U013",
+      "set": "Unseen",
+      "age": 1,
+      "color": "PURPLE",
+      "name_zh": "神话",
+      "name_en": "Myth",
+      "spots": [
+        0,
+        4,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        12,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U013",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你两张相同颜色的手牌置底。若你如此做，将该颜色的牌堆向左展开，随后抽取并保密一张时期与你该牌堆置底牌相同的待统御成就。",
+          "en": "If you have two cards of the same color in your hand, tuck them both. If you do, splay left that color, and draw and safeguard a card of value equal to the value of your bottom card of that color."
+        }
+      ]
+    },
+    {
+      "id": "U014",
+      "set": "Unseen",
+      "age": 1,
+      "color": "PURPLE",
+      "name_zh": "多神论",
+      "name_en": "Polytheism",
+      "spots": [
+        0,
+        3,
+        3,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        13,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U014",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你手中一张没有图标的牌与你在本次行动中因“多神教”效果而已融合的牌融合在一起。若你如此做，则重复此效果。",
+          "en": "Meld a card from your hand with no icon on a card already melded by you during this action due to Polytheism. If you do, repeat this effect."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "抽一张 【1】 并置底。",
+          "en": "Draw and tuck a 【1】."
+        }
+      ]
+    },
+    {
+      "id": "U015",
+      "set": "Unseen",
+      "age": 1,
+      "color": "PURPLE",
+      "name_zh": "符号学",
+      "name_en": "Symbology",
+      "spots": [
+        3,
+        3,
+        0,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        14,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U015",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你场上至少四种标记的数量不少于4，抽一张【4】。否则，如果你场上至少三种标记的数量不少于3，抽一张【3】。否则，如果你场上至少两种标记的数量不少于2，抽一张【2】。",
+          "en": "If you have at least four each of at least four icons on your board, draw a 【4】. Otherwise, if you have three of three icons, draw a 【3】. Otherwise, if you have two of two icons, draw a 【2】."
+        }
+      ]
+    },
+    {
+      "id": "U016",
+      "set": "Unseen",
+      "age": 2,
+      "color": "RED",
+      "name_zh": "挂锁",
+      "name_en": "Padlock",
+      "spots": [
+        1,
+        4,
+        0,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        17,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U016",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你转移你的一个机密牌至待可用成就区！",
+          "en": "I DEMAND you transfer one of your secrets to the available achievements!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果因该要求而未转移任何牌，你可以从手牌中计分最多三张时期不同的牌。",
+          "en": "If no card was transferred due to the demand, you may score up to three cards from your hand of different values."
+        }
+      ]
+    },
+    {
+      "id": "U017",
+      "set": "Unseen",
+      "age": 2,
+      "color": "RED",
+      "name_zh": "口令",
+      "name_en": "Password",
+      "spots": [
+        0,
+        1,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        18,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U017",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示一张【2】。你可以从手牌中保密另一张与抽到牌同色的牌。若你如此做，则计分抽到的牌。否则，将手牌中所有牌归还。",
+          "en": "Draw and reveal a 【2】. You may safeguard another card from your hand of the color of the drawn card. If you do, score the drawn card. Otherwise, return all cards from your hand except the drawn card."
+        }
+      ]
+    },
+    {
+      "id": "U018",
+      "set": "Unseen",
+      "age": 2,
+      "color": "YELLOW",
+      "name_zh": "放逐",
+      "name_en": "Exile",
+      "spots": [
+        2,
+        0,
+        2,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        21,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U018",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你归还你场上一张不带有【健康】的置顶牌！归还你计分区中所有与该牌时期相同的牌！",
+          "en": "I DEMAND you return a top card without 【健康】 from your board! Return all cards of the returned card's value from your score pile!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果恰好一张牌因上述条例被退还，归还[放逐]并抽一张【3】。",
+          "en": "If exactly one card was returned due to the demand, return Exile if it is a top card on any board and draw a 【3】."
+        }
+      ]
+    },
+    {
+      "id": "U019",
+      "set": "Unseen",
+      "age": 2,
+      "color": "YELLOW",
+      "name_zh": "指纹",
+      "name_en": "Fingerprints",
+      "spots": [
+        2,
+        3,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        22,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U019",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将你的红色或黄色牌堆向左展开。",
+          "en": "You may splay your red or yellow cards left."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "保密一张时期等于你场上已展开颜色数量的可用成就。将你手中一张该时期的牌转移到任一玩家的场上。",
+          "en": "Safeguard an available achievement of value equal to the number of splayed colors on your board. Transfer a card of that value in your hand to any board."
+        }
+      ]
+    },
+    {
+      "id": "U020",
+      "set": "Unseen",
+      "age": 2,
+      "color": "GREEN",
+      "name_zh": "密文",
+      "name_en": "Cipher",
+      "spots": [
+        0,
+        3,
+        3,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        19,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U020",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你的所有手牌。如果你归还了至少两张牌，抽一张X，X为你归还牌的最高时期+1。",
+          "en": "Return all cards from your hand. If you return at least two, draw a card of value one higher than the highest value of card you return."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "抽一张【2】。你可以将你的蓝色牌堆向左展开。",
+          "en": "Draw a 【2】. You may splay your blue cards left."
+        }
+      ]
+    },
+    {
+      "id": "U021",
+      "set": "Unseen",
+      "age": 2,
+      "color": "GREEN",
+      "name_zh": "伪造",
+      "name_en": "Counterfeiting",
+      "spots": [
+        3,
+        1,
+        1,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        20,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U021",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你一张时期未出现在你计分区的置顶牌计分。若你如此做，重复此条例。",
+          "en": "Score a top card from your board of a value not in your score pile. If you do, repeat this effect."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将你的绿色或紫色牌堆向左展开。",
+          "en": "You may splay your green or purple cards left."
+        }
+      ]
+    },
+    {
+      "id": "U022",
+      "set": "Unseen",
+      "age": 2,
+      "color": "BLUE",
+      "name_zh": "占星术",
+      "name_en": "Astrology",
+      "spots": [
+        1,
+        1,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        15,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U022",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将你场上一个牌数量最多的牌堆向左展开。",
+          "en": "You may splay left the color of which you have the most cards on your board."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "抽取并融合一张时期等于你场上紫色牌堆可见牌数量的牌。如果融合的牌没有【繁荣】，将其置底。",
+          "en": "Draw and meld a card of value equal to the number of visible purple cards on your board. If the melded card has no 【繁荣】, tuck it."
+        }
+      ]
+    },
+    {
+      "id": "U023",
+      "set": "Unseen",
+      "age": 2,
+      "color": "BLUE",
+      "name_zh": "气象学",
+      "name_en": "Meteorology",
+      "spots": [
+        3,
+        3,
+        2,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        16,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U023",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示一张 【3】。如果它带有 【健康】，则计分。否则，如果它带有 【繁荣】，则将其归还牌堆并再抽两张 【3】。否则，将其置底。",
+          "en": "Draw and reveal a 【3】. If it has 【健康】, score it. Otherwise, if it has 【繁荣】, return it and draw two 【3】. Otherwise, tuck it."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果你没有 【权威】，统御[禅意Zen]成就。",
+          "en": "If you have no 【权威】, claim the Zen achievement."
+        }
+      ]
+    },
+    {
+      "id": "U024",
+      "set": "Unseen",
+      "age": 2,
+      "color": "PURPLE",
+      "name_zh": "宣传",
+      "name_en": "Propaganda",
+      "spots": [
+        1,
+        0,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        23,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U024",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你融合一张我选择颜色的手牌到你的场上！若你这么做，转移其下方的一张牌到我的场上！",
+          "en": "I DEMAND you meld a card of the color of my choice from your hand! If you do, transfer the card beneath it to my board!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将一张手牌放入场中。",
+          "en": "Meld a card from your hand."
+        }
+      ]
+    },
+    {
+      "id": "U025",
+      "set": "Unseen",
+      "age": 2,
+      "color": "PURPLE",
+      "name_zh": "隐写术",
+      "name_en": "Steganography",
+      "spots": [
+        0,
+        4,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        24,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U025",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将你场上一个带有【概念】的牌堆向左展开。若你这么做，保密一个时期等于你场上该颜色牌数的可用成就。否则，抽一张【3】并置底。",
+          "en": "You may splay left a color on your board with 【概念】. If you do, safeguard an available achievement of value equal to the number of cards of that color on your board. Otherwise, draw and tuck a 【3】."
+        }
+      ]
+    },
+    {
+      "id": "U026",
+      "set": "Unseen",
+      "age": 3,
+      "color": "RED",
+      "name_zh": "帝国骑士团",
+      "name_en": "Knights Templar",
+      "spots": [
+        0,
+        2,
+        4,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        27,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U026",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你将你场上一个已展开的牌堆还原为未展开！若你如此做，则将该颜色的置顶牌转移到我的计分区！",
+          "en": "I DEMAND you unsplay a splayed color on your board! If you do, transfer the top card on your board of that color to my score pile!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将你的红色或绿色牌堆向左展开。",
+          "en": "You may splay your red or green cards left."
+        }
+      ]
+    },
+    {
+      "id": "U027",
+      "set": "Unseen",
+      "age": 3,
+      "color": "RED",
+      "name_zh": "红包",
+      "name_en": "Red Envelope",
+      "spots": [
+        2,
+        1,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        28,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U027",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "指定你手牌和计分区恰好出现两或三次的一个时期。将你该时期的所有手牌和计分牌转移到你右手玩家的计分区。",
+          "en": "Choose a value of which you have exactly two or three cards altogether in your hand and score pile. Transfer those cards to the score pile of the player on your right."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将正好两张或三张手牌计分。",
+          "en": "You may score exactly two or three cards from your hand."
+        }
+      ]
+    },
+    {
+      "id": "U028",
+      "set": "Unseen",
+      "age": 3,
+      "color": "YELLOW",
+      "name_zh": "共济会",
+      "name_en": "Freemasons",
+      "spots": [
+        1,
+        0,
+        1,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        31,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U028",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以从手牌置底每种颜色的牌各一张。若你置底了一张黄色牌或一张扩展牌，抽两张【3】。",
+          "en": "For each color, you may tuck a card from your hand of that color. If you tuck any yellow cards or expansion cards, draw two 【3】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将你的黄色或蓝色牌堆向左展开。",
+          "en": "You may splay your yellow or blue cards left."
+        }
+      ]
+    },
+    {
+      "id": "U029",
+      "set": "Unseen",
+      "age": 3,
+      "color": "YELLOW",
+      "name_zh": "秘密警察",
+      "name_en": "Secret Police",
+      "spots": [
+        4,
+        4,
+        4,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 4,
+      "art_position": [
+        32,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U029",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你将你一张手牌置底，随后归还你该颜色的置顶牌！若你如此做，重复此条例！否则，抽一张【3】！",
+          "en": "I DEMAND you tuck a card in your hand, then return your top card of its color! If you do, repeat this effect! Otherwise, draw a 【3】!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以从手中置底任意数量的同一种颜色的卡片。",
+          "en": "You may tuck any number of cards of any one color from your hand."
+        }
+      ]
+    },
+    {
+      "id": "U030",
+      "set": "Unseen",
+      "age": 3,
+      "color": "GREEN",
+      "name_zh": "悬念",
+      "name_en": "Cliffhanger",
+      "spots": [
+        3,
+        2,
+        2,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        29,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U030",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "从你的保密区中展示一张 【4】。如果它是：绿色，则将其置底；紫色，则将其融合；红色，则无视常规要求都统御之；黄色，则计分；蓝色，则抽取一张 【5】。否则，保密 【4】 基础牌库的顶牌。",
+          "en": "Reveal a 【4】 in your safe. If it is: green, tuck it; purple, meld it; red, achieve it regardless of eligibility; yellow, score it; blue, draw a 【5】. Otherwise, safeguard the top card of the 【4】 deck."
+        }
+      ]
+    },
+    {
+      "id": "U031",
+      "set": "Unseen",
+      "age": 3,
+      "color": "GREEN",
+      "name_zh": "走私",
+      "name_en": "Smuggling",
+      "spots": [
+        1,
+        1,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        30,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U031",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你分别将时期与你和我黄色置顶牌相同的计分牌各一张转移到我的计分区！",
+          "en": "I DEMAND you transfer a card of value equal to your top yellow card and a card of value equal to my top yellow card from your score pile to my score pile!"
+        }
+      ]
+    },
+    {
+      "id": "U032",
+      "set": "Unseen",
+      "age": 3,
+      "color": "BLUE",
+      "name_zh": "精诚兄弟会",
+      "name_en": "Brethren of Purity",
+      "spots": [
+        3,
+        3,
+        2,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        25,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U032",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张【3】或一张时期比本行动中上一张因此牌效果而融合的牌时期高一的牌并融合。如果你融合的牌覆盖了一张带有【概念】的牌，重复此效果。",
+          "en": "Draw and meld a 【3】 or a card of value one higher than the last card melded due to Brethren of Purity during this action. If you meld over a card with a 【概念】, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "U033",
+      "set": "Unseen",
+      "age": 3,
+      "color": "BLUE",
+      "name_zh": "秘密之密",
+      "name_en": "Secret Secretorum",
+      "spots": [
+        3,
+        0,
+        3,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        26,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U033",
+      "notes": [
+        "待核对：BGA 名称为“Secret Secretorum”，官方牌表名称为“SECRETUM SECRETORUM”；此处按名称对应归档，尚未实卡复核。"
+      ],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你共计五张手牌和计分牌。抽两张X，X为你归还牌的颜色数量。将其中一张融合，另一张计分。",
+          "en": "Return five cards from your hand and/or score pile. Draw two cards of value equal to the number of different colors of cards you return. Meld one of the drawn cards and score the other."
+        }
+      ]
+    },
+    {
+      "id": "U034",
+      "set": "Unseen",
+      "age": 3,
+      "color": "PURPLE",
+      "name_zh": "假面舞会",
+      "name_en": "Masquerade",
+      "spots": [
+        1,
+        1,
+        0,
+        4,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        33,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U034",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "保密一张时期等于你手牌数量的可用成就。如果你这么做，归还所有该时期的手牌。如果你归还了一张【4】，统御匿名成就。",
+          "en": "Safeguard an available achievement of value equal to the number of cards in your hand. If you do, return all cards of that value from your hand. If you return a 【4】, claim the Anonymity achievement."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将你的紫色牌堆向左展开。",
+          "en": "You may splay your purple cards left."
+        }
+      ]
+    },
+    {
+      "id": "U035",
+      "set": "Unseen",
+      "age": 3,
+      "color": "PURPLE",
+      "name_zh": "塔基亚",
+      "name_en": "Taqiyya",
+      "spots": [
+        3,
+        2,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        34,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U035",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一个颜色。转移你场上该颜色的所有牌到你的手牌。",
+          "en": "Choose a color. Transfer all cards of that color on your board into your hand."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "抽取并融合一张【3】。如果融合牌成为了你的一张置底牌，则将其计分，并将你该颜色任意数量的手牌计分。",
+          "en": "Draw and meld a 【3】. If the melded card is a bottom card on your board, score it and any number of cards of its color in your hand."
+        }
+      ]
+    },
+    {
+      "id": "U036",
+      "set": "Unseen",
+      "age": 4,
+      "color": "RED",
+      "name_zh": "忍者",
+      "name_en": "Ninja",
+      "spots": [
+        1,
+        2,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        37,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U036",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你归还一张我选择颜色的手牌！若你这么做，转移你场上该颜色的置顶牌到我的场上！",
+          "en": "I DEMAND you return a card of the color of my choice from your hand! If you do, transfer the top card of that color from your board to mine!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将红色牌堆向右展开.",
+          "en": "You may splay your red cards right."
+        }
+      ]
+    },
+    {
+      "id": "U037",
+      "set": "Unseen",
+      "age": 4,
+      "color": "RED",
+      "name_zh": "西班牙宗教裁判所",
+      "name_en": "Spanish Inquisition",
+      "spots": [
+        3,
+        0,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        38,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U037",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你归还手牌中所有除了时期最高的牌以外的手牌，以及计分区中所有除了时期最高的牌以外的牌！",
+          "en": "I DEMAND you return all but the highest cards from your hand and all but the highest cards from your score pile!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果[西班牙宗教裁判所]是你的一张置顶牌，归还你场上的所有红色牌。",
+          "en": "If Spanish Inquisition is a top card on your board, return all red cards from your board."
+        }
+      ]
+    },
+    {
+      "id": "U038",
+      "set": "Unseen",
+      "age": 4,
+      "color": "YELLOW",
+      "name_zh": "愚人节",
+      "name_en": "April Fool's Day",
+      "spots": [
+        0,
+        3,
+        2,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        41,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U038",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你一张手牌或计分牌转移到你右手玩家的场上。若你不能如此做，统御[民俗Forklore]成就。",
+          "en": "Transfer a card from your hand or score pile to the board of the player on your right. If you don't, claim the Folklore achievement."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "将你的黄色牌堆向右展开，然后将你的紫色牌堆变为未展开。或者，将你的紫色牌堆向右展开，然后将你的黄色牌堆变为未展开。",
+          "en": "Splay your yellow cards right, and unsplay your purple cards, or vice versa."
+        }
+      ]
+    },
+    {
+      "id": "U039",
+      "set": "Unseen",
+      "age": 4,
+      "color": "YELLOW",
+      "name_zh": "传家宝",
+      "name_en": "Heirloom",
+      "spots": [
+        5,
+        1,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        42,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U039",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "转移你的一个机密牌到可用成就然后抽一张比转移的牌时期高一的牌。如果你不能这么做，保密一张和你的红色置顶牌时期相同的可用成就。",
+          "en": "Transfer one of your secrets to the available achievements and draw a card of value one higher than the transferred card. If you don't, safeguard an available achievement of value equal to the value of your top red card."
+        }
+      ]
+    },
+    {
+      "id": "U040",
+      "set": "Unseen",
+      "age": 4,
+      "color": "GREEN",
+      "name_zh": "敲诈",
+      "name_en": "Blackmail",
+      "spots": [
+        0,
+        5,
+        5,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        39,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U040",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你展示你的手牌！融合其中我选择的一张牌！展示你计分区的牌！独自执行我选择的因本条例展示的所有牌之一，但将条例中的“可以”改为“必须”！",
+          "en": "I DEMAND you reveal your hand! Meld a revealed card of my choice! Reveal your score pile! Self-execute a card revealed due to this effect of my choice, replacing 'may' with 'must'!"
+        }
+      ]
+    },
+    {
+      "id": "U041",
+      "set": "Unseen",
+      "age": 4,
+      "color": "GREEN",
+      "name_zh": "黄金国",
+      "name_en": "El Dorado",
+      "spots": [
+        1,
+        1,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        40,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U041",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "依次抽取并融合一张【3】、一张【2】和一张【1】。若三张牌都带【繁荣】，计分【5】基础牌库中的所有牌。若至少两张带【繁荣】，将你的绿色和蓝色牌堆向右展开。",
+          "en": "Draw and meld a 【3】, a 【2】, and a 【1】. If all three cards have 【繁荣】, score all cards in the 【5】 deck. If at least two have 【繁荣】, splay your green and blue cards right."
+        }
+      ]
+    },
+    {
+      "id": "U042",
+      "set": "Unseen",
+      "age": 4,
+      "color": "BLUE",
+      "name_zh": "江湖医术",
+      "name_en": "Quackery",
+      "spots": [
+        0,
+        3,
+        5,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        35,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U042",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一项执行：1. 将一张手牌计分；或是2. 抽一张【4】。",
+          "en": "Choose to either score a card from your hand, or draw a 【4】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "归还你恰好两张手牌。若你如此做，抽一张X，X为你归还牌中【健康】和【概念】的数量之和。",
+          "en": "Return exactly two cards in your hand. If you do, draw a card of value equal to the sum number of 【健康】 and 【概念】 on the returned cards."
+        }
+      ]
+    },
+    {
+      "id": "U043",
+      "set": "Unseen",
+      "age": 4,
+      "color": "BLUE",
+      "name_zh": "预言",
+      "name_en": "The Prophecies",
+      "spots": [
+        3,
+        3,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        36,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U043",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择抽一张【4】并将其保密，或者抽一张比你其中一张机密牌时期高1的卡并展示出来。如果你展示的是一张红色或紫色的卡，则将你另一张机密牌融合。若你如此做，则将抽到的卡保密。",
+          "en": "Choose to either draw and safeguard a 【4】, or draw and reveal a card of value one higher than one of your secrets. If you reveal a red or purple card, meld one of your other secrets. If you do, safeguard the drawn card."
+        }
+      ]
+    },
+    {
+      "id": "U044",
+      "set": "Unseen",
+      "age": 4,
+      "color": "PURPLE",
+      "name_zh": "忏悔",
+      "name_en": "Confession",
+      "spots": [
+        1,
+        1,
+        1,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        43,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U044",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你场上每种颜色带有【权威】的置顶牌各一张。如果你没有归还任何牌，从你的计分区融合一张牌，然后抽一张【4】并计分。",
+          "en": "Return a top card with 【权威】 of each color from your board. If you return none, meld a card from your score pile, then draw and score a 【4】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "对于你计分区的每张【4】，抽一张【4】。",
+          "en": "Draw a 【4】 for each 【4】 in your score pile."
+        }
+      ]
+    },
+    {
+      "id": "U045",
+      "set": "Unseen",
+      "age": 4,
+      "color": "PURPLE",
+      "name_zh": "传奇",
+      "name_en": "Legend",
+      "spots": [
+        0,
+        2,
+        2,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        44,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U045",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一种非紫色的颜色。独自执行该颜色牌堆顶的卡牌。计分该颜色牌堆顶的卡牌。若你如此做，且由于\"传奇\"效果导致本次行动中得分少于9分，则使用同一颜色重复此效果。",
+          "en": "Choose a non-purple color. Self-execute your top card of that color. Score your top card of that color. If you do, repeat this effect with the same color if you have scored fewer than nine points due to Legend during this action."
+        }
+      ]
+    },
+    {
+      "id": "U046",
+      "set": "Unseen",
+      "age": 5,
+      "color": "RED",
+      "name_zh": "阴谋集团",
+      "name_en": "Cabal",
+      "spots": [
+        0,
+        5,
+        5,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        47,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U046",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你转移你所有和我任一机密牌时期相同的牌到我的计分区！抽一张【5】！",
+          "en": "I DEMAND you transfer all cards from your hand that have a value matching any of my secrets to my score pile! Draw a 【5】!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "保密一张时期与你任一置顶牌相同的待统御成就。",
+          "en": "Safeguard an available achievement of value equal to a top card on your board."
+        }
+      ]
+    },
+    {
+      "id": "U047",
+      "set": "Unseen",
+      "age": 5,
+      "color": "RED",
+      "name_zh": "女巫审判",
+      "name_en": "Witch Trial",
+      "spots": [
+        5,
+        5,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        48,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U047",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你抽取并展示一张【5】！归还你与该牌同色的顶牌、手牌中的另一张同色牌、以及计分区中的一张同色牌！",
+          "en": "I DEMAND you draw and reveal a 【5】! Return your top card of the color of the drawn card, another card of that color from your hand, and a card from your score pile! If you do, repeat this effect!"
+        }
+      ]
+    },
+    {
+      "id": "U048",
+      "set": "Unseen",
+      "age": 5,
+      "color": "YELLOW",
+      "name_zh": "荨麻酒",
+      "name_en": "Chartreuse",
+      "spots": [
+        2,
+        5,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        51,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U048",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示一张 【3】、一张 【4】、一张 【5】 和一张 【6】。将每张抽到的绿色卡片和每张抽到的黄色卡片任意融合。其余抽到的卡片归还牌堆。",
+          "en": "Draw and reveal a 【3】, a 【4】, a 【5】, and a 【6】. Meld each drawn green card and each drawn yellow card, in any order. Return the other drawn cards."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将你的绿色或黄色牌堆向右展开。",
+          "en": "You may splay your green or yellow cards right."
+        }
+      ]
+    },
+    {
+      "id": "U049",
+      "set": "Unseen",
+      "age": 5,
+      "color": "YELLOW",
+      "name_zh": "美术馆",
+      "name_en": "Gallery",
+      "spots": [
+        1,
+        3,
+        1,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        52,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U049",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你的计分区中有【2】，抽一张【6】。",
+          "en": "If you have a 【2】 in your score pile, draw a 【6】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果你的计分区中有【1】，抽一张【7】。否则，抽一张【5】。",
+          "en": "If you have a 【1】 in your score pile, draw a 【7】. Otherwise, draw a 【5】."
+        }
+      ]
+    },
+    {
+      "id": "U050",
+      "set": "Unseen",
+      "age": 5,
+      "color": "GREEN",
+      "name_zh": "埋藏的宝藏",
+      "name_en": "Buried Treasure",
+      "spots": [
+        1,
+        1,
+        0,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        49,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U050",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一个奇数时期。转移所有玩家计分区中该时期的牌到可用成就区。如果你转移了至少四张牌，抽取并保密一张与这些牌时期相同的牌，然后将三张可用常规成就计分。",
+          "en": "Choose an odd value. Transfer all cards of that value from all score piles to the available achievements. If you transfer at least four cards, draw and safeguard a card of that value, and score three available standard achievements."
+        }
+      ]
+    },
+    {
+      "id": "U051",
+      "set": "Unseen",
+      "age": 5,
+      "color": "GREEN",
+      "name_zh": "秘史",
+      "name_en": "Secret History",
+      "spots": [
+        5,
+        1,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        50,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U051",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求  你转移你的一个机密牌到我的保密区！",
+          "en": "I DEMAND you transfer one of your secrets to my safe!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你的红色和紫色卡牌均已向右展开，统御[神秘Mystery]成就。否则，将红色或紫色卡牌向右展开。",
+          "en": "If your red and purple cards are splayed right, claim the Mystery achievement. Otherwise, splay your red or purple cards right."
+        }
+      ]
+    },
+    {
+      "id": "U052",
+      "set": "Unseen",
+      "age": 5,
+      "color": "BLUE",
+      "name_zh": "大众科学",
+      "name_en": "Popular Science",
+      "spots": [
+        3,
+        1,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        45,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U052",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并融合一张时期等于任一玩家的绿色置顶牌的牌。",
+          "en": "Draw and meld a card of value equal to the value of a top green card anywhere."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "抽取并融合一张比你黄色置顶牌高一时期的牌。",
+          "en": "Draw and meld a card of value one higher than the value of your top yellow card."
+        },
+        {
+          "kind": "non_demand_effect_3",
+          "label": "条例 3",
+          "zh": "你可以将蓝色牌堆向右展开.",
+          "en": "You may splay your blue cards right."
+        }
+      ]
+    },
+    {
+      "id": "U053",
+      "set": "Unseen",
+      "age": 5,
+      "color": "BLUE",
+      "name_zh": "概率论",
+      "name_en": "Probability",
+      "spots": [
+        0,
+        3,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        46,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U053",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你手牌中的所有牌。",
+          "en": "Return all cards from your hand."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "抽取并展示两张 【6】，然后将其归还牌堆。如果抽出的牌上出现恰好两种不同的图标类型，则再抽取并计分两张 【6】。如果出现恰好四种不同的图标类型，则抽取一张 【7】。再抽取一张 【6】。",
+          "en": "Draw and reveal two 【6】, then return them. If exactly two different icon types appear on the drawn cards, draw and score two 【6】. If exactly four different icon types appear, draw a 【7】. Draw a 【6】."
+        }
+      ]
+    },
+    {
+      "id": "U054",
+      "set": "Unseen",
+      "age": 5,
+      "color": "PURPLE",
+      "name_zh": "泛神论",
+      "name_en": "Pantheism",
+      "spots": [
+        0,
+        2,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        53,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U054",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "置底一张手牌。若你这么做，抽一张【4】并置底。将你场上与这两张牌颜色之一相同的所有牌计分，然后将与另一张牌颜色相同的牌堆向右展开。",
+          "en": "Tuck a card from your hand. If you do, draw and tuck a 【4】, score all cards on your board of the color of one of the tucked cards, and splay right the color on your board of the other tucked card."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "抽一张 【4】 并置底。",
+          "en": "Draw and tuck a 【4】."
+        }
+      ]
+    },
+    {
+      "id": "U055",
+      "set": "Unseen",
+      "age": 5,
+      "color": "PURPLE",
+      "name_zh": "笔名",
+      "name_en": "Pen Name",
+      "spots": [
+        5,
+        0,
+        5,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        54,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U055",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一项执行：1. 将你场上一个未展开的非紫色牌堆向左展开并独自执行其置顶牌；或是2. 将一张手牌融合并将该牌堆向右展开。",
+          "en": "Choose to either splay an unsplayed non-purple color on your board left and self-execute its top card, or meld a card from your hand and splay its color on your board right."
+        }
+      ]
+    },
+    {
+      "id": "U056",
+      "set": "Unseen",
+      "age": 6,
+      "color": "RED",
+      "name_zh": "红鲱鱼",
+      "name_en": "Red Herring",
+      "spots": [
+        1,
+        0,
+        1,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        57,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U056",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你的红色牌堆向左，向右或向上展开。",
+          "en": "Splay your red cards left, right, or up."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "抽一张【6】并置底。如果你与该牌颜色相同的牌堆和你的红色牌堆展开方向相同，将该牌堆向上展开。否则，将该牌堆变为未展开。",
+          "en": "Draw and tuck a 【6】. If the color on your board of the card you tuck is splayed in the same direction as your red cards, splay that color up. Otherwise, unsplay that color."
+        }
+      ]
+    },
+    {
+      "id": "U057",
+      "set": "Unseen",
+      "age": 6,
+      "color": "RED",
+      "name_zh": "狙击",
+      "name_en": "Sniping",
+      "spots": [
+        5,
+        5,
+        0,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        58,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U057",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求将你场上一个我选择的颜色变为未展开的！将你该颜色的置底牌放入场上！转移你该颜色非置顶的置底牌到我的游戏区域！",
+          "en": "I DEMAND you unsplay the color on your board of my choice! Meld your bottom card of that color! Transfer your bottom non-top card of that color to my board!"
+        }
+      ]
+    },
+    {
+      "id": "U058",
+      "set": "Unseen",
+      "age": 6,
+      "color": "YELLOW",
+      "name_zh": "阁楼",
+      "name_en": "Attic",
+      "spots": [
+        5,
+        0,
+        5,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        61,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U058",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以计分或保密一张手牌。",
+          "en": "You may score or safeguard a card from your hand."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "从你的计分区归还一张牌。",
+          "en": "Return a card from your score pile."
+        },
+        {
+          "kind": "non_demand_effect_3",
+          "label": "条例 3",
+          "zh": "抽一张时期等同于你计分区中某张牌时期的牌并计分。",
+          "en": "Draw and score a card of value equal to a card in your score pile."
+        }
+      ]
+    },
+    {
+      "id": "U059",
+      "set": "Unseen",
+      "age": 6,
+      "color": "YELLOW",
+      "name_zh": "破坏",
+      "name_en": "Sabotage",
+      "spots": [
+        0,
+        5,
+        5,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        62,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U059",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你抽一张 【6】！展示你手里的牌！将我选定的一张牌从你手里归还给我！将你牌堆顶部的牌以及与归还的那张牌颜色相同的计分区中的所有牌置底！",
+          "en": "I DEMAND you draw a 【6】! Reveal the cards in your hand! Return the card of my choice from your hand! Tuck your top card and all cards from your score pile of the same color as the returned card!"
+        }
+      ]
+    },
+    {
+      "id": "U060",
+      "set": "Unseen",
+      "age": 6,
+      "color": "GREEN",
+      "name_zh": "徒步旅行",
+      "name_en": "Hiking",
+      "spots": [
+        2,
+        2,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        59,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U060",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张牌并展示，其时期为【6】。如果你该颜色的置顶牌带有【工业】，则将抽取牌置底，随后抽取并展示一张【7】。如果第二张抽取牌带有 【健康】，则将其融合，随后抽一张【8】。",
+          "en": "Draw and reveal a 【6】. If the top card on your board of the drawn card's color has 【工业】, tuck the drawn card and draw and reveal a 【7】. If the second drawn card has 【健康】, meld it and draw an 【8】."
+        }
+      ]
+    },
+    {
+      "id": "U061",
+      "set": "Unseen",
+      "age": 6,
+      "color": "GREEN",
+      "name_zh": "瑞士银行账户",
+      "name_en": "Swiss Bank Account",
+      "spots": [
+        1,
+        1,
+        1,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        60,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U061",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "保密一张时期等于你计分区中牌数量的可用成就。若你这么做，计分该时期的所有手牌。",
+          "en": "Safeguard an available achievement of value equal to the number of cards in your score pile. If you do, score all cards in your hand of its value."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "对你的保险库中的每项机密牌，抽取一张【6】。",
+          "en": "Draw a 【6】 for each secret in your safe."
+        }
+      ]
+    },
+    {
+      "id": "U062",
+      "set": "Unseen",
+      "age": 6,
+      "color": "BLUE",
+      "name_zh": "安慰剂",
+      "name_en": "Placebo",
+      "spots": [
+        3,
+        3,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        55,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U062",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你场上的一张置顶牌，然后你可以对同色牌任意重复此操作。每归还一张牌，就抽一张【7】。如果你恰好归还了一张【7】，则抽一张【8】。",
+          "en": "Return a top card on your board, then you may repeat as many times as you want with the same color. Draw a 【7】 for each card you return. If you return exactly one 【7】, draw an 【8】."
+        }
+      ]
+    },
+    {
+      "id": "U063",
+      "set": "Unseen",
+      "age": 6,
+      "color": "BLUE",
+      "name_zh": "军事侦察",
+      "name_en": "Reconnaissance",
+      "spots": [
+        5,
+        0,
+        5,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        56,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U063",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你展示手牌！",
+          "en": "I DEMAND you reveal your hand!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示三张【7】。归还其中两张。你可以将你的与未归还的牌颜色相同的牌堆向右展开。",
+          "en": "Draw and reveal three 【7】. Return two of the drawn cards. You may splay the color of the card not returned right."
+        }
+      ]
+    },
+    {
+      "id": "U064",
+      "set": "Unseen",
+      "age": 6,
+      "color": "PURPLE",
+      "name_zh": "光明会",
+      "name_en": "Illuminati",
+      "spots": [
+        3,
+        0,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        63,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U064",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "展示你手中的一张卡牌。将你该颜色的牌堆向右展开。保密你该颜色的置顶牌。保管一个可用成就，其时期比该机密牌高1。",
+          "en": "Reveal a card in your hand. Splay the card's color on your board right. Safeguard the top card on your board of that color. Safeguard an available achievement of value one higher than the secret."
+        }
+      ]
+    },
+    {
+      "id": "U065",
+      "set": "Unseen",
+      "age": 6,
+      "color": "PURPLE",
+      "name_zh": "三合会",
+      "name_en": "Triad",
+      "spots": [
+        3,
+        2,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        64,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U065",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你有至少三张手牌，归还其中一张然后将你与该牌颜色相同的牌堆向右展开，置底一张手牌，并计分一张手牌。",
+          "en": "If you have at least three cards in your hand, return a card from your hand and splay the color of the returned card right, tuck a card from your hand, and score a card from your hand."
+        }
+      ]
+    },
+    {
+      "id": "U066",
+      "set": "Unseen",
+      "age": 7,
+      "color": "RED",
+      "name_zh": "伪装",
+      "name_en": "Camouflage",
+      "spots": [
+        5,
+        0,
+        5,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        67,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U066",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一项执行：1. 将你场上恰好两张颜色不同且时期相等的置顶牌移除，然后保密它们；或是2. 将你的恰好两张机密牌计分。",
+          "en": "Choose to either junk exactly two top cards of different colors and equal value on your board, then safeguard them, or score exactly two of your secrets of equal value."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你每有一个特殊成就就抽一张【7】。",
+          "en": "Draw a 【7】 for each special achievement you have."
+        }
+      ]
+    },
+    {
+      "id": "U067",
+      "set": "Unseen",
+      "age": 7,
+      "color": "RED",
+      "name_zh": "保险箱",
+      "name_en": "Safe Deposit Box",
+      "spots": [
+        0,
+        1,
+        6,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        68,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U067",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以选择抽取并移除两张【7】，或交换你计分区的所有牌和移除区所有有时期的牌。",
+          "en": "You may choose to either draw and junk two 【7】, or exchange all cards in your score pile with all valued cards in the junk."
+        }
+      ]
+    },
+    {
+      "id": "U068",
+      "set": "Unseen",
+      "age": 7,
+      "color": "YELLOW",
+      "name_zh": "黑手党",
+      "name_en": "Mafia",
+      "spots": [
+        5,
+        0,
+        5,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        71,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U068",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你将你最低时期的一张机密牌转移到我的保密区！",
+          "en": "I DEMAND you transfer your lowest secret to my safe!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "从任一玩家的计分区置底一张牌。",
+          "en": "Tuck a card from any score pile."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将你红色或黄色的牌堆向右展开。",
+          "en": "You may splay your red or yellow cards right."
+        }
+      ]
+    },
+    {
+      "id": "U069",
+      "set": "Unseen",
+      "age": 7,
+      "color": "YELLOW",
+      "name_zh": "地铁",
+      "name_en": "Subway",
+      "spots": [
+        2,
+        6,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        72,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U069",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张【7】置底。如果你该颜色牌堆的可见牌数至少为7，抽一张【9】。否则，将你场上该颜色的所有牌移除，随后抽一张【8】。",
+          "en": "Draw and tuck a 【7】. If you have at least seven visible cards on your board of the color of the tucked card, draw a 【9】. Otherwise, junk all cards on your board of that color, and draw an 【8】."
+        }
+      ]
+    },
+    {
+      "id": "U070",
+      "set": "Unseen",
+      "age": 7,
+      "color": "GREEN",
+      "name_zh": "黑市",
+      "name_en": "Black Market",
+      "spots": [
+        0,
+        1,
+        5,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        69,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U070",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以保密一张手牌。若你如此做，则展示两张可用的普通成就。你可以将一张未带有 【效率】 或 【头像】 的已展示卡牌进行融合。将你未融合的每张已展示卡牌归还。",
+          "en": "You may safeguard a card from your hand. If you do, reveal two available standard achievements. You may meld a revealed card with no 【效率】 or 【人物】. Return each revealed card you do not meld."
+        }
+      ]
+    },
+    {
+      "id": "U071",
+      "set": "Unseen",
+      "age": 7,
+      "color": "GREEN",
+      "name_zh": "契诃夫之枪",
+      "name_en": "Plot Voucher",
+      "spots": [
+        3,
+        3,
+        2,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        70,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U071",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "从你的计分区中融合一张牌。保密时期最低的一项可用普通成就。若你如此做，且若现在是你的回合，则独自执行融合的牌；否则，归还你所有手牌。",
+          "en": "Meld a card from your score pile. Safeguard the lowest available standard achievement. If you do, super-execute the melded card if it is your turn, or if it is not your turn self-execute it."
+        }
+      ]
+    },
+    {
+      "id": "U072",
+      "set": "Unseen",
+      "age": 7,
+      "color": "BLUE",
+      "name_zh": "反间谍活动Couterintelligence",
+      "name_en": "Counterintelligence",
+      "spots": [
+        3,
+        3,
+        0,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        65,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U072",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你置底你场上一张带有【概念】的置顶牌！如果你这么做，转移你的与该牌颜色相同的置顶牌到我的场上，然后抽一张【7】！",
+          "en": "I DEMAND you tuck a top card on your board with 【概念】! If you do, transfer your top card of color matching the tucked card to my board, and draw a 【7】!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张 【8】。",
+          "en": "Draw an 【8】."
+        }
+      ]
+    },
+    {
+      "id": "U073",
+      "set": "Unseen",
+      "age": 7,
+      "color": "BLUE",
+      "name_zh": "私家侦探",
+      "name_en": "Private Eye",
+      "spots": [
+        2,
+        2,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        66,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U073",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你展示你的手牌！转移我选择的其中一张牌到我的游戏区域！你抽一张【7】!",
+          "en": "I DEMAND you reveal your hand! Transfer the card in your hand of my choice to my board! Draw a 【7】!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你的一张机密牌计分。",
+          "en": "Score one of your secrets."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将蓝色牌堆向右展开.",
+          "en": "You may splay your blue cards right."
+        }
+      ]
+    },
+    {
+      "id": "U074",
+      "set": "Unseen",
+      "age": 7,
+      "color": "PURPLE",
+      "name_zh": "签语饼",
+      "name_en": "Fortune Cookie",
+      "spots": [
+        0,
+        2,
+        2,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        73,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U074",
+      "notes": [
+        "各项条件按顺序分别检查即时图标数；前一项操作可能改变后续条件。"
+      ],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你场上某类型的标记恰好有七个，抽一张【7】并计分；如果你场上某类型的标记恰好有八个，将你的绿色或紫色牌堆向右展开并抽一张【8】；如果你场上某类型的标记恰好有九个，抽一张【9】。",
+          "en": "If you have exactly seven of any icon on your board, draw and score a 【7】; exactly eight, splay your green or purple cards right and draw an 【8】; exactly nine, draw a 【9】."
+        }
+      ]
+    },
+    {
+      "id": "U075",
+      "set": "Unseen",
+      "age": 7,
+      "color": "PURPLE",
+      "name_zh": "老虎机",
+      "name_en": "Slot Machine",
+      "spots": [
+        5,
+        6,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        74,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U075",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示【1】、【2】、【3】、【4】、【5】各一张。如果其中至少一张牌为绿色，将你的绿色或紫色牌堆向右展开。如果其中至少两张牌为绿色，将所有抽取牌计分，否则将其归还。如果其中至少三张牌为绿色，你获胜。",
+          "en": "Draw and reveal a 【1】, 【2】, 【3】, 【4】, and 【5】. If at least one drawn card is green, splay your green or purple cards right. If at least two are, score all drawn cards, otherwise return them. If at least three are, you win."
+        }
+      ]
+    },
+    {
+      "id": "U076",
+      "set": "Unseen",
+      "age": 8,
+      "color": "RED",
+      "name_zh": "隐瞒",
+      "name_en": "Concealment",
+      "spots": [
+        0,
+        5,
+        5,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        77,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U076",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你将你的所有机密牌置底！",
+          "en": "I DEMAND you tuck all your secrets!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "保密你的紫色置底牌。",
+          "en": "Safeguard your bottom purple card."
+        }
+      ]
+    },
+    {
+      "id": "U077",
+      "set": "Unseen",
+      "age": 8,
+      "color": "RED",
+      "name_zh": "恩尼格玛机",
+      "name_en": "Enigma Machine",
+      "spots": [
+        6,
+        6,
+        0,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        78,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U077",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择保密所有可用成就，或转移你的所有机密牌到你的手牌，或转移所有你的手牌到可用成就区。",
+          "en": "Choose to either safeguard all available standard achievements, transfer all your secrets to your hand, or transfer all cards in your hand to the available achievements."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "选择你的一个向左展开的颜色并将其向上展开。",
+          "en": "Choose a color you have splayed left and splay it up."
+        }
+      ]
+    },
+    {
+      "id": "U078",
+      "set": "Unseen",
+      "age": 8,
+      "color": "YELLOW",
+      "name_zh": "鹿角兔",
+      "name_en": "Jackalope",
+      "spots": [
+        2,
+        0,
+        2,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        81,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U078",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你将你一张最高时期、不带有【效率】的牌转移到我的场上！若你如此做，将你相同颜色的牌堆还原为未展开！",
+          "en": "I DEMAND you transfer the highest card on your board without 【效率】 to my board! If you do, unsplay the transferred card's color on your board!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你可见牌数最多的牌堆变为未展开。",
+          "en": "Unsplay the color on your board with the most visible cards."
+        }
+      ]
+    },
+    {
+      "id": "U079",
+      "set": "Unseen",
+      "age": 8,
+      "color": "YELLOW",
+      "name_zh": "香格里拉",
+      "name_en": "Shangri-La",
+      "spots": [
+        0,
+        1,
+        2,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        82,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U079",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张【8】并置底。如果它带有【工业】，将其计分。否则，抽一张【8】并放入场上。如果它是【8】，重复执行此条例效果。",
+          "en": "Draw and tuck an 【8】. If it has 【工业】, score it. Otherwise, draw and meld an 【8】. If it is an 【8】, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "U080",
+      "set": "Unseen",
+      "age": 8,
+      "color": "GREEN",
+      "name_zh": "手提包",
+      "name_en": "Handbag",
+      "spots": [
+        0,
+        1,
+        6,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        79,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U080",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以选择将每种颜色的最底一张牌转移到手牌，或者将计分区中的所有牌置底，或者选择一个时期，并将手牌中所有该时期的牌计分。",
+          "en": "You may choose to either transfer your bottom card of each color to your hand, or tuck all cards from your score pile, or choose a value and score all cards from your hand of that value."
+        }
+      ]
+    },
+    {
+      "id": "U081",
+      "set": "Unseen",
+      "age": 8,
+      "color": "GREEN",
+      "name_zh": "搭便车",
+      "name_en": "Hitchhiking",
+      "spots": [
+        5,
+        6,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        80,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U081",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "指定一位其他玩家。该玩家将其一张手牌转移到你的场上。若他如此做，在你视角可见的所有牌对他也可见，且他代替你执行每个选择的情况下，你独自执行转移牌。",
+          "en": "Choose another player. They transfer a card from their hand to your board. If they do, self-execute the card, with that player making all decisions and allowed to look at any card that you can."
+        }
+      ]
+    },
+    {
+      "id": "U082",
+      "set": "Unseen",
+      "age": 8,
+      "color": "BLUE",
+      "name_zh": "黑光灯",
+      "name_en": "Blacklight",
+      "spots": [
+        0,
+        5,
+        5,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        75,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U082",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一项：将你场上的某个颜色的牌堆变为未展开；或者将你场上一个未展开的牌堆向上展开并抽一张【9】。",
+          "en": "Choose to either unsplay one color of your cards, or splay up an unsplayed color on your board and draw a 【9】."
+        }
+      ]
+    },
+    {
+      "id": "U083",
+      "set": "Unseen",
+      "age": 8,
+      "color": "BLUE",
+      "name_zh": "童子军活动",
+      "name_en": "Scouting",
+      "spots": [
+        2,
+        3,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        76,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U083",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽取并展示两张 【9】。将其中至少一张已抽取的牌归还牌堆。如果你归还了至少两张卡牌，则展示 【10】 基础牌库顶部的牌。如果展示的牌颜色与其中一张归还的牌颜色相同，则再抽取一张 【10】。",
+          "en": "Draw and reveal two 【9】. Return at least one of the drawn cards. If you return two cards, reveal the top card of the 【10】 deck. If the color of the revealed card matches the color of at least one of the returned cards, draw a 【10】."
+        }
+      ]
+    },
+    {
+      "id": "U084",
+      "set": "Unseen",
+      "age": 8,
+      "color": "PURPLE",
+      "name_zh": "欢乐蜂鸣器",
+      "name_en": "Joy Buzzer",
+      "spots": [
+        6,
+        1,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        83,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U084",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你将所有手牌和我最低时期的所有牌交换！",
+          "en": "I DEMAND you exchange all cards in your hand with all the lowest cards in my hand!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以选择一个时期，计分你手牌中所有该时期的牌。若你如此做，则计分你的紫色顶牌。",
+          "en": "You may choose a value and score all the cards in your hand of that value. If you do, score your top purple card."
+        }
+      ]
+    },
+    {
+      "id": "U085",
+      "set": "Unseen",
+      "age": 8,
+      "color": "PURPLE",
+      "name_zh": "主业会",
+      "name_en": "Opus Dei",
+      "spots": [
+        2,
+        3,
+        3,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        84,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U085",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "展示你计分区中时期最高的牌。若你这么做，将你场上与该牌颜色相同的牌堆向上展开，然后将该牌保密。",
+          "en": "Reveal the highest card in your score pile. If you do, splay your cards of the revealed card's color up, and safeguard the revealed card."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "对于你场上每个向上展开的牌堆，抽一张【8】。",
+          "en": "Draw an 【8】 for every color on your board splayed up."
+        }
+      ]
+    },
+    {
+      "id": "U086",
+      "set": "Unseen",
+      "age": 9,
+      "color": "RED",
+      "name_zh": "铁幕",
+      "name_en": "Iron Curtain",
+      "spots": [
+        0,
+        2,
+        6,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        87,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U086",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你所有已展开的牌堆还原为未展开。对于每个被还原的牌堆，归还你该颜色的置顶牌并保密一张可用标准成就。",
+          "en": "Unsplay each splayed color on your board. For each color you unsplay, return your top card of that color and safeguard an available standard achievement."
+        }
+      ]
+    },
+    {
+      "id": "U087",
+      "set": "Unseen",
+      "age": 9,
+      "color": "RED",
+      "name_zh": "麦卡锡主义",
+      "name_en": "McCarthyism",
+      "spots": [
+        5,
+        6,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        88,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U087",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你抽取并融合一张【8】！如果社会主义是你的一张置顶牌，你败北！",
+          "en": "I DEMAND you draw and meld an 【8】! If Socialism is a top card on your board, you lose!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你的紫色置顶牌计分。",
+          "en": "Score your top purple card."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将你红色或者蓝色的牌堆向上展开。",
+          "en": "You may splay your red or blue cards up."
+        }
+      ]
+    },
+    {
+      "id": "U088",
+      "set": "Unseen",
+      "age": 9,
+      "color": "YELLOW",
+      "name_zh": "魔力八号球",
+      "name_en": "Magic 8-Ball",
+      "spots": [
+        0,
+        2,
+        2,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        91,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U088",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择抽取两张【10】，或抽取并计分两张【8】，或保密两项可用的普通成就。抽取一张【8】并将其置底。若它带有【概念】，则实现你的选择效果。若为红色或紫色，则重复此执行此效果。",
+          "en": "Choose whether you wish to draw two 【10】, draw and score two 【8】, or safeguard two available standard achievements. Draw and tuck an 【8】. If it has 【概念】, do as you wish. If it is red or purple, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "U089",
+      "set": "Unseen",
+      "age": 9,
+      "color": "YELLOW",
+      "name_zh": "监视",
+      "name_en": "Surveillance",
+      "spots": [
+        3,
+        6,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        92,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U089",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你展示你的手牌！如果你有手牌，且你手牌中出现的颜色与我手牌中一一对应（不计重复），我获胜！",
+          "en": "I DEMAND you reveal your hand! If each color present in my hand is present in yours, and vice versa, and your hand is not empty, I win!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽一张【10】。",
+          "en": "Draw a 【10】."
+        }
+      ]
+    },
+    {
+      "id": "U090",
+      "set": "Unseen",
+      "age": 9,
+      "color": "GREEN",
+      "name_zh": "51区",
+      "name_en": "Area 51",
+      "spots": [
+        3,
+        0,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        89,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U090",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将绿色牌堆向上展开.",
+          "en": "You may splay your green cards up."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "选择抽取一张【11】，或保密一项可用的普通成就。",
+          "en": "Choose to either draw an 【11】, or safeguard an available standard achievement."
+        },
+        {
+          "kind": "non_demand_effect_3",
+          "label": "条例 3",
+          "zh": "展示你的一个机密牌，然后如果当前在你的回合内，超级执行此牌。",
+          "en": "Reveal one of your secrets, and super-execute it if it is your turn."
+        }
+      ]
+    },
+    {
+      "id": "U091",
+      "set": "Unseen",
+      "age": 9,
+      "color": "GREEN",
+      "name_zh": "提词器",
+      "name_en": "Teleprompter",
+      "spots": [
+        2,
+        6,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        90,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U091",
+      "notes": [
+        "官方补充：执行第一张展示牌的第 1 句、第二张展示牌的第 2 句，依此类推；句数跨越该牌全部非要求效果。“若如此做／未如此做”检查上一个句子是否被完整且准确地执行。"
+      ],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "展示任一时期、任一类型牌库的置顶牌。执行卡牌上的第一句协作条例效果。若你如此做，归还展示牌并以下一句重复此效果。",
+          "en": "Reveal the top card of any value deck from any set. Execute the first sentence of non-demand dogma effect text on the card. If you do, return the revealed card and repeat this effect using the next sentence."
+        }
+      ]
+    },
+    {
+      "id": "U092",
+      "set": "Unseen",
+      "age": 9,
+      "color": "BLUE",
+      "name_zh": "咨询",
+      "name_en": "Consulting",
+      "spots": [
+        0,
+        5,
+        5,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        85,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U092",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "选择一名对手。抽两张【10】并融合。由该玩家指定你的一张置顶牌，你将其独自执行。",
+          "en": "Choose an opponent. Draw and meld two 【10】. Self-execute the top card on your board of that player's choice."
+        }
+      ]
+    },
+    {
+      "id": "U093",
+      "set": "Unseen",
+      "age": 9,
+      "color": "BLUE",
+      "name_zh": "费米悖论",
+      "name_en": "Fermi Paradox",
+      "spots": [
+        0,
+        6,
+        6,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        86,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U093",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "展示【9】基础牌库和【10】基础牌库的顶牌。归还【9】基础牌库或【10】基础牌库的顶牌。",
+          "en": "Reveal the top card of the 【9】 deck and the 【10】 deck. Return the top card of the 【9】 deck or the 【10】 deck."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果你场上没有牌，你获胜。否则，转移移除区中所有有时期的牌到你的手牌。",
+          "en": "If you have no cards on your board, you win. Otherwise, transfer all valued cards in the junk to your hand."
+        }
+      ]
+    },
+    {
+      "id": "U094",
+      "set": "Unseen",
+      "age": 9,
+      "color": "PURPLE",
+      "name_zh": "小丑车",
+      "name_en": "Clown Car",
+      "spots": [
+        1,
+        1,
+        0,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        93,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U094",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你从我的计分区中融合一张牌！若融合的牌没有【繁荣】，则重复此效果！",
+          "en": "I DEMAND you meld a card from my score pile! If the melded card has no 【繁荣】, repeat this effect!"
+        }
+      ]
+    },
+    {
+      "id": "U095",
+      "set": "Unseen",
+      "age": 9,
+      "color": "PURPLE",
+      "name_zh": "都市传说",
+      "name_en": "Urban Legend",
+      "spots": [
+        5,
+        0,
+        5,
+        5,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        94,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U095",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你场上每有一个带有【工业】的颜色，就抽一张【9】。如果你因此抽了五张牌，你获胜。",
+          "en": "For every color on your board with 【工业】, draw a 【9】. If you draw five cards, you win."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将你的黄色或紫色牌堆向上展开。",
+          "en": "You may splay your yellow or purple cards up."
+        }
+      ]
+    },
+    {
+      "id": "U096",
+      "set": "Unseen",
+      "age": 10,
+      "color": "RED",
+      "name_zh": "搏击俱乐部",
+      "name_en": "Fight Club",
+      "spots": [
+        0,
+        7,
+        7,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 7,
+      "art_position": [
+        97,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U096",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你把你的一个机密牌转移到了我的成就里！",
+          "en": "I DEMAND you transfer one of your secrets to my achievements!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将你的黄色牌堆向上展开。",
+          "en": "You may splay your yellow cards up."
+        }
+      ]
+    },
+    {
+      "id": "U097",
+      "set": "Unseen",
+      "age": 10,
+      "color": "RED",
+      "name_zh": "秘密圣诞老人",
+      "name_en": "Secret Santa",
+      "spots": [
+        3,
+        3,
+        0,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        98,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U097",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你将我计分区中的一张牌融合！",
+          "en": "I DEMAND you meld a card from my score pile!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抽三张【10】并计分。",
+          "en": "Draw and score three 【10】."
+        }
+      ]
+    },
+    {
+      "id": "U098",
+      "set": "Unseen",
+      "age": 10,
+      "color": "YELLOW",
+      "name_zh": "网约车",
+      "name_en": "Ride-Hailing",
+      "spots": [
+        6,
+        6,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        101,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U098",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将绿色牌堆向上展开.",
+          "en": "You may splay your green cards up."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "将任一其他玩家场上一张非黄色、带有【效率】的置顶牌融合。若你如此做，独自执行该牌。否则，抽一张 【11】。",
+          "en": "Meld a top non-yellow card with 【效率】 from another player's board. If you do, self-execute it. Otherwise, draw an 【11】."
+        }
+      ]
+    },
+    {
+      "id": "U099",
+      "set": "Unseen",
+      "age": 10,
+      "color": "YELLOW",
+      "name_zh": "叫什么来着？",
+      "name_en": "Whatchamacallit",
+      "spots": [
+        0,
+        2,
+        5,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        102,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U099",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "对于每个时期，按升序排列，如果你的置顶牌和计分区均未出现该时期，抽一张该时期的牌计分。",
+          "en": "For each value, in ascending order, if that value is not a value of a top card on your board or a card in your score pile, draw and score a card of that value."
+        }
+      ]
+    },
+    {
+      "id": "U100",
+      "set": "Unseen",
+      "age": 10,
+      "color": "GREEN",
+      "name_zh": "加密货币",
+      "name_en": "Cryptocurrency",
+      "spots": [
+        1,
+        5,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        99,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U100",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你计分区的所有牌。你每归还一张不同时期的牌，就抽一张【10】并计分。",
+          "en": "Return all cards from your score pile. For each different value of card you return, draw and score a 【10】."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将红色牌堆向上展开.",
+          "en": "You may splay your red cards up."
+        }
+      ]
+    },
+    {
+      "id": "U101",
+      "set": "Unseen",
+      "age": 10,
+      "color": "GREEN",
+      "name_zh": "丹佛机场",
+      "name_en": "Denver Airport",
+      "spots": [
+        1,
+        1,
+        0,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        100,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U101",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以无视常规要求统御你的一张机密牌。",
+          "en": "You may achieve one of your secrets regardless of eligibility."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以将紫色牌堆向上展开.",
+          "en": "You may splay your purple cards up."
+        }
+      ]
+    },
+    {
+      "id": "U102",
+      "set": "Unseen",
+      "age": 10,
+      "color": "BLUE",
+      "name_zh": "黑客入侵",
+      "name_en": "Hacking",
+      "spots": [
+        0,
+        7,
+        7,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 7,
+      "art_position": [
+        95,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U102",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你转移你两个最高时期的机密牌到我的保密区！转移你计分区中两张时期最高的牌到我的计分区！融合你计分区中两张时期最低的牌！",
+          "en": "I DEMAND you transfer your two highest secrets to my safe! Transfer the two highest cards in your score pile to my score pile! Meld the two lowest cards from your score pile!"
+        }
+      ]
+    },
+    {
+      "id": "U103",
+      "set": "Unseen",
+      "age": 10,
+      "color": "BLUE",
+      "name_zh": "非均质宇宙学",
+      "name_en": "Inhomogeneous Cosmology",
+      "spots": [
+        6,
+        0,
+        6,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        96,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U103",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "你可以将你场上的一张置顶牌放置至其对应的抽牌堆顶。你可以融合一张手牌。如果你做了上述动作之一，重复执行此条例。",
+          "en": "You may place a top card from your board on top of its deck. You may meld a card from your hand. If you do either, repeat this effect."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "对于你场上缺失的每个颜色，抽一张【11】。",
+          "en": "Draw an 【11】 for every color not on your board."
+        }
+      ]
+    },
+    {
+      "id": "U104",
+      "set": "Unseen",
+      "age": 10,
+      "color": "PURPLE",
+      "name_zh": "3D打印",
+      "name_en": "3D Printing",
+      "spots": [
+        3,
+        6,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        103,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U104",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你场上的一张置顶牌或置底牌。统御与该牌时期相同的一个机密牌，无视常规要求，然后保密一张可用常规成就。若你这么做，重复执行此效果。",
+          "en": "Return a top or bottom card on your board. Achieve one of your secrets of value equal to the returned card regardless of eligibility, then safeguard an available standard achievement. If you do, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "U105",
+      "set": "Unseen",
+      "age": 10,
+      "color": "PURPLE",
+      "name_zh": "神秘之手的秩序",
+      "name_en": "Order of the Occult Hand",
+      "spots": [
+        0,
+        5,
+        3,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        104,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U105",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "如果你的计分区中有【3】，你败北。",
+          "en": "If you have a 【3】 in your score pile, you lose."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "如果你手牌中有【7】，你获胜。",
+          "en": "If you have a 【7】 in your hand, you win."
+        },
+        {
+          "kind": "non_demand_effect_3",
+          "label": "条例 3",
+          "zh": "将手牌中的两张牌融合。从手牌中计分四张牌。将你的蓝色牌向上展开。",
+          "en": "Meld two cards from your hand. Score four cards from your hand. Splay your blue cards up."
+        }
+      ]
+    },
+    {
+      "id": "U106",
+      "set": "Unseen",
+      "age": 11,
+      "color": "RED",
+      "name_zh": "隐形技术",
+      "name_en": "Cloaking",
+      "spots": [
+        0,
+        3,
+        5,
+        3,
+        null,
+        null
+      ],
+      "dogma_icon": 3,
+      "art_position": [
+        107,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U106",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求你将你统御区的一张标准成就转移到我的保密区！",
+          "en": "I DEMAND you transfer one of your claimed standard achievements to my safe!"
+        }
+      ]
+    },
+    {
+      "id": "U107",
+      "set": "Unseen",
+      "age": 11,
+      "color": "RED",
+      "name_zh": "暗网",
+      "name_en": "Dark Web",
+      "spots": [
+        5,
+        0,
+        6,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        108,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U107",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将任一玩家的任一牌堆还原为未展开。",
+          "en": "Unsplay any color on any board."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "你可以选择保密任意数量的可用普通成就，或者从你的保密区中统御任意数量的机密牌，无视常规要求。",
+          "en": "Choose to either safeguard any number of available standard achievements, or achieve any number of secrets from your safe regardless of eligibility."
+        }
+      ]
+    },
+    {
+      "id": "U108",
+      "set": "Unseen",
+      "age": 11,
+      "color": "YELLOW",
+      "name_zh": "密室逃脱",
+      "name_en": "Escape Room",
+      "spots": [
+        6,
+        1,
+        6,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        111,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U108",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你抽一张牌、展示并计算【11】分！从手牌中选出一张与抽到的牌颜色相同的牌来计分！如果不这样做，你就输了！",
+          "en": "I DEMAND you draw, reveal, and score an 【11】! Score a card from your hand of the same color as the drawn card! If you don't, you lose!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你场上除黄色外其他颜色带有【效率】的置顶牌各一张计分。",
+          "en": "Score four top non-yellow cards each with 【效率】 of different colors on your board."
+        }
+      ]
+    },
+    {
+      "id": "U109",
+      "set": "Unseen",
+      "age": 11,
+      "color": "YELLOW",
+      "name_zh": "时尚口罩",
+      "name_en": "Fashion Mask",
+      "spots": [
+        0,
+        2,
+        2,
+        2,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        112,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U109",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "对于你场上的每个颜色，将一张带有【繁荣】或【工业】的置顶牌置底。你可以将其中一张置底牌保密。",
+          "en": "Tuck a top card with 【繁荣】 or 【工业】 of each color on your board. You may safeguard one of the tucked cards."
+        },
+        {
+          "kind": "non_demand_effect_2",
+          "label": "条例 2",
+          "zh": "将你黄色和紫色牌堆除顶部五张牌以外的所有牌计分。将你这两个牌堆斜向展开。",
+          "en": "Score all but the top five each of your yellow and purple cards. Splay those colors aslant."
+        }
+      ]
+    },
+    {
+      "id": "U110",
+      "set": "Unseen",
+      "age": 11,
+      "color": "GREEN",
+      "name_zh": "绿氢",
+      "name_en": "Green Hydrogen",
+      "spots": [
+        5,
+        5,
+        5,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 5,
+      "art_position": [
+        109,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U110",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "将你场上所有非绿色置顶牌计分。每计分一张牌，就抽一张【11】并置底。",
+          "en": "Score all non-top green cards on your board. Draw and tuck an 【11】 for each card scored."
+        }
+      ]
+    },
+    {
+      "id": "U111",
+      "set": "Unseen",
+      "age": 11,
+      "color": "GREEN",
+      "name_zh": "盲盒",
+      "name_en": "Mystery Box",
+      "spots": [
+        0,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "dogma_icon": 1,
+      "art_position": [
+        110,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U111",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "无视常规要求统御一个可用标准成就。独自执行该牌。",
+          "en": "Claim an available standard achievement, regardless of eligibility. Self-execute it."
+        }
+      ]
+    },
+    {
+      "id": "U112",
+      "set": "Unseen",
+      "age": 11,
+      "color": "BLUE",
+      "name_zh": "天体生物学",
+      "name_en": "Astrobiology",
+      "spots": [
+        2,
+        2,
+        7,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 2,
+      "art_position": [
+        105,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U112",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "归还你的一张置底牌。将你该颜色的牌堆斜向展开。将你该牌堆中所有不带有【健康】的牌计分（无需可见）。",
+          "en": "Return a bottom card from your board. Splay that color on your board aslant. Score all cards on your board of that color without 【健康】."
+        }
+      ]
+    },
+    {
+      "id": "U113",
+      "set": "Unseen",
+      "age": 11,
+      "color": "BLUE",
+      "name_zh": "量子计算机",
+      "name_en": "Quantum Computers",
+      "spots": [
+        6,
+        6,
+        0,
+        6,
+        null,
+        null
+      ],
+      "dogma_icon": 6,
+      "art_position": [
+        106,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U113",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "i_demand_effect",
+          "label": "要求",
+          "zh": "我要求 你抛一次硬币！如果你输了抛硬币，你就输了本局游戏！",
+          "en": "I DEMAND you flip a coin! If you lose the flip, you lose!"
+        },
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "抛一次硬币。如果你赢了抛硬币，本效果结束。如果你输了抛硬币，归还你的一个机密牌。如果你不能这么做，你败北。否则，重复执行此效果。",
+          "en": "Flip a coin. If you win the flip, this effect is complete. If you lose the flip, return one of your secrets. If you don't, you lose. Otherwise, repeat this effect."
+        }
+      ]
+    },
+    {
+      "id": "U114",
+      "set": "Unseen",
+      "age": 11,
+      "color": "PURPLE",
+      "name_zh": "全息投影",
+      "name_en": "Holography",
+      "spots": [
+        7,
+        7,
+        0,
+        7,
+        null,
+        null
+      ],
+      "dogma_icon": 7,
+      "art_position": [
+        113,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U114",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "指定红色、蓝色或绿色。将你指定颜色牌堆除顶部五张牌以外的所有牌计分，并将该牌堆斜向展开。若你均如此做，将你所有最低时期的计分牌与你统御区所有低于该时期的牌交换。",
+          "en": "Choose red, blue, or green. Score all but your top five cards of that color, then splay it aslant. If you do both, exchange all the lowest cards in your score pile with all your claimed standard achievements of lower value."
+        }
+      ]
+    },
+    {
+      "id": "U115",
+      "set": "Unseen",
+      "age": 11,
+      "color": "PURPLE",
+      "name_zh": "元宇宙",
+      "name_en": "Metaverse",
+      "spots": [
+        3,
+        7,
+        7,
+        0,
+        null,
+        null
+      ],
+      "dogma_icon": 7,
+      "art_position": [
+        114,
+        5
+      ],
+      "source_url": "https://www.asmadigames.com/innovation/index.php?cardID=U115",
+      "notes": [],
+      "type": "innovation",
+      "effects": [
+        {
+          "kind": "non_demand_effect_1",
+          "label": "条例 1",
+          "zh": "对于牌桌上每组展开的同色牌，计算其最上面那张牌的分数。如果计算出的分数少于三张牌的分数总和，则你输。",
+          "en": "For each splayed color on your board, score its top card. If you score fewer than three cards, you lose."
+        }
+      ]
+    }
+  ],
+  "special_achievements": [
+    {
+      "id": "S-UNSEEN-ANONYMITY",
+      "set": "Unseen",
+      "age": -1,
+      "color": null,
+      "name_zh": "佚名",
+      "name_en": "Anonymity",
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": null,
+      "source_url": "https://github.com/micahstairs/bga-innovation/blob/9b5464e6c9382d587e229741aeaa2de932e4ed8e/material.inc.php",
+      "notes": [],
+      "type": "special",
+      "effects": [
+        {
+          "kind": "condition_for_claiming",
+          "label": "统御条件",
+          "zh": "如果你有一张时期不小于7的置顶牌并且你没有常规成就，在任一行动结束时统御此成就。",
+          "en": "Claim this special achievement at the end of any action if you have a top card on your board of value 7 or higher and no standard achievements."
+        },
+        {
+          "kind": "alternative_condition_for_claiming",
+          "label": "其他统御方式",
+          "zh": "也可以通过【3】假面舞会Masquerade统御。",
+          "en": "May also be claimed via 【3】 Masquerade."
+        }
+      ]
+    },
+    {
+      "id": "S-UNSEEN-CONFIDENCE",
+      "set": "Unseen",
+      "age": -1,
+      "color": null,
+      "name_zh": "机密",
+      "name_en": "Confidence",
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": null,
+      "source_url": "https://github.com/micahstairs/bga-innovation/blob/9b5464e6c9382d587e229741aeaa2de932e4ed8e/material.inc.php",
+      "notes": [],
+      "type": "special",
+      "effects": [
+        {
+          "kind": "condition_for_claiming",
+          "label": "统御条件",
+          "zh": "任一玩家的一次行动结束时，如果你置顶牌的最高时期不低于5，且你有至少4张机密牌，统御此成就。",
+          "en": "Claim this special achievement at the end of any action if you have a top card on your board of value 5 or higher and four or more secrets."
+        },
+        {
+          "kind": "alternative_condition_for_claiming",
+          "label": "其他统御方式",
+          "zh": "也可以通过【1】暗杀Assassination统御。",
+          "en": "May also be claimed via 【1】 Assassination."
+        }
+      ]
+    },
+    {
+      "id": "S-UNSEEN-FOLKLORE",
+      "set": "Unseen",
+      "age": -1,
+      "color": null,
+      "name_zh": "民俗",
+      "name_en": "Folklore",
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": null,
+      "source_url": "https://github.com/micahstairs/bga-innovation/blob/9b5464e6c9382d587e229741aeaa2de932e4ed8e/material.inc.php",
+      "notes": [],
+      "type": "special",
+      "effects": [
+        {
+          "kind": "condition_for_claiming",
+          "label": "统御条件",
+          "zh": "任一玩家的一次行动结束时，如果你有时期为8或更高的置顶牌，且场上没有【工业】，统御此成就。",
+          "en": "Claim this special achievement at the end of any action if you have a top card on your board of value 8 or higher and no 【industry】 on your board."
+        },
+        {
+          "kind": "alternative_condition_for_claiming",
+          "label": "其他统御方式",
+          "zh": "也可以通过【4】愚人节April Fool's Day统御。",
+          "en": "May also be claimed via 【4】 April Fool's Day."
+        }
+      ]
+    },
+    {
+      "id": "S-UNSEEN-MYSTERY",
+      "set": "Unseen",
+      "age": -1,
+      "color": null,
+      "name_zh": "神秘",
+      "name_en": "Mystery",
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": null,
+      "source_url": "https://github.com/micahstairs/bga-innovation/blob/9b5464e6c9382d587e229741aeaa2de932e4ed8e/material.inc.php",
+      "notes": [],
+      "type": "special",
+      "effects": [
+        {
+          "kind": "condition_for_claiming",
+          "label": "统御条件",
+          "zh": "任一玩家的一次行动结束时，如果你置顶牌的最高时期不低于9，且你场上的牌堆数量少于5，统御此成就。",
+          "en": "Claim this special achievement at the end of any action if you have a top card on your board of value 9 or higher and fewer than five colors on your board."
+        },
+        {
+          "kind": "alternative_condition_for_claiming",
+          "label": "其他统御方式",
+          "zh": "也可以通过【5】 秘史统御。",
+          "en": "May also be claimed via 【5】 Secret History."
+        }
+      ]
+    },
+    {
+      "id": "S-UNSEEN-ZEN",
+      "set": "Unseen",
+      "age": -1,
+      "color": null,
+      "name_zh": "禅意",
+      "name_en": "Zen",
+      "spots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dogma_icon": null,
+      "art_position": null,
+      "source_url": "https://github.com/micahstairs/bga-innovation/blob/9b5464e6c9382d587e229741aeaa2de932e4ed8e/material.inc.php",
+      "notes": [],
+      "type": "special",
+      "effects": [
+        {
+          "kind": "condition_for_claiming",
+          "label": "统御条件",
+          "zh": "任一玩家的一次行动结束时，若你场上有一张时期不小于6的置顶牌并且你场上没有奇数时期的置顶牌，统御该成就。",
+          "en": "Claim this special achievement at the end of any action if you have a top card on your board of value 6 or higher and no top card on your board of odd value."
+        },
+        {
+          "kind": "alternative_condition_for_claiming",
+          "label": "其他统御方式",
+          "zh": "也可以通过【2】气象学Meteorology统御。",
+          "en": "May also be claimed via 【2】 Meteorology."
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "id": "safe",
+      "zh": "安全区",
+      "en": "Safe",
+      "aliases": [
+        "安全区",
+        "保密区",
+        "safe",
+        "Safe"
+      ],
+      "pages": [
+        31
+      ],
+      "text": "存放机密牌的区域。所有人（包括持有者）都不能查看牌面，只能查看牌背时代、所属扩展与存入顺序。容量由最佳展开决定：未展开 5、向左 4、向右 3、向上 2、斜向 1；容量降低时保留原有超额机密牌。"
+    },
+    {
+      "id": "safeguard",
+      "zh": "保密",
+      "en": "Safeguard",
+      "aliases": [
+        "保密",
+        "加密",
+        "保护",
+        "Safeguard",
+        "safeguard"
+      ],
+      "pages": [
+        13,
+        31
+      ],
+      "text": "将指定牌牌面朝下放入自己的安全区。安全区已满时忽略这次保密，牌留在原区域。“抽取并保密”仍先抽至手牌，保密失败时留在手牌。"
+    },
+    {
+      "id": "secret",
+      "zh": "机密牌",
+      "en": "Secret",
+      "aliases": [
+        "机密牌",
+        "秘密",
+        "secrets",
+        "secret",
+        "Secrets",
+        "Secret"
+      ],
+      "pages": [
+        13,
+        31
+      ],
+      "text": "安全区中的牌。即使是自己的机密牌也不能看牌面。你可以用一次统御行动取得符合通常时代与分数条件的自己的机密牌；它们不是效果所指的“可用成就”，对手不能直接统御。明确要求展示的牌效才可以揭示牌面。"
+    }
+  ]
+}

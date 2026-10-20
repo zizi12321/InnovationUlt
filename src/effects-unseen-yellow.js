@@ -1,0 +1,43 @@
+import { safe, age, color, boardCards, standard, ofColor, ofAge, top, one, safeguard, safeguardAvailable, drawMany, chooseMode, revealPick } from './effects-unseen-helpers.js';
+import { colors, hand, tops, pile, score, has, high, low, all, chooseColor, chooseValue, splay } from './effect-helpers.js';
+import { expansion } from './effects-echoes-helpers.js';
+
+// 藏形匿影 · YELLOW · 官方终极版卡面顺序。
+export const UNSEEN_YELLOW_EFFECTS = {
+  U004: [function*(c,p){yield*all(c,p,()=>hand(c,c.actor),'hand',p,'','transfer');const present=[...new Set(hand(c,p).map(id=>color(c,id)))];const chosen=yield*c.choose(p,'要求：选择手牌中的两种颜色，将这些颜色的全部手牌转移给发动者。',present.map(value=>({value,label:value})),2,2);yield*all(c,p,()=>hand(c,p).filter(id=>chosen.includes(color(c,id))),'hand',c.actor,'','transfer');}],
+  U005: [function*(c,p){yield*safeguardAvailable(c,p,[1+c.achievements(c.p(p))]);},
+    function*(c,p){const id=yield*one(c,p,low(c,standard(c)),'hand','可以将最低时代的可用成就转移至手牌。',true,p,'transfer');if(id)yield*all(c,p,()=>[...pile(c,p,'YELLOW'),...pile(c,p,'BLUE')],'return');}],
+  U006: [function*(c,p){const id=c.draw(p,c.value(2),'meld');if(id&&c.didDraw(id,'meld')&&pile(c,p,color(c,id))[0]===id)c.move(id,'score',p);}],
+  U018: [function*(c,p){const id=yield*one(c,p,tops(c,p).filter(id=>!has(c,id,2)),'return','要求：归还一张不带健康的置顶牌。');if(id){c.returned++;c.returned+=(yield*all(c,p,()=>ofAge(c,score(c,p),age(c,id)),'return')).length;}},
+    function*(c,p){if(c.returned===1){if(c.state.players.some(owner=>c.tops(owner).includes('U018')))c.move('U018','return',p);c.draw(p,c.value(3));}}],
+  U019: [function*(c,p){yield*splay(c,p,['RED','YELLOW'],'left');},
+    function*(c,p){const value=colors.filter(col=>c.p(p).splay[col]!=='none').length;yield*safeguardAvailable(c,p,[value]);const [id]=yield*c.pick(p,'将一张同代手牌转移至任一面板。',ofAge(c,hand(c,p),value));if(id){const [owner]=yield*c.choose(p,'选择目标面板。',c.state.players.map(o=>({value:o.id,label:o.name})));c.transfer(id,'meld',owner);}}],
+  U028: [function*(c,p){const tucked=[];for(const col of colors){const id=yield*one(c,p,ofColor(c,hand(c,p),col),'tuck','可以垫底此颜色的一张手牌。',true);if(id)tucked.push(id);}if(tucked.some(id=>color(c,id)==='YELLOW'||expansion(c,id)))yield*drawMany(c,p,2,c.value(3));},function*(c,p){yield*splay(c,p,['YELLOW','BLUE'],'left');}],
+  U029: [function*(c,p){while(true){const id=yield*one(c,p,hand(c,p),'tuck','要求：垫底一张手牌。');const target=id&&top(c,p,color(c,id));if(!target||!c.move(target,'return',p)){c.draw(p,c.value(3));return;}}},
+    function*(c,p){const col=yield*chooseColor(c,p,[...new Set(hand(c,p).map(id=>color(c,id)))],true);if(col){const ids=yield*c.pick(p,'可以垫底任意数量的该色手牌。',ofColor(c,hand(c,p),col),0,hand(c,p).length);yield*all(c,p,ids,'tuck');}}],
+  U038: [function*(c,p){const id=yield*one(c,p,[...new Set([...hand(c,p),...score(c,p)])],'meld','转移一张手牌或计分牌至右侧玩家面板。',false,c.other(p),'transfer');if(!id)c.claimSpecial(p,'FOLKLORE','UNSEEN');},
+    function*(c,p){const col=yield*chooseColor(c,p,['YELLOW','PURPLE'],false,'选择向右展开的颜色，另一颜色还原。');c.splay(p,col,'right');c.splay(p,col==='YELLOW'?'PURPLE':'YELLOW','none');}],
+  U039: [function*(c,p){const id=yield*one(c,p,safe(c,p),'standard','转移一张机密牌至可用成就区。',false,p,'transfer');if(id)c.draw(p,age(c,id)+1);else if(top(c,p,'RED'))yield*safeguardAvailable(c,p,[age(c,top(c,p,'RED'))]);}],
+  U048: [function*(c,p){const ids=[];for(const n of [3,4,5,6]){const id=c.draw(p,c.value(n),'hand',true);if(id)ids.push(id);}yield*all(c,p,ids.filter(id=>['GREEN','YELLOW'].includes(color(c,id))),'meld');yield*all(c,p,ids.filter(id=>!['GREEN','YELLOW'].includes(color(c,id))),'return');},
+    function*(c,p){yield*splay(c,p,['GREEN','YELLOW'],'right');}],
+  U049: [function*(c,p){if(ofAge(c,score(c,p),c.value(2)).length)c.draw(p,c.value(6));},function*(c,p){c.draw(p,c.value(ofAge(c,score(c,p),c.value(1)).length?7:5));}],
+  U058: [function*(c,p){const mode=yield*chooseMode(c,p,[['score','计分一张手牌'],['safe','保密一张手牌']],true);if(mode==='score')yield*one(c,p,hand(c,p),'score');if(mode==='safe')yield*safeguard(c,p,hand(c,p));},
+    function*(c,p){yield*one(c,p,score(c,p),'return','归还一张计分牌。');},function*(c,p){const value=yield*chooseValue(c,p,score(c,p).map(id=>age(c,id)));if(value!==null)c.draw(p,value,'score');}],
+  U059: [function*(c,p){c.draw(p,c.value(6));const id=yield*revealPick(c,c.actor,p,[...hand(c,p)],'要求：选择对手展示的一张手牌归还。');if(!id||!c.move(id,'return',p))return;const col=color(c,id),target=top(c,p,col);if(target)c.move(target,'tuck',p);yield*all(c,p,()=>ofColor(c,score(c,p),col),'tuck');}],
+  U068: [function*(c,p){yield*one(c,p,low(c,safe(c,p)),'safe','要求：将最低机密牌转移至发动者安全区。',false,c.actor,'transfer');},
+    function*(c,p){yield*one(c,p,c.state.players.flatMap(owner=>score(c,owner.id)),'tuck','从任意计分区垫底一张牌。');},function*(c,p){yield*splay(c,p,['RED','YELLOW'],'right');}],
+  U069: [function*(c,p){const id=c.draw(p,c.value(7),'tuck');if(!id||!c.didDraw(id,'tuck'))return;const col=color(c,id);if(c.visibleCardCount(p,col)>=7)c.draw(p,c.value(9));else{yield*all(c,p,()=>pile(c,p,col),'junk');c.draw(p,c.value(8));}}],
+  U078: [function*(c,p){const id=yield*one(c,p,high(c,boardCards(c,p).filter(id=>!has(c,id,6))),'meld','要求：转移面板上不带效率的最高时代牌。',false,c.actor,'transfer');if(id)c.splay(p,color(c,id),'none');},
+    function*(c,p){const n=Math.max(...colors.map(col=>c.visibleCardCount(p,col)));const col=yield*chooseColor(c,p,colors.filter(col=>c.visibleCardCount(p,col)===n));if(col)c.splay(p,col,'none');}],
+  U079: [function*(c,p){while(true){const id=c.draw(p,c.value(8),'tuck');if(!id)return;if(has(c,id,5)){c.move(id,'score',p);return;}const next=c.draw(p,c.value(8),'meld');if(!next||age(c,next)!==c.value(8)||!c.didDraw(next,'meld'))return;}}],
+  U088: [function*(c,p){while(true){const mode=yield*chooseMode(c,p,[['draw','抽两张时代 10'],['score','抽取并计分两张时代 8'],['safe','保密两个可用标准成就']]);const id=c.draw(p,c.value(8),'tuck');if(!id)return;if(has(c,id,3)){if(mode==='draw')yield*drawMany(c,p,2,c.value(10));if(mode==='score')yield*drawMany(c,p,2,c.value(8),'score');if(mode==='safe')for(let i=0;i<2;i++)yield*safeguardAvailable(c,p);}if(!['RED','PURPLE'].includes(color(c,id)))return;}}],
+  U089: [function*(c,p){c.reveal(p,[...hand(c,p)]);const a=new Set(hand(c,p).map(id=>color(c,id))),b=new Set(hand(c,c.actor).map(id=>color(c,id)));if(a.size&&a.size===b.size&&[...a].every(col=>b.has(col)))c.win(c.actor,'监视：双方非空手牌的颜色集合一致。');},
+    function*(c,p){c.draw(p,c.value(10));}],
+  U098: [function*(c,p){yield*splay(c,p,['GREEN'],'up');},
+    function*(c,p){const id=yield*one(c,p,tops(c,c.other(p)).filter(id=>color(c,id)!=='YELLOW'&&has(c,id,6)),'meld','融合对手带效率的非黄色置顶牌。');if(id)yield*c.selfExecute(p,id);else c.draw(p,c.value(11));}],
+  U099: [function*(c,p){for(const value of c.values()){if(![...tops(c,p),...score(c,p)].some(id=>age(c,id)===value))c.draw(p,value,'score');}}],
+  U108: [function*(c,p){const id=c.draw(p,c.value(11),'score',true);const scored=id&&(yield*one(c,p,ofColor(c,hand(c,p),color(c,id)),'score','要求：计分一张与抽到牌同色的手牌。'));if(!scored)c.lose(p,'密室逃脱：未能计分同色手牌');},
+    function*(c,p){const ids=tops(c,p).filter(id=>color(c,id)!=='YELLOW'&&has(c,id,6));const chosen=yield*c.pick(p,'计分四种非黄色、带效率的置顶牌。',ids,4,4);yield*all(c,p,chosen,'score');}],
+  U109: [function*(c,p){const ids=yield*all(c,p,tops(c,p).filter(id=>has(c,id,1)||has(c,id,5)),'tuck');yield*safeguard(c,p,ids,true);},
+    function*(c,p){for(const col of ['YELLOW','PURPLE'])yield*all(c,p,pile(c,p,col).slice(0,-5),'score');for(const col of ['YELLOW','PURPLE'])c.splay(p,col,'aslant');}],
+};

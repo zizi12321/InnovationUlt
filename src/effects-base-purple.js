@@ -1,3 +1,4 @@
+import { isDemand } from './dogma.js';
 import {
   colors, hand, tops, pile, score, has, high,
   maxAge, topAge, pickMove, all, chooseValue, splay, junkAchievement,
@@ -103,7 +104,7 @@ export const BASE_PURPLE_EFFECTS = {
     for (let i = 0; i < 3; i++) c.draw(p, age); yield* c.selfExecute(p, id);
   }],
   B115: [function* (c, p) {
-    const ids = yield* all(c, p, tops(c, p).filter(id => c.card(id).effects.some(effect => effect.kind === 'i_demand_effect')), 'meld', c.actor, '收到转移的', 'transfer');
+    const ids = yield* all(c, p, tops(c, p).filter(id => c.card(id).effects.some(isDemand)), 'meld', c.actor, '收到转移的', 'transfer');
     if (ids.length) exchange(c, [...score(c, p)], 'score', c.actor, [...score(c, c.actor)], 'score', p);
   }],
 };

@@ -1,0 +1,35 @@
+import { safe, age, color, standard, ofColor, ofAge, top, one, safeguard, safeguardAvailable, drawMany, chooseMode, scoreHandValue } from './effects-unseen-helpers.js';
+import { colors, hand, tops, pile, score, has, low, maxAge, all, chooseValue, splay } from './effect-helpers.js';
+
+// 藏形匿影 · GREEN · 官方终极版卡面顺序。
+export const UNSEEN_GREEN_EFFECTS = {
+  U007: [function*(c,p){const id=yield*one(c,p,tops(c,p).filter(id=>has(c,id,4)),'meld','转移一张带权威的置顶牌至对手面板。',false,c.other(p),'transfer');if(id)yield*one(c,p,low(c,tops(c,c.other(p)).filter(id=>!has(c,id,4))),'meld','融合对手最低且不带权威的置顶牌。');}],
+  U008: [function*(c,p){const id=yield*one(c,p,score(c,p),'return','归还一张计分牌。');if(id)c.draw(p,age(c,id)+1);},
+    function*(c,p){yield*one(c,p,hand(c,p),'hand','转移一张手牌给左侧玩家。',false,c.other(p),'transfer');}],
+  U009: [function*(c,p){yield*one(c,p,hand(c,p),'meld','融合一张手牌。');},
+    function*(c,p){for(const col of colors.filter(col=>pile(c,p,col).length))yield*one(c,p,ofColor(c,hand(c,p),col),'score','可以计分该面板颜色的一张手牌。',true);}],
+  U020: [function*(c,p){const ids=yield*all(c,p,()=>hand(c,p),'return');if(ids.length>=2)c.draw(p,maxAge(c,ids)+1);},function*(c,p){c.draw(p,c.value(2));yield*splay(c,p,['BLUE'],'left');}],
+  U021: [function*(c,p){while(true){const values=score(c,p).map(id=>age(c,id));if(!(yield*one(c,p,tops(c,p).filter(id=>!values.includes(age(c,id))),'score','计分一张时代尚未出现在计分区的置顶牌。')))return;}},function*(c,p){yield*splay(c,p,['GREEN','PURPLE'],'left');}],
+  U030: [function*(c,p){const [id]=yield*c.pick(p,'展示安全区的一张时代 4 机密牌。',ofAge(c,safe(c,p),c.value(4)));if(id){c.reveal(p,[id]);const col=color(c,id);if(col==='BLUE')c.draw(p,c.value(5));else c.move(id,{GREEN:'tuck',PURPLE:'meld',RED:'achievements',YELLOW:'score'}[col],p);}else{const id=c.state.supply[c.value(4)]?.at(-1);if(id)c.move(id,'safeguard',p);}}],
+  U031: [function*(c,p){for(const owner of [p,c.actor]){const id=top(c,owner,'YELLOW');if(id)yield*one(c,p,ofAge(c,score(c,p),age(c,id)),'score','要求：转移一张与指定黄色置顶牌同代的计分牌。',false,c.actor,'transfer');}}],
+  U040: [function*(c,p){const handIds=[...hand(c,p)];c.reveal(p,handIds);const [id]=yield*c.pick(c.actor,'敲诈：选择对手展示的一张手牌让其融合。',handIds);if(id)c.move(id,'meld',p);const scoreIds=[...score(c,p)];c.reveal(p,scoreIds);const [chosen]=yield*c.pick(c.actor,'敲诈：选择本效果展示的一张牌，由对手强制自执行。',[...new Set([...handIds,...scoreIds])]);if(chosen)yield*c.forceChoices(function*(){yield*c.selfExecute(p,chosen);});}],
+  U041: [function*(c,p){const ids=[];for(const n of [3,2,1]){const id=c.draw(p,c.value(n),'meld');if(id&&c.didDraw(id,'meld'))ids.push(id);}const n=ids.filter(id=>has(c,id,1)).length;if(n===3)yield*all(c,p,()=>c.state.supply[c.value(5)]||[],'score');if(n>=2){c.splay(p,'GREEN','right');c.splay(p,'BLUE','right');}}],
+  U050: [function*(c,p){const value=yield*chooseValue(c,p,c.values().filter(n=>n%2===1),'选择一个奇数时代。');if(value===null)return;let n=0;for(const owner of c.state.players)n+=(yield*all(c,p,()=>ofAge(c,score(c,owner.id),value),'standard',p,'','transfer')).length;if(n>=4){c.draw(p,value,'safeguard');const ids=yield*c.pick(p,'计分三个可用标准成就。',standard(c),3,3);yield*all(c,p,ids,'score');}}],
+  U051: [function*(c,p){yield*one(c,p,safe(c,p),'safe','要求：转移一张机密牌至发动者的安全区。',false,c.actor,'transfer');},
+    function*(c,p){if(c.p(p).splay.RED==='right'&&c.p(p).splay.PURPLE==='right')c.claimSpecial(p,'MYSTERY','UNSEEN');else yield*splay(c,p,['RED','PURPLE'],'right',false);}],
+  U060: [function*(c,p){const id=c.draw(p,c.value(6),'hand',true);if(!id)return;const target=top(c,p,color(c,id));if(target&&has(c,target,5)){c.move(id,'tuck',p);const second=c.draw(p,c.value(7),'hand',true);if(second&&has(c,second,2)){c.move(second,'meld',p);c.draw(p,c.value(8));}}}],
+  U061: [function*(c,p){const id=yield*safeguardAvailable(c,p,[score(c,p).length]);if(id)yield*all(c,p,()=>ofAge(c,hand(c,p),age(c,id)),'score');},
+    function*(c,p){yield*drawMany(c,p,safe(c,p).length,c.value(6));}],
+  U070: [function*(c,p){if(!(yield*safeguard(c,p,hand(c,p),true)))return;const ids=yield*c.pick(p,'展示两个可用标准成就。',standard(c),2,2);c.reveal(p,ids);const id=yield*one(c,p,ids.filter(id=>!has(c,id,6)&&!has(c,id,7)),'meld','可以融合一张不带效率和人物的展示牌。',true);yield*all(c,p,ids.filter(x=>x!==id),'return');}],
+  U071: [function*(c,p){const id=yield*one(c,p,score(c,p),'meld','融合一张计分牌。');const secured=yield*safeguard(c,p,low(c,standard(c)));if(secured&&id){if(c.state.turn.player===p)yield*c.superExecute(p,id);else yield*c.selfExecute(p,id);}}],
+  U080: [function*(c,p){const mode=yield*chooseMode(c,p,[['hand','将每个颜色的底牌转移至手牌'],['tuck','垫底所有计分牌'],['score','计分指定时代的所有手牌']],true);if(mode==='hand')yield*all(c,p,colors.map(col=>pile(c,p,col)[0]).filter(Boolean),'hand',p,'','transfer');if(mode==='tuck')yield*all(c,p,()=>score(c,p),'tuck');if(mode==='score')yield*scoreHandValue(c,p);}],
+  U081: [function*(c,p){const controller=c.other(p);const id=yield*one(c,controller,hand(c,controller),'meld','搭便车：选择一张手牌转移至对方面板，并代其作出本次自执行的全部选择。',false,p,'transfer');if(id)yield*c.controlled(p,controller,function*(){yield*c.selfExecute(p,id);});}],
+  U090: [function*(c,p){yield*splay(c,p,['GREEN'],'up');},
+    function*(c,p){const mode=yield*chooseMode(c,p,[['draw','抽取一张时代 11'],['safe','保密一个可用标准成就']]);if(mode==='draw')c.draw(p,c.value(11));else yield*safeguardAvailable(c,p);},
+    function*(c,p){const [id]=yield*c.pick(p,'展示一张机密牌。',safe(c,p));if(id){c.reveal(p,[id]);if(c.state.turn.player===p)yield*c.superExecute(p,id);}}],
+  U091: [function*(c,p){let index=0,previous=null;while(true){const [deck]=yield*c.choose(p,`提词器：选择牌库，执行所展示牌的第 ${index+1} 句非要求效果。`,c.deckOptions());if(!deck)return;const id=c.peekDeck(deck);if(!id)return;c.reveal(p,[id]);const result=yield*c.executeSentence(p,id,index,previous);if(!result?.executed)return;c.move(id,'return',p);previous=result;index++;}}],
+  U100: [function*(c,p){const ids=yield*all(c,p,()=>score(c,p),'return');yield*drawMany(c,p,new Set(ids.map(id=>age(c,id))).size,c.value(10),'score');},function*(c,p){yield*splay(c,p,['RED'],'up');}],
+  U101: [function*(c,p){yield*one(c,p,safe(c,p),'achievements','可以无视资格统御一张自己的机密牌。',true);},function*(c,p){yield*splay(c,p,['PURPLE'],'up');}],
+  U110: [function*(c,p){const ids=yield*all(c,p,pile(c,p,'GREEN').slice(0,-1),'score');yield*drawMany(c,p,ids.length,c.value(11),'tuck');}],
+  U111: [function*(c,p){const id=yield*one(c,p,standard(c),'achievements','无视资格统御一个可用标准成就。');if(id)yield*c.selfExecute(p,id);}],
+};
